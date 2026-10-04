@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Local caches, models and scratch
+pipeline/cache/
+pipeline/models/
+__pycache__/
+.preview/
+logs/
+
+# Rendered audio lives in site/audio (published copy); the voice samples stay local
+audio/*.mp3
+samples/*.wav

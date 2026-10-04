@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Deal Desk</title>
+    <link>https://llpcll.github.io/deal-desk/</link>
+    <atom:link href="https://llpcll.github.io/deal-desk/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-gb</language>
+    <description>A daily corporate finance podcast for students preparing for investment banking interviews. Each episode teaches one concept through a real deal, drills the interview questions you'll be asked, covers a real deal from the past week and ends with a five-question quiz. Marco, an M&amp;A banker, explains; Sofia, a first-year student, asks the questions you would. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices, and the scripts are written with AI and checked against public sources. Not investment advice.</description>
+    <itunes:subtitle>One corporate finance concept, one real deal, every day. AI-voiced.</itunes:subtitle>
+    <itunes:summary>A daily corporate finance podcast for students preparing for investment banking interviews. Each episode teaches one concept through a real deal, drills the interview questions you'll be asked, covers a real deal from the past week and ends with a five-question quiz. Marco, an M&amp;A banker, explains; Sofia, a first-year student, asks the questions you would. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices, and the scripts are written with AI and checked against public sources. Not investment advice.</itunes:summary>
+    <itunes:author>The Deal Desk</itunes:author>
+    <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+    <image><url>https://llpcll.github.io/deal-desk/cover.jpg</url><title>The Deal Desk</title><link>https://llpcll.github.io/deal-desk/</link></image>
+    <itunes:category text="Business"><itunes:category text="Careers"/></itunes:category>
+    <itunes:category text="Education"><itunes:category text="Courses"/></itunes:category>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
+    <lastBuildDate>Mon, 05 Oct 2026 00:17:51 +0200</lastBuildDate>
+    <item>
+      <title>12. Precedent transactions, and the price of control</title>
+      <description>Spire Healthcare's buyers offered a sixty-six percent premium. Or a twenty-nine percent premium. Same offer, same day. The difference is the whole lesson. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-12/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Spire Healthcare&#x27;s buyers offered a sixty-six percent premium. Or a twenty-nine percent premium. Same offer, same day. The difference is the whole lesson.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-12/">https://llpcll.github.io/deal-desk/episode-12/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.investegate.co.uk/announcement/rns/spire-healthcare-group--spi/recommended-offer-for-spire-healthcare-group-plc/9757462">Spire Healthcare Group plc: recommended offer (RNS announcement, Investegate)</a></li><li><a href="https://financefeeds.com/onsemi-buys-synaptics-123-a-share-cash">onsemi buys Synaptics for $123 a share in cash (FinanceFeeds)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-12/</link>
+      <guid isPermaLink="false">deal-desk-episode-12</guid>
+      <pubDate>Mon, 05 Oct 2026 00:17:51 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-12.mp3" length="7972510" type="audio/mpeg"/>
+      <itunes:duration>664</itunes:duration>
+      <itunes:episode>12</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+    </item>
+  </channel>
+</rss>

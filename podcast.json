@@ -1,0 +1,13 @@
+{
+  "title": "The Deal Desk",
+  "subtitle": "One corporate finance concept, one real deal, every day. AI-voiced.",
+  "description": "A daily corporate finance podcast for students preparing for investment banking interviews. Each episode teaches one concept through a real deal, drills the interview questions you'll be asked, covers a real deal from the past week and ends with a five-question quiz. Marco, an M&A banker, explains; Sofia, a first-year student, asks the questions you would. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices, and the scripts are written with AI and checked against public sources. Not investment advice.",
+  "author": "The Deal Desk",
+  "owner_name": "The Deal Desk",
+  "owner_email": "",
+  "language": "en-gb",
+  "categories": [["Business", "Careers"], ["Education", "Courses"]],
+  "explicit": false,
+  "base_url": "https://llpcll.github.io/deal-desk/",
+  "voice_note": "AI-voiced: Marco and Sofia are fictional characters with AI-generated voices."
+}

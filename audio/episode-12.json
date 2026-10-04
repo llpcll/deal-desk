@@ -1,0 +1,429 @@
+{
+  "id": "episode-12",
+  "title": "The Deal Desk, episode 12: Precedent transactions, and the price of control",
+  "hook": "Spire Healthcare's buyers offered a sixty-six percent premium. Or a twenty-nine percent premium. Same offer, same day. The difference is the whole lesson.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "rendered": "2026-10-04T23:06:51",
+  "duration": 664.306,
+  "audio": "episode-12.mp3",
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode twelve. Yesterday, comps: what the stock market pays for a slice of a company. Today, precedent transactions: what buyers have actually paid for the whole thing. And the gap between those two numbers is called the control premium.",
+      "start": 0.4,
+      "end": 18.487
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Which deal are we starting with?",
+      "start": 18.837,
+      "end": 20.546
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Spire Healthcare. One of Britain's leading independent hospital groups: thirty-eight hospitals and more than fifty-five clinics across England, Wales and Scotland, treating private patients, insured patients and N-H-S patients. On the fifth of September this year, a consortium including Toscafund, Three Hills and Ares agreed to buy it.",
+      "start": 20.896,
+      "end": 43.933
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "For how much?",
+      "start": 44.283,
+      "end": 45.518
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "Two hundred and fifty pence a share. About one point zero three billion pounds of equity value, and about two point three one billion pounds of enterprise value. The difference, as you'd now spot in your sleep, is debt and similar claims, which in a hospital business typically include leases on the buildings.",
+      "start": 45.868,
+      "end": 64.641
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "And the premium?",
+      "start": 64.991,
+      "end": 66.657
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "Here's where it gets interesting. The announcement gives two numbers. Sixty-six percent above Spire's share price on the thirteenth of May. And about twenty-nine percent above the average share price over the previous twelve months.",
+      "start": 67.007,
+      "end": 80.384
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "Same offer, two completely different premiums. Which one's right?",
+      "start": 80.734,
+      "end": 85.795
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "Both are accurate. They answer different questions. Why the thirteenth of May? Because that's the last day before news of a possible bid started to move the shares. Bankers call it the unaffected price. After that date, the market starts pricing in a takeover, so the share price stops telling you what the company is worth on its own.",
+      "start": 86.145,
+      "end": 107.109
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "So you measure the premium against the unaffected price, not yesterday's price.",
+      "start": 107.459,
+      "end": 112.643
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "Exactly. And the twelve-month average shows the other side: Spire's shares had been weak for a while, so compared with where they'd traded over the year, the premium is less dramatic. A target's board will quote the big number. A sceptical shareholder will quote the small one.",
+      "start": 112.993,
+      "end": 130.131
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "And the multiple?",
+      "start": 130.481,
+      "end": 131.605
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "The buyers paid about eight point six times Spire's adjusted EBITDA for twenty twenty-five. Remember that number. That's what a precedent transaction gives you: a real price, paid by a real buyer, for control of a real business.",
+      "start": 131.955,
+      "end": 147.147
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "Okay. So how does a precedent transaction analysis actually work?",
+      "start": 147.497,
+      "end": 152.259
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "Same structure as comps, different data. Step one: find past acquisitions of similar companies. Same industry, similar size, ideally recent. Step two: for each deal, work out the multiples the buyer paid, usually E-V over last twelve months' EBITDA at the time of announcement, plus the premium for listed targets. Step three: look at the median and range. Step four: apply them to your target.",
+      "start": 152.609,
+      "end": 179.944
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "Let me do one. Say five hospital deals at seven, eight, eight point six, nine and eleven times EBITDA.",
+      "start": 180.293,
+      "end": 188.611
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "Median?",
+      "start": 188.961,
+      "end": 189.615
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "Eight point six. If our target has EBITDA of one hundred, that's an enterprise value of about eight hundred and sixty. Minus net debt for equity value.",
+      "start": 189.965,
+      "end": 200.062
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Right. Now the trap. Comps for the same target might say seven times. Precedents say eight point six. Why the gap?",
+      "start": 200.412,
+      "end": 209.997
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "Because the precedents were in different years, so the market was different?",
+      "start": 210.347,
+      "end": 214.344
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "That's one reason, and we'll come to it. But the main one is the control premium. Comps are based on share prices for small stakes. Precedents are prices for the whole company, including the premium a buyer pays for control. So precedents are usually higher than comps.",
+      "start": 214.694,
+      "end": 232.29
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "Why do buyers pay a premium at all? Why not just pay the market price?",
+      "start": 232.64,
+      "end": 236.686
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Because nobody sells you a whole company at the market price. Shareholders have to be persuaded to sell, and boards have to recommend it. And control is worth something to the buyer. You decide the strategy, you control the cash flows, you can cut costs, merge operations, change management. If the buyer is a competitor, there are synergies: savings and extra revenue from combining two businesses. The buyer pays away part of those synergies to win the deal.",
+      "start": 237.036,
+      "end": 265.269
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "How big is a typical premium?",
+      "start": 265.619,
+      "end": 267.919
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "It varies a lot, but for public takeovers, somewhere around twenty to forty percent over the unaffected price is the normal range. Last week we saw twenty-seven percent for Shelly, forty-six percent for SoundThinking, sixty-six percent for Spire on the unaffected date. Very high premiums often mean the target had been undervalued, or that there was a bidding war.",
+      "start": 268.269,
+      "end": 294.196
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "Okay. Second question. Precedents are actual prices paid. So they're always the most reliable valuation, right?",
+      "start": 294.546,
+      "end": 302.532
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "Second trap. They're real, but they can be stale. A deal from twenty twenty-one was done when interest rates were close to zero and buyers could borrow cheaply. Multiples were high everywhere. Using an eighteen-times deal from twenty twenty-one to value a company today, with much higher rates, would give you a number nobody will pay. So you weight recent deals more, and you ask whether the conditions were similar.",
+      "start": 302.882,
+      "end": 328.031
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "And what else makes them unreliable?",
+      "start": 328.381,
+      "end": 330.83
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "Each deal has its own story. One buyer might have paid up because of huge synergies only it could get. Another might have bought a distressed company cheaply. Some deals came out of a bidding war. And for private targets, the financial details often aren't disclosed at all. So you usually have fewer good data points than you'd like.",
+      "start": 331.18,
+      "end": 351.453
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "Last thing. If the buyers paid eight point six times for Spire, that's what Spire is worth.",
+      "start": 351.803,
+      "end": 357.69
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "Third trap. That's what one buyer was willing to pay, given its own plans, financing and view of the future. Winning bidders sometimes overpay. There's even a name for it: the winner's curse. Remember Kraft Heinz in episode one. The price paid tells you about the market for control, not necessarily about the value.",
+      "start": 358.04,
+      "end": 379.659
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "So how do bankers put it all together?",
+      "start": 380.009,
+      "end": 382.481
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "In a chart called the football field. One horizontal bar for each method: the fifty-two-week share price range, analysts' price targets, comps, precedents and a D-C-F. Each bar shows a valuation range. You stack them, and you can see at a glance where the offer price sits. It's on page one of almost every fairness opinion.",
+      "start": 382.831,
+      "end": 405.603
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "Okay.",
+      "start": 405.953,
+      "end": 406.38
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: what's a precedent transaction analysis?",
+      "start": 406.73,
+      "end": 411.247
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "You look at what buyers paid for similar companies in the past and apply those multiples to the target.",
+      "start": 411.597,
+      "end": 417.24
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "Good. Add the detail: you select relevant past acquisitions by sector, size and date, calculate the multiples paid, usually E-V over L-T-M EBITDA, and the premiums for public targets, then apply the median and range to the target to get an implied value that includes a control premium.",
+      "start": 417.59,
+      "end": 439.276
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 439.626,
+      "end": 440.602
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "Why do precedent transactions usually give a higher value than trading comps?",
+      "start": 440.952,
+      "end": 445.996
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "Because they include a control premium.",
+      "start": 446.346,
+      "end": 448.531
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "Right, and add synergies: buyers, especially strategic ones, pay for synergies they expect to capture. Then the nuance: not always. If market multiples have risen since the precedent deals, comps can come out higher.",
+      "start": 448.882,
+      "end": 464.0
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "Third?",
+      "start": 464.35,
+      "end": 465.202
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "How do you measure a takeover premium?",
+      "start": 465.552,
+      "end": 467.996
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "Offer price divided by the share price before the deal, minus one. Using the unaffected price, before any leaks or rumours.",
+      "start": 468.346,
+      "end": 477.185
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "Perfect. And mention that bankers also show it against averages, like thirty days or twelve months, because a single day can be noisy.",
+      "start": 477.535,
+      "end": 486.078
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 486.428,
+      "end": 487.707
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "A twist on a deal from June. Back then, onsemi, the American chip maker, agreed to buy Synaptics, which makes chips for edge A-I, connectivity and touch sensing, in an all-stock deal, valued at the time at about seven billion dollars of enterprise value.",
+      "start": 488.057,
+      "end": 505.13
+    },
+    {
+      "i": 47,
+      "speaker": "SOFIA",
+      "text": "All-stock. So Synaptics shareholders would get onsemi shares.",
+      "start": 505.481,
+      "end": 510.242
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "Right. And then onsemi's share price fell, from around a hundred and nineteen dollars to around eighty. So the value of what Synaptics shareholders were getting fell too. On the first of October, the two companies switched the deal to all cash: a hundred and twenty-three dollars a share, about five point seven billion dollars of equity value. Onsemi says it's cheaper overall and immediately adds to earnings per share.",
+      "start": 510.592,
+      "end": 538.168
+    },
+    {
+      "i": 49,
+      "speaker": "SOFIA",
+      "text": "And the premium?",
+      "start": 538.518,
+      "end": 540.184
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "That's your interview question. The announcement mentions about sixteen percent over Synaptics' closing price on the first of October. Is that the real premium?",
+      "start": 540.534,
+      "end": 550.818
+    },
+    {
+      "i": 51,
+      "speaker": "SOFIA",
+      "text": "No. Synaptics' price on the first of October already included the original deal. It's not an unaffected price. You'd need the price from before June.",
+      "start": 551.168,
+      "end": 560.705
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Exactly right. The sixteen percent is a premium over the old deal, not over Synaptics' standalone value. That's the Spire lesson, applied the same week.",
+      "start": 561.055,
+      "end": 571.401
+    },
+    {
+      "i": 53,
+      "speaker": "SOFIA",
+      "text": "Quiz?",
+      "start": 571.751,
+      "end": 572.689
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: unaffected share price forty, offer fifty-two. What's the premium? Question two: precedent deals have a median of ten times L-T-M EBITDA. Your target has EBITDA of sixty and net debt of one hundred and fifty. What's its implied equity value? Question three: Spire's enterprise value is about two point three billion pounds at eight point six times EBITDA. Roughly what EBITDA does that imply? Question four: give two reasons precedents usually come out higher than comps. Question five: a precedent deal from twenty twenty-one was done at eighteen times. Should you rely on it today?",
+      "start": 573.039,
+      "end": 620.171
+    },
+    {
+      "i": 55,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 620.521,
+      "end": 623.121
+    },
+    {
+      "i": 56,
+      "speaker": "MARCO",
+      "text": "Answers. One: thirty percent. Two: six hundred of enterprise value, minus one hundred and fifty, four hundred and fifty of equity value. Three: two point three billion divided by eight point six, roughly two hundred and seventy million pounds. Four: the control premium, and synergies the buyer expects. Five: with caution. It was struck when rates were near zero and multiples were inflated, so weight recent deals more heavily.",
+      "start": 623.471,
+      "end": 652.113
+    },
+    {
+      "i": 57,
+      "speaker": "SOFIA",
+      "text": "The unaffected price thing is going to stick.",
+      "start": 652.463,
+      "end": 654.931
+    },
+    {
+      "i": 58,
+      "speaker": "MARCO",
+      "text": "Good, because interviewers love it. Tomorrow: the D-C-F, and why a euro today is worth more than a euro tomorrow.",
+      "start": 655.281,
+      "end": 663.956
+    }
+  ]
+}

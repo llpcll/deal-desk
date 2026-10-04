@@ -1,0 +1,391 @@
+{
+  "visuals": [
+    {
+      "at": "Spire Healthcare. One of Britain's",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Agreed takeover",
+      "name": "Spire Healthcare",
+      "sub": "38 hospitals and more than 55 clinics across England, Wales and Scotland",
+      "lines": [
+        "Acquired by a consortium including Toscafund, Three Hills and Ares"
+      ],
+      "date": "Announced 5 September"
+    },
+    {
+      "at": "Two hundred and fifty pence a share",
+      "type": "waterfall",
+      "title": "From equity value to enterprise value",
+      "unit": "£bn",
+      "decimals": 2,
+      "steps": [
+        {
+          "label": "Equity value",
+          "value": 1.03,
+          "kind": "total"
+        },
+        {
+          "label": "Debt and similar claims, incl. leases",
+          "value": 1.28,
+          "kind": "add"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 2.31,
+          "kind": "total"
+        }
+      ],
+      "note": "Offer of 250p a share. The middle step is the gap between the two announced figures, both approximate."
+    },
+    {
+      "at": "Here's where it gets interesting",
+      "type": "bars",
+      "title": "One offer, two premiums",
+      "unit": "%",
+      "items": [
+        {
+          "label": "vs unaffected price (13 May)",
+          "value": 66
+        },
+        {
+          "label": "vs 12-month average price",
+          "value": 29,
+          "approx": true
+        }
+      ],
+      "note": "Same 250p offer. The unaffected price is the last one before bid news moved the shares."
+    },
+    {
+      "at": "The buyers paid about eight point six times",
+      "type": "keynumbers",
+      "title": "Spire in five numbers",
+      "items": [
+        {
+          "value": "250p",
+          "label": "offer per share"
+        },
+        {
+          "value": "£1.03bn",
+          "label": "equity value",
+          "approx": true
+        },
+        {
+          "value": "£2.31bn",
+          "label": "enterprise value",
+          "approx": true
+        },
+        {
+          "value": "8.6x",
+          "label": "adjusted EBITDA for 2025",
+          "approx": true
+        },
+        {
+          "value": "66%",
+          "label": "premium to the unaffected price"
+        }
+      ]
+    },
+    {
+      "at": "Same structure as comps, different data",
+      "type": "steps",
+      "title": "How a precedent transaction analysis works",
+      "items": [
+        {
+          "label": "Past deals",
+          "detail": "Acquisitions of similar companies: same industry, similar size, ideally recent"
+        },
+        {
+          "label": "Multiples paid",
+          "detail": "Usually EV / LTM EBITDA at announcement, plus the premium for listed targets"
+        },
+        {
+          "label": "Median and range",
+          "detail": "One central multiple, with the spread around it"
+        },
+        {
+          "label": "Your target",
+          "detail": "Apply them to its EBITDA for an implied value that includes control"
+        }
+      ]
+    },
+    {
+      "at": "Let me do one. Say five hospital deals",
+      "type": "table",
+      "title": "Sofia's example: five hospital deals",
+      "columns": [
+        "Deal",
+        "EV / EBITDA"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Deal A",
+          "7.0x"
+        ],
+        [
+          "Deal B",
+          "8.0x"
+        ],
+        [
+          "Deal C",
+          "8.6x"
+        ],
+        [
+          "Deal D",
+          "9.0x"
+        ],
+        [
+          "Deal E",
+          "11.0x"
+        ]
+      ],
+      "highlight": 2,
+      "highlightLabel": "median",
+      "note": "Hypothetical deals. Median 8.6x on target EBITDA of 100 gives an enterprise value of about 860; subtract net debt for equity value."
+    },
+    {
+      "at": "Right. Now the trap. Comps for the same target",
+      "type": "bars",
+      "title": "Same target, two methods",
+      "unit": "x",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "Trading comps",
+          "value": 7.0
+        },
+        {
+          "label": "Precedent transactions",
+          "value": 8.6
+        }
+      ],
+      "note": "Illustrative multiples from the episode. The gap is mostly the control premium."
+    },
+    {
+      "at": "It varies a lot, but for public takeovers",
+      "type": "bars",
+      "title": "Recent takeover premiums",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Shelly",
+          "value": 27
+        },
+        {
+          "label": "SoundThinking",
+          "value": 46
+        },
+        {
+          "label": "Spire (unaffected)",
+          "value": 66
+        }
+      ],
+      "band": {
+        "from": 20,
+        "to": 40,
+        "label": "Normal range, 20 to 40%"
+      },
+      "note": "Very high premiums often mean an undervalued target or a bidding war."
+    },
+    {
+      "at": "Second trap. They're real, but they can be stale",
+      "type": "keynumbers",
+      "title": "Stale precedents",
+      "items": [
+        {
+          "value": "18x",
+          "label": "a 2021 deal, struck when rates were close to zero"
+        }
+      ],
+      "note": "Apply it today, with much higher rates, and you get a price nobody will pay. Weight recent deals more."
+    },
+    {
+      "at": "In a chart called the football field",
+      "type": "football",
+      "title": "The football field (illustrative)",
+      "bars": [
+        {
+          "label": "52-week share price range",
+          "from": 18,
+          "to": 46
+        },
+        {
+          "label": "Analysts' price targets",
+          "from": 30,
+          "to": 58
+        },
+        {
+          "label": "Trading comps",
+          "from": 34,
+          "to": 62
+        },
+        {
+          "label": "Precedent transactions",
+          "from": 50,
+          "to": 82
+        },
+        {
+          "label": "DCF",
+          "from": 40,
+          "to": 78
+        }
+      ],
+      "marker": {
+        "value": 70,
+        "label": "Offer price"
+      },
+      "note": "Illustrative layout, not Spire's numbers. One bar per valuation method, value per share rising to the right.",
+      "illustrative": true
+    },
+    {
+      "at": "Offer price divided by the share price before the deal",
+      "type": "formula",
+      "title": "Measuring a takeover premium",
+      "formula": "Premium = offer price ÷ unaffected share price − 1",
+      "note": "Use the unaffected price, before leaks or rumours. Bankers also show it against 30-day and 12-month averages."
+    },
+    {
+      "at": "A twist on a deal from June",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Revised terms",
+      "name": "onsemi / Synaptics",
+      "sub": "Synaptics makes chips for edge AI, connectivity and touch sensing",
+      "lines": [
+        "Agreed in June as an all-stock deal"
+      ],
+      "date": "Switched to cash on 1 October"
+    },
+    {
+      "at": "And then onsemi's share price fell",
+      "type": "table",
+      "title": "What changed",
+      "columns": [
+        "",
+        "June",
+        "1 October"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Consideration",
+          "onsemi shares",
+          "Cash"
+        ],
+        [
+          "Headline value",
+          "~$7bn EV",
+          "~$5.7bn equity"
+        ],
+        [
+          "Per Synaptics share",
+          "",
+          "$123"
+        ],
+        [
+          "onsemi share price",
+          "~$119",
+          "~$80"
+        ]
+      ],
+      "note": "June value is enterprise value at the time; October is equity value. Not directly comparable."
+    },
+    {
+      "at": "That's your interview question. The announcement mentions",
+      "type": "keynumbers",
+      "title": "The premium trap, again",
+      "items": [
+        {
+          "value": "16%",
+          "label": "over Synaptics' close on 1 October",
+          "approx": true
+        }
+      ],
+      "note": "Not an unaffected price: by October the shares already reflected the June deal. You need the price from before June."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers. One: thirty percent",
+    "questions": [
+      {
+        "q": "The unaffected share price is 40 and the offer is 52. What's the premium?",
+        "options": [
+          "12%",
+          "23%",
+          "30%",
+          "52%"
+        ],
+        "correct": 2,
+        "explain": "52 ÷ 40 − 1 = 30%. Dividing the 12 by the offer price (52) gives 23%, a common slip."
+      },
+      {
+        "q": "Precedents show a median of 10x LTM EBITDA. Your target has EBITDA of 60 and net debt of 150. What's its implied equity value?",
+        "options": [
+          "450",
+          "600",
+          "750",
+          "6,000"
+        ],
+        "correct": 0,
+        "explain": "10 × 60 = 600 of enterprise value. Subtract 150 of net debt: 450 of equity value."
+      },
+      {
+        "q": "Spire's enterprise value is about £2.3bn at 8.6x EBITDA. Roughly what EBITDA does that imply?",
+        "options": [
+          "About £27m",
+          "About £120m",
+          "About £270m",
+          "About £2.7bn"
+        ],
+        "correct": 2,
+        "explain": "£2.3bn ÷ 8.6 ≈ £270m."
+      },
+      {
+        "q": "Which two reasons best explain why precedents usually come out higher than comps?",
+        "options": [
+          "Control premium and expected synergies",
+          "Precedents use forward EBITDA and smaller targets",
+          "Comps exclude debt and precedents include it",
+          "Precedents are always more recent than comps"
+        ],
+        "correct": 0,
+        "explain": "Precedents are prices for the whole company, so they include the premium for control, and strategic buyers pay away part of the synergies they expect. Not always, though: if market multiples have risen since the deals, comps can come out higher."
+      },
+      {
+        "q": "A precedent deal from 2021 was done at 18x. Should you rely on it today?",
+        "options": [
+          "Yes, it's a real price paid by a real buyer",
+          "With caution, and weight recent deals more",
+          "No, never use deals older than a year",
+          "Only after adding today's interest rate to the multiple"
+        ],
+        "correct": 1,
+        "explain": "It was struck when rates were near zero and multiples were inflated everywhere. Use it with caution and weight recent deals more heavily."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Spire Healthcare Group plc: recommended offer (RNS announcement, Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/spire-healthcare-group--spi/recommended-offer-for-spire-healthcare-group-plc/9757462"
+    },
+    {
+      "label": "onsemi buys Synaptics for $123 a share in cash (FinanceFeeds)",
+      "url": "https://financefeeds.com/onsemi-buys-synaptics-123-a-share-cash"
+    }
+  ]
+}
