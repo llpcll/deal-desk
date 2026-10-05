@@ -9,7 +9,7 @@
     "SOFIA": "Autonoe"
   },
   "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
-  "rendered": "2026-10-05T09:56:55",
+  "rendered": "2026-10-05T11:20:53",
   "duration": 716.922,
   "audio": "episode-06.mp3",
   "chunks": [
@@ -334,20 +334,20 @@
       "speaker": "MARCO",
       "text": "Correct, and add the finance angle. The strong answer: working capital is current assets minus current liabilities; in practice, bankers focus on operating working capital, meaning receivables plus inventory minus payables. It matters because changes in it affect cash flow. An increase uses cash, a decrease releases cash. And that feeds directly into free cash flow and valuation.",
       "start": 451.744,
-      "end": 481.274
+      "end": 480.124
     },
     {
       "i": 39,
       "speaker": "SOFIA",
       "text": "Second?",
-      "start": 481.324,
-      "end": 481.524
+      "start": 480.174,
+      "end": 481.274
     },
     {
       "i": 40,
       "speaker": "MARCO",
       "text": "Can a company have negative working capital and be healthy?",
-      "start": 481.524,
+      "start": 481.324,
       "end": 485.494
     },
     {
@@ -362,20 +362,20 @@
       "speaker": "MARCO",
       "text": "Good, and give one more example, plus the caveat. Yes: companies with strong bargaining power or upfront payments, like Amazon, supermarkets or subscription businesses. But negative working capital can also mean a company is struggling to pay suppliers, so you'd check why.",
       "start": 490.824,
-      "end": 511.174
+      "end": 510.164
     },
     {
       "i": 43,
       "speaker": "SOFIA",
       "text": "Third?",
-      "start": 511.224,
-      "end": 511.424
+      "start": 510.214,
+      "end": 511.174
     },
     {
       "i": 44,
       "speaker": "MARCO",
       "text": "A company grows revenue fifty percent in a year, it's profitable, but its cash balance falls. How?",
-      "start": 511.424,
+      "start": 511.224,
       "end": 518.644
     },
     {
