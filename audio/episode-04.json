@@ -1,0 +1,536 @@
+{
+  "id": "episode-04",
+  "title": "The Deal Desk, episode 04: The cash flow statement, and why Enron had to fake its cash",
+  "hook": "Enron could invent profits. Cash was harder. That's why the cash flow statement is the one to read first.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-05T11:13:48",
+  "duration": 740.03,
+  "audio": "episode-04.mp3",
+  "chunks": [
+    {
+      "words": 482,
+      "seconds": 189.6,
+      "expected": 192.8,
+      "attempts": 1,
+      "coverage": 0.98,
+      "transcribed_words": 486,
+      "script_words": 491,
+      "method": "whisper",
+      "lines_matched": 15,
+      "problems": []
+    },
+    {
+      "words": 432,
+      "seconds": 176.4,
+      "expected": 172.8,
+      "attempts": 1,
+      "coverage": 0.993,
+      "transcribed_words": 433,
+      "script_words": 433,
+      "method": "whisper",
+      "lines_matched": 19,
+      "problems": []
+    },
+    {
+      "words": 480,
+      "seconds": 192.8,
+      "expected": 192.0,
+      "attempts": 1,
+      "coverage": 0.99,
+      "transcribed_words": 482,
+      "script_words": 483,
+      "method": "whisper",
+      "lines_matched": 19,
+      "problems": []
+    },
+    {
+      "words": 461,
+      "seconds": 179.2,
+      "expected": 184.4,
+      "attempts": 1,
+      "coverage": 0.978,
+      "transcribed_words": 458,
+      "script_words": 465,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode four. We've done the income statement and the balance sheet. Today, the third one: the cash flow statement. And the company I want to start with is Enron.",
+      "start": 0.46,
+      "end": 12.65
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "The energy company that collapsed.",
+      "start": 12.7,
+      "end": 14.95
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Right. Houston, late nineteen nineties. Enron started as a gas pipeline business and turned itself into a trading firm. It bought and sold energy contracts, then broadband capacity, even weather derivatives. In the year two thousand, it reported revenue of about a hundred and one billion dollars. Fortune magazine named it America's Most Innovative Company six years running. The share price peaked at around ninety dollars.",
+      "start": 15.0,
+      "end": 41.89
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "And it was all fake?",
+      "start": 41.94,
+      "end": 43.71
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "A lot of it was dressed up. The first trick was on the income statement: mark-to-market accounting. When Enron signed a long-term contract, say a twenty-year energy deal, it estimated all the profit it expected over twenty years and booked it immediately, as today's earnings.",
+      "start": 43.76,
+      "end": 63.28
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "Before any money came in.",
+      "start": 63.33,
+      "end": 64.86
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "Before a single dollar arrived. And the estimates were Enron's own. So reported profit went up, but cash didn't follow. And analysts who looked closely started to notice a gap: lots of profit, not much cash coming in from operations.",
+      "start": 64.91,
+      "end": 81.54
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "So how did they hide that?",
+      "start": 81.59,
+      "end": 83.51
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "That's the second trick, and this is the part that matters for today. Enron did deals with banks, mainly J-P Morgan Chase and Citigroup, called prepays. On paper, Enron sold gas or oil for future delivery, and the bank paid cash up front. Then, through other entities, Enron effectively agreed to pay the money back with interest.",
+      "start": 83.56,
+      "end": 105.59
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "So it was a loan.",
+      "start": 105.64,
+      "end": 107.16
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "It was a loan dressed up as a trade. And because it looked like a trade, the cash came in under operating activities, as if Enron had earned it from its business, not under financing, where borrowing belongs. A United States Senate investigation later concluded these deals helped Enron hide around four billion dollars of debt. It reported about ten billion of debt when the real figure was closer to fourteen.",
+      "start": 107.21,
+      "end": 131.81
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "When did it all come out?",
+      "start": 131.86,
+      "end": 133.51
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "In March two thousand and one, a Fortune journalist, Bethany McLean, published an article asking a simple question: how exactly does Enron make its money? Nobody could answer clearly. Through the autumn, losses and off-balance-sheet deals surfaced, the credit rating was cut to junk, and on the second of December, two thousand and one, Enron filed for bankruptcy, with about sixty-three billion dollars of assets. Its auditor, Arthur Andersen, one of the biggest accounting firms in the world, collapsed soon after.",
+      "start": 133.56,
+      "end": 168.59
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "And the lesson is?",
+      "start": 168.64,
+      "end": 170.47
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "Profit is an opinion. Cash is a fact. Enron could book almost any profit it liked with mark-to-market. To make the cash look right, it had to go to the trouble of borrowing billions and disguising it. That's why the cash flow statement exists, and why good analysts often read it first.",
+      "start": 170.52,
+      "end": 189.969
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "Okay. So how does it work?",
+      "start": 190.779,
+      "end": 192.939
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "Three sections. Cash from operating activities: cash generated by running the business. Cash from investing activities: money spent on, or received from, long-term assets, like buying equipment or buying another company. Cash from financing activities: money going to and from lenders and shareholders. Borrowing, repaying debt, issuing shares, paying dividends, buying back shares.",
+      "start": 192.989,
+      "end": 218.029
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "And they add up to...",
+      "start": 218.079,
+      "end": 220.229
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "The change in cash over the period. Which has to match the change in the cash line on the balance sheet. That's how the statements link up, and it's tomorrow's topic.",
+      "start": 220.279,
+      "end": 229.739
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "Let's do the café.",
+      "start": 229.789,
+      "end": 231.139
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Café again. Thousands of euros. Operating section first. You start with net income from the income statement: one hundred and twenty.",
+      "start": 231.189,
+      "end": 240.399
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "Wait, why start from net income if we care about cash?",
+      "start": 240.449,
+      "end": 243.859
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Because it's the easiest starting point, then you correct it for everything that wasn't cash. First correction: depreciation. On the income statement we subtracted fifty of depreciation, but no cash left the bank for it. So we add fifty back.",
+      "start": 243.909,
+      "end": 259.599
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "So depreciation creates cash. The more depreciation, the more cash.",
+      "start": 259.649,
+      "end": 264.329
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "That's the first trap, and it's a classic. No. Depreciation doesn't create a single euro. You add it back only because you subtracted it earlier and it wasn't a cash cost. The only real cash effect is through tax: more depreciation means lower taxable profit, so you pay a bit less tax. That's it.",
+      "start": 264.379,
+      "end": 285.339
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "Okay. Next correction?",
+      "start": 285.389,
+      "end": 287.909
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "Working capital. During the year, customers who owe us for catering went up by thirty. We booked that revenue, but we haven't collected the cash. So we subtract thirty.",
+      "start": 287.959,
+      "end": 298.899
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "Hang on. Receivables went up, and that's a minus? It sounds like good news. More people owe us money.",
+      "start": 298.949,
+      "end": 305.839
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "Second trap. An increase in an asset like receivables or inventory uses cash. Think of it as money stuck with the customer, or sitting on the shelf. When receivables go down, because customers pay, that releases cash. And it's the opposite for liabilities: if we pay suppliers more slowly, payables go up, and that keeps cash in our bank for longer.",
+      "start": 305.889,
+      "end": 329.479
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "So, one hundred and twenty, plus fifty, minus thirty.",
+      "start": 329.529,
+      "end": 333.939
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "One hundred and forty of cash from operations. Now investing. We opened a new café and bought equipment: one hundred. That's capital expenditure, or capex. Minus one hundred.",
+      "start": 333.989,
+      "end": 346.549
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "And financing?",
+      "start": 346.599,
+      "end": 348.089
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "We repaid twenty of the bank loan, and paid ten of dividends. Minus thirty. Total: one hundred and forty, minus one hundred, minus thirty. Cash went up by ten over the year.",
+      "start": 348.139,
+      "end": 360.989
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "So net income was one hundred and twenty, but cash only went up ten.",
+      "start": 361.039,
+      "end": 366.721
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "Exactly. And there's one more number to know. Free cash flow. Cash from operations minus capex. One hundred and forty minus one hundred: forty. That's the cash the business generated after maintaining and growing itself, available for lenders and owners. It's the number valuation is built on. Remember it for the D-C-F weeks.",
+      "start": 367.241,
+      "end": 390.991
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "Okay. But our café's investing cash flow was negative one hundred. That's bad, right? The company's losing money.",
+      "start": 391.041,
+      "end": 398.511
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "Third trap. A negative number isn't automatically bad. Negative investing cash flow usually means the company is investing in growth. Amazon had heavily negative investing cash flow for years. The question is whether those investments earn a good return. And the reverse: positive financing cash flow can just mean the company borrowed a lot. Not necessarily good news.",
+      "start": 398.561,
+      "end": 422.921
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "So what's the red flag, then?",
+      "start": 422.971,
+      "end": 425.401
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "The classic one is profits going up while cash from operations goes down, year after year. It usually means revenue is being booked before cash arrives, receivables are piling up, or something is being stretched. That was Enron's problem. It's why they needed the prepays.",
+      "start": 425.451,
+      "end": 443.421
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "And the other red flag is operating cash flow that looks too good?",
+      "start": 443.471,
+      "end": 447.121
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "Right. Companies can flatter operating cash flow at the end of a period. Delay paying suppliers for a few weeks. Sell receivables to a bank. Or, like Enron, disguise borrowing as operations. So look at trends over several years, and look at what's driving the number.",
+      "start": 447.171,
+      "end": 463.931
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "Okay.",
+      "start": 463.981,
+      "end": 464.781
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: walk me through the cash flow statement.",
+      "start": 464.831,
+      "end": 469.711
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "It has three parts: operating, investing and financing, and it shows how cash changed.",
+      "start": 469.761,
+      "end": 475.611
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "Correct but thin. Here's the version you want. It starts with net income. You add back non-cash expenses such as depreciation and amortisation, and adjust for changes in working capital, to get cash flow from operations. Then cash flow from investing, mainly capital expenditure and acquisitions. Then cash flow from financing: debt issued or repaid, shares issued or bought back, and dividends. The three together give the net change in cash for the period.",
+      "start": 475.661,
+      "end": 505.271
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 505.321,
+      "end": 506.441
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "Can a profitable company go bankrupt?",
+      "start": 506.491,
+      "end": 509.381
+    },
+    {
+      "i": 47,
+      "speaker": "SOFIA",
+      "text": "Yes, if it runs out of cash?",
+      "start": 509.431,
+      "end": 512.151
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "Right, now explain how. Yes. Profit isn't cash. A fast-growing company can book healthy profits while its cash is tied up in receivables and inventory, and if it can't pay suppliers, staff or lenders on time, it fails. That's why people say revenue is vanity, profit is sanity, cash is reality.",
+      "start": 512.201,
+      "end": 533.771
+    },
+    {
+      "i": 49,
+      "speaker": "SOFIA",
+      "text": "And the last one?",
+      "start": 533.821,
+      "end": 534.941
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "If you could only look at one financial statement, which would it be?",
+      "start": 534.991,
+      "end": 539.641
+    },
+    {
+      "i": 51,
+      "speaker": "SOFIA",
+      "text": "The cash flow statement.",
+      "start": 539.691,
+      "end": 541.361
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Most bankers would say the same. Give the reason: it shows whether the business actually generates cash, and it's the hardest statement to manipulate. Then, if you want to stand out, mention the nuance: it doesn't show you the full picture of assets and debts, so in practice you'd want the balance sheet too.",
+      "start": 541.411,
+      "end": 559.922
+    },
+    {
+      "i": 53,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 560.442,
+      "end": 562.142
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "This week, Priority Technology, an American payments company, agreed to go private in a deal worth about one point six billion dollars of enterprise value. Shareholders get eight dollars and five cents a share in cash. That's about thirty-eight percent above the share price just before the announcement.",
+      "start": 562.192,
+      "end": 578.882
+    },
+    {
+      "i": 55,
+      "speaker": "SOFIA",
+      "text": "Who's buying?",
+      "start": 578.932,
+      "end": 580.082
+    },
+    {
+      "i": 56,
+      "speaker": "MARCO",
+      "text": "That's the interesting part. The buyer is a group led by Priority's own chairman and chief executive, Thomas Priore, with equity from Searchlight Capital Partners, a private equity firm.",
+      "start": 580.132,
+      "end": 591.922
+    },
+    {
+      "i": 57,
+      "speaker": "SOFIA",
+      "text": "So the C-E-O is buying the company he runs. Isn't that a conflict?",
+      "start": 591.972,
+      "end": 596.592
+    },
+    {
+      "i": 58,
+      "speaker": "MARCO",
+      "text": "That's exactly your interview question. Yes, it's a big one. He knows the business better than any shareholder, and he's on the buying side, so he wants a low price. That's why the board set up a special committee of independent directors, with its own advisers: Barclays for financial advice and Paul Weiss as lawyers. The committee says it pushed the price up by more than thirty percent from the first proposal. And the deal needs approval from a majority of the shareholders not connected to the buyers.",
+      "start": 596.642,
+      "end": 625.722
+    },
+    {
+      "i": 59,
+      "speaker": "SOFIA",
+      "text": "So the committee is there to stand in for the other shareholders.",
+      "start": 625.772,
+      "end": 628.762
+    },
+    {
+      "i": 60,
+      "speaker": "MARCO",
+      "text": "Exactly. And one link to today: Searchlight has committed equity to fund it, and there's no financing condition. The buyers are telling the market the cash is there, not just the promise of it.",
+      "start": 628.812,
+      "end": 640.782
+    },
+    {
+      "i": 61,
+      "speaker": "SOFIA",
+      "text": "Okay. Quiz?",
+      "start": 640.832,
+      "end": 641.552
+    },
+    {
+      "i": 62,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: net income is eighty, depreciation is twenty, and receivables go up by fifteen. What is cash from operations? Question two: cash from operations is eighty-five and capex is fifty. What is free cash flow? Question three: a company buys back thirty of its own shares. Which section of the cash flow statement does that go in, and what's the sign? Question four: inventory goes down by ten over the year. What's the effect on cash? Question five: a company's profits have grown for three years, but cash from operations has fallen every year. Why is that a warning sign?",
+      "start": 641.602,
+      "end": 688.672
+    },
+    {
+      "i": 63,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 688.722,
+      "end": 690.882
+    },
+    {
+      "i": 64,
+      "speaker": "MARCO",
+      "text": "Answers. One: eighty plus twenty minus fifteen, so eighty-five. Two: thirty-five. Three: financing, minus thirty. Four: plus ten. Less cash is stuck on the shelf. Five: profit isn't turning into cash. It can mean revenue is being booked too early, customers aren't paying, or costs are being pushed off the income statement. It's the Enron pattern, and it's often the first thing a sceptical analyst checks.",
+      "start": 690.932,
+      "end": 720.262
+    },
+    {
+      "i": 65,
+      "speaker": "SOFIA",
+      "text": "I got question four backwards at first.",
+      "start": 720.312,
+      "end": 723.082
+    },
+    {
+      "i": 66,
+      "speaker": "MARCO",
+      "text": "Everyone does, at first. Asset goes up, cash goes down. Asset goes down, cash goes up. Tomorrow we put all three statements together, and do the question every single interviewer asks: depreciation goes up by ten. Walk me through the three statements.",
+      "start": 723.132,
+      "end": 739.571
+    }
+  ]
+}

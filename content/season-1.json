@@ -1,0 +1,342 @@
+{
+  "season": 1,
+  "title": "Season 1",
+  "start": "2026-09-22",
+  "release_time": "07:30",
+  "timezone": "Europe/Rome",
+  "note": "Episode N is released on start + N days. Titles of released episodes come from their scripts.",
+  "weeks": [
+    {
+      "week": 1,
+      "title": "Foundations",
+      "episodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Value",
+      "episodes": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "week": 3,
+      "title": "The DCF",
+      "episodes": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Mergers and acquisitions",
+      "episodes": [
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "week": 5,
+      "title": "LBOs and private equity",
+      "episodes": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "week": 6,
+      "title": "Interview readiness",
+      "episodes": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "title": "Who actually does what in an investment bank",
+      "teaser": "Coverage, product, the wall between private and public side, and where a first-year analyst fits.",
+      "review": false
+    },
+    {
+      "number": 2,
+      "title": "The income statement, and the profit that wasn't",
+      "teaser": "Reading the income statement line by line, and how adjusted profit can hide the real business.",
+      "review": false
+    },
+    {
+      "number": 3,
+      "title": "The balance sheet, and the fifty billion that vanished",
+      "teaser": "The one equation that always holds, leverage, and how a bank dressed up its balance sheet.",
+      "review": false
+    },
+    {
+      "number": 4,
+      "title": "The cash flow statement, and why Enron had to fake its cash",
+      "teaser": "Operating, investing and financing cash, and why cash is the hardest number to fake.",
+      "review": false
+    },
+    {
+      "number": 5,
+      "title": "Linking the three statements, and the ten euros of depreciation",
+      "teaser": "How the statements connect, and the depreciation question every interviewer asks.",
+      "review": false
+    },
+    {
+      "number": 6,
+      "title": "Working capital, and how Amazon gets its suppliers to fund it",
+      "teaser": "The cash conversion cycle, negative working capital, and growing broke.",
+      "review": false
+    },
+    {
+      "number": 7,
+      "title": "Week one review, no notes allowed",
+      "teaser": "The whole of week one, tested the way an interviewer would.",
+      "review": true
+    },
+    {
+      "number": 8,
+      "title": "Equity value versus enterprise value, and the price tag that lies",
+      "teaser": "The most important distinction in valuation, and why a headline price can mislead.",
+      "review": false
+    },
+    {
+      "number": 9,
+      "title": "The bridge from equity value to enterprise value",
+      "teaser": "Debt, cash, minorities, associates and leases: what goes on the bridge and why.",
+      "review": false
+    },
+    {
+      "number": 10,
+      "title": "Multiples, and why software is worth three supermarkets",
+      "teaser": "Which multiples to use, what drives them, and how not to be fooled by an average.",
+      "review": false
+    },
+    {
+      "number": 11,
+      "title": "Trading comparables, and is Ferrari a car company?",
+      "teaser": "Building a comps analysis, and why choosing the peers is the whole game.",
+      "review": false
+    },
+    {
+      "number": 12,
+      "title": "Precedent transactions, and the price of control",
+      "teaser": "What buyers actually paid, the control premium, and the unaffected share price.",
+      "review": false
+    },
+    {
+      "number": 13,
+      "title": "The DCF, and why a euro today beats a euro tomorrow",
+      "teaser": "The time value of money and the basic idea behind a discounted cash flow.",
+      "review": false
+    },
+    {
+      "number": 14,
+      "title": "Week two review",
+      "teaser": "Equity and enterprise value, the bridge, multiples, comps, precedents and the DCF, tested under interview conditions.",
+      "review": true
+    },
+    {
+      "number": 15,
+      "title": "Unlevered free cash flow",
+      "teaser": "Building the cash flow a DCF actually discounts, from EBIT down.",
+      "review": false
+    },
+    {
+      "number": 16,
+      "title": "WACC, CAPM and beta",
+      "teaser": "The discount rate: cost of equity, cost of debt, and what a sudden rise in interest rates does to valuations.",
+      "review": false
+    },
+    {
+      "number": 17,
+      "title": "Terminal value",
+      "teaser": "Perpetuity growth versus exit multiples, and why most of a DCF's value sits in the final year.",
+      "review": false
+    },
+    {
+      "number": 18,
+      "title": "DCF sensitivities and traps",
+      "teaser": "Sensitivity tables, circular logic and the assumptions interviewers love to poke at.",
+      "review": false
+    },
+    {
+      "number": 19,
+      "title": "Levered versus unlevered free cash flow",
+      "teaser": "Which cash flow goes with which discount rate, and why mixing them breaks the valuation.",
+      "review": false
+    },
+    {
+      "number": 20,
+      "title": "Valuing banks and insurers",
+      "teaser": "Why enterprise value doesn't work for financial companies, and what bankers use instead.",
+      "review": false
+    },
+    {
+      "number": 21,
+      "title": "Week three review",
+      "teaser": "The DCF from end to end, tested the way an interviewer would.",
+      "review": true
+    },
+    {
+      "number": 22,
+      "title": "Synergies",
+      "teaser": "Cost and revenue synergies, how buyers value them, and the story of a brewing megamerger.",
+      "review": false
+    },
+    {
+      "number": 23,
+      "title": "The deal process",
+      "teaser": "From first approach to closing, told through one of the most chaotic takeovers in recent memory.",
+      "review": false
+    },
+    {
+      "number": 24,
+      "title": "Accretion and dilution",
+      "teaser": "Does the deal raise or lower the buyer's earnings per share, and why that question matters.",
+      "review": false
+    },
+    {
+      "number": 25,
+      "title": "Purchase price allocation and goodwill",
+      "teaser": "What happens to the price after the deal closes, and why goodwill can come back to bite.",
+      "review": false
+    },
+    {
+      "number": 26,
+      "title": "Hostile bids",
+      "teaser": "What happens when the target's board says no, through a famous European steel battle.",
+      "review": false
+    },
+    {
+      "number": 27,
+      "title": "The IPO process",
+      "teaser": "How a company comes to market, told through two very different listings.",
+      "review": false
+    },
+    {
+      "number": 28,
+      "title": "Week four review",
+      "teaser": "Mergers and acquisitions from synergies to IPOs, tested under interview conditions.",
+      "review": true
+    },
+    {
+      "number": 29,
+      "title": "What an LBO is",
+      "teaser": "Buying a company with mostly borrowed money, through the most famous buyout of them all.",
+      "review": false
+    },
+    {
+      "number": 30,
+      "title": "IRR and MOIC",
+      "teaser": "How private equity measures returns, and the shortcuts for doing it in your head.",
+      "review": false
+    },
+    {
+      "number": 31,
+      "title": "Debt structure",
+      "teaser": "Senior, subordinated, covenants and the layers of debt in a buyout.",
+      "review": false
+    },
+    {
+      "number": 32,
+      "title": "The paper LBO",
+      "teaser": "A full leveraged buyout on a single sheet of paper, the way interviewers test it.",
+      "review": false
+    },
+    {
+      "number": 33,
+      "title": "LBOs gone wrong",
+      "teaser": "When too much debt meets a weak business: a buyout that ended in liquidation.",
+      "review": false
+    },
+    {
+      "number": 34,
+      "title": "An Italian and European deal",
+      "teaser": "A recent European transaction, taken apart with everything learned so far.",
+      "review": false
+    },
+    {
+      "number": 35,
+      "title": "Week five review",
+      "teaser": "LBOs and private equity, tested the way an interviewer would.",
+      "review": true
+    },
+    {
+      "number": 36,
+      "title": "Talking about a deal",
+      "teaser": "How to pick a deal, structure the story and survive the follow-up questions.",
+      "review": false
+    },
+    {
+      "number": 37,
+      "title": "The markets pitch",
+      "teaser": "Pitching a market view or a stock in two minutes, for candidates who face a markets question.",
+      "review": false
+    },
+    {
+      "number": 38,
+      "title": "Restructuring",
+      "teaser": "What happens when a company can't pay its debts, and who gets what.",
+      "review": false
+    },
+    {
+      "number": 39,
+      "title": "Fit questions",
+      "teaser": "Why banking, why this bank, and the stories behind your CV.",
+      "review": false
+    },
+    {
+      "number": 40,
+      "title": "Mental maths",
+      "teaser": "The quick calculations interviewers expect you to do without a calculator.",
+      "review": false
+    },
+    {
+      "number": 41,
+      "title": "Numerical tests",
+      "teaser": "How online numerical reasoning tests work, and how to prepare for them.",
+      "review": false
+    },
+    {
+      "number": 42,
+      "title": "Season review and mock superday",
+      "teaser": "Six weeks in one session: a full mock superday from first question to last.",
+      "review": true
+    }
+  ]
+}

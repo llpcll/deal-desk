@@ -1,0 +1,578 @@
+{
+  "id": "episode-02",
+  "title": "The Deal Desk, episode 02: The income statement, and the profit that wasn't",
+  "hook": "WeWork invented its own version of profit. Here's how to read the real one, line by line.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-05T11:06:59",
+  "duration": 795.253,
+  "audio": "episode-02.mp3",
+  "chunks": [
+    {
+      "words": 524,
+      "seconds": 218.6,
+      "expected": 209.6,
+      "attempts": 1,
+      "coverage": 0.965,
+      "transcribed_words": 526,
+      "script_words": 536,
+      "method": "whisper",
+      "lines_matched": 22,
+      "problems": []
+    },
+    {
+      "words": 481,
+      "seconds": 189.0,
+      "expected": 192.4,
+      "attempts": 1,
+      "coverage": 0.986,
+      "transcribed_words": 482,
+      "script_words": 484,
+      "method": "whisper",
+      "lines_matched": 17,
+      "problems": []
+    },
+    {
+      "words": 493,
+      "seconds": 194.0,
+      "expected": 197.2,
+      "attempts": 1,
+      "coverage": 0.99,
+      "transcribed_words": 504,
+      "script_words": 507,
+      "method": "whisper",
+      "lines_matched": 19,
+      "problems": []
+    },
+    {
+      "words": 470,
+      "seconds": 191.6,
+      "expected": 188.0,
+      "attempts": 1,
+      "coverage": 0.954,
+      "transcribed_words": 479,
+      "script_words": 481,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode two. Today, the income statement. The first financial statement anyone learns, and the one companies most like to dress up.",
+      "start": 0.46,
+      "end": 11.27
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Dress up how?",
+      "start": 11.32,
+      "end": 12.76
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Let me tell you about WeWork. April twenty eighteen. WeWork, the office-sharing company, wants to borrow money from bond investors. Over seven hundred million dollars. So it sends investors its numbers.",
+      "start": 12.81,
+      "end": 26.52
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "And the numbers were bad?",
+      "start": 26.57,
+      "end": 28.84
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "The numbers were a company losing close to a billion dollars a year. But WeWork didn't lead with that. It led with a metric it had invented, called community-adjusted EBITDA. And on that measure, it made about two hundred and thirty-three million dollars.",
+      "start": 28.89,
+      "end": 45.68
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "Wait. Losing nearly a billion, and making two hundred and thirty-three million. At the same time?",
+      "start": 45.73,
+      "end": 52.68
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "At the same time. Normal EBITDA already strips out interest, taxes, depreciation and amortisation. WeWork went further. It also took out marketing, general and administrative costs, and the costs of designing and developing new buildings.",
+      "start": 52.73,
+      "end": 69.38
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "But those are real costs. You can't open offices without them.",
+      "start": 69.43,
+      "end": 73.38
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "Exactly what the market thought. One bond research specialist told the Wall Street Journal he had never seen the phrase in his life. It became a running joke in finance. But the bonds still got sold.",
+      "start": 73.43,
+      "end": 85.65
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "And then?",
+      "start": 85.7,
+      "end": 86.99
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "Then, in August twenty nineteen, WeWork filed to go public. The I-P-O filing, the S-one, showed a loss of about one point nine billion dollars on revenue of about one point eight billion in twenty eighteen.",
+      "start": 87.04,
+      "end": 100.62
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "So they lost more than they sold.",
+      "start": 100.67,
+      "end": 102.99
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "More than they sold. The private valuation had been forty-seven billion dollars in January twenty nineteen, after SoftBank's funding round. Once public investors read the filing, the I-P-O collapsed. Adam Neumann, the founder, stepped down as C-E-O, and the listing was withdrawn by the end of September.",
+      "start": 103.04,
+      "end": 122.93
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "What happened after that?",
+      "start": 122.98,
+      "end": 124.65
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "SoftBank rescued it. It went public in twenty twenty-one through a SPAC, a blank-cheque company, at about nine billion dollars. And in November twenty twenty-three, it filed for bankruptcy. The lesson for today: learn to read the income statement properly, and you'll spot a WeWork before the market does.",
+      "start": 124.7,
+      "end": 144.46
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "Okay. So where do we start?",
+      "start": 144.51,
+      "end": 147.05
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "At the top. The income statement tells you how much a company sold over a period, a quarter or a year, and what was left after every cost. Let's use a simple example. A chain of cafés. Round numbers, in thousands of euros.",
+      "start": 147.1,
+      "end": 163.0
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "Go on.",
+      "start": 163.05,
+      "end": 164.09
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Revenue, the top line, is one thousand. That's all the coffee and croissants sold in the year. Then cost of goods sold, the direct cost of making what you sold: beans, milk, pastries. Say four hundred.",
+      "start": 164.14,
+      "end": 178.78
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "So gross profit is six hundred.",
+      "start": 178.83,
+      "end": 181.34
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Right. And gross margin is six hundred over one thousand, sixty percent. It tells you how profitable each sale is before you pay for running the business.",
+      "start": 181.39,
+      "end": 192.75
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "Then the running costs?",
+      "start": 192.8,
+      "end": 194.73
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Operating expenses. Staff at head office, rent for the offices, marketing, admin. In the accounts you'll see S-G-and-A, selling, general and administrative. Say three hundred and fifty. Six hundred minus three hundred and fifty gives you two hundred and fifty. That's EBITDA. Earnings before interest, taxes, depreciation and amortisation.",
+      "start": 194.78,
+      "end": 218.975
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "And EBITDA is basically the cash the business makes, right? That's why everyone uses it.",
+      "start": 220.115,
+      "end": 225.115
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "That's the first trap, and interviewers love it. No. EBITDA is a rough proxy for operating cash, but it ignores a lot. It ignores the money you spend on new espresso machines and new cafés, which is capital expenditure. It ignores cash tied up in stock and in customers who haven't paid yet. It ignores taxes and interest, which are very real cash. A company can have positive EBITDA and still be burning cash.",
+      "start": 225.165,
+      "end": 253.805
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "So why does everyone use it?",
+      "start": 253.855,
+      "end": 255.865
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "Because it's useful for comparing businesses. It's independent of how a company is financed, and of its accounting choices on depreciation. That makes it handy for valuation. Just don't confuse useful with complete. Warren Buffett's line was roughly: does management think the tooth fairy pays for capital expenditure?",
+      "start": 255.915,
+      "end": 275.995
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "Fine. What comes after EBITDA?",
+      "start": 276.045,
+      "end": 278.805
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "Depreciation and amortisation. You bought espresso machines for five hundred, and they last ten years. You don't charge the whole five hundred in year one. You spread it: fifty a year. That's depreciation. Amortisation is the same idea for intangible assets, like software or a brand you bought.",
+      "start": 278.855,
+      "end": 298.665
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "Hang on. But depreciation is money going out, isn't it? Fifty a year for the machines.",
+      "start": 298.715,
+      "end": 304.665
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "Second trap. No. The cash went out once, on the day you bought the machines. Depreciation is an accounting charge that spreads that cost across the years. No cash leaves the bank when you book it. That's why, when we get to the cash flow statement, depreciation gets added back.",
+      "start": 304.715,
+      "end": 323.435
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "Okay. So EBITDA two hundred and fifty, minus depreciation of fifty...",
+      "start": 323.485,
+      "end": 329.795
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "Gives you EBIT, earnings before interest and taxes. Two hundred. People also call it operating income. It's the profit from running the business, before you think about how it's funded.",
+      "start": 329.845,
+      "end": 341.225
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "Then interest.",
+      "start": 341.275,
+      "end": 342.665
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "Right. The café chain has a bank loan. Interest is forty. Two hundred minus forty is one hundred and sixty. That's pre-tax income, or E-B-T, earnings before tax. Tax at twenty-five percent is forty. Net income, the bottom line, is one hundred and twenty.",
+      "start": 342.715,
+      "end": 359.935
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "So net income is the profit that belongs to shareholders.",
+      "start": 359.985,
+      "end": 363.575
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "Yes. After the suppliers, the staff, the landlord, the lenders and the tax authority have all been paid. That's what's left for the owners. Divide it by the number of shares and you get earnings per share, E-P-S.",
+      "start": 363.625,
+      "end": 376.395
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "And revenue is the cash that came in during the year.",
+      "start": 376.445,
+      "end": 379.545
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "Third trap. Not necessarily. The income statement uses accrual accounting. Revenue is recorded when you earn it, not when the cash arrives. If the café does catering for a company and sends an invoice payable in sixty days, the revenue goes on this year's income statement even though the cash hasn't arrived. Same with costs. You record them when they're incurred, not when you pay.",
+      "start": 379.595,
+      "end": 404.725
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "So profit and cash can be completely different.",
+      "start": 404.775,
+      "end": 408.37
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "Very different. That's why we have three statements, not one. We'll get to the balance sheet tomorrow and cash flow after that. For now, remember: the income statement measures performance, not cash.",
+      "start": 408.89,
+      "end": 420.65
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "Okay. Back to WeWork. Every company reports adjusted numbers, don't they? So what was actually wrong?",
+      "start": 420.7,
+      "end": 427.39
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "Good question. Adjusting is normal. A company might strip out a one-off cost, like a lawsuit settlement or the cost of closing a factory, so you can see the underlying business. Fair enough, if it really is one-off. The problem with WeWork was that it removed costs that recur every single year and that the business can't live without. Marketing to find tenants. Head office. Designing new locations. That isn't adjusting for noise. That's removing the business model.",
+      "start": 427.44,
+      "end": 454.87
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "So the question to ask is whether the cost comes back next year.",
+      "start": 454.92,
+      "end": 459.09
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "That's the test. If a one-off charge shows up every year, it isn't one-off. Analysts have a phrase for it: recurring non-recurring items.",
+      "start": 459.14,
+      "end": 468.65
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "That's a good one.",
+      "start": 468.7,
+      "end": 470.23
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "It's a real thing. Right, what they'll ask you. First question, and you'll get this one almost everywhere. Walk me through the income statement.",
+      "start": 470.28,
+      "end": 479.53
+    },
+    {
+      "i": 47,
+      "speaker": "SOFIA",
+      "text": "Um. Revenue at the top, then costs, then profit at the bottom?",
+      "start": 479.58,
+      "end": 484.35
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "Too thin. Give them the lines in order, with one phrase each. Something like: it starts with revenue, what the company sold in the period. Subtract cost of goods sold to get gross profit. Subtract operating expenses such as S-G-and-A and R-and-D to get operating income, or EBIT. Subtract interest to get pre-tax income, subtract taxes, and you arrive at net income. Thirty seconds, clean order, no waffle.",
+      "start": 484.4,
+      "end": 511.91
+    },
+    {
+      "i": 49,
+      "speaker": "SOFIA",
+      "text": "Where does EBITDA fit in that?",
+      "start": 511.96,
+      "end": 514.03
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "Mention it as a side note. EBITDA is usually not a line on the statement itself. You calculate it by adding depreciation and amortisation back to EBIT. Saying that shows you understand it's a derived number, not an official one.",
+      "start": 514.08,
+      "end": 528.36
+    },
+    {
+      "i": 51,
+      "speaker": "SOFIA",
+      "text": "Okay. Next.",
+      "start": 528.41,
+      "end": 530.03
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Second question. A company's EBITDA went up, but its net income went down. How is that possible?",
+      "start": 530.08,
+      "end": 538.44
+    },
+    {
+      "i": 53,
+      "speaker": "SOFIA",
+      "text": "Because... taxes went up?",
+      "start": 538.49,
+      "end": 541.04
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "That's one reason. A strong answer gives three or four. Depreciation went up, maybe after heavy investment in new assets. Interest went up, because the company borrowed more or rates rose. The tax rate went up. Or there was a one-off charge below EBITDA, like an impairment. Then add the point: this is why you never judge a company on one line.",
+      "start": 541.09,
+      "end": 563.77
+    },
+    {
+      "i": 55,
+      "speaker": "SOFIA",
+      "text": "And the third?",
+      "start": 563.82,
+      "end": 565.24
+    },
+    {
+      "i": 56,
+      "speaker": "MARCO",
+      "text": "Third question. Why do companies report adjusted EBITDA, and what should you watch for?",
+      "start": 565.29,
+      "end": 571.4
+    },
+    {
+      "i": 57,
+      "speaker": "SOFIA",
+      "text": "To show the... real performance? And you watch for companies hiding costs.",
+      "start": 571.45,
+      "end": 578.28
+    },
+    {
+      "i": 58,
+      "speaker": "MARCO",
+      "text": "Right direction. Tighten it. Companies adjust to strip out one-off items and show the underlying performance. What you watch for is adjustments that recur every year, or that remove normal operating costs. Stock-based compensation is a classic one: many tech companies add it back, but paying staff in shares is still paying staff. And if you want a memorable example, WeWork's community-adjusted EBITDA.",
+      "start": 578.33,
+      "end": 602.757
+    },
+    {
+      "i": 59,
+      "speaker": "SOFIA",
+      "text": "Good. Deal of the day?",
+      "start": 603.277,
+      "end": 605.177
+    },
+    {
+      "i": 60,
+      "speaker": "MARCO",
+      "text": "Last week, H-I-G Capital, a private equity firm, agreed to buy Mistras Group, an American company that inspects and tests industrial equipment. Pipelines, refineries, power plants. H-I-G pays twenty dollars and thirty-five cents a share in cash.",
+      "start": 605.227,
+      "end": 622.307
+    },
+    {
+      "i": 61,
+      "speaker": "SOFIA",
+      "text": "How much is that in total?",
+      "start": 622.357,
+      "end": 624.207
+    },
+    {
+      "i": 62,
+      "speaker": "MARCO",
+      "text": "About eight hundred and sixty-six million dollars of enterprise value, which includes the company's debt. We'll cover enterprise value properly in week two. For now, it's the price of the whole business, not just the shares.",
+      "start": 624.257,
+      "end": 636.557
+    },
+    {
+      "i": 63,
+      "speaker": "SOFIA",
+      "text": "Is the price high?",
+      "start": 636.607,
+      "end": 638.157
+    },
+    {
+      "i": 64,
+      "speaker": "MARCO",
+      "text": "The premium is modest. About eight percent over the average share price of the previous thirty days. But the shares had already risen around sixty percent since the start of the year. There's also a go-shop: forty days, until the twenty-seventh of October, where Mistras can actively look for a better offer.",
+      "start": 638.207,
+      "end": 656.717
+    },
+    {
+      "i": 65,
+      "speaker": "SOFIA",
+      "text": "Why would a buyer agree to let the target shop around?",
+      "start": 656.767,
+      "end": 659.727
+    },
+    {
+      "i": 66,
+      "speaker": "MARCO",
+      "text": "That's your interview question. The answer: it protects the board. If there's a better price out there, the board wants proof it looked, because of its duty to shareholders. And the buyer usually accepts it because it gets a smaller break fee if it's topped, and it's often confident nobody else will bid. Also notice how this connects to today. Private equity buyers price a deal like this as a multiple of EBITDA. So whether that EBITDA is clean, or community-adjusted, is worth hundreds of millions.",
+      "start": 659.777,
+      "end": 690.867
+    },
+    {
+      "i": 67,
+      "speaker": "SOFIA",
+      "text": "Okay. Quiz?",
+      "start": 690.917,
+      "end": 692.537
+    },
+    {
+      "i": 68,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: revenue is five hundred and cost of goods sold is two hundred. What is the gross margin? Question two: EBITDA is one hundred, depreciation thirty, interest twenty, and the tax rate is twenty-five percent. What is net income? Question three: is depreciation a cash expense? Question four: which line on the income statement is what's left for shareholders? Question five: a company adds its marketing costs back to EBITDA and calls it adjusted EBITDA. What's the problem?",
+      "start": 692.587,
+      "end": 732.167
+    },
+    {
+      "i": 69,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 732.217,
+      "end": 734.327
+    },
+    {
+      "i": 70,
+      "speaker": "MARCO",
+      "text": "Answers. One: sixty percent. Three hundred of gross profit over five hundred of revenue. Two: EBIT is seventy, pre-tax income is fifty, tax is twelve point five, net income thirty-seven point five. Three: no. The cash left when the asset was bought. Depreciation spreads that cost over the asset's life. Four: net income. Five: marketing is a recurring cost of running the business, not a one-off. Adding it back makes profit look higher than it really is. That's the WeWork move.",
+      "start": 734.377,
+      "end": 771.737
+    },
+    {
+      "i": 71,
+      "speaker": "SOFIA",
+      "text": "I got question two wrong. I forgot to take depreciation off before interest.",
+      "start": 771.787,
+      "end": 776.317
+    },
+    {
+      "i": 72,
+      "speaker": "MARCO",
+      "text": "Order matters. EBITDA, then depreciation, then interest, then tax. Say it on the metro until it's automatic. Tomorrow: the balance sheet, and how Lehman Brothers used a trick called Repo one-oh-five to make fifty billion dollars of debt disappear for a few days every quarter.",
+      "start": 776.367,
+      "end": 794.793
+    }
+  ]
+}

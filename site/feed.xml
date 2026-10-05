@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>The Deal Desk</title>
     <link>https://llpcll.github.io/deal-desk/</link>
@@ -9,27 +9,206 @@
     <itunes:subtitle>One corporate finance concept, one real deal, every day. AI-voiced.</itunes:subtitle>
     <itunes:summary>A daily corporate finance podcast for students preparing for investment banking interviews. Each episode teaches one concept through a real deal, drills the interview questions you'll be asked, covers a real deal from the past week and ends with a five-question quiz. Marco, an M&amp;A banker, explains; Sofia, a first-year student, asks the questions you would. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices, and the scripts are written with AI and checked against public sources. Not investment advice.</itunes:summary>
     <itunes:author>The Deal Desk</itunes:author>
+    <itunes:owner><itunes:name>The Deal Desk</itunes:name><itunes:email>thedealdeskpodcast@gmail.com</itunes:email></itunes:owner>
     <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
     <image><url>https://llpcll.github.io/deal-desk/cover.jpg</url><title>The Deal Desk</title><link>https://llpcll.github.io/deal-desk/</link></image>
     <itunes:category text="Business"><itunes:category text="Careers"/></itunes:category>
     <itunes:category text="Education"><itunes:category text="Courses"/></itunes:category>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:type>episodic</itunes:type>
+    <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Mon, 05 Oct 2026 00:17:51 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 07:00:00 +0200</lastBuildDate>
     <item>
       <title>12. Precedent transactions, and the price of control</title>
       <description>Spire Healthcare's buyers offered a sixty-six percent premium. Or a twenty-nine percent premium. Same offer, same day. The difference is the whole lesson. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-12/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
       <content:encoded><![CDATA[<p>Spire Healthcare&#x27;s buyers offered a sixty-six percent premium. Or a twenty-nine percent premium. Same offer, same day. The difference is the whole lesson.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-12/">https://llpcll.github.io/deal-desk/episode-12/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.investegate.co.uk/announcement/rns/spire-healthcare-group--spi/recommended-offer-for-spire-healthcare-group-plc/9757462">Spire Healthcare Group plc: recommended offer (RNS announcement, Investegate)</a></li><li><a href="https://financefeeds.com/onsemi-buys-synaptics-123-a-share-cash">onsemi buys Synaptics for $123 a share in cash (FinanceFeeds)</a></li></ul>]]></content:encoded>
       <link>https://llpcll.github.io/deal-desk/episode-12/</link>
       <guid isPermaLink="false">deal-desk-episode-12</guid>
-      <pubDate>Mon, 05 Oct 2026 00:17:51 +0200</pubDate>
-      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-12.mp3" length="7972510" type="audio/mpeg"/>
-      <itunes:duration>664</itunes:duration>
+      <pubDate>Sun, 04 Oct 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-12.mp3" length="7700733" type="audio/mpeg"/>
+      <itunes:duration>642</itunes:duration>
+      <itunes:season>1</itunes:season>
       <itunes:episode>12</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
       <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-12.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>11. Trading comparables, and is Ferrari a car company?</title>
+      <description>Ferrari trades at more than twice the multiple of a typical car maker. Whether that's right depends on one question: who are its peers? Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-11/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Ferrari trades at more than twice the multiple of a typical car maker. Whether that&#x27;s right depends on one question: who are its peers?</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-11/">https://llpcll.github.io/deal-desk/episode-11/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://cdn.ferrari.com/cms/network/media/pdf/2026_02_10%20-%20Ferrari%20FY%202025%20Results%20Press%20Release.pdf">Ferrari full year 2025 results press release (PDF, 10 February 2026)</a></li><li><a href="https://news.europawire.eu/fresenius-brings-mabxience-fully-into-its-biopharma-business-with-acquisition-of-remaining-45-stake/eu-press-release/2026/10/02/13/49/13/181718/">Fresenius brings mAbxience fully into its biopharma business with acquisition of remaining 45% stake (press release, EuropaWire)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-11/</link>
+      <guid isPermaLink="false">deal-desk-episode-11</guid>
+      <pubDate>Sat, 03 Oct 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-11.mp3" length="7869379" type="audio/mpeg"/>
+      <itunes:duration>656</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>11</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-11.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>10. Multiples, and why software is worth three supermarkets</title>
+      <description>The market pays about twenty-four times EBITDA for software and nine times for grocery chains. Here's why, and how to use multiples without embarrassing yourself. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-10/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>The market pays about twenty-four times EBITDA for software and nine times for grocery chains. Here&#x27;s why, and how to use multiples without embarrassing yourself.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-10/">https://llpcll.github.io/deal-desk/episode-10/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html">Enterprise value multiples by sector, US (Aswath Damodaran, NYU Stern)</a></li><li><a href="https://www.webdisclosure.com/press-release/schneider-electric-epa-su-schneider-electric-announces-a-voluntary-public-takeover-offer-for-shelly-group-supported-by-founders-X8ncu9VYsaB">Schneider Electric announces a voluntary public takeover offer for Shelly Group (press release, WebDisclosure)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-10/</link>
+      <guid isPermaLink="false">deal-desk-episode-10</guid>
+      <pubDate>Fri, 02 Oct 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-10.mp3" length="7869693" type="audio/mpeg"/>
+      <itunes:duration>656</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-10.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>9. The bridge from equity value to enterprise value</title>
+      <description>Ten point seven billion for the shares. Thirty-three point four billion for the company. Where did the other twenty-two billion go? Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-09/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Ten point seven billion for the shares. Thirty-three point four billion for the company. Where did the other twenty-two billion go?</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-09/">https://llpcll.github.io/deal-desk/episode-09/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://eqtgroup.com/news/consortium-led-by-global-infrastructure-partners-and-eqt-agrees-to-acquire-aes-2026-03-02">Consortium led by Global Infrastructure Partners and EQT agrees to acquire AES (EQT press release, 2 March 2026)</a></li><li><a href="https://www.nasdaq.com/press-release/sangoma-technologies-corporation-enters-definitive-agreement-be-acquired-brc-group">Sangoma Technologies enters into definitive agreement to be acquired by BRC Group Holdings (press release, Nasdaq)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-09/</link>
+      <guid isPermaLink="false">deal-desk-episode-09</guid>
+      <pubDate>Thu, 01 Oct 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-09.mp3" length="7573777" type="audio/mpeg"/>
+      <itunes:duration>631</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-09.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>8. Equity value versus enterprise value, and the price tag that lies</title>
+      <description>Microsoft paid sixty-eight point seven billion dollars for Activision Blizzard. Or did it? Week two starts with the most important distinction in valuation. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-08/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Microsoft paid sixty-eight point seven billion dollars for Activision Blizzard. Or did it? Week two starts with the most important distinction in valuation.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-08/">https://llpcll.github.io/deal-desk/episode-08/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/718877/000110465922004729/tm223212d1_ex99-1.htm">Microsoft to acquire Activision Blizzard (press release, filed with the SEC by Activision Blizzard, 18 January 2022)</a></li><li><a href="https://www.theglobeandmail.com/investing/markets/stocks/SSTI/pressreleases/4878152/soundthinking-to-be-acquired-by-transom-capital-group/">SoundThinking to be acquired by Transom Capital Group (press release, The Globe and Mail)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-08/</link>
+      <guid isPermaLink="false">deal-desk-episode-08</guid>
+      <pubDate>Wed, 30 Sep 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-08.mp3" length="7742737" type="audio/mpeg"/>
+      <itunes:duration>645</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-08.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>7. Week one review, no notes allowed</title>
+      <description>Six episodes, one quiz. How banks are organised, the three statements, and working capital, tested the way an interviewer would. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-07/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Six episodes, one quiz. How banks are organised, the three statements, and working capital, tested the way an interviewer would.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-07/">https://llpcll.github.io/deal-desk/episode-07/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-signs-agreement-to-acquire-col-group.html">Eaton signs agreement to acquire COL Group (Eaton news release)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-07/</link>
+      <guid isPermaLink="false">deal-desk-episode-07</guid>
+      <pubDate>Tue, 29 Sep 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-07.mp3" length="8268426" type="audio/mpeg"/>
+      <itunes:duration>689</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-07.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>6. Working capital, and how Amazon gets its suppliers to fund it</title>
+      <description>Amazon's customers pay it about two months before Amazon pays its suppliers. That gap is worth billions. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-06/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Amazon&#x27;s customers pay it about two months before Amazon pays its suppliers. That gap is worth billions.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-06/">https://llpcll.github.io/deal-desk/episode-06/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.rexel.com/en/rexel-to-acquire-gcg">Rexel to acquire GCG, a leading specialty infrastructure platform in the US (Rexel press release)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-06/</link>
+      <guid isPermaLink="false">deal-desk-episode-06</guid>
+      <pubDate>Mon, 28 Sep 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-06.mp3" length="8603838" type="audio/mpeg"/>
+      <itunes:duration>717</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-06.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>5. Linking the three statements, and the ten euros of depreciation</title>
+      <description>The most common technical question in banking interviews, answered cleanly, plus the two variations they use to catch you. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-05/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>The most common technical question in banking interviews, answered cleanly, plus the two variations they use to catch you.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-05/">https://llpcll.github.io/deal-desk/episode-05/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.gov.uk/cma-cases/kone-slash-tk-elevator-merger-inquiry">KONE / TK Elevator merger inquiry (UK Competition and Markets Authority case page)</a></li><li><a href="https://www.cnbc.com/2026/04/29/kone-tk-elevator-deal-europe-business.html">Finland&#x27;s Kone to buy German rival TK Elevator (CNBC, 29 April 2026)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-05/</link>
+      <guid isPermaLink="false">deal-desk-episode-05</guid>
+      <pubDate>Sun, 27 Sep 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-05.mp3" length="9032350" type="audio/mpeg"/>
+      <itunes:duration>753</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-05.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>4. The cash flow statement, and why Enron had to fake its cash</title>
+      <description>Enron could invent profits. Cash was harder. That's why the cash flow statement is the one to read first. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-04/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Enron could invent profits. Cash was harder. That&#x27;s why the cash flow statement is the one to read first.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-04/">https://llpcll.github.io/deal-desk/episode-04/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.businesswire.com/news/home/20260920050170/en/Priority-Technology-Holdings-Inc.-Announces-Definitive-Agreement-with-Investor-Group-Led-by-Chairman-and-CEO-Thomas-Priore-to-Take-Company-Private">Priority Technology Holdings announces definitive agreement with investor group led by Chairman and CEO Thomas Priore to take company private (Business Wire)</a></li><li><a href="https://money.cnn.com/2002/07/23/news/companies/citigroup/index.htm">Citigroup, J.P. Morgan Chase said to help Enron hide debt (CNN Money, 23 July 2002)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-04/</link>
+      <guid isPermaLink="false">deal-desk-episode-04</guid>
+      <pubDate>Sat, 26 Sep 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-04.mp3" length="8881258" type="audio/mpeg"/>
+      <itunes:duration>740</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-04.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>3. The balance sheet, and the fifty billion that vanished</title>
+      <description>How Lehman Brothers made its debt disappear every quarter end, and what that teaches you about the one equation that always holds. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-03/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>How Lehman Brothers made its debt disappear every quarter end, and what that teaches you about the one equation that always holds.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-03/">https://llpcll.github.io/deal-desk/episode-03/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.banking.senate.gov/imo/media/doc/ValukasTestimony4611am.pdf">Statement by Anton R. Valukas, Lehman Brothers bankruptcy examiner, to the US Senate Banking Committee (PDF)</a></li><li><a href="https://money.cnn.com/2010/03/12/news/companies/lehman_examiner/index.htm">Lehman executives cause of failure: examiner&#x27;s report (CNN Money, 12 March 2010)</a></li><li><a href="https://www.platinumequity.com/news/platinum-equity-completes-sale-of-global-environmental-services-business-urbaser-to-blackstone-and-eqt-for-6-6-billion/">Platinum Equity completes sale of Urbaser to Blackstone and EQT for $6.6 billion (Platinum Equity press release)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-03/</link>
+      <guid isPermaLink="false">deal-desk-episode-03</guid>
+      <pubDate>Fri, 25 Sep 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-03.mp3" length="8495691" type="audio/mpeg"/>
+      <itunes:duration>708</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-03.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>2. The income statement, and the profit that wasn't</title>
+      <description>WeWork invented its own version of profit. Here's how to read the real one, line by line. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-02/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>WeWork invented its own version of profit. Here&#x27;s how to read the real one, line by line.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-02/">https://llpcll.github.io/deal-desk/episode-02/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.globenewswire.com/news-release/2026/09/18/3364639/12235/en/mistras-group-inc-enters-into-definitive-agreement-to-be-acquired-by-h-i-g-capital-for-20-35-per-share-in-cash.html">MISTRAS Group enters into definitive agreement to be acquired by H.I.G. Capital for $20.35 per share in cash (press release, GlobeNewswire)</a></li><li><a href="https://www.forbes.com/sites/samanthasharf/2019/08/14/wework-ipo-sec-s1/">WeWork files IPO plan, showing first-half losses grew 25% (Forbes, 14 August 2019)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-02/</link>
+      <guid isPermaLink="false">deal-desk-episode-02</guid>
+      <pubDate>Thu, 24 Sep 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-02.mp3" length="9543933" type="audio/mpeg"/>
+      <itunes:duration>795</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-02.json" type="application/json+chapters"/>
+    </item>
+    <item>
+      <title>1. Who actually does what in an investment bank</title>
+      <description>Ketchup, cheese and a ten-billion-dollar cheque: the deal that shows you how a bank is really wired. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-01/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Ketchup, cheese and a ten-billion-dollar cheque: the deal that shows you how a bank is really wired.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-01/">https://llpcll.github.io/deal-desk/episode-01/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://news.kraftheinzcompany.com/press-releases-details/2015/HJ-Heinz-Company-and-Kraft-Foods-Group-Sign-Definitive-Merger-Agreement-to-Form-The-Kraft-Heinz-Company/default.aspx">H.J. Heinz Company and Kraft Foods Group sign definitive merger agreement (Kraft Heinz press release, 25 March 2015)</a></li><li><a href="https://www.cvc.com/media/news/2026/carlyle-and-cvc-dif-agree-to-acquire-bauwatch-from-haniel/">Carlyle and CVC DIF agree to acquire BauWatch from Haniel (CVC press release)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-01/</link>
+      <guid isPermaLink="false">deal-desk-episode-01</guid>
+      <pubDate>Wed, 23 Sep 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-01.mp3" length="10722577" type="audio/mpeg"/>
+      <itunes:duration>893</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-01.json" type="application/json+chapters"/>
     </item>
   </channel>
 </rss>

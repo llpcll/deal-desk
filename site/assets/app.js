@@ -18,6 +18,10 @@
   const duration = () => (isFinite(audio.duration) && audio.duration) || D.duration;
   const fmtTime = (s) => { s = Math.max(0, Math.floor(s)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; };
 
+  // Positions are written as data-css and applied through the CSSOM, which the page's
+  // Content-Security-Policy allows (inline style attributes it would block).
+  const applyCss = (root) => root.querySelectorAll("[data-css]").forEach((el) => { el.style.cssText = el.dataset.css; });
+
   /* ---- Transcript ------------------------------------------------------- */
   const figsByLine = {};
   V.forEach((v, k) => (figsByLine[v.line] = figsByLine[v.line] || []).push(k));
@@ -120,7 +124,8 @@
   /* ---- Visuals ----------------------------------------------------------- */
   const unitFmt = (v, unit, d, approx) => {
     const n = d != null ? Number(v).toFixed(d) : String(v);
-    const s = unit === "%" ? `${n}%` : unit === "x" ? `${n}x` : unit === "£bn" ? `£${n}bn` : unit ? `${n} ${unit}` : n;
+    const cur = unit && unit.match(/^([$€£])(.*)$/);  // "$bn" -> $4.2bn, "€m" -> €59m
+    const s = unit === "%" ? `${n}%` : unit === "x" ? `${n}x` : cur ? `${cur[1]}${n}${cur[2]}` : unit ? `${n} ${unit}` : n;
     return (approx ? "c. " : "") + s;
   };
   const tipAttr = (title, body) => `tabindex="0" data-tip="${esc(`<b>${esc(title)}</b>${esc(body || "")}`)}"`;
@@ -149,14 +154,14 @@
     bars: (v) => {
       const max = Math.max(...v.items.map((i) => i.value), v.band ? v.band.to : 0) * 1.08;
       const pct = (x) => (x / max) * 100;
-      const band = v.band ? `<div class="band" style="left:${pct(v.band.from)}%;width:${pct(v.band.to - v.band.from)}%"></div>` : "";
+      const band = v.band ? `<div class="band" data-css="left:${pct(v.band.from)}%;width:${pct(v.band.to - v.band.from)}%"></div>` : "";
       return `
       <div class="bars" role="list">
         ${v.items.map((it) => {
           const val = unitFmt(it.value, v.unit, v.decimals, it.approx);
           return `<div class="bar-row" role="listitem">
             <div class="bar-lab"><span>${esc(it.label)}</span><b>${esc(val)}</b></div>
-            <div class="bar-track">${band}<div class="bar" style="width:${pct(it.value)}%" ${tipAttr(it.label, val)} aria-label="${esc(it.label)}: ${esc(val)}"></div></div>
+            <div class="bar-track">${band}<div class="bar" data-css="width:${pct(it.value)}%" ${tipAttr(it.label, val)} aria-label="${esc(it.label)}: ${esc(val)}"></div></div>
           </div>`; }).join("")}
       </div>
       ${v.band ? `<p class="band-key"><i aria-hidden="true"></i>${esc(v.band.label)}</p>` : ""}${note(v)}`;
@@ -177,11 +182,11 @@
       <div class="wf">
         ${segs.map((s, i) => {
           const val = (s.kind === "add" ? "+" : s.kind === "sub" ? "−" : "") + unitFmt(s.value, v.unit, v.decimals);
-          const link = i < segs.length - 1 ? `<div class="wf-link" style="bottom:${pct(s.level)}%"></div>` : "";
+          const link = i < segs.length - 1 ? `<div class="wf-link" data-css="bottom:${pct(s.level)}%"></div>` : "";
           return `<div class="wf-col">
             <div class="wf-val">${esc(val)}</div>
             <div class="wf-plot">
-              <div class="wf-bar ${s.kind}" style="bottom:${pct(s.from)}%;height:${pct(s.to - s.from)}%" ${tipAttr(s.label, " " + val)} aria-label="${esc(s.label)}: ${esc(val)}"></div>${link}
+              <div class="wf-bar ${s.kind}" data-css="bottom:${pct(s.from)}%;height:${pct(s.to - s.from)}%" ${tipAttr(s.label, " " + val)} aria-label="${esc(s.label)}: ${esc(val)}"></div>${link}
             </div>
             <div class="wf-lab">${esc(s.label)}</div>
           </div>`; }).join("")}
@@ -202,7 +207,7 @@
       const n = v.items.length;
       return `<ol class="funnel">${v.items.map((it, i) => {
         const label = typeof it === "string" ? it : it.label, detail = typeof it === "string" ? "" : it.detail;
-        return `<li><span class="f-band" aria-hidden="true"><i style="width:${100 - (i * 70) / Math.max(1, n - 1)}%"></i></span><span class="f-text"><b>${esc(label)}</b>${detail ? `<span>${esc(detail)}</span>` : ""}</span></li>`;
+        return `<li><span class="f-band" aria-hidden="true"><i data-css="width:${100 - (i * 70) / Math.max(1, n - 1)}%"></i></span><span class="f-text"><b>${esc(label)}</b>${detail ? `<span>${esc(detail)}</span>` : ""}</span></li>`;
       }).join("")}</ol>${note(v)}`;
     },
 
@@ -214,9 +219,9 @@
       const pct = (x) => ((x - a) / (b - a)) * 100;
       return `
       <div class="ff">
-        ${v.marker ? `<div class="ff-marker" style="left:${pct(v.marker.value)}%"><span>${esc(v.marker.label)}</span></div>` : ""}
+        ${v.marker ? `<div class="ff-marker" data-css="left:${pct(v.marker.value)}%"><span>${esc(v.marker.label)}</span></div>` : ""}
         ${v.bars.map((r) => `<div class="ff-row"><span class="ff-lab">${esc(r.label)}</span>
-          <div class="ff-track"><div class="ff-bar" style="left:${pct(r.from)}%;width:${pct(r.to) - pct(r.from)}%" ${tipAttr(r.label, v.illustrative ? " Illustrative range" : "")} aria-label="${esc(r.label)}"></div></div></div>`).join("")}
+          <div class="ff-track"><div class="ff-bar" data-css="left:${pct(r.from)}%;width:${pct(r.to) - pct(r.from)}%" ${tipAttr(r.label, v.illustrative ? " Illustrative range" : "")} aria-label="${esc(r.label)}"></div></div></div>`).join("")}
       </div>
       <div class="ff-axis" aria-hidden="true"><span>Lower value</span><span>Higher value</span></div>${note(v)}`;
     },
@@ -246,6 +251,7 @@
         ${v.title ? `<h3>${esc(v.title)}</h3>` : ""}
         ${render ? render(v) : `<p class="note">Unknown visual type: ${esc(v.type)}</p>`}
       </figure>`;
+      applyCss(body);
     }
     $("fig-count").innerHTML = k < 0
       ? `${V.length} visuals in this episode`
@@ -298,7 +304,8 @@
   function seek(t) { audio.currentTime = Math.max(0, Math.min(duration() - 0.1, t)); update(); }
 
   function drawTicks() {
-    $("ticks").innerHTML = figStarts.map((s) => `<i style="left:${(s / duration()) * 100}%"></i>`).join("");
+    $("ticks").innerHTML = figStarts.map((s) => `<i data-css="left:${(s / duration()) * 100}%"></i>`).join("");
+    applyCss($("ticks"));
   }
 
   let lastT = 0;
@@ -355,19 +362,43 @@
   seekEl.addEventListener("input", () => { dragging = true; seek((seekEl.value / 1000) * duration()); });
   seekEl.addEventListener("change", () => { dragging = false; });
 
-  const rates = [1, 1.25, 1.5, 2, 0.75];
-  const setRate = (r) => { audio.playbackRate = r; $("rate").textContent = `${r}×`; store.set("dd-rate", r); };
+  const rates = [0.75, 1, 1.25, 1.5, 2];
+  const setRate = (r) => {
+    audio.playbackRate = r;
+    $("rate").innerHTML = `${r}×<span class="visually-hidden"> playback speed</span>`;
+    store.set("dd-rate", r);
+  };
   $("rate").addEventListener("click", () => setRate(rates[(rates.indexOf(audio.playbackRate) + 1) % rates.length] || 1));
   const savedRate = parseFloat(store.get("dd-rate"));
   if (rates.includes(savedRate)) setRate(savedRate);
 
+  // Chapter markers on the scrubber: click (or Enter) to jump.
+  const chapters = D.chapters || [];
+  function drawChapters() {
+    $("chapters").innerHTML = chapters.map((c, k) =>
+      `<button type="button" class="pl-chapter" data-k="${k}" data-css="left:${(c.start / duration()) * 100}%" ` +
+      `aria-label="Chapter: ${esc(c.title)}, ${fmtTime(c.start)}" ${tipAttr(c.title, " " + fmtTime(c.start))}></button>`).join("");
+    applyCss($("chapters"));
+  }
+  $("chapters").addEventListener("click", (e) => {
+    const b = e.target.closest(".pl-chapter");
+    if (b) seek(chapters[+b.dataset.k].start);
+  });
+  audio.addEventListener("loadedmetadata", drawChapters);
+
+  // If the audio can't load, say so and offer the file, instead of a dead play button.
+  audio.addEventListener("error", () => {
+    $("pl-error").hidden = false;
+    $("play").disabled = true;
+  });
+
   document.addEventListener("keydown", (e) => {
     if (e.metaKey || e.ctrlKey || e.altKey) return;
     const tag = e.target.tagName;
-    if (tag === "INPUT" || tag === "TEXTAREA") return;
+    if (tag === "INPUT" || tag === "TEXTAREA" || e.target.closest("#quiz")) return;  // the quiz has its own keys
     if (e.key === " " && tag !== "BUTTON" && tag !== "A") { e.preventDefault(); audio.paused ? audio.play() : audio.pause(); }
-    else if (e.key === "ArrowLeft") { e.preventDefault(); seek(audio.currentTime - 5); }
-    else if (e.key === "ArrowRight") { e.preventDefault(); seek(audio.currentTime + 5); }
+    else if (e.key === "ArrowLeft") { e.preventDefault(); seek(audio.currentTime - 15); }
+    else if (e.key === "ArrowRight") { e.preventDefault(); seek(audio.currentTime + 15); }
   });
 
   if ("mediaSession" in navigator) {
@@ -379,70 +410,141 @@
     ms.setActionHandler("seekforward", () => seek(audio.currentTime + 15));
   }
 
-  /* ---- Quiz ----------------------------------------------------------------- */
+  /* ---- Quiz -------------------------------------------------------------------
+     One question at a time. Options are a radio group in a single column, lettered
+     A-D, in a fresh random order on every page load (the answer is stored by id).
+     Feedback appears below the options, never inside them. Keys: 1-4 or A-D answer,
+     arrow keys move between options, Enter goes on. */
+  function hearLine(i) {
+    revealAnswers();
+    following = true; $("follow").hidden = true;
+    seek(lines[i].start);
+    audio.play();
+  }
+
+  function shuffle(a) {
+    const b = a.slice();
+    for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; }
+    return b;
+  }
+
   function buildQuiz() {
-    const Q = D.quiz && D.quiz.questions;
+    const Q = (D.quiz && D.quiz.questions) || [];
     const sec = $("quiz");
-    if (!Q || !Q.length) { sec.remove(); return; }
-    const answers = new Array(Q.length).fill(null);
+    if (!Q.length) { sec.remove(); return; }
+    const order = Q.map((q) => shuffle(q.options));   // shown order per question, fixed for this page load
+    const result = {};                                 // question index -> chosen option id
+    let round = Q.map((_, i) => i), pos = 0;
+
     sec.innerHTML = `
-      <div class="quiz-head"><h2 id="quiz-h">Quiz</h2><p class="score" id="score" aria-live="polite"></p></div>
-      <ol class="qcards">${Q.map((q, i) => `
-        <li class="qcard" data-q="${i}">
-          <p class="q-n">Question ${i + 1} of ${Q.length}</p>
-          <p class="q">${esc(q.q)}</p>
-          <div class="opts" role="group" aria-label="Answers to question ${i + 1}">
-            ${q.options.map((o, j) => `<button type="button" class="opt" data-o="${j}"><span>${esc(o)}</span><span class="tag"></span></button>`).join("")}
-          </div>
-          <p class="verdict" hidden></p>
-        </li>`).join("")}
-      </ol>
-      <div class="quiz-actions">
-        ${D.quiz.answersLine != null ? '<button type="button" class="btn" id="hear">Hear Marco\'s answers</button>' : ""}
-        <button type="button" class="btn ghost" id="retry" hidden>Start the quiz again</button>
-      </div>`;
+      <div class="quiz-head">
+        <h2 id="quiz-h">Quiz</h2>
+        <p class="quiz-progress" id="quiz-progress"></p>
+      </div>
+      <p class="quiz-help" id="quiz-help">Choose an answer, or press 1 to 4 (or A to D). Press Enter for the next question.</p>
+      <div class="qcard" id="qcard">
+        <h3 class="q" id="q-text" tabindex="-1"></h3>
+        <div class="opts" id="opts" role="radiogroup" aria-labelledby="q-text" aria-describedby="quiz-help"></div>
+        <div class="feedback" id="feedback" aria-live="polite"></div>
+        <div class="quiz-nav"><button type="button" class="btn" id="q-next" hidden>Next question</button></div>
+      </div>
+      <div class="quiz-end" id="quiz-end" hidden></div>`;
 
-    const score = () => {
-      const done = answers.filter((a) => a !== null).length;
-      const right = answers.filter((a, i) => a === Q[i].correct).length;
-      $("score").innerHTML = done === Q.length
-        ? `You scored <b>${right} of ${Q.length}</b>`
-        : done ? `${right} of ${done} answered correctly` : `${Q.length} questions`;
-      $("retry").hidden = done === 0;
-    };
+    const optsEl = $("opts"), fb = $("feedback"), next = $("q-next");
 
-    sec.addEventListener("click", (e) => {
-      const opt = e.target.closest(".opt");
-      if (!opt || opt.disabled) return;
-      const card = opt.closest(".qcard"), i = +card.dataset.q, j = +opt.dataset.o, q = Q[i];
-      answers[i] = j;
-      card.querySelectorAll(".opt").forEach((b) => {
-        const o = +b.dataset.o;
-        b.disabled = true;
-        if (o === q.correct) { b.classList.add("right"); b.querySelector(".tag").textContent = o === j ? "Your answer, correct" : "Correct answer"; }
-        else if (o === j) { b.classList.add("wrong"); b.querySelector(".tag").textContent = "Your answer"; }
-        else b.classList.add("dim");
+    function show() {
+      const i = round[pos], q = Q[i];
+      $("quiz-progress").textContent = `Question ${pos + 1} of ${round.length}`;
+      $("q-text").textContent = q.q;
+      optsEl.innerHTML = order[i].map((o, k) =>
+        `<button type="button" role="radio" aria-checked="false" class="opt" data-id="${esc(o.id)}" tabindex="${k ? -1 : 0}">` +
+        `<span class="opt-key" aria-hidden="true">${"ABCD"[k]}</span><span class="opt-text">${esc(o.text)}</span></button>`).join("");
+      fb.innerHTML = "";
+      next.hidden = true;
+      $("qcard").hidden = false;
+      $("quiz-end").hidden = true;
+    }
+
+    function answer(id) {
+      const i = round[pos], q = Q[i];
+      if (result[i] !== undefined && optsEl.dataset.done === String(i)) return;
+      result[i] = id;
+      optsEl.dataset.done = String(i);
+      const right = id === q.correct;
+      const shown = order[i];
+      const correctKey = "ABCD"[shown.findIndex((o) => o.id === q.correct)];
+      optsEl.querySelectorAll(".opt").forEach((b) => {
+        const isChosen = b.dataset.id === id, isCorrect = b.dataset.id === q.correct;
+        b.setAttribute("aria-checked", String(isChosen));
+        b.setAttribute("aria-disabled", "true");
+        b.tabIndex = isChosen ? 0 : -1;
+        b.classList.add(isCorrect ? "is-correct" : isChosen ? "is-wrong" : "is-dim");
+        if (isChosen) b.classList.add("is-chosen");
       });
-      const v = card.querySelector(".verdict");
-      v.innerHTML = j === q.correct
-        ? `<b>Correct.</b> ${esc(q.explain)}`
-        : `<b>Not quite.</b> The answer is ${esc(q.options[q.correct])}. ${esc(q.explain)}`;
-      v.hidden = false;
-      score();
+      fb.innerHTML = `
+        <p class="fb-verdict ${right ? "good" : "bad"}">${right ? "Correct" : "Not quite"}</p>
+        <p class="fb-explain">${right ? "" : `The answer is ${correctKey}. `}${esc(q.explain)}</p>
+        ${q.explainLine != null ? `<button type="button" class="link-btn" id="hear-explain">Hear Marco explain this</button>` : ""}`;
+      const h = $("hear-explain");
+      if (h) h.addEventListener("click", () => hearLine(q.explainLine));
+      next.textContent = pos + 1 < round.length ? "Next question" : "See your score";
+      next.hidden = false;
+      next.focus({ preventScroll: true });
+    }
+
+    function end() {
+      const total = round.length;
+      const missed = round.filter((i) => result[i] !== Q[i].correct);
+      const first = total === Q.length;
+      $("qcard").hidden = true;
+      const el = $("quiz-end");
+      el.hidden = false;
+      el.innerHTML = `
+        <h3 id="end-h" tabindex="-1">${first ? `You scored ${total - missed.length} of ${total}` : `This time: ${total - missed.length} of ${total} right`}</h3>
+        ${missed.length ? `<p class="end-sub">Questions to look at again</p>
+        <ol class="missed">${missed.map((i) => {
+          const q = Q[i], c = q.options.find((o) => o.id === q.correct);
+          return `<li><p class="m-q">${esc(q.q)}</p><p class="m-a">Answer: ${esc(c.text)}</p><p class="m-x">${esc(q.explain)}</p>` +
+            (q.explainLine != null ? `<button type="button" class="link-btn" data-hear="${q.explainLine}">Hear Marco explain this</button>` : "") + `</li>`;
+        }).join("")}</ol>` : `<p class="end-sub">Every answer right.</p>`}
+        <div class="quiz-actions">
+          ${missed.length ? `<button type="button" class="btn" id="retry-missed">Retry the ones I missed</button>`
+                          : `<button type="button" class="btn ghost" id="retry-all">Start again</button>`}
+          ${D.next ? `<a class="btn ghost" href="${esc(D.next.url)}">${esc(D.next.label)}</a>` : ""}
+        </div>`;
+      $("quiz-progress").textContent = "";
+      el.querySelectorAll("[data-hear]").forEach((b) => b.addEventListener("click", () => hearLine(+b.dataset.hear)));
+      const again = (list) => { round = list; pos = 0; list.forEach((i) => delete result[i]); delete optsEl.dataset.done; show(); optsEl.querySelector(".opt").focus(); };
+      const rm = $("retry-missed"), ra = $("retry-all");
+      if (rm) rm.addEventListener("click", () => again(missed));
+      if (ra) ra.addEventListener("click", () => again(Q.map((_, i) => i)));
+      $("end-h").focus({ preventScroll: false });
+    }
+
+    next.addEventListener("click", () => {
+      if (pos + 1 < round.length) { pos++; show(); optsEl.querySelector(".opt").focus(); }
+      else end();
     });
-    $("retry").addEventListener("click", () => {
-      answers.fill(null);
-      sec.querySelectorAll(".opt").forEach((b) => { b.disabled = false; b.className = "opt"; b.querySelector(".tag").textContent = ""; });
-      sec.querySelectorAll(".verdict").forEach((v) => { v.hidden = true; });
-      score();
-      sec.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth" });
+    optsEl.addEventListener("click", (e) => {
+      const b = e.target.closest(".opt");
+      if (b && b.getAttribute("aria-disabled") !== "true") answer(b.dataset.id);
     });
-    const hear = $("hear");
-    if (hear) hear.addEventListener("click", () => {
-      revealAnswers(); following = true; $("follow").hidden = true;
-      seek(lines[D.quiz.answersLine].start); audio.play();
+    sec.addEventListener("keydown", (e) => {
+      if (e.metaKey || e.ctrlKey || e.altKey || $("qcard").hidden) return;
+      const opts = [...optsEl.querySelectorAll(".opt")];
+      const answered = optsEl.dataset.done === String(round[pos]);
+      const k = e.key.toLowerCase();
+      const n = "1234".indexOf(k) >= 0 ? "1234".indexOf(k) : "abcd".indexOf(k);
+      if (n >= 0 && k.length === 1 && !answered) { e.preventDefault(); answer(opts[n].dataset.id); return; }
+      if (e.key === "Enter" && answered && e.target !== next) { e.preventDefault(); next.click(); return; }
+      const at = opts.indexOf(document.activeElement);
+      if (at >= 0 && ["ArrowDown", "ArrowRight", "ArrowUp", "ArrowLeft"].includes(e.key) && !answered) {
+        e.preventDefault();
+        const to = opts[(at + (e.key === "ArrowDown" || e.key === "ArrowRight" ? 1 : opts.length - 1)) % opts.length];
+        opts.forEach((o) => { o.tabIndex = -1; }); to.tabIndex = 0; to.focus();
+      }
     });
-    score();
+    show();
   }
 
   /* ---- Sources ------------------------------------------------------------- */

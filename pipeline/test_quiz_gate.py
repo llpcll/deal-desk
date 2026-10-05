@@ -79,6 +79,9 @@ setTimeout(() => {
 
 def page(ep, hold):
     html = open(os.path.join(ROOT, "site", ep, "index.html"), encoding="utf-8").read()
+    # The test injects inline scripts, which the page's Content-Security-Policy (rightly)
+    # blocks, so this throwaway test copy drops the policy.
+    html = re.sub(r'<meta http-equiv="Content-Security-Policy"[^>]*>', "", html)
     html = html.replace("<head>", "<head>\n" + FAKE_MEDIA, 1)
     return html.replace("</body>", TEST % dict(hold="true" if hold else "false") + "\n</body>", 1)
 

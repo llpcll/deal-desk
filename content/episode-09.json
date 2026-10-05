@@ -1,0 +1,364 @@
+{
+  "visuals": [
+    {
+      "at": "AES. An American power company",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Take-private",
+      "name": "AES",
+      "sub": "Power plants, renewables, and two regulated utilities in Indiana and Ohio",
+      "lines": [
+        "Acquired by a consortium led by Global Infrastructure Partners and EQT",
+        "$15 a share in cash"
+      ],
+      "date": "Agreed March 2026; shareholders approved in June"
+    },
+    {
+      "at": "The equity value, what shareholders receive, is about ten point seven billion dollars",
+      "type": "waterfall",
+      "title": "AES: from equity value to enterprise value",
+      "unit": "$bn",
+      "decimals": 1,
+      "steps": [
+        {
+          "label": "Equity value",
+          "value": 10.7,
+          "kind": "total"
+        },
+        {
+          "label": "Debt, minority stakes and other claims, net",
+          "value": 22.7,
+          "kind": "add"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 33.4,
+          "kind": "total"
+        }
+      ],
+      "note": "Both totals approximate; the middle step is the difference between them, mostly debt."
+    },
+    {
+      "at": "Start with equity value. Then add debt",
+      "type": "table",
+      "title": "The full bridge",
+      "columns": [
+        "Item",
+        "Direction"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Equity value",
+          "Start"
+        ],
+        [
+          "Debt",
+          "Add"
+        ],
+        [
+          "Preferred shares",
+          "Add"
+        ],
+        [
+          "Non-controlling (minority) interests",
+          "Add"
+        ],
+        [
+          "Cash",
+          "Subtract"
+        ],
+        [
+          "Equity investments (associates)",
+          "Subtract"
+        ],
+        [
+          "Lease liabilities",
+          "Add, if EBITDA is before rent"
+        ]
+      ]
+    },
+    {
+      "at": "Let's invent a company. Call it Cafe Group",
+      "type": "waterfall",
+      "title": "Cafe Group's bridge",
+      "unit": "",
+      "steps": [
+        {
+          "label": "Equity value",
+          "value": 1000,
+          "kind": "total"
+        },
+        {
+          "label": "Debt",
+          "value": 400,
+          "kind": "add"
+        },
+        {
+          "label": "Preferred",
+          "value": 50,
+          "kind": "add"
+        },
+        {
+          "label": "Minority interests",
+          "value": 30,
+          "kind": "add"
+        },
+        {
+          "label": "Cash",
+          "value": 100,
+          "kind": "sub"
+        },
+        {
+          "label": "Stake in roaster",
+          "value": 20,
+          "kind": "sub"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 1360,
+          "kind": "total"
+        }
+      ]
+    },
+    {
+      "at": "That's the trap, and it's the most common mistake on this whole topic. You add it",
+      "type": "table",
+      "title": "Why add minorities and subtract associates",
+      "columns": [
+        "",
+        "Owned",
+        "In EBITDA?",
+        "Bridge"
+      ],
+      "rows": [
+        [
+          "Subsidiary",
+          "80%",
+          "Yes, 100% consolidated",
+          "Add the 20% minority"
+        ],
+        [
+          "Coffee roaster",
+          "20%",
+          "No, not consolidated",
+          "Subtract the stake"
+        ]
+      ],
+      "note": "Whatever is in the EBITDA has to be in the enterprise value, and whatever isn't has to come out."
+    },
+    {
+      "at": "Because of an accounting change. Since twenty nineteen",
+      "type": "table",
+      "title": "Leases after IFRS 16",
+      "columns": [
+        "If you use",
+        "Then enterprise value"
+      ],
+      "rows": [
+        [
+          "EBITDA before rent (IFRS 16)",
+          "Includes lease liabilities, like debt"
+        ],
+        [
+          "EBITDA after rent (e.g. EBITDAaL)",
+          "Excludes lease liabilities"
+        ]
+      ],
+      "note": "Mixing the two counts leases twice, or not at all."
+    },
+    {
+      "at": "On Monday, Sangoma Technologies",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "Sangoma Technologies",
+      "sub": "Canadian business communications: cloud and on-site phone systems for over 100,000 business customers",
+      "lines": [
+        "Acquired by BRC Group, mostly for cash with some BRC shares"
+      ],
+      "date": "Announced 28 September 2026"
+    },
+    {
+      "at": "About five dollars and twenty-three cents a share",
+      "type": "keynumbers",
+      "title": "The terms",
+      "items": [
+        {
+          "value": "$5.23",
+          "label": "per share, mostly cash",
+          "approx": true
+        },
+        {
+          "value": "47%",
+          "label": "premium over the previous close",
+          "approx": true
+        },
+        {
+          "value": "$180m",
+          "label": "equity value",
+          "approx": true
+        },
+        {
+          "value": "$204m",
+          "label": "enterprise value",
+          "approx": true
+        }
+      ],
+      "note": "The $24m gap tells you Sangoma has more debt and other claims than cash."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers. One: eight hundred plus three hundred",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Equity value 800, debt 300, cash 100, non-controlling interests 50. What's the enterprise value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "950"
+          },
+          {
+            "id": "b",
+            "text": "1,050"
+          },
+          {
+            "id": "c",
+            "text": "1,150"
+          },
+          {
+            "id": "d",
+            "text": "1,250"
+          }
+        ],
+        "correct": "b",
+        "explain": "800 + 300 − 100 + 50 = 1,050. Minority interests are added, not subtracted.",
+        "explain_at": "Start with equity value. Then add debt"
+      },
+      {
+        "id": "q2",
+        "q": "Enterprise value 1,000, debt 400, cash 50, nothing else. What's the equity value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "650"
+          },
+          {
+            "id": "b",
+            "text": "550"
+          },
+          {
+            "id": "c",
+            "text": "1,350"
+          },
+          {
+            "id": "d",
+            "text": "1,450"
+          }
+        ],
+        "correct": "a",
+        "explain": "Going back from EV, everything flips: 1,000 − 400 + 50 = 650. Subtracting the cash gives 550.",
+        "explain_at": "Going from enterprise value back to equity, everything flips"
+      },
+      {
+        "id": "q3",
+        "q": "A company owns 30% of another business. On the bridge, what do you do with that stake?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Add it"
+          },
+          {
+            "id": "b",
+            "text": "Add 30% of its debt"
+          },
+          {
+            "id": "c",
+            "text": "Leave it out"
+          },
+          {
+            "id": "d",
+            "text": "Subtract it"
+          }
+        ],
+        "correct": "d",
+        "explain": "The stake isn't consolidated, so its EBITDA isn't in the numbers, but its value is in the share price: take it out.",
+        "explain_at": "The mirror image. Cafe Group owns only twenty percent"
+      },
+      {
+        "id": "q4",
+        "q": "Why do you add non-controlling interests to get enterprise value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Because they're a claim that ranks ahead of debt"
+          },
+          {
+            "id": "b",
+            "text": "Because minority holders are paid dividends before the parent"
+          },
+          {
+            "id": "c",
+            "text": "Because consolidated EBITDA includes the whole subsidiary"
+          },
+          {
+            "id": "d",
+            "text": "Because they're a form of cash held by the subsidiary"
+          }
+        ],
+        "correct": "c",
+        "explain": "The parent consolidates 100% of the subsidiary's EBITDA even though it owns less, so EV must include the part owned by outsiders or the multiple won't match.",
+        "explain_at": "That's the trap, and it's the most common mistake on this whole topic. You add it"
+      },
+      {
+        "id": "q5",
+        "q": "A company reports EBITDA after rent. Should its enterprise value include lease liabilities?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes, IFRS 16 puts them on the balance sheet"
+          },
+          {
+            "id": "b",
+            "text": "No, or leases count twice"
+          },
+          {
+            "id": "c",
+            "text": "Yes, if the company rents its shops"
+          },
+          {
+            "id": "d",
+            "text": "No, a lease isn't borrowing"
+          }
+        ],
+        "correct": "b",
+        "explain": "If rent is already a cost in EBITDA, adding lease liabilities to EV counts the leases twice. Match the two, as Rexel's EBITDAaL does.",
+        "explain_at": "If you use EBITDA after rent, you leave leases out"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Consortium led by Global Infrastructure Partners and EQT agrees to acquire AES (EQT press release, 2 March 2026)",
+      "url": "https://eqtgroup.com/news/consortium-led-by-global-infrastructure-partners-and-eqt-agrees-to-acquire-aes-2026-03-02"
+    },
+    {
+      "label": "Sangoma Technologies enters into definitive agreement to be acquired by BRC Group Holdings (press release, Nasdaq)",
+      "url": "https://www.nasdaq.com/press-release/sangoma-technologies-corporation-enters-definitive-agreement-be-acquired-brc-group"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So what's on the full bridge?"
+  }
+}

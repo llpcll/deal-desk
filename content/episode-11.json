@@ -1,0 +1,346 @@
+{
+  "visuals": [
+    {
+      "at": "Look at the numbers first. In twenty twenty-five, Ferrari shipped",
+      "type": "keynumbers",
+      "title": "Ferrari, 2025",
+      "items": [
+        {
+          "value": "13,640",
+          "label": "cars shipped, basically flat on the year before"
+        },
+        {
+          "value": "€7.1bn",
+          "label": "revenue",
+          "approx": true
+        },
+        {
+          "value": "€2.77bn",
+          "label": "EBITDA",
+          "approx": true
+        },
+        {
+          "value": "39%",
+          "label": "EBITDA margin, almost"
+        },
+        {
+          "value": "€1.6bn",
+          "label": "net profit"
+        }
+      ],
+      "note": "Order book covering it through the end of 2027, according to management."
+    },
+    {
+      "at": "At the start of this month, Ferrari traded at about nineteen times EBITDA",
+      "type": "bars",
+      "title": "EV / EBITDA",
+      "unit": "x",
+      "items": [
+        {
+          "label": "Vehicles and parts industry median",
+          "value": 8,
+          "approx": true
+        },
+        {
+          "label": "Ferrari, now",
+          "value": 19,
+          "approx": true
+        },
+        {
+          "label": "Ferrari, ten-year median",
+          "value": 23,
+          "approx": true
+        }
+      ],
+      "note": "On one data provider's figures."
+    },
+    {
+      "at": "Four steps. One: choose a set of comparable listed companies",
+      "type": "steps",
+      "title": "A comps analysis",
+      "items": [
+        {
+          "label": "Choose peers",
+          "detail": "Comparable listed companies"
+        },
+        {
+          "label": "Spread the comps",
+          "detail": "Gather financials, calculate multiples"
+        },
+        {
+          "label": "Find the range",
+          "detail": "Median, 25th and 75th percentiles"
+        },
+        {
+          "label": "Apply to the target",
+          "detail": "A valuation range, then bridge to equity"
+        }
+      ]
+    },
+    {
+      "at": "Our café chain. EBITDA of one hundred. We find five listed",
+      "type": "table",
+      "title": "Five café and restaurant chains",
+      "columns": [
+        "Peer",
+        "EV / EBITDA"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Peer A",
+          "7x"
+        ],
+        [
+          "Peer B",
+          "8x"
+        ],
+        [
+          "Peer C",
+          "9x"
+        ],
+        [
+          "Peer D",
+          "10x"
+        ],
+        [
+          "Peer E",
+          "15x"
+        ]
+      ],
+      "highlight": 2,
+      "highlightLabel": "median",
+      "note": "The average is 9.8x, pulled up by the 15x outlier. Median 9x, middle range about 8x to 10x: an enterprise value of 800 to 1,000."
+    },
+    {
+      "at": "Second trap, and the Ferrari question is exactly why",
+      "type": "table",
+      "title": "Who are Ferrari's peers?",
+      "columns": [
+        "Peer set",
+        "Examples",
+        "What it implies"
+      ],
+      "rows": [
+        [
+          "Volume car makers",
+          "Stellantis, Volkswagen, BMW",
+          "c. 8x: Ferrari looks massively overvalued"
+        ],
+        [
+          "Luxury goods",
+          "Hermès, LVMH, Moncler",
+          "Closer to how the market prices Ferrari"
+        ]
+      ],
+      "note": "Choose peers on growth, margins, size, geography, business model and risk, not the industry label. Usually five to fifteen."
+    },
+    {
+      "at": "Third trap. No. Comps are based on share prices",
+      "type": "keynumbers",
+      "title": "What comps leave out",
+      "items": [
+        {
+          "value": "20–40%",
+          "label": "a typical control premium, which comps don't include"
+        }
+      ],
+      "note": "In a takeover, comps tend to give a lower value than precedent transactions."
+    },
+    {
+      "at": "This week, Fresenius, the German healthcare group",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Buyout of a minority stake",
+      "name": "Fresenius / mAbxience",
+      "sub": "Develops and manufactures biosimilars, near-copies of biological drugs",
+      "lines": [
+        "Fresenius buys the remaining 45%, having owned 55% since 2022"
+      ],
+      "date": "Signed and completed 30 September 2026"
+    },
+    {
+      "at": "Now it pays up to seven hundred and fifty million euros for the rest",
+      "type": "waterfall",
+      "title": "What Fresenius pays",
+      "unit": "€m",
+      "steps": [
+        {
+          "label": "Upfront",
+          "value": 700,
+          "kind": "total"
+        },
+        {
+          "label": "If sites are approved",
+          "value": 50,
+          "kind": "add"
+        },
+        {
+          "label": "Maximum, for 45%",
+          "value": 750,
+          "kind": "total"
+        }
+      ]
+    },
+    {
+      "at": "So the whole company is worth",
+      "type": "formula",
+      "title": "Implied value of the whole company",
+      "formula": "€750m ÷ 45% ≈ €1.67bn ≈ 5x revenue of €320m+",
+      "note": "Before the deal, Fresenius consolidated 100% with a non-controlling interest for the 45%; now that interest disappears."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers. One: nine. Two",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Five peers trade at 6x, 8x, 9x, 11x and 20x EBITDA. What's the median?",
+        "options": [
+          {
+            "id": "a",
+            "text": "10.8x"
+          },
+          {
+            "id": "b",
+            "text": "11x"
+          },
+          {
+            "id": "c",
+            "text": "8x"
+          },
+          {
+            "id": "d",
+            "text": "9x"
+          }
+        ],
+        "correct": "d",
+        "explain": "The median is the middle value, 9x. The average, 10.8x, is pulled up by the 20x outlier.",
+        "explain_at": "That's why bankers prefer the median"
+      },
+      {
+        "id": "q2",
+        "q": "Using that median, your target has EBITDA of 50 and net debt of 100. What's its implied equity value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "450"
+          },
+          {
+            "id": "b",
+            "text": "550"
+          },
+          {
+            "id": "c",
+            "text": "350"
+          },
+          {
+            "id": "d",
+            "text": "250"
+          }
+        ],
+        "correct": "c",
+        "explain": "9 × 50 = 450 of enterprise value, minus 100 of net debt: 350.",
+        "explain_at": "Then the bridge back to equity value, from episode nine"
+      },
+      {
+        "id": "q3",
+        "q": "Does a comps valuation include a control premium?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes, it's in the share price"
+          },
+          {
+            "id": "b",
+            "text": "No, comps reflect small stakes"
+          },
+          {
+            "id": "c",
+            "text": "Yes, when used in a takeover"
+          },
+          {
+            "id": "d",
+            "text": "No, but forward multiples do"
+          }
+        ],
+        "correct": "b",
+        "explain": "Comps come from share prices for small stakes. Precedent transactions include what buyers pay for control.",
+        "explain_at": "Third trap. No. Comps are based on share prices"
+      },
+      {
+        "id": "q4",
+        "q": "Ferrari trades at about 19x EBITDA, the vehicles industry median about 8x. How many times higher is Ferrari's multiple?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A bit more than double"
+          },
+          {
+            "id": "b",
+            "text": "About one and a half times"
+          },
+          {
+            "id": "c",
+            "text": "Roughly three times"
+          },
+          {
+            "id": "d",
+            "text": "About eleven times"
+          }
+        ],
+        "correct": "a",
+        "explain": "19 ÷ 8 ≈ 2.4, a bit more than double.",
+        "explain_at": "So Ferrari trades at more than twice a typical car maker"
+      },
+      {
+        "id": "q5",
+        "q": "Why can mass-market car makers be the wrong peers for Ferrari?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ferrari makes too few cars to compare"
+          },
+          {
+            "id": "b",
+            "text": "Car makers trade at higher multiples"
+          },
+          {
+            "id": "c",
+            "text": "They report in different currencies"
+          },
+          {
+            "id": "d",
+            "text": "Its margins look like luxury goods"
+          }
+        ],
+        "correct": "d",
+        "explain": "Ferrari's margins, pricing power and order book look like a luxury house, so volume car makers' multiples would undervalue it.",
+        "explain_at": "If you pick peers by the industry label alone"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Ferrari full year 2025 results press release (PDF, 10 February 2026)",
+      "url": "https://cdn.ferrari.com/cms/network/media/pdf/2026_02_10%20-%20Ferrari%20FY%202025%20Results%20Press%20Release.pdf"
+    },
+    {
+      "label": "Fresenius brings mAbxience fully into its biopharma business with acquisition of remaining 45% stake (press release, EuropaWire)",
+      "url": "https://news.europawire.eu/fresenius-brings-mabxience-fully-into-its-biopharma-business-with-acquisition-of-remaining-45-stake/eu-press-release/2026/10/02/13/49/13/181718/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So how does a comps analysis work, step by step?"
+  }
+}

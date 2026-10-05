@@ -20,12 +20,16 @@ import argparse, datetime, glob, json, os, re, shutil, subprocess, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "pipeline"))
-import build_site  # noqa: E402
+import build_site, check_quiz, repolock  # noqa: E402
 from render import parse_script  # noqa: E402
 
 LOG_DIR = os.path.join(ROOT, "logs")
-LOCK = os.path.join(ROOT, "logs", "daily.lock")
 FIX_ATTEMPTS = 2
+LOCK_WAIT_MINUTES = 90   # if the backfill is running, wait for it rather than skip the day
+WRITER_SETTINGS = os.path.join(ROOT, ".claude", "daily-writer.json")
+# The only paths a daily commit may touch. Anything else means something went wrong
+# (or a web page talked the writer into something), so the run stops before pushing.
+ALLOWED_PATHS = ("scripts/", "content/", "audio/", "site/", "published.json")
 
 BANNED = ["delve", "dive into", "tapestry", "landscape", "realm", "navigate", "crucial", "pivotal", "vital",
           "robust", "seamless", "holistic", "unlock", "unleash", "empower", "game-changer", "elevate", "embark",
@@ -64,11 +68,32 @@ def claude_exe():
     return exe
 
 
+def changed_paths():
+    out = subprocess.run(["git", "status", "--porcelain", "-uall"], cwd=ROOT, capture_output=True,
+                         text=True, encoding="utf-8").stdout
+    return {l[3:].strip().strip('"').split(" -> ")[-1].replace("\\", "/") for l in out.splitlines() if l.strip()}
+
+
+def outside_allowed(paths, allowed):
+    return sorted(p for p in paths if not p.startswith(allowed))
+
+
 def ask_claude(prompt):
-    allowed = ["Read", "Glob", "Grep", "WebSearch", "WebFetch",
-               "Write(./scripts/**)", "Edit(./scripts/**)", "Write(./content/**)", "Edit(./content/**)"]
-    return run([claude_exe(), "-p", "--allowedTools", *allowed, "--max-turns", "80"],
-               input=prompt, timeout=45 * 60)
+    """Headless Claude with the daily-writer permissions: read the repo, search and fetch
+    the web, write only scripts/ and content/. No shell, no MCP servers or connectors.
+    Web pages can carry injected instructions, so its effect on the repo is checked after."""
+    before = changed_paths()
+    allowed = ["Read(./**)", "Glob", "Grep", "WebSearch", "WebFetch",
+               "Edit(./scripts/**)", "Edit(./content/**)"]   # Edit rules cover every file-writing tool
+    env = dict(os.environ, ENABLE_CLAUDEAI_MCP_SERVERS="false")
+    env.pop("GEMINI_API_KEY", None)
+    out = run([claude_exe(), "-p", "--settings", WRITER_SETTINGS, "--strict-mcp-config",
+               "--allowedTools", *allowed, "--disallowedTools", "Bash", "PowerShell", "NotebookEdit", "Agent",
+               "--max-turns", "80"], input=prompt, timeout=45 * 60, env=env)
+    stray = outside_allowed(changed_paths() - before, ("scripts/", "content/"))
+    if stray:
+        raise RuntimeError(f"the writer changed files outside scripts/ and content/: {stray}; stopping")
+    return out
 
 
 def episode_files(n):
@@ -101,7 +126,12 @@ Then write exactly two files, and change nothing else:
 
 2. content/episode-{n:02d}.json with:
    - "visuals": 10 to 15 items using only these types: {", ".join(sorted(VISUAL_TYPES))}. Each "at" must be a short phrase copied character for character from the script line where the visual should appear. Use at most two tombstones (the cold-open deal and the deal of the day), and only figures that appear in the script.
-   - "quiz": {{"pause_at": "Pause here if you want to think it through", "answers_at": "Answers.", "questions": [5 items with "q", 4 "options", "correct" (0-based index) and "explain"]}}. The wrong options should be the mistakes students really make.
+   - "quiz": {{"pause_at": "Pause here if you want to think it through", "answers_at": "Answers.", "questions": [...]}}, with 5 questions (10 in a review episode), each
+     {{"id": "q1", "q": "...", "options": [{{"id": "a", "text": "..."}}, {{"id": "b", ...}}, {{"id": "c", ...}}, {{"id": "d", ...}}], "correct": "<option id>",
+       "explain": "one or two sentences on why", "explain_at": "<words copied exactly from the line where Marco teaches it>"}}.
+     The wrong options must be real mistakes, ideally ones Sofia makes in the episode. Keep the correct option no longer or more specific than the others,
+     vary its position, never use "all/none of the above", and avoid absolute wording (always, never, only, nothing) in wrong options.
+     pipeline/check_quiz.py checks all of this.
    - "sources": 3 to 5 {{"label", "url"}} items, primary sources first (company announcements, regulatory filings), each one a page you actually opened.
 
 When both files are written, reply with one line: DONE scripts/episode-{n:02d}-<slug>.md"""
@@ -155,14 +185,16 @@ def check_episode(script, content_path):
         if not q.get(key) or not found(q[key]):
             errors.append(f"quiz.{key} {q.get(key)!r} is not in any script line.")
     qs = q.get("questions", [])
-    if len(qs) != 5:
-        errors.append(f"quiz has {len(qs)} questions; it needs 5.")
-    for i, item in enumerate(qs):
-        if len(item.get("options", [])) != 4 or not 0 <= item.get("correct", -1) < 4 or not item.get("explain"):
-            errors.append(f"quiz question {i + 1} needs 4 options, a 0-based \"correct\" and \"explain\".")
+    if len(qs) not in (5, 10):
+        errors.append(f"quiz has {len(qs)} questions; it needs 5 (10 in a review episode).")
+    try:
+        errors += check_quiz.check_episode(content_path)[1]
+    except (KeyError, IndexError, TypeError, ValueError) as e:
+        errors.append(f"quiz questions are malformed ({e}); see the format in pipeline/check_quiz.py")
     src = c.get("sources", [])
-    if not 2 <= len(src) <= 5 or any(not s.get("url", "").startswith("http") for s in src):
-        errors.append("sources: 3 to 5 items, each with a label and an http(s) url.")
+    # Fewer is fine when no reliable source exists; a guessed link never is.
+    if not 1 <= len(src) <= 5 or any(not s.get("url", "").startswith("https://") or not s.get("label") for s in src):
+        errors.append("sources: 1 to 5 items (aim for 3), each with a label and an https url you actually opened.")
     return errors
 
 
@@ -180,10 +212,16 @@ def publish(n, title):
     ep_id = f"episode-{n:02d}"
     published = build_site.load_json(build_site.PUBLISHED, {})
     published[ep_id] = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat()
-    json.dump(published, open(build_site.PUBLISHED, "w", encoding="utf-8"), indent=2)
+    json.dump(dict(sorted(published.items())), open(build_site.PUBLISHED, "w", encoding="utf-8"), indent=2)
     build_site.build()
-    run(["git", "add", "scripts", "content", "audio", "site", "published.json", "pipeline/usage.json"])
+    run(["git", "add", "-A", "--", *ALLOWED_PATHS])
     run(["git", "commit", "-m", f"Episode {n}: {title}"])
+    # Check everything the push would send (all commits not yet on GitHub), not just today's.
+    outgoing = set(run(["git", "diff", "--name-only", "@{upstream}..HEAD"]).split())
+    stray = outside_allowed(outgoing, ALLOWED_PATHS)
+    if stray:
+        raise RuntimeError(f"refusing to push: outgoing changes outside {', '.join(ALLOWED_PATHS)}: {stray}. "
+                           "Push those by hand after reviewing them.")
     run(["git", "push"])
     log(f"published {ep_id}")
 
@@ -197,9 +235,12 @@ def main():
     os.makedirs(LOG_DIR, exist_ok=True)
     today = datetime.date.today()
     _log_file = open(os.path.join(LOG_DIR, f"daily-{today}.log"), "a", encoding="utf-8")
-    if os.path.exists(LOCK) and (datetime.datetime.now().timestamp() - os.path.getmtime(LOCK)) < 3 * 3600:
-        log("another run is in progress (logs/daily.lock); stopping"); return 1
-    open(LOCK, "w").write(str(os.getpid()))
+    try:
+        lock = repolock.hold("daily", wait_minutes=LOCK_WAIT_MINUTES, log=log)
+        lock.__enter__()
+    except repolock.Busy as e:
+        log(f"FAILED: {e}")
+        return 1
     try:
         if not args.no_publish:
             run(["git", "pull", "--rebase", "--autostash"])
@@ -243,7 +284,7 @@ def main():
         log(f"FAILED: {e}")
         return 1
     finally:
-        os.remove(LOCK)
+        lock.__exit__(None, None, None)
         _log_file.close()
 
 

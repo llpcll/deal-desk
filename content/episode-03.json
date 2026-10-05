@@ -1,0 +1,423 @@
+{
+  "visuals": [
+    {
+      "at": "Lehman Brothers. Two thousand seven and two thousand eight",
+      "type": "tombstone",
+      "title": "The cold open",
+      "kicker": "Window dressing",
+      "name": "Lehman Brothers",
+      "sub": "One of Wall Street's biggest investment banks, with more than $600bn of assets",
+      "lines": [
+        "Under pressure to bring its leverage down"
+      ],
+      "date": "2007 to 2008"
+    },
+    {
+      "at": "A repurchase agreement. A very normal way for banks to borrow short term",
+      "type": "table",
+      "title": "A normal repo versus Repo 105",
+      "columns": [
+        "",
+        "Normal repo",
+        "Repo 105"
+      ],
+      "rows": [
+        [
+          "Collateral per $100 of cash",
+          "Securities",
+          "At least $105 of securities"
+        ],
+        [
+          "Accounting treatment",
+          "A loan",
+          "Claimed as a sale"
+        ],
+        [
+          "Securities on the balance sheet",
+          "Stay on",
+          "Taken off"
+        ],
+        [
+          "Legal opinion",
+          "",
+          "Linklaters, under English law"
+        ]
+      ]
+    },
+    {
+      "at": "Then Lehman used the cash to pay down other debt",
+      "type": "steps",
+      "title": "How the trick worked each quarter",
+      "items": [
+        {
+          "label": "Hand over securities",
+          "detail": "Booked as a sale, so they leave the balance sheet"
+        },
+        {
+          "label": "Repay other debt",
+          "detail": "With the cash received: assets and liabilities both fall"
+        },
+        {
+          "label": "Quarter closes",
+          "detail": "Reported leverage looks lower"
+        },
+        {
+          "label": "Buy them back",
+          "detail": "A few days later, everything returns"
+        }
+      ]
+    },
+    {
+      "at": "According to the bankruptcy examiner, Anton Valukas",
+      "type": "bars",
+      "title": "Repo 105 at quarter end",
+      "unit": "$bn",
+      "items": [
+        {
+          "label": "End of 2007",
+          "value": 39,
+          "approx": true
+        },
+        {
+          "label": "Q1 2008",
+          "value": 49,
+          "approx": true
+        },
+        {
+          "label": "Q2 2008",
+          "value": 50,
+          "approx": true
+        }
+      ],
+      "note": "In Q2 2008 it brought reported net leverage down from roughly 13.9x to 12.1x. Figures from the bankruptcy examiner's report."
+    },
+    {
+      "at": "One equation. Assets equal liabilities plus equity. Always",
+      "type": "formula",
+      "title": "The balance sheet",
+      "formula": "Assets = liabilities + equity",
+      "note": "Assets: what the company owns or controls. Liabilities: what it owes. Equity: what's left for the owners."
+    },
+    {
+      "at": "Round numbers, thousands of euros. Assets first",
+      "type": "table",
+      "title": "The café chain's balance sheet",
+      "columns": [
+        "Assets",
+        "€k",
+        "Liabilities and equity",
+        "€k"
+      ],
+      "align": [
+        "left",
+        "right",
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Cash",
+          "100",
+          "Payables",
+          "40"
+        ],
+        [
+          "Inventory",
+          "50",
+          "Bank loan",
+          "260"
+        ],
+        [
+          "Receivables",
+          "30",
+          "Total liabilities",
+          "300"
+        ],
+        [
+          "Equipment",
+          "420",
+          "Equity",
+          "300"
+        ],
+        [
+          "Total assets",
+          "600",
+          "Total",
+          "600"
+        ]
+      ],
+      "highlight": 4
+    },
+    {
+      "at": "Our café has six hundred of assets and three hundred of equity",
+      "type": "formula",
+      "title": "Leverage",
+      "formula": "Assets ÷ equity = 600 ÷ 300 = 2x",
+      "note": "The higher it is, the more fragile the business."
+    },
+    {
+      "at": "For simplicity, think of a bank with one hundred of assets and five of equity",
+      "type": "waterfall",
+      "title": "Twenty times leverage, and a 5% fall",
+      "unit": "",
+      "steps": [
+        {
+          "label": "Assets",
+          "value": 100,
+          "kind": "total"
+        },
+        {
+          "label": "Fall in asset values (5%)",
+          "value": 5,
+          "kind": "sub"
+        },
+        {
+          "label": "Assets after",
+          "value": 95,
+          "kind": "total"
+        }
+      ],
+      "note": "Liabilities stay at 95, so equity of 5 goes to zero. A 5% move wipes out the owners."
+    },
+    {
+      "at": "That's book value. Accounting value",
+      "type": "table",
+      "title": "Book value versus market value of equity",
+      "columns": [
+        "",
+        "Book value",
+        "Market value"
+      ],
+      "rows": [
+        [
+          "Comes from",
+          "The accounts: assets minus liabilities",
+          "Share price × number of shares"
+        ],
+        [
+          "Assets measured at",
+          "Historical cost, less depreciation",
+          "What investors expect them to earn"
+        ],
+        [
+          "Misses",
+          "Internally built brands, customers, teams",
+          ""
+        ]
+      ],
+      "note": "Book value matters most for banks and insurers, whose assets are mostly financial."
+    },
+    {
+      "at": "A company borrows one hundred in cash from a bank",
+      "type": "table",
+      "title": "Borrowing 100: what moves",
+      "columns": [
+        "Line",
+        "Change"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Cash (asset)",
+          "+100"
+        ],
+        [
+          "Debt (liability)",
+          "+100"
+        ],
+        [
+          "Equity",
+          "No change"
+        ]
+      ],
+      "note": "Borrowing isn't income, so equity doesn't move."
+    },
+    {
+      "at": "This week, Platinum Equity, an American private equity firm, completed the sale of Urbaser",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Completed sale",
+      "name": "Urbaser",
+      "sub": "Environmental services from Madrid: waste collection, recycling, treatment",
+      "lines": [
+        "Sold by Platinum Equity to Blackstone Infrastructure and EQT Infrastructure"
+      ],
+      "date": "Completed 22 September 2026"
+    },
+    {
+      "at": "Four point two billion, five years ago",
+      "type": "bars",
+      "title": "Urbaser's enterprise value",
+      "unit": "$bn",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "Platinum's purchase, five years ago",
+          "value": 4.2
+        },
+        {
+          "label": "Sale to Blackstone and EQT",
+          "value": 6.6
+        }
+      ],
+      "note": "Both are enterprise values, including debt. Platinum's real gain depends on the debt at entry and at exit."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers. One: three hundred",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "A company has 800 of assets and 500 of liabilities. What is its equity?",
+        "options": [
+          {
+            "id": "a",
+            "text": "1,300"
+          },
+          {
+            "id": "b",
+            "text": "800"
+          },
+          {
+            "id": "c",
+            "text": "500"
+          },
+          {
+            "id": "d",
+            "text": "300"
+          }
+        ],
+        "correct": "d",
+        "explain": "Equity is what's left for the owners: assets minus liabilities, 800 − 500 = 300.",
+        "explain_at": "One equation. Assets equal liabilities plus equity"
+      },
+      {
+        "id": "q2",
+        "q": "It issues 50 of new shares for cash. What changes on the balance sheet?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cash +50, debt +50"
+          },
+          {
+            "id": "b",
+            "text": "Cash +50, net income +50"
+          },
+          {
+            "id": "c",
+            "text": "Cash +50, equity +50"
+          },
+          {
+            "id": "d",
+            "text": "Equity +50, cash unchanged"
+          }
+        ],
+        "correct": "c",
+        "explain": "New shareholders hand over cash, so cash and equity both rise by 50. Issuing shares isn't income.",
+        "explain_at": "or the owners provided it or left profits in the business"
+      },
+      {
+        "id": "q3",
+        "q": "It then uses 40 of cash to repay debt. What changes?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cash −40, equity −40"
+          },
+          {
+            "id": "b",
+            "text": "Cash −40, debt −40"
+          },
+          {
+            "id": "c",
+            "text": "Cash −40, net income −40"
+          },
+          {
+            "id": "d",
+            "text": "Debt −40, equity +40"
+          }
+        ],
+        "correct": "b",
+        "explain": "Both sides fall by 40. Equity doesn't move, because repaying debt isn't an expense.",
+        "explain_at": "Correct, and that's the full answer. Assets up one hundred"
+      },
+      {
+        "id": "q4",
+        "q": "A bank has 1,000 of assets and 50 of equity. What's its leverage, and what fall in asset values wipes out the equity?",
+        "options": [
+          {
+            "id": "a",
+            "text": "20x, a 5% fall"
+          },
+          {
+            "id": "b",
+            "text": "5x, a 20% fall"
+          },
+          {
+            "id": "c",
+            "text": "20x, a 50% fall"
+          },
+          {
+            "id": "d",
+            "text": "50x, a 2% fall"
+          }
+        ],
+        "correct": "a",
+        "explain": "1,000 ÷ 50 = 20x. Liabilities don't shrink when assets fall, so a 5% fall eats the whole 50 of equity.",
+        "explain_at": "That's twenty times. Now, if the value of its assets falls by five percent"
+      },
+      {
+        "id": "q5",
+        "q": "A company has large retained earnings. Does it have lots of cash?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes, retained earnings sit in the bank"
+          },
+          {
+            "id": "b",
+            "text": "Yes, as long as no dividends were paid"
+          },
+          {
+            "id": "c",
+            "text": "No, retained earnings are a liability"
+          },
+          {
+            "id": "d",
+            "text": "Not necessarily; the profit may be spent"
+          }
+        ],
+        "correct": "d",
+        "explain": "Retained earnings are profit kept in the business, but it may already have gone on machines, new cafés or repaying debt. Check the cash line itself.",
+        "explain_at": "Same trap, second version. Retained earnings is the running total"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Statement by Anton R. Valukas, Lehman Brothers bankruptcy examiner, to the US Senate Banking Committee (PDF)",
+      "url": "https://www.banking.senate.gov/imo/media/doc/ValukasTestimony4611am.pdf"
+    },
+    {
+      "label": "Lehman executives cause of failure: examiner's report (CNN Money, 12 March 2010)",
+      "url": "https://money.cnn.com/2010/03/12/news/companies/lehman_examiner/index.htm"
+    },
+    {
+      "label": "Platinum Equity completes sale of Urbaser to Blackstone and EQT for $6.6 billion (Platinum Equity press release)",
+      "url": "https://www.platinumequity.com/news/platinum-equity-completes-sale-of-global-environmental-services-business-urbaser-to-blackstone-and-eqt-for-6-6-billion/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "One equation. Assets equal liabilities plus equity"
+  }
+}

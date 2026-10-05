@@ -8,8 +8,8 @@ The idea in one line: **a financial publication's reading page, with one object 
 
 | Role | Face | Why |
 |---|---|---|
-| Marco's lines, headings, figures in visuals | **Newsreader** (Production Type, Google Fonts), weights 400/500/600, optical sizes 6–72 | Designed for reading news on screen. Its optical sizes give headlines a sharper display cut and body text sturdier forms, the job Financier does for the FT. Its figures are tabular by default, so numbers line up. |
-| Sofia's lines, interface, labels, tables, notes | **Public Sans** (USWDS, Google Fonts), weights 400/500/600 | A neutral grotesque descended from Libre Franklin, so it belongs to the Franklin Gothic family used for newspaper data and headlines. Unlike Libre Franklin, it has real tabular figures (`tabular-nums`), which tables and the player clock need. |
+| Marco's lines, headings, figures in visuals | **Newsreader** (Production Type, self-hosted from Google Fonts), weights 400/500/600, optical sizes 6–72 | Designed for reading news on screen. Its optical sizes give headlines a sharper display cut and body text sturdier forms, the job Financier does for the FT. Its figures are tabular by default, so numbers line up. |
+| Sofia's lines, interface, labels, tables, notes | **Public Sans** (USWDS, self-hosted from Google Fonts), weights 400/500/600 | A neutral grotesque descended from Libre Franklin, so it belongs to the Franklin Gothic family used for newspaper data and headlines. Unlike Libre Franklin, it has real tabular figures (`tabular-nums`), which tables and the player clock need. |
 
 Marco speaks in the serif and Sofia in the sans, so readers can tell the two voices apart at a glance. Never add a third family, and never use a monospace face for labels.
 
@@ -65,12 +65,9 @@ Rules:
 
 - Spacing scale (`--sp-*`): 4, 8, 12, 16, 24, 32, 48, 72 px. Use only these.
 - Side gutter: `clamp(16px, 4vw, 40px)`; content max width 1240px.
-- Radius sets the hierarchy, so don't use one radius everywhere:
-  - 2px: tombstones and funnel bars, which should feel like crisp objects
-  - 3px: buttons and controls
-  - 4px: visual panels and quiz cards
-  - 4px on the data end of chart bars only
-  - circle: the play button
+- **One radius, `--radius: 4px`**, everywhere: panels, cards, buttons, options, tombstones, the play button and the data end of chart bars. The only circle is the scrubber's thumb, because it's a handle.
+- **One set of buttons:** `.btn` (primary, brass), `.btn.ghost` (secondary, outlined) and the `.small` size. Text actions inside content, such as "Hear Marco explain this", use `.link-btn`, which looks like a link. No other button styles.
+- Every element with `hidden` stays hidden: a global `[hidden] { display: none !important }` stops component display rules from overriding it.
 - Borders are 1px hairlines. **Never a coloured left border** on a card, quote or line. The current transcript line is marked by a tint plus an accent speaker name and timestamp.
 
 ## Layout
@@ -108,12 +105,82 @@ Rules:
 
 Only use figures that appear in the episode script; derived numbers (such as the waterfall's middle step) must be explained in the note.
 
-**Quiz cards.**
-- A card has: a muted "Question N of 5", a serif question, four options and a verdict.
-- After answering, the chosen option is outlined in `--good` or `--bad` and labelled in words. Other options are muted.
-- The score sits beside the heading.
+**Quiz.**
+- **Layout:** one question at a time, with "Question N of 5" beside the heading.
+- **Options:** four full-width options in one column, top-aligned, each starting with a letter chip (A–D). They're shuffled on every page load, and the answer is stored by option id.
+- **After answering:**
+  - the right answer's letter chip is filled in `--good` and its text goes bold;
+  - a wrong pick is outlined in `--bad`, with its chip filled and its text struck through;
+  - the other options are dimmed with `--muted`, never opacity, so they still pass contrast.
+
+  No feedback text ever goes inside an option.
+- **Feedback** sits below the options in an `aria-live` region:
+  - "Correct" or "Not quite" (the latter naming the right letter);
+  - a one-or-two-sentence explanation;
+  - "Hear Marco explain this", which jumps the audio to the transcript line in the question's `explain_at`.
+- **End screen:**
+  - "You scored X of 5";
+  - each missed question with its answer, explanation and a "Hear Marco explain this" button;
+  - "Retry the ones I missed" (or "Start again" if none were missed);
+  - a link to the next episode (or the Season 1 page's next block if it isn't out yet).
+- **Keyboard and screen readers:**
+  - options are a `role="radiogroup"` of `role="radio"` buttons with a roving tab stop;
+  - the arrow keys move focus without answering;
+  - 1–4 or A–D answer;
+  - Enter goes to the next question;
+  - focus moves to "Next question" after answering, and to the score at the end.
+- **Questions** must pass `pipeline/check_quiz.py`. The daily job runs it.
+  - The wrong options are real mistakes, ideally Sofia's.
+  - The right one is no longer or more specific than the others.
+  - Its position varies across questions.
+  - No "all/none of the above", no absolute wording in wrong options, and every question has an explanation and a valid `explain_at`.
+
+**Player.**
+- −15 / play / +15, the scrubber, the time and the speed, which cycles 0.75 → 1 → 1.25 → 1.5 → 2 and is remembered.
+- The listening position is remembered per episode in `localStorage` (wrapped in try/catch). A `#t=SECONDS` link overrides it.
+- **Keys:** Space plays and pauses; ← and → move 15 s. They're ignored while typing or inside the quiz, which has its own keys.
+- **Chapter markers** on the scrubber, as 24×24 px buttons: cold open (or introduction), the concept (or the review), what they'll ask you, deal of the day, quiz. Click to jump.
+  - The concept's start is anchored by `chapters.concept_at` in the content file; the rest come from the script's own signposts.
+  - The same chapters are published as Podcasting 2.0 JSON (`site/chapters/`) and linked from the feed with `<podcast:chapters>`.
+- **Visual ticks:** brass ticks mark where visuals appear.
+- **Download:** a "Download MP3 (N MB)" link sits in the episode's facts line.
+- **Errors:** if the audio fails to load, a message appears above the controls with a download link, and play is disabled.
+
+**Every page.**
+- **Head:**
+  - a unique `<title>` ("Episode N: Title | The Deal Desk") and meta description (the hook);
+  - a canonical URL;
+  - Open Graph and Twitter tags with a 1200×630 share image (`site/share/`, drawn by `pipeline/make_share.py` in the cover's tombstone style: show name, episode number, title);
+  - the favicons (`favicon.svg`, plus a 180 px `apple-touch-icon.png`);
+  - preloads for the two main fonts.
+- **Footer:**
+  - About: one paragraph, including the AI-voiced disclosure;
+  - Subscribe: the RSS feed now, and Spotify and Apple Podcasts automatically once `spotify_url` / `apple_url` are set in `podcast.json`;
+  - the copyright line.
+- `404.html`, `robots.txt` and `sitemap.xml` are built with the site.
+- No layout shift: fixed sizes on the share and icon images, the SVG icon and the mobile visual panel; fonts self-hosted, preloaded, with `font-display: swap`. Lighthouse (mobile) on 5 Oct 2026, both home and an episode page: Performance 98, Accessibility 100, Best Practices 100, SEO 100, layout shift 0.
 
 **Sources.** At the bottom of every episode: 3–5 plain links (13px, `--ink-2` link colour), read from `"sources"` in the content JSON. They're the primary sources for the deal figures; prefer the company announcement (RNS or press release) first.
+
+**Season 1 page (home).**
+- Shows "Season 1" with "X of 42 released", the Next episode block, then six weeks, each with a small "Week N" label above its serif title.
+- Each row has the number, the title and, on the right, the duration (released) or the release date (upcoming).
+- Released rows link to their episode page; upcoming rows are plain text in `--ink-2` and aren't clickable.
+- Review episodes carry an italic "Review" in accent text after the title. That's text, not a badge.
+- Titles and teasers come from `content/season-1.json`. Released episodes use the title from their script.
+
+**Next episode block.**
+- A `<details>` box with the episode number, its title and a one-line teaser. It sits on the home page and at the end of every episode page.
+- Opening it shows the release time, 07:30 Europe/Rome on start date + N days, converted to the viewer's local time, with a live countdown (`assets/next.js`).
+- At zero it says "Publishing now, refresh in a few minutes". More than three hours late, it says "Running late today".
+- Without JavaScript it shows the date and Rome time as plain text.
+
+## Security rules for the front end
+
+- **No third-party requests.** Fonts are self-hosted in `site/assets/fonts/` (with their licences). There's no analytics, and no external scripts, styles or images. External links are plain `<a>` links only (sources).
+- **Content-Security-Policy** on every page: `default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; media-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'`.
+  - No inline `<script>` code. The theme is applied before paint by the external `assets/theme-init.js`. The episode data lives in a `type="application/json"` block, which isn't executed.
+  - No inline `style=""` attributes. Visuals write positions as `data-css` and `applyCss()` applies them through the CSSOM, which the policy allows.
 
 ## Motion
 
@@ -122,12 +189,15 @@ Only use figures that appear in the episode script; derived numbers (such as the
 
 ## Words
 
-- Buttons say what happens: "Reveal Marco's answers", "Continue", "Hear Marco's answers", "Start the quiz again", "Follow the audio".
+- Buttons say what happens: "Reveal Marco's answers", "Continue", "Next question", "See your score", "Hear Marco explain this", "Retry the ones I missed", "Follow the audio", "Download MP3".
+- Sentence case everywhere, including buttons and headings.
 - Banned in the interface as in the scripts: unlock, dive in, elevate, seamless, empower, journey, game-changer, and friends. No emoji, no sparkle icons, no "→" on links.
 - Always label the show as AI-voiced (the masthead and the footer).
 
 ## Checking a new episode
 
 1. `python pipeline/build_site.py --serve`
-2. `python pipeline/test_quiz_gate.py episode-NN`: all checks must pass.
-3. `python pipeline/screenshots.py check --theme light` and `--theme dark`, then look at the desktop and 390px images for overlap, clipped labels and horizontal scroll.
+2. `python pipeline/test_quiz_gate.py episode-NN` and `python pipeline/test_page_ui.py episode-NN`: all checks must pass.
+3. `python pipeline/check_sync.py NN --browser`: line starts verified in the audio, visuals on their lines.
+4. `python pipeline/check_quiz.py NN`: no flags.
+5. `python pipeline/screenshots.py check --theme light` and `--theme dark`, then look at the desktop and 390px images for overlap, clipped labels and horizontal scroll.

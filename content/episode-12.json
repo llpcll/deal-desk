@@ -322,59 +322,129 @@
     "answers_at": "Answers. One: thirty percent",
     "questions": [
       {
+        "id": "q1",
         "q": "The unaffected share price is 40 and the offer is 52. What's the premium?",
         "options": [
-          "12%",
-          "23%",
-          "30%",
-          "52%"
+          {
+            "id": "a",
+            "text": "30%"
+          },
+          {
+            "id": "b",
+            "text": "23%"
+          },
+          {
+            "id": "c",
+            "text": "12%"
+          },
+          {
+            "id": "d",
+            "text": "52%"
+          }
         ],
-        "correct": 2,
-        "explain": "52 ÷ 40 − 1 = 30%. Dividing the 12 by the offer price (52) gives 23%, a common slip."
+        "correct": "a",
+        "explain": "52 ÷ 40 − 1 = 30%. Dividing the 12 by the offer price gives 23%, a common slip.",
+        "explain_at": "Offer price divided by the share price before the deal, minus one"
       },
       {
-        "q": "Precedents show a median of 10x LTM EBITDA. Your target has EBITDA of 60 and net debt of 150. What's its implied equity value?",
+        "id": "q2",
+        "q": "Precedents show a median of 10x LTM EBITDA. Your target has EBITDA of 60 and net debt of 150. Implied equity value?",
         "options": [
-          "450",
-          "600",
-          "750",
-          "6,000"
+          {
+            "id": "a",
+            "text": "600"
+          },
+          {
+            "id": "b",
+            "text": "750"
+          },
+          {
+            "id": "c",
+            "text": "410"
+          },
+          {
+            "id": "d",
+            "text": "450"
+          }
         ],
-        "correct": 0,
-        "explain": "10 × 60 = 600 of enterprise value. Subtract 150 of net debt: 450 of equity value."
+        "correct": "d",
+        "explain": "10 × 60 = 600 of enterprise value, minus 150 of net debt: 450 of equity value.",
+        "explain_at": "Step four: apply them to your target"
       },
       {
+        "id": "q3",
         "q": "Spire's enterprise value is about £2.3bn at 8.6x EBITDA. Roughly what EBITDA does that imply?",
         "options": [
-          "About £27m",
-          "About £120m",
-          "About £270m",
-          "About £2.7bn"
+          {
+            "id": "a",
+            "text": "About £120m"
+          },
+          {
+            "id": "b",
+            "text": "About £27m"
+          },
+          {
+            "id": "c",
+            "text": "About £270m"
+          },
+          {
+            "id": "d",
+            "text": "About £200m"
+          }
         ],
-        "correct": 2,
-        "explain": "£2.3bn ÷ 8.6 ≈ £270m."
+        "correct": "c",
+        "explain": "£2.3bn ÷ 8.6 ≈ £270m: divide the value by the multiple to get back to the metric.",
+        "explain_at": "The buyers paid about eight point six times Spire's adjusted EBITDA"
       },
       {
+        "id": "q4",
         "q": "Which two reasons best explain why precedents usually come out higher than comps?",
         "options": [
-          "Control premium and expected synergies",
-          "Precedents use forward EBITDA and smaller targets",
-          "Comps exclude debt and precedents include it",
-          "Precedents are always more recent than comps"
+          {
+            "id": "a",
+            "text": "Older deals and lower interest rates"
+          },
+          {
+            "id": "b",
+            "text": "Control premium and synergies"
+          },
+          {
+            "id": "c",
+            "text": "Bigger targets and forward EBITDA"
+          },
+          {
+            "id": "d",
+            "text": "Comps exclude debt, precedents don't"
+          }
         ],
-        "correct": 0,
-        "explain": "Precedents are prices for the whole company, so they include the premium for control, and strategic buyers pay away part of the synergies they expect. Not always, though: if market multiples have risen since the deals, comps can come out higher."
+        "correct": "b",
+        "explain": "Precedents are prices for whole companies: they include a control premium, and buyers pay away part of the synergies. Different years matter too, but less.",
+        "explain_at": "But the main one is the control premium"
       },
       {
+        "id": "q5",
         "q": "A precedent deal from 2021 was done at 18x. Should you rely on it today?",
         "options": [
-          "Yes, it's a real price paid by a real buyer",
-          "With caution, and weight recent deals more",
-          "No, never use deals older than a year",
-          "Only after adding today's interest rate to the multiple"
+          {
+            "id": "a",
+            "text": "With caution; weight recent deals more"
+          },
+          {
+            "id": "b",
+            "text": "Yes, it's a real price a buyer paid"
+          },
+          {
+            "id": "c",
+            "text": "No, drop deals older than a year"
+          },
+          {
+            "id": "d",
+            "text": "Yes, after adding today's rate to it"
+          }
         ],
-        "correct": 1,
-        "explain": "It was struck when rates were near zero and multiples were inflated everywhere. Use it with caution and weight recent deals more heavily."
+        "correct": "a",
+        "explain": "It was struck when rates were near zero and multiples were inflated, so weight recent deals more heavily.",
+        "explain_at": "Second trap. They're real, but they can be stale"
       }
     ]
   },
@@ -387,5 +457,8 @@
       "label": "onsemi buys Synaptics for $123 a share in cash (FinanceFeeds)",
       "url": "https://financefeeds.com/onsemi-buys-synaptics-123-a-share-cash"
     }
-  ]
+  ],
+  "chapters": {
+    "concept_at": "So how does a precedent transaction analysis actually work?"
+  }
 }

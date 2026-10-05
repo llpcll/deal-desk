@@ -1,0 +1,522 @@
+{
+  "id": "episode-03",
+  "title": "The Deal Desk, episode 03: The balance sheet, and the fifty billion that vanished",
+  "hook": "How Lehman Brothers made its debt disappear every quarter end, and what that teaches you about the one equation that always holds.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-05T11:10:24",
+  "duration": 707.895,
+  "audio": "episode-03.mp3",
+  "chunks": [
+    {
+      "words": 498,
+      "seconds": 186.4,
+      "expected": 199.2,
+      "attempts": 1,
+      "coverage": 0.945,
+      "transcribed_words": 515,
+      "script_words": 513,
+      "method": "whisper",
+      "lines_matched": 17,
+      "problems": []
+    },
+    {
+      "words": 442,
+      "seconds": 175.6,
+      "expected": 176.8,
+      "attempts": 1,
+      "coverage": 0.993,
+      "transcribed_words": 445,
+      "script_words": 447,
+      "method": "whisper",
+      "lines_matched": 17,
+      "problems": []
+    },
+    {
+      "words": 456,
+      "seconds": 177.9,
+      "expected": 182.4,
+      "attempts": 1,
+      "coverage": 0.993,
+      "transcribed_words": 462,
+      "script_words": 460,
+      "method": "whisper",
+      "lines_matched": 17,
+      "problems": []
+    },
+    {
+      "words": 434,
+      "seconds": 166.0,
+      "expected": 173.6,
+      "attempts": 1,
+      "coverage": 0.977,
+      "transcribed_words": 428,
+      "script_words": 434,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode three. Yesterday was the income statement. Today, the balance sheet. And to start, a story about a bank that made fifty billion dollars disappear, on schedule, every three months.",
+      "start": 0.46,
+      "end": 16.12
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Lehman Brothers?",
+      "start": 16.17,
+      "end": 17.29
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Lehman Brothers. Two thousand seven and two thousand eight. Lehman is one of the biggest investment banks on Wall Street, with more than six hundred billion dollars of assets. And it's in trouble. It owns huge amounts of property and mortgage securities, and the market is starting to worry about how much it has borrowed.",
+      "start": 17.34,
+      "end": 35.2
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "So investors are watching its debt.",
+      "start": 35.25,
+      "end": 37.82
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "They're watching one number in particular: leverage. How many dollars of assets Lehman holds for every dollar of its own equity. The higher it is, the more fragile the bank. And rating agencies were telling Lehman to bring it down.",
+      "start": 37.87,
+      "end": 53.12
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "So Lehman sold assets to reduce its debt?",
+      "start": 53.17,
+      "end": 56.86
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "That would have been the honest way. Selling assets in a falling market means taking losses, though. So Lehman used a trick its own staff called Repo one-oh-five.",
+      "start": 56.91,
+      "end": 67.18
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "What's a repo?",
+      "start": 67.23,
+      "end": 68.54
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "A repurchase agreement. A very normal way for banks to borrow short term. You hand over securities as collateral, you get cash, and you promise to buy the securities back a few days later at a slightly higher price. Economically, it's a loan. And in the accounts, it's treated as a loan. The securities stay on your balance sheet, and you record a liability to repay the cash.",
+      "start": 68.59,
+      "end": 91.38
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "And Repo one-oh-five was different how?",
+      "start": 91.43,
+      "end": 95.19
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "Lehman handed over securities worth at least a hundred and five dollars for every hundred dollars of cash it received. Hence the name. With that extra collateral, Lehman argued the transaction was a sale, not a loan. It got a legal opinion from a British law firm, Linklaters, saying the structure worked as a sale under English law. It couldn't get that opinion from a law firm in the United States.",
+      "start": 95.24,
+      "end": 118.5
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "So the securities left the balance sheet.",
+      "start": 118.55,
+      "end": 121.77
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "Exactly. Then Lehman used the cash to pay down other debt. Assets down, liabilities down, leverage down. A few days after the quarter closed, it bought the securities back, and everything returned to where it was.",
+      "start": 121.82,
+      "end": 134.5
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "How much are we talking about?",
+      "start": 134.55,
+      "end": 136.39
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "According to the bankruptcy examiner, Anton Valukas, about thirty-nine billion dollars at the end of twenty oh-seven, around forty-nine billion in the first quarter of twenty oh-eight, and about fifty billion in the second quarter. That last one brought reported net leverage down from roughly thirteen point nine to twelve point one.",
+      "start": 136.44,
+      "end": 155.19
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "And nobody noticed?",
+      "start": 155.24,
+      "end": 157.7
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "Some people did. One Lehman executive described it in an email as window dressing. A senior vice-president, Matthew Lee, raised concerns internally in twenty oh-eight. The auditor, Ernst and Young, knew about Repo one-oh-five and didn't push the issue. Lehman filed for bankruptcy on the fifteenth of September, twenty oh-eight. It was the largest bankruptcy in American history. The examiner's report came out in March twenty ten and made Repo one-oh-five famous.",
+      "start": 157.75,
+      "end": 186.752
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "Okay. So how does the balance sheet itself work?",
+      "start": 187.272,
+      "end": 191.182
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "One equation. Assets equal liabilities plus equity. Always. Assets are what the company owns or controls. Liabilities are what it owes to others. Equity is what's left for the owners.",
+      "start": 191.232,
+      "end": 205.392
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "Let's use the café chain again.",
+      "start": 205.442,
+      "end": 207.062
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Good. Round numbers, thousands of euros. Assets first. Cash in the bank, one hundred. Inventory, the coffee beans and pastries in stock, fifty. Receivables, money customers owe us for catering, thirty. And equipment, espresso machines and fit-outs, four hundred and twenty. Total assets, six hundred.",
+      "start": 207.112,
+      "end": 229.372
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "And the other side?",
+      "start": 229.422,
+      "end": 230.702
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Liabilities. Payables, what we owe suppliers, forty. The bank loan, two hundred and sixty. Total liabilities, three hundred. Then equity: six hundred minus three hundred, so three hundred.",
+      "start": 230.752,
+      "end": 244.342
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "So equity is the money the shareholders have sitting in the business. Three hundred of cash, basically?",
+      "start": 244.392,
+      "end": 250.632
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "That's the first trap, and it catches a lot of people. No. Equity is not cash, and it's not sitting anywhere. It's a residual claim. The café has only one hundred of cash, spread through the whole balance sheet. Equity just tells you how much of the assets are funded by the owners rather than by lenders and suppliers.",
+      "start": 250.682,
+      "end": 271.412
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "Okay. Same thing for retained earnings, then? That's the profit the company has kept, so that's in the bank?",
+      "start": 271.462,
+      "end": 277.972
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "Same trap, second version. Retained earnings is the running total of profits the company hasn't paid out as dividends. But those profits may have been spent on machines, new cafés, paying off debt. Apple once had enormous retained earnings and enormous cash. Plenty of companies have large retained earnings and almost no cash at all.",
+      "start": 278.022,
+      "end": 300.162
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "Got it. So what's the balance sheet actually good for?",
+      "start": 300.212,
+      "end": 303.582
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "Three things. It tells you how the business is funded: debt versus equity. It tells you whether it can pay its bills: short-term assets against short-term liabilities. And it tells you what the company has invested in to run the business. Which leads to leverage. Our café has six hundred of assets and three hundred of equity. That's two times leverage.",
+      "start": 303.632,
+      "end": 325.242
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "And Lehman?",
+      "start": 325.292,
+      "end": 326.412
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "Much higher. For simplicity, think of a bank with one hundred of assets and five of equity. That's twenty times. Now, if the value of its assets falls by five percent, what happens?",
+      "start": 326.462,
+      "end": 339.842
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "Assets drop to ninety-five... and the liabilities don't change, so equity goes to zero.",
+      "start": 339.892,
+      "end": 345.482
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "Exactly. A five percent move wipes out the owners completely. That's why the market cared so much about Lehman's leverage, and why Lehman went to such lengths to make it look lower.",
+      "start": 345.532,
+      "end": 356.542
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "So the balance sheet also tells you what the company is worth. Assets minus liabilities, that's the value.",
+      "start": 356.592,
+      "end": 362.766
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "Third trap. That's book value. Accounting value. It's usually not what the company is worth. Assets are mostly recorded at what you paid for them, minus depreciation. Brands you built yourself, your customer relationships, your team, are often not on the balance sheet at all. Coca-Cola's brand, for instance, isn't booked at anything like its real value. The market value of equity, share price times number of shares, can be many times the book value.",
+      "start": 363.286,
+      "end": 393.356
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "So when would book value actually matter?",
+      "start": 393.406,
+      "end": 396.446
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "For banks and insurers, where assets are mostly financial and close to market value. That's why banks are often valued on price to book. We'll come back to that in week three.",
+      "start": 396.496,
+      "end": 407.156
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "Okay. And going back to Repo one-oh-five. Isn't it just clever accounting? The rules allowed it.",
+      "start": 407.206,
+      "end": 414.616
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "Good question to ask, and an interviewer might push you on it. The examiner's view was that it was used purely to change how the balance sheet looked at quarter end, with no business purpose, and without telling investors. That's the problem. Lehman's reported leverage didn't describe its real risk. When you read a balance sheet, it's a snapshot on one day. A company can make that one day look very different from the other eighty-nine.",
+      "start": 414.666,
+      "end": 441.736
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "Which is why analysts look at averages across the quarter.",
+      "start": 441.786,
+      "end": 445.026
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "Right. Okay, what they'll ask you. First question. Why must the balance sheet always balance?",
+      "start": 445.076,
+      "end": 452.576
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "Because assets have to equal... liabilities and equity?",
+      "start": 452.626,
+      "end": 456.666
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "That's restating it, not explaining it. The strong answer: every asset a company has was paid for somehow. Either someone lent the money, which is a liability, or the owners provided it or left profits in the business, which is equity. So both sides describe the same resources from two angles: what you have, and where it came from. Every transaction touches at least two entries, so it stays in balance.",
+      "start": 456.716,
+      "end": 482.956
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "Okay. Second.",
+      "start": 483.006,
+      "end": 484.576
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "A company borrows one hundred in cash from a bank. Walk me through the balance sheet.",
+      "start": 484.626,
+      "end": 490.066
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "Cash goes up one hundred... and debt goes up one hundred.",
+      "start": 490.116,
+      "end": 493.946
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "Correct, and that's the full answer. Assets up one hundred, liabilities up one hundred, still balanced. Equity doesn't move, because borrowing isn't income. Add that last point and you sound sharp.",
+      "start": 493.996,
+      "end": 508.106
+    },
+    {
+      "i": 47,
+      "speaker": "SOFIA",
+      "text": "Third?",
+      "start": 508.156,
+      "end": 509.426
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "What's the difference between book value and market value of equity, and why can they differ?",
+      "start": 509.476,
+      "end": 515.206
+    },
+    {
+      "i": 49,
+      "speaker": "SOFIA",
+      "text": "Book value is from the accounts, market value is the share price times the shares.",
+      "start": 515.256,
+      "end": 520.496
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "Good start. Then say why they differ: book value records assets at historical cost and misses internally built assets like brands and people, while market value reflects what investors expect the company to earn in the future. So a strong tech company can trade at ten times book, and a struggling bank below book.",
+      "start": 520.546,
+      "end": 541.077
+    },
+    {
+      "i": 51,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 541.597,
+      "end": 542.917
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "This week, Platinum Equity, an American private equity firm, completed the sale of Urbaser to Blackstone Infrastructure and E-Q-T Infrastructure. Urbaser is an environmental services business based in Madrid: waste collection, recycling, treatment. The deal values it at six point six billion dollars.",
+      "start": 542.967,
+      "end": 563.137
+    },
+    {
+      "i": 53,
+      "speaker": "SOFIA",
+      "text": "And what did Platinum pay for it?",
+      "start": 563.187,
+      "end": 564.927
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "Four point two billion, five years ago.",
+      "start": 564.977,
+      "end": 567.627
+    },
+    {
+      "i": 55,
+      "speaker": "SOFIA",
+      "text": "So Platinum made two point four billion.",
+      "start": 567.677,
+      "end": 570.177
+    },
+    {
+      "i": 56,
+      "speaker": "MARCO",
+      "text": "And that's the trap, which is exactly your interview question for today. Those are enterprise values. They include the company's debt. Platinum's actual profit depends on how much debt was in the structure at the start and at the end. If the business paid down debt from its cash flows over five years, more of that six point six billion belongs to equity at exit, so the return on Platinum's own money could be much higher than the headline suggests. Or lower, if debt went up.",
+      "start": 570.227,
+      "end": 598.957
+    },
+    {
+      "i": 57,
+      "speaker": "SOFIA",
+      "text": "So the balance sheet at entry and at exit tells you who actually got the gain.",
+      "start": 599.007,
+      "end": 604.187
+    },
+    {
+      "i": 58,
+      "speaker": "MARCO",
+      "text": "Exactly. Assets equal liabilities plus equity, at the level of a whole deal. And infrastructure funds like Blackstone's and E-Q-T's are buying something with long contracts with city councils. Stable, predictable cash flows that can carry a lot of debt. We'll build a full L-B-O in week five.",
+      "start": 604.237,
+      "end": 622.097
+    },
+    {
+      "i": 59,
+      "speaker": "SOFIA",
+      "text": "Quiz?",
+      "start": 622.147,
+      "end": 623.167
+    },
+    {
+      "i": 60,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: a company has eight hundred of assets and five hundred of liabilities. What is its equity? Question two: it issues fifty of new shares for cash. What changes on the balance sheet? Question three: it then uses forty of cash to repay debt. What changes? Question four: a bank has one thousand of assets and fifty of equity. What is its leverage, and what fall in asset values wipes out its equity? Question five: a company has large retained earnings. Does that mean it has lots of cash?",
+      "start": 623.217,
+      "end": 660.057
+    },
+    {
+      "i": 61,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 660.107,
+      "end": 662.417
+    },
+    {
+      "i": 62,
+      "speaker": "MARCO",
+      "text": "Answers. One: three hundred. Two: cash goes up fifty, equity goes up fifty. Three: cash goes down forty, debt goes down forty. Equity doesn't change. Four: twenty times leverage. A five percent fall in asset values wipes out the equity. Five: no. Retained earnings is accumulated profit kept in the business, but it may have been spent on assets or used to repay debt. Always check the cash line itself.",
+      "start": 662.467,
+      "end": 693.497
+    },
+    {
+      "i": 63,
+      "speaker": "SOFIA",
+      "text": "I nearly said yes to question five.",
+      "start": 693.547,
+      "end": 696.007
+    },
+    {
+      "i": 64,
+      "speaker": "MARCO",
+      "text": "Most people do. Tomorrow: the cash flow statement, and Enron, the company that reported profits right up until it didn't. You'll see why the cash flow statement is the one statement that's hardest to fake.",
+      "start": 696.057,
+      "end": 707.435
+    }
+  ]
+}

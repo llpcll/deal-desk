@@ -3,15 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{{TITLE}} | The Deal Desk, episode {{NUMBER}}</title>
+<title>Episode {{NUMBER}}: {{TITLE}} | The Deal Desk</title>
 <meta name="description" content="{{HOOK}}">
 <meta name="theme-color" content="#F4F5F2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#11171A" media="(prefers-color-scheme: dark)">
 <meta name="color-scheme" content="light dark">
-<script>try { var t = localStorage.getItem("dd-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+{{CSP}}
+{{HEAD_META}}
+<script src="../assets/theme-init.js"></script>
 <link rel="stylesheet" href="../assets/style.css">
 <link rel="alternate" type="application/rss+xml" title="The Deal Desk" href="../feed.xml">
 </head>
@@ -26,7 +25,7 @@
   <p class="ep-no">Episode {{NUMBER}}</p>
   <h1>{{TITLE}}</h1>
   <p class="hook">{{HOOK}}</p>
-  <p class="facts"><span>{{DURATION}}</span><span>{{VOICE_NOTE}}</span></p>
+  <p class="facts"><span>{{RELEASED}}</span><span>{{DURATION}}</span><span>{{VOICE_NOTE}}</span><a href="{{MP3}}" download>Download MP3 ({{MP3_MB}} MB)</a></p>
 </header>
 
 <main class="wrap layout">
@@ -34,9 +33,9 @@
     <div class="stage-bar">
       <p class="fig-count" id="fig-count"></p>
       <div class="fig-nav">
-        <button type="button" id="fig-prev" aria-label="Previous visual">Previous</button>
-        <button type="button" id="fig-next" aria-label="Next visual">Next</button>
-        <button type="button" id="stage-toggle" class="stage-toggle" aria-expanded="true">Hide</button>
+        <button type="button" class="btn ghost small" id="fig-prev" aria-label="Previous visual">Previous</button>
+        <button type="button" class="btn ghost small" id="fig-next" aria-label="Next visual">Next</button>
+        <button type="button" class="btn ghost small stage-toggle" id="stage-toggle" aria-expanded="true">Hide</button>
       </div>
     </div>
     <div class="stage-body" id="stage-body" aria-live="polite"></div>
@@ -45,7 +44,7 @@
   <section class="transcript" id="transcript" aria-label="Transcript">
     <h2 class="visually-hidden">Transcript</h2>
     <ol class="lines" id="lines"></ol>
-    <button type="button" class="follow" id="follow" hidden>Follow the audio</button>
+    <button type="button" class="btn ghost follow" id="follow" hidden>Follow the audio</button>
   </section>
 </main>
 
@@ -56,25 +55,27 @@
   <ul id="source-list"></ul>
 </section>
 
-<footer class="wrap foot">
-  <p>The Deal Desk is a daily corporate finance podcast. Marco and Sofia are fictional characters with AI-generated voices. Figures are checked against public announcements, but nothing here is investment advice.</p>
-</footer>
+{{NEXT}}
+
+{{FOOTER}}
 
 <div class="player" id="player">
   <audio id="audio" preload="metadata"></audio>
+  <p class="pl-error wrap" id="pl-error" role="alert" hidden>The audio didn't load. Check your connection and reload the page, or <a href="{{MP3}}" download>download the MP3</a>.</p>
   <div class="player-in wrap">
-    <button type="button" class="pl-skip" id="back" aria-label="Back 15 seconds">−15</button>
-    <button type="button" class="pl-play" id="play" aria-label="Play">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-play" d="M8 5.5v13l11-6.5z"/><path class="i-pause" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg>
+    <button type="button" class="btn ghost small pl-skip" id="back" aria-keyshortcuts="ArrowLeft">−15<span class="visually-hidden"> seconds</span></button>
+    <button type="button" class="pl-play" id="play" aria-label="Play" aria-keyshortcuts="Space">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path class="i-play" d="M8 5.5v13l11-6.5z"/><path class="i-pause" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg>
     </button>
-    <button type="button" class="pl-skip" id="fwd" aria-label="Forward 15 seconds">+15</button>
+    <button type="button" class="btn ghost small pl-skip" id="fwd" aria-keyshortcuts="ArrowRight">+15<span class="visually-hidden"> seconds</span></button>
     <div class="pl-track">
       <div class="pl-ticks" id="ticks" aria-hidden="true"></div>
       <div class="pl-fill" id="fill" aria-hidden="true"></div>
       <input type="range" id="seek" min="0" max="1000" value="0" step="1" aria-label="Seek">
+      <div class="pl-chapters" id="chapters"></div>
     </div>
     <p class="pl-time"><span id="cur">0:00</span><span class="pl-sep">/</span><span id="dur">0:00</span></p>
-    <button type="button" class="pl-rate" id="rate" aria-label="Playback speed">1×</button>
+    <button type="button" class="btn ghost small pl-rate" id="rate">1×<span class="visually-hidden"> playback speed</span></button>
   </div>
 </div>
 
@@ -82,6 +83,7 @@
 
 <script id="episode-data" type="application/json">{{DATA}}</script>
 <script src="../assets/theme.js"></script>
+<script src="../assets/next.js"></script>
 <script src="../assets/app.js"></script>
 </body>
 </html>

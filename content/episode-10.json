@@ -1,0 +1,367 @@
+{
+  "visuals": [
+    {
+      "at": "Look at January twenty twenty-six, for American companies with positive EBITDA",
+      "type": "bars",
+      "title": "EV / EBITDA by industry, US, January 2026",
+      "unit": "x",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "Software",
+          "value": 24.5,
+          "approx": true
+        },
+        {
+          "label": "General utilities",
+          "value": 13.5,
+          "approx": true
+        },
+        {
+          "label": "Grocery and food retailers",
+          "value": 9.0,
+          "approx": true
+        },
+        {
+          "label": "Brewers and spirits",
+          "value": 8.5,
+          "approx": true
+        }
+      ],
+      "note": "Companies with positive EBITDA. Data: Aswath Damodaran, NYU Stern."
+    },
+    {
+      "at": "Car and truck makers: almost forty-eight times",
+      "type": "keynumbers",
+      "title": "A suspicious average",
+      "items": [
+        {
+          "value": "48x",
+          "label": "car and truck makers' industry figure, almost: dragged up by a few high-growth names",
+          "approx": true
+        }
+      ],
+      "note": "Use it to value a normal car maker and you'd be wildly wrong."
+    },
+    {
+      "at": "Value divided by a financial metric",
+      "type": "table",
+      "title": "The four multiples to know",
+      "columns": [
+        "Multiple",
+        "Use when"
+      ],
+      "rows": [
+        [
+          "EV / revenue",
+          "EBITDA is negative or tiny"
+        ],
+        [
+          "EV / EBITDA",
+          "Comparing similar companies: the default"
+        ],
+        [
+          "EV / EBIT",
+          "Capital intensity differs, e.g. telecoms"
+        ],
+        [
+          "P/E",
+          "Interest is part of the business: banks, insurers"
+        ]
+      ],
+      "note": "Enterprise value with metrics before interest; equity value with metrics after interest."
+    },
+    {
+      "at": "Two companies, both with enterprise value of one thousand",
+      "type": "table",
+      "title": "Paying for growth",
+      "columns": [
+        "",
+        "Company A",
+        "Company B"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Enterprise value",
+          "1,000",
+          "1,000"
+        ],
+        [
+          "EBITDA today",
+          "100",
+          "50"
+        ],
+        [
+          "Multiple today",
+          "10x",
+          "20x"
+        ],
+        [
+          "Growth",
+          "None",
+          "25% a year"
+        ],
+        [
+          "EBITDA in three years",
+          "100",
+          "c. 98"
+        ],
+        [
+          "Multiple on that",
+          "10x",
+          "c. 10x"
+        ]
+      ]
+    },
+    {
+      "at": "Growth and returns. Software can grow fast without building much",
+      "type": "table",
+      "title": "What drives a multiple",
+      "columns": [
+        "",
+        "Software",
+        "Utility",
+        "Supermarket"
+      ],
+      "rows": [
+        [
+          "Growth",
+          "Fast",
+          "Slow",
+          "Slow"
+        ],
+        [
+          "Margins and returns",
+          "Very high",
+          "Capped by regulation",
+          "Thin"
+        ],
+        [
+          "Risk",
+          "Higher",
+          "Very stable",
+          "Fierce competition"
+        ]
+      ],
+      "note": "Growth, profitability, risk: compare multiples only between genuinely comparable companies."
+    },
+    {
+      "at": "Last twelve months, called L-T-M or trailing",
+      "type": "formula",
+      "title": "Trailing versus forward",
+      "formula": "15x trailing ÷ 12x forward = 1.25: EBITDA expected to grow c. 25%",
+      "note": "For a growing company the forward multiple is lower. Never mix trailing and forward across companies."
+    },
+    {
+      "at": "Last week, Schneider Electric",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed takeover offer",
+      "name": "Schneider Electric / Shelly",
+      "sub": "Bulgarian maker of smart home relays and sensors, listed in Sofia and on Xetra",
+      "lines": [
+        "Founders, with about 57%, committed to the deal"
+      ],
+      "date": "Agreed 24 September 2026"
+    },
+    {
+      "at": "Seventy euros a share in cash, about one point two billion euros",
+      "type": "keynumbers",
+      "title": "The terms",
+      "items": [
+        {
+          "value": "€70",
+          "label": "per share in cash"
+        },
+        {
+          "value": "€1.2bn",
+          "label": "total",
+          "approx": true
+        },
+        {
+          "value": "27%",
+          "label": "premium to the six-month average price",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "Right, and be structured. First, trading comparables",
+      "type": "steps",
+      "title": "Is €1.2bn a sensible price?",
+      "items": [
+        {
+          "label": "Trading comparables",
+          "detail": "EV / EBITDA, and EV / revenue for a fast grower"
+        },
+        {
+          "label": "Precedent transactions",
+          "detail": "What buyers paid, including a control premium"
+        },
+        {
+          "label": "DCF",
+          "detail": "Shelly's own cash flow forecasts"
+        },
+        {
+          "label": "Sense check",
+          "detail": "A 27% premium is in the normal range"
+        }
+      ]
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers. One: twelve times",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Enterprise value 600, EBITDA 50. What's the EV / EBITDA multiple?",
+        "options": [
+          {
+            "id": "a",
+            "text": "10x"
+          },
+          {
+            "id": "b",
+            "text": "8x"
+          },
+          {
+            "id": "c",
+            "text": "12x"
+          },
+          {
+            "id": "d",
+            "text": "15x"
+          }
+        ],
+        "correct": "c",
+        "explain": "600 ÷ 50 = 12x: roughly, the market is paying twelve years of today's EBITDA.",
+        "explain_at": "Value divided by a financial metric"
+      },
+      {
+        "id": "q2",
+        "q": "Comparable companies trade at 8x EBITDA. Your target has EBITDA of 40 and net debt of 100. What's its implied equity value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "320"
+          },
+          {
+            "id": "b",
+            "text": "220"
+          },
+          {
+            "id": "c",
+            "text": "420"
+          },
+          {
+            "id": "d",
+            "text": "120"
+          }
+        ],
+        "correct": "b",
+        "explain": "8 × 40 = 320 of enterprise value; subtract 100 of net debt for 220 of equity value. 320 is the EV, not equity.",
+        "explain_at": "That's literally how a comps valuation works"
+      },
+      {
+        "id": "q3",
+        "q": "A company has negative EBITDA. Which multiple would you use?",
+        "options": [
+          {
+            "id": "a",
+            "text": "EV / revenue"
+          },
+          {
+            "id": "b",
+            "text": "EV / EBITDA"
+          },
+          {
+            "id": "c",
+            "text": "EV / EBIT"
+          },
+          {
+            "id": "d",
+            "text": "P/E"
+          }
+        ],
+        "correct": "a",
+        "explain": "With negative EBITDA there's no meaningful EBITDA multiple, so use revenue, remembering it ignores differences in margins.",
+        "explain_at": "When EBITDA is negative or tiny"
+      },
+      {
+        "id": "q4",
+        "q": "Share price 30, earnings per share 2. What's the P/E?",
+        "options": [
+          {
+            "id": "a",
+            "text": "60x"
+          },
+          {
+            "id": "b",
+            "text": "7.5x"
+          },
+          {
+            "id": "c",
+            "text": "13x"
+          },
+          {
+            "id": "d",
+            "text": "15x"
+          }
+        ],
+        "correct": "d",
+        "explain": "P/E is share price over earnings per share: 30 ÷ 2 = 15x.",
+        "explain_at": "And price over earnings, the P-E ratio"
+      },
+      {
+        "id": "q5",
+        "q": "Enterprise value 1,200, last year's EBITDA 100, next year's 120. Trailing and forward multiples?",
+        "options": [
+          {
+            "id": "a",
+            "text": "10x trailing, 12x forward"
+          },
+          {
+            "id": "b",
+            "text": "12x trailing, 12x forward"
+          },
+          {
+            "id": "c",
+            "text": "12x trailing, 10x forward"
+          },
+          {
+            "id": "d",
+            "text": "11x, on the average"
+          }
+        ],
+        "correct": "c",
+        "explain": "1,200 ÷ 100 = 12x on last year; 1,200 ÷ 120 = 10x on next year. Growing EBITDA makes the forward multiple lower.",
+        "explain_at": "For a growing company, the forward multiple is lower"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Enterprise value multiples by sector, US (Aswath Damodaran, NYU Stern)",
+      "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/vebitda.html"
+    },
+    {
+      "label": "Schneider Electric announces a voluntary public takeover offer for Shelly Group (press release, WebDisclosure)",
+      "url": "https://www.webdisclosure.com/press-release/schneider-electric-epa-su-schneider-electric-announces-a-voluntary-public-takeover-offer-for-shelly-group-supported-by-founders-X8ncu9VYsaB"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Start simple. What is a multiple?"
+  }
+}

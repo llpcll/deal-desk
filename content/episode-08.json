@@ -1,0 +1,374 @@
+{
+  "visuals": [
+    {
+      "at": "And the story is Microsoft and Activision Blizzard",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "All-cash acquisition",
+      "name": "Microsoft / Activision Blizzard",
+      "sub": "The company behind Call of Duty, World of Warcraft and Candy Crush",
+      "lines": [
+        "$95 a share, about 45% above the previous close"
+      ],
+      "date": "Announced 18 January 2022; closed 13 October 2023"
+    },
+    {
+      "at": "If you take ninety-five dollars and multiply it by all of Activision's shares",
+      "type": "keynumbers",
+      "title": "Which number was the price?",
+      "items": [
+        {
+          "value": "$70bn+",
+          "label": "equity value: what shareholders receive"
+        },
+        {
+          "value": "$68.7bn",
+          "label": "headline, \"inclusive of net cash\": closer to enterprise value"
+        }
+      ],
+      "note": "Activision held more cash than debt, so Microsoft got the cash pile with the business."
+    },
+    {
+      "at": "Nearly two years. The American competition regulator",
+      "type": "steps",
+      "title": "Two years of regulators",
+      "items": [
+        {
+          "label": "FTC sues to block",
+          "detail": "And loses in court"
+        },
+        {
+          "label": "CMA blocks, April 2023",
+          "detail": "Concern about cloud gaming"
+        },
+        {
+          "label": "Deal restructured",
+          "detail": "Cloud streaming rights outside the EEA sold to Ubisoft"
+        },
+        {
+          "label": "Closed",
+          "detail": "13 October 2023"
+        }
+      ]
+    },
+    {
+      "at": "The value of the operating business to everyone who has funded it",
+      "type": "formula",
+      "title": "Enterprise value",
+      "formula": "Equity value + debt − cash",
+      "note": "Equity value = share price × shares (strictly, diluted shares). Enterprise value is the business, to lenders and shareholders alike."
+    },
+    {
+      "at": "Think of buying a house",
+      "type": "waterfall",
+      "title": "The house",
+      "unit": "k",
+      "steps": [
+        {
+          "label": "Owner's equity, with cash",
+          "value": 250,
+          "kind": "total"
+        },
+        {
+          "label": "Mortgage",
+          "value": 300,
+          "kind": "add"
+        },
+        {
+          "label": "Cash in the drawer",
+          "value": 50,
+          "kind": "sub"
+        },
+        {
+          "label": "The house itself",
+          "value": 500,
+          "kind": "total"
+        }
+      ],
+      "note": "The cash doesn't make it a better house, so it comes out of the value of the house."
+    },
+    {
+      "at": "Say a company raises a billion by issuing new shares",
+      "type": "table",
+      "title": "What moves enterprise value?",
+      "columns": [
+        "Event",
+        "Equity value",
+        "Enterprise value"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Issue $1bn of shares, keep the cash",
+          "+$1bn",
+          "Unchanged"
+        ],
+        [
+          "Borrow $1bn, keep the cash",
+          "Unchanged",
+          "Unchanged"
+        ],
+        [
+          "Borrow 100, pay it as a dividend",
+          "−100",
+          "Unchanged"
+        ]
+      ],
+      "note": "Enterprise value only changes when the business, or the market's view of it, changes."
+    },
+    {
+      "at": "So you pair it with numbers that also belong to everyone",
+      "type": "table",
+      "title": "Matching multiples",
+      "columns": [
+        "Value",
+        "Pair it with",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Enterprise value",
+          "Before interest: revenue, EBITDA, EBIT",
+          "EV / EBITDA"
+        ],
+        [
+          "Equity value",
+          "After interest: net income, EPS",
+          "P/E"
+        ]
+      ],
+      "note": "EV / net income is a mismatch: everyone's value over profit already paid to lenders."
+    },
+    {
+      "at": "Third trap. Share price on its own tells you nothing about size",
+      "type": "table",
+      "title": "Share price isn't size",
+      "columns": [
+        "Share price",
+        "Shares",
+        "Equity value"
+      ],
+      "align": [
+        "right",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "$95",
+          "10 million",
+          "under $1bn"
+        ],
+        [
+          "$20",
+          "5 billion",
+          "$100bn"
+        ]
+      ]
+    },
+    {
+      "at": "Yesterday, Transom Capital Group",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Take-private",
+      "name": "SoundThinking",
+      "sub": "Public safety technology; best known for ShotSpotter gunshot detection",
+      "lines": [
+        "Acquired by Transom Capital Group"
+      ],
+      "date": "Announced 29 September 2026"
+    },
+    {
+      "at": "Eight dollars a share in cash up front",
+      "type": "keynumbers",
+      "title": "The terms",
+      "items": [
+        {
+          "value": "$8.00",
+          "label": "per share in cash, up front"
+        },
+        {
+          "value": "46%",
+          "label": "above the previous day's close",
+          "approx": true
+        },
+        {
+          "value": "up to $3.00",
+          "label": "more per share through a CVR, if 2027 revenue targets are hit"
+        }
+      ]
+    },
+    {
+      "at": "And look how the company states the value",
+      "type": "bars",
+      "title": "SoundThinking's enterprise value",
+      "unit": "$m",
+      "items": [
+        {
+          "label": "Upfront cash only",
+          "value": 114,
+          "approx": true
+        },
+        {
+          "label": "If the maximum CVR is paid",
+          "value": 159,
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers. One: five hundred plus two hundred",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Market cap 500, debt 200, cash 50. What's the enterprise value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "650"
+          },
+          {
+            "id": "b",
+            "text": "750"
+          },
+          {
+            "id": "c",
+            "text": "350"
+          },
+          {
+            "id": "d",
+            "text": "700"
+          }
+        ],
+        "correct": "a",
+        "explain": "Equity value plus debt minus cash: 500 + 200 − 50 = 650. Adding the cash gives 750.",
+        "explain_at": "The simple version: equity value, plus debt, minus cash"
+      },
+      {
+        "id": "q2",
+        "q": "The company borrows 100 and keeps the cash. What happens to enterprise value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Up 100"
+          },
+          {
+            "id": "b",
+            "text": "Down 100"
+          },
+          {
+            "id": "c",
+            "text": "Up 200"
+          },
+          {
+            "id": "d",
+            "text": "No change"
+          }
+        ],
+        "correct": "d",
+        "explain": "Debt and cash both rise by 100 and cancel out. EV only changes when the business, or the market's view of it, changes.",
+        "explain_at": "Debt up a billion, cash up a billion. They cancel."
+      },
+      {
+        "id": "q3",
+        "q": "Share price 20, 50 shares. What's the equity value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "500"
+          },
+          {
+            "id": "b",
+            "text": "100"
+          },
+          {
+            "id": "c",
+            "text": "1,000"
+          },
+          {
+            "id": "d",
+            "text": "2,000"
+          }
+        ],
+        "correct": "c",
+        "explain": "Equity value is share price times the number of shares: 20 × 50 = 1,000.",
+        "explain_at": "For a listed company, it's simple: share price times the number of shares"
+      },
+      {
+        "id": "q4",
+        "q": "Which value goes with the P/E ratio?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Enterprise value"
+          },
+          {
+            "id": "b",
+            "text": "Equity value"
+          },
+          {
+            "id": "c",
+            "text": "Book value"
+          },
+          {
+            "id": "d",
+            "text": "Either one"
+          }
+        ],
+        "correct": "b",
+        "explain": "Earnings come after interest, so they belong to shareholders: pair them with equity value.",
+        "explain_at": "Equity value belongs to shareholders only, so you pair it"
+      },
+      {
+        "id": "q5",
+        "q": "Equity value 100, no debt, cash 150. What's the enterprise value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "−50"
+          },
+          {
+            "id": "b",
+            "text": "250"
+          },
+          {
+            "id": "c",
+            "text": "100"
+          },
+          {
+            "id": "d",
+            "text": "50"
+          }
+        ],
+        "correct": "a",
+        "explain": "100 + 0 − 150 = −50: the market values the business at less than the cash it holds.",
+        "explain_at": "Yes. If a company has more cash than its equity value plus its debt"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Microsoft to acquire Activision Blizzard (press release, filed with the SEC by Activision Blizzard, 18 January 2022)",
+      "url": "https://www.sec.gov/Archives/edgar/data/718877/000110465922004729/tm223212d1_ex99-1.htm"
+    },
+    {
+      "label": "SoundThinking to be acquired by Transom Capital Group (press release, The Globe and Mail)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/SSTI/pressreleases/4878152/soundthinking-to-be-acquired-by-transom-capital-group/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So, from scratch. What's equity value?"
+  }
+}

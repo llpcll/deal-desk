@@ -1,0 +1,496 @@
+{
+  "id": "episode-10",
+  "title": "The Deal Desk, episode 10: Multiples, and why software is worth three supermarkets",
+  "hook": "The market pays about twenty-four times EBITDA for software and nine times for grocery chains. Here's why, and how to use multiples without embarrassing yourself.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-05T10:14:31",
+  "duration": 655.742,
+  "audio": "episode-10.mp3",
+  "chunks": [
+    {
+      "words": 547,
+      "seconds": 239.2,
+      "expected": 218.8,
+      "attempts": 1,
+      "coverage": 0.991,
+      "transcribed_words": 552,
+      "script_words": 552,
+      "method": "whisper",
+      "lines_matched": 22,
+      "problems": []
+    },
+    {
+      "words": 530,
+      "seconds": 225.2,
+      "expected": 212.0,
+      "attempts": 1,
+      "coverage": 0.989,
+      "transcribed_words": 534,
+      "script_words": 534,
+      "method": "whisper",
+      "lines_matched": 25,
+      "problems": []
+    },
+    {
+      "words": 445,
+      "seconds": 189.7,
+      "expected": 178.0,
+      "attempts": 1,
+      "coverage": 0.982,
+      "transcribed_words": 446,
+      "script_words": 449,
+      "method": "whisper",
+      "lines_matched": 16,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode ten. Today, multiples. The tool bankers use more than any other, and the one most often used badly. Let me start with a professor.",
+      "start": 0.46,
+      "end": 12.96
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "A professor?",
+      "start": 13.01,
+      "end": 14.02
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Aswath Damodaran. He teaches valuation at N-Y-U Stern in New York, and every January he publishes free data on how the market values every industry. If you want to understand valuation, his website and his YouTube lectures are the best free resource in the world.",
+      "start": 14.07,
+      "end": 29.82
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "And what does the data say?",
+      "start": 29.87,
+      "end": 31.65
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "Look at January twenty twenty-six, for American companies with positive EBITDA. Software companies trade at about twenty-four and a half times EBITDA. General utilities, about thirteen and a half times. Grocery and food retailers, about nine times. Brewers and spirits makers, about eight and a half.",
+      "start": 31.7,
+      "end": 52.81
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "So a euro of software EBITDA is worth nearly three times a euro of supermarket EBITDA.",
+      "start": 52.86,
+      "end": 60.5
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "Exactly. Same euro of profit, completely different price. And one more number to make you suspicious. Car and truck makers: almost forty-eight times.",
+      "start": 60.55,
+      "end": 73.41
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "Forty-eight? Car companies? They make terrible margins.",
+      "start": 73.46,
+      "end": 78.5
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "Which is the lesson. Most car makers trade at low multiples. But that industry figure includes a small number of companies the market prices for huge future growth, Tesla being the obvious one, with an enormous valuation compared with its current earnings. So the average gets dragged up. If you used forty-eight times to value a normal car maker, you'd be wildly wrong. Today: what multiples are, which ones to use, and how not to get fooled.",
+      "start": 78.55,
+      "end": 110.56
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "Okay. Start simple. What is a multiple?",
+      "start": 110.61,
+      "end": 114.4
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "Value divided by a financial metric. Enterprise value over EBITDA. Share price over earnings per share. It tells you how many years of that metric the market is paying for, roughly. Ten times EBITDA means you're paying ten years of today's EBITDA.",
+      "start": 114.45,
+      "end": 131.96
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "And which ones matter?",
+      "start": 132.01,
+      "end": 133.48
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "Four you must know. E-V over revenue. E-V over EBITDA. E-V over EBIT. And price over earnings, the P-E ratio. Remember the rule from episode eight: enterprise value goes with metrics before interest, equity value with metrics after interest.",
+      "start": 133.53,
+      "end": 152.69
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "Why does E-V over EBITDA get used the most?",
+      "start": 152.74,
+      "end": 156.09
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "Three reasons. It doesn't depend on how the company is financed, because it's before interest. It ignores depreciation, which depends on accounting choices. And EBITDA is a reasonable proxy for operating cash flow. So it's the easiest way to compare similar companies.",
+      "start": 156.14,
+      "end": 173.9
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "And when would you use E-V over revenue instead?",
+      "start": 173.95,
+      "end": 177.17
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "When EBITDA is negative or tiny. A young software company losing money has no meaningful EBITDA multiple, so people value it on revenue. But revenue multiples hide differences in profitability. Two companies with the same revenue can have completely different margins.",
+      "start": 177.22,
+      "end": 194.83
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "And E-V over EBIT?",
+      "start": 194.88,
+      "end": 197.18
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "When capital intensity differs a lot. EBIT takes depreciation into account. A telecom company that has to keep spending on networks looks cheaper on EBITDA than it really is, because EBITDA ignores that the equipment wears out. EBIT shows that cost.",
+      "start": 197.23,
+      "end": 214.1
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "And P-E?",
+      "start": 214.15,
+      "end": 215.8
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "For companies where interest is part of the business. Banks and insurers. For them, enterprise value doesn't really work, because debt is their raw material, not just financing. We'll cover them in week three.",
+      "start": 215.85,
+      "end": 230.13
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "Okay. So, the café chain trades at eight times EBITDA, and another chain at fifteen. The first one's cheaper. Buy it.",
+      "start": 230.18,
+      "end": 239.576
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "That's the trap, and it's the one interviewers love. A low multiple isn't a bargain by itself. Multiples reflect three things: growth, profitability and risk. A company that grows faster, earns higher returns on its capital, or is less risky deserves a higher multiple. A low multiple often means the market expects slow growth or sees risk you haven't spotted.",
+      "start": 240.096,
+      "end": 265.756
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "Show me with numbers.",
+      "start": 265.806,
+      "end": 267.176
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "Two companies, both with enterprise value of one thousand. Company A has EBITDA of one hundred: ten times. Company B has EBITDA of fifty: twenty times. Looks expensive. But B grows twenty-five percent a year and A doesn't grow at all. In three years, B's EBITDA is roughly ninety-eight. On that number, B is about ten times, the same as A today. So you're paying for B's growth upfront.",
+      "start": 267.226,
+      "end": 293.766
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "So twenty times can be fair.",
+      "start": 293.816,
+      "end": 296.026
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "If the growth is real. And that's the whole job of valuation: deciding whether the growth the multiple assumes is believable.",
+      "start": 296.076,
+      "end": 304.816
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "So why does software trade higher than utilities?",
+      "start": 304.866,
+      "end": 308.376
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "Growth and returns. Software can grow fast without building much: once the code is written, the next customer costs very little. Very high margins and high returns on capital. A utility grows slowly, and it's regulated, so its returns are capped. But it's very stable, which is why it still trades well above supermarkets. Supermarkets have thin margins and fierce competition.",
+      "start": 308.426,
+      "end": 333.856
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "So I can't compare multiples across industries.",
+      "start": 333.906,
+      "end": 337.446
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "Second trap. Comparing an E-V over EBITDA of a software company with a supermarket tells you nothing useful about which is cheaper. Multiples work when the companies are genuinely comparable: same industry, similar growth, similar size, similar margins. That's tomorrow's topic, trading comparables.",
+      "start": 337.496,
+      "end": 358.076
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "And when someone says the company trades at twelve times, twelve times what period?",
+      "start": 358.126,
+      "end": 363.166
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "Good question, and it's the third trap. Last twelve months, called L-T-M or trailing, uses the most recent actual year. Forward, or next twelve months, uses analysts' forecasts. For a growing company, the forward multiple is lower, because next year's EBITDA is bigger. If you compare one company's trailing multiple with another's forward multiple, the comparison is broken. Always state which one you mean.",
+      "start": 363.216,
+      "end": 389.046
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "Okay.",
+      "start": 389.096,
+      "end": 389.836
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: when would you use E-V over revenue instead of E-V over EBITDA?",
+      "start": 389.886,
+      "end": 397.446
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "When the company has negative EBITDA, like an early-stage tech company.",
+      "start": 397.496,
+      "end": 401.606
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "Right. Then add the drawback: revenue multiples ignore margins, so they're only meaningful between companies with similar margin prospects. That second sentence is what separates good candidates.",
+      "start": 401.656,
+      "end": 413.426
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 413.476,
+      "end": 414.346
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "Why might two companies in the same industry trade at very different multiples?",
+      "start": 414.396,
+      "end": 419.536
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "Because one is growing faster?",
+      "start": 419.586,
+      "end": 422.086
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "Give all three drivers. Growth, profitability, and risk. Then give examples: higher expected growth, better margins or returns on capital, lower risk, such as less debt, more recurring revenue, or a stronger market position. Bigger companies often trade at a premium too.",
+      "start": 422.136,
+      "end": 441.606
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "And third?",
+      "start": 441.656,
+      "end": 443.036
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "A company trades at fifteen times last year's EBITDA and twelve times next year's. What does that tell you?",
+      "start": 443.086,
+      "end": 450.956
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "That EBITDA is expected to grow.",
+      "start": 451.006,
+      "end": 453.616
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "By how much?",
+      "start": 453.666,
+      "end": 454.996
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "Fifteen over twelve. About twenty-five percent.",
+      "start": 455.046,
+      "end": 458.356
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "Exactly. You can read the market's growth expectation straight from the two multiples. That's a nice touch in an interview.",
+      "start": 458.406,
+      "end": 465.197
+    },
+    {
+      "i": 47,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 465.717,
+      "end": 467.397
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "Last week, Schneider Electric, the French energy management group, agreed to buy Shelly Group, a Bulgarian company that makes smart home devices: small relays and sensors that let you control lights, heating and power from your phone. It's listed on the Bulgarian Stock Exchange and on Frankfurt's Xetra.",
+      "start": 467.447,
+      "end": 485.967
+    },
+    {
+      "i": 49,
+      "speaker": "SOFIA",
+      "text": "How much?",
+      "start": 486.017,
+      "end": 487.407
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "Seventy euros a share in cash, about one point two billion euros. That's roughly a twenty-seven percent premium to the average share price over the previous six months. The two founders, who own about fifty-seven percent between them, have committed to the deal.",
+      "start": 487.457,
+      "end": 502.617
+    },
+    {
+      "i": 51,
+      "speaker": "SOFIA",
+      "text": "Why does Schneider want it?",
+      "start": 502.667,
+      "end": 504.097
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Homes are getting more complicated: rooftop solar, heat pumps, home batteries, electric car chargers. Shelly's devices fit into existing homes without rewiring. Schneider wants that in its residential range.",
+      "start": 504.147,
+      "end": 518.047
+    },
+    {
+      "i": 53,
+      "speaker": "SOFIA",
+      "text": "And the interview question?",
+      "start": 518.097,
+      "end": 520.027
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "Here it is. How would you check whether one point two billion euros is a sensible price for Shelly?",
+      "start": 520.077,
+      "end": 527.157
+    },
+    {
+      "i": 55,
+      "speaker": "SOFIA",
+      "text": "Compare its multiple with similar companies?",
+      "start": 527.207,
+      "end": 529.897
+    },
+    {
+      "i": 56,
+      "speaker": "MARCO",
+      "text": "Right, and be structured. First, trading comparables: what similar listed companies trade at, on E-V over EBITDA and, since Shelly is growing fast, E-V over revenue too. Second, precedent transactions: what buyers paid in similar deals, which includes a control premium. Third, a D-C-F, based on Shelly's own cash flow forecasts. And as a sense check, the premium: twenty-seven percent over the six-month average is in the normal range for a takeover. Comps, precedents, D-C-F. That's the trio we'll spend the next ten days on.",
+      "start": 529.947,
+      "end": 569.837
+    },
+    {
+      "i": 57,
+      "speaker": "SOFIA",
+      "text": "Quiz?",
+      "start": 569.887,
+      "end": 570.837
+    },
+    {
+      "i": 58,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: enterprise value six hundred, EBITDA fifty. What's the E-V over EBITDA multiple? Question two: comparable companies trade at eight times EBITDA. Your target has EBITDA of forty and net debt of one hundred. What's its implied equity value? Question three: a company has negative EBITDA. Which multiple would you use? Question four: share price thirty, earnings per share two. What's the P-E? Question five: enterprise value one thousand two hundred, last year's EBITDA one hundred, next year's one hundred and twenty. What are the trailing and forward multiples?",
+      "start": 570.887,
+      "end": 614.487
+    },
+    {
+      "i": 59,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 614.537,
+      "end": 616.527
+    },
+    {
+      "i": 60,
+      "speaker": "MARCO",
+      "text": "Answers. One: twelve times. Two: eight times forty is three hundred and twenty of enterprise value, minus one hundred of net debt, so two hundred and twenty of equity value. Three: E-V over revenue. Four: fifteen times. Five: twelve times trailing, ten times forward.",
+      "start": 616.577,
+      "end": 638.177
+    },
+    {
+      "i": 61,
+      "speaker": "SOFIA",
+      "text": "Question two is the one that matters, isn't it?",
+      "start": 638.227,
+      "end": 640.497
+    },
+    {
+      "i": 62,
+      "speaker": "MARCO",
+      "text": "That's literally how a comps valuation works. Multiple, times the target's metric, gives enterprise value, then the bridge back to equity. Tomorrow we do it properly, with Ferrari, and why the market values it like a luxury brand and not a car maker.",
+      "start": 640.547,
+      "end": 655.282
+    }
+  ]
+}

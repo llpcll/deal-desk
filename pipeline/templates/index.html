@@ -3,15 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>The Deal Desk</title>
-<meta name="description" content="A daily corporate finance podcast: one investment banking concept a day, taught through a real deal.">
+<title>The Deal Desk, Season 1</title>
+<meta name="description" content="An AI-voiced daily corporate finance podcast: one investment banking concept a day, taught through a real deal.">
 <meta name="theme-color" content="#F4F5F2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#11171A" media="(prefers-color-scheme: dark)">
 <meta name="color-scheme" content="light dark">
-<script>try { var t = localStorage.getItem("dd-theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}</script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+{{CSP}}
+{{HEAD_META}}
+<script src="assets/theme-init.js"></script>
 <link rel="stylesheet" href="assets/style.css">
 <link rel="alternate" type="application/rss+xml" title="The Deal Desk" href="feed.xml">
 </head>
@@ -26,16 +25,18 @@
     <p class="hook">An AI-voiced corporate finance podcast for students preparing for investment banking interviews. Marco explains, Sofia asks the questions you would.</p>
   </div>
 </header>
-<main class="wrap">
-  <h2 class="list-h">Episodes</h2>
-  <ol class="episodes">
-{{EPISODES}}
-  </ol>
+
+<main class="wrap season">
+  <div class="season-head">
+    <h2>Season 1</h2>
+    <p class="season-count">{{RELEASED_COUNT}} of 42 released</p>
+  </div>
+{{NEXT}}
+{{WEEKS}}
 </main>
-<footer class="wrap foot">
-  <p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Nothing here is investment advice.</p>
-  <p class="feed-link"><a href="feed.xml">Podcast RSS feed</a></p>
-</footer>
+
+{{FOOTER}}
 <script src="assets/theme.js"></script>
+<script src="assets/next.js"></script>
 </body>
 </html>

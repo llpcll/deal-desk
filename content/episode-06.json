@@ -1,0 +1,359 @@
+{
+  "visuals": [
+    {
+      "at": "Go back to two thousand and two thousand and one",
+      "type": "tombstone",
+      "title": "The cold open",
+      "kicker": "Surviving the dot-com bust",
+      "name": "Amazon",
+      "sub": "Losing money as the bubble burst, but paid by customers before it paid suppliers",
+      "lines": [
+        "Pets.com, by contrast, shut down in November 2000"
+      ],
+      "date": "2000 to 2001"
+    },
+    {
+      "at": "Amazon holds inventory for about thirty-nine days",
+      "type": "bars",
+      "title": "Amazon's cash conversion cycle, 2025",
+      "unit": "days",
+      "items": [
+        {
+          "label": "Inventory days",
+          "value": 39,
+          "approx": true
+        },
+        {
+          "label": "Receivable days",
+          "value": 21,
+          "approx": true
+        },
+        {
+          "label": "Payable days",
+          "value": 125,
+          "approx": true
+        }
+      ],
+      "note": "39 + 21 − 125 = −65 days: Amazon gets its cash about 65 days before it pays it out. Figures from one analysis of Amazon's 2025 accounts."
+    },
+    {
+      "at": "The textbook definition is current assets minus current liabilities",
+      "type": "formula",
+      "title": "Operating working capital",
+      "formula": "Receivables + inventory − payables",
+      "note": "Bankers leave out cash and debt: they're about financing, not operations."
+    },
+    {
+      "at": "Receivables of thirty, the catering clients who haven't paid",
+      "type": "waterfall",
+      "title": "The café's working capital",
+      "unit": "€k",
+      "steps": [
+        {
+          "label": "Receivables",
+          "value": 30,
+          "kind": "total"
+        },
+        {
+          "label": "Inventory",
+          "value": 50,
+          "kind": "add"
+        },
+        {
+          "label": "Payables",
+          "value": 40,
+          "kind": "sub"
+        },
+        {
+          "label": "Net working capital",
+          "value": 40,
+          "kind": "total"
+        }
+      ],
+      "note": "40 thousand euros tied up in running the business day to day."
+    },
+    {
+      "at": "Now, the key measure. The cash conversion cycle",
+      "type": "table",
+      "title": "The cash conversion cycle",
+      "columns": [
+        "Piece",
+        "What it measures"
+      ],
+      "rows": [
+        [
+          "Days inventory outstanding",
+          "How long stock sits before it's sold"
+        ],
+        [
+          "Days sales outstanding",
+          "How long customers take to pay"
+        ],
+        [
+          "Days payables outstanding",
+          "How long you take to pay suppliers"
+        ]
+      ],
+      "note": "Cycle = inventory days + receivable days − payable days."
+    },
+    {
+      "at": "Say the café holds stock for ten days",
+      "type": "formula",
+      "title": "The café's cycle",
+      "formula": "10 + 30 − 20 = 20 days",
+      "note": "For 20 days, every euro of sales is money spent but not yet back."
+    },
+    {
+      "at": "But in some business models, it's a sign of strength",
+      "type": "table",
+      "title": "Negative working capital: strength or trouble?",
+      "columns": [
+        "Strength",
+        "Trouble"
+      ],
+      "rows": [
+        [
+          "Supermarkets, fast food chains",
+          "Can't pay suppliers on time"
+        ],
+        [
+          "Software billed a year upfront",
+          "Behind on its bills"
+        ],
+        [
+          "Airlines selling tickets in advance",
+          ""
+        ]
+      ],
+      "note": "Always ask why it's negative."
+    },
+    {
+      "at": "When a company is sold, the buyer and seller agree a normal level of working capital",
+      "type": "steps",
+      "title": "Why deals have a working capital peg",
+      "items": [
+        {
+          "label": "Agree a target",
+          "detail": "A normal level of working capital, the peg"
+        },
+        {
+          "label": "Measure at closing",
+          "detail": "Stops a seller chasing receivables and starving stock to lift cash"
+        },
+        {
+          "label": "Adjust the price",
+          "detail": "If the seller delivers less than the peg, the price goes down"
+        }
+      ]
+    },
+    {
+      "at": "On Friday, Rexel, the French electrical distributor",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "Rexel / GCG",
+      "sub": "A US distributor of wire, cable and power equipment for infrastructure",
+      "lines": [
+        "Bought from Audax Private Equity"
+      ],
+      "date": "Announced 25 September 2026"
+    },
+    {
+      "at": "Over sixty percent of its revenue comes from growth areas",
+      "type": "keynumbers",
+      "title": "The terms",
+      "items": [
+        {
+          "value": "$1.4bn",
+          "label": "enterprise value",
+          "approx": true
+        },
+        {
+          "value": "$1.1bn+",
+          "label": "revenue expected this year"
+        },
+        {
+          "value": "60%+",
+          "label": "of revenue from data centres, utilities and grid upgrades"
+        },
+        {
+          "value": "under 8x",
+          "label": "EBITDA, including expected synergies"
+        }
+      ]
+    },
+    {
+      "at": "A mix. Cash it already has",
+      "type": "table",
+      "title": "How Rexel pays",
+      "columns": [
+        "Source",
+        "Amount"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Cash on hand",
+          ""
+        ],
+        [
+          "New debt",
+          "c. €800m"
+        ],
+        [
+          "New shares, accelerated bookbuild",
+          "Up to €500m"
+        ]
+      ]
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers. One: fifty plus seventy minus forty",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Receivables are 50, inventory 70, payables 40. What is operating working capital?",
+        "options": [
+          {
+            "id": "a",
+            "text": "160"
+          },
+          {
+            "id": "b",
+            "text": "120"
+          },
+          {
+            "id": "c",
+            "text": "80"
+          },
+          {
+            "id": "d",
+            "text": "40"
+          }
+        ],
+        "correct": "c",
+        "explain": "Receivables plus inventory minus payables: 50 + 70 − 40 = 80.",
+        "explain_at": "Receivables, plus inventory, minus payables"
+      },
+      {
+        "id": "q2",
+        "q": "Inventory days 30, receivable days 20, payable days 60. What's the cash conversion cycle?",
+        "options": [
+          {
+            "id": "a",
+            "text": "110 days"
+          },
+          {
+            "id": "b",
+            "text": "−10 days"
+          },
+          {
+            "id": "c",
+            "text": "50 days"
+          },
+          {
+            "id": "d",
+            "text": "10 days"
+          }
+        ],
+        "correct": "b",
+        "explain": "30 + 20 − 60 = −10 days: the company is paid ten days before it pays its suppliers.",
+        "explain_at": "Say the café holds stock for ten days"
+      },
+      {
+        "id": "q3",
+        "q": "Inventory goes up by 15. What happens to cash?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cash down 15"
+          },
+          {
+            "id": "b",
+            "text": "Cash up 15"
+          },
+          {
+            "id": "c",
+            "text": "No change to cash"
+          },
+          {
+            "id": "d",
+            "text": "Cash down 11.25, after tax"
+          }
+        ],
+        "correct": "a",
+        "explain": "More stock on the shelf is cash spent but not yet back. Working capital up, cash down.",
+        "explain_at": "If working capital goes up, cash goes down"
+      },
+      {
+        "id": "q4",
+        "q": "Payables go up by 10. What happens to cash?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cash down 10"
+          },
+          {
+            "id": "b",
+            "text": "No change to cash"
+          },
+          {
+            "id": "c",
+            "text": "Cash down 7.5, after tax"
+          },
+          {
+            "id": "d",
+            "text": "Cash up 10"
+          }
+        ],
+        "correct": "d",
+        "explain": "You've kept your suppliers' money for longer, so cash is 10 higher. It isn't free, though: suppliers push back.",
+        "explain_at": "Suppliers aren't stupid"
+      },
+      {
+        "id": "q5",
+        "q": "Why can a fast-growing, profitable company run out of cash?",
+        "options": [
+          {
+            "id": "a",
+            "text": "More sales bring more cash straight away"
+          },
+          {
+            "id": "b",
+            "text": "Fast growth raises the tax bill first"
+          },
+          {
+            "id": "c",
+            "text": "Growth ties up cash before profit arrives"
+          },
+          {
+            "id": "d",
+            "text": "Its suppliers want paying sooner"
+          }
+        ],
+        "correct": "c",
+        "explain": "Receivables and inventory grow with sales and absorb cash before the profit turns into cash. Bankers call it growing broke.",
+        "explain_at": "Third trap, and it kills real companies"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Rexel to acquire GCG, a leading specialty infrastructure platform in the US (Rexel press release)",
+      "url": "https://www.rexel.com/en/rexel-to-acquire-gcg"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So what exactly is working capital?"
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "id": "episode-01",
+  "title": "The Deal Desk, episode 01: Who actually does what in an investment bank",
+  "hook": "Ketchup, cheese and a ten-billion-dollar cheque: the deal that shows you how a bank is really wired.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-05T11:02:49",
+  "duration": 893.478,
+  "audio": "episode-01.mp3",
+  "chunks": [
+    {
+      "words": 559,
+      "seconds": 214.4,
+      "expected": 223.6,
+      "attempts": 1,
+      "coverage": 0.961,
+      "transcribed_words": 558,
+      "script_words": 567,
+      "method": "whisper",
+      "lines_matched": 22,
+      "problems": []
+    },
+    {
+      "words": 587,
+      "seconds": 240.3,
+      "expected": 234.8,
+      "attempts": 1,
+      "coverage": 0.983,
+      "transcribed_words": 593,
+      "script_words": 593,
+      "method": "whisper",
+      "lines_matched": 18,
+      "problems": []
+    },
+    {
+      "words": 590,
+      "seconds": 245.8,
+      "expected": 236.0,
+      "attempts": 1,
+      "coverage": 0.992,
+      "transcribed_words": 593,
+      "script_words": 595,
+      "method": "whisper",
+      "lines_matched": 22,
+      "problems": []
+    },
+    {
+      "words": 465,
+      "seconds": 191.0,
+      "expected": 186.0,
+      "attempts": 1,
+      "coverage": 0.951,
+      "transcribed_words": 466,
+      "script_words": 473,
+      "method": "whisper",
+      "lines_matched": 15,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode one. I'm Marco. I spent eight years in mergers and acquisitions in London, and now I spend my time getting people like Sofia ready for interviews.",
+      "start": 0.46,
+      "end": 12.1
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "And I'm Sofia. First year, applying for spring weeks, and I'll be asking the questions everyone's too embarrassed to ask.",
+      "start": 12.15,
+      "end": 18.65
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Good. That's the job. So, today, before any valuation or modelling, we need a map. Who sits where in an investment bank, and what do they actually do all day. And I want to start with a deal, because the map makes a lot more sense once you've seen it in action.",
+      "start": 18.7,
+      "end": 34.94
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "Which deal?",
+      "start": 34.99,
+      "end": 35.99
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "March twenty-fifth, twenty fifteen. H-J Heinz, the ketchup company, and Kraft Foods, the cheese and mac and cheese company, announce they're merging. The new company is called Kraft Heinz. Combined revenue of roughly twenty-eight billion dollars. Eight brands that each sell more than a billion dollars a year.",
+      "start": 36.04,
+      "end": 56.95
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "That's a lot of ketchup.",
+      "start": 57.0,
+      "end": 59.54
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "It is. But the interesting part is who was behind it. Heinz wasn't really a normal listed company at that point. It was owned by two investors: Three-G Capital, the Brazilian group known for aggressive cost cutting, and Berkshire Hathaway, Warren Buffett's company.",
+      "start": 59.59,
+      "end": 76.26
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "So Buffett was on the buying side.",
+      "start": 76.31,
+      "end": 79.35
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "Effectively, yes. And here's the structure, because it's clever. Kraft shareholders would end up owning forty-nine percent of the combined company. Heinz's owners would get fifty-one percent. And on top of that, Kraft shareholders received a special cash dividend of sixteen dollars and fifty cents a share. About ten billion dollars in total.",
+      "start": 79.4,
+      "end": 101.96
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "Who paid the ten billion?",
+      "start": 102.01,
+      "end": 104.0
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "Three-G and Berkshire. They put in ten billion dollars of fresh equity specifically to fund that dividend. So Kraft's shareholders got a big cheque plus nearly half of a much larger company.",
+      "start": 104.05,
+      "end": 116.99
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "Okay. And where do the banks come in?",
+      "start": 117.04,
+      "end": 119.61
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "That's the question. Each side needs an adviser. Heinz hired Lazard as its exclusive financial adviser. Kraft hired Centerview Partners. And each side had its own lawyers: Cravath and Kirkland and Ellis for Heinz, Sullivan and Cromwell for Kraft.",
+      "start": 119.66,
+      "end": 136.43
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "Wait. Lazard and Centerview? Not Goldman, not J-P Morgan?",
+      "start": 136.48,
+      "end": 140.71
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "Not as lead advisers, no. And that tells you something about how this industry works. We'll come back to it.",
+      "start": 140.76,
+      "end": 147.02
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "Fine. So how did the deal turn out?",
+      "start": 147.07,
+      "end": 149.62
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "Not well. They promised one and a half billion dollars a year of cost savings by the end of twenty seventeen. They cut hard. But the brands stopped growing. In February twenty nineteen, Kraft Heinz wrote down about fifteen billion dollars of value on the Kraft and Oscar Mayer brands, cut its dividend by thirty-six percent, posted a loss of around twelve point six billion, and disclosed a subpoena from the S-E-C, the American market regulator.",
+      "start": 149.67,
+      "end": 178.2
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "Ouch.",
+      "start": 178.25,
+      "end": 179.03
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Buffett himself said publicly that they'd overpaid for Kraft. Then in September twenty twenty-five, the company announced it would split back into two: one business around Heinz, Philadelphia and Kraft Mac and Cheese, another around Oscar Mayer, Kraft Singles and Lunchables. And in February this year, a new C-E-O, Steve Cahillane, put the split on hold to focus on fixing the business first.",
+      "start": 179.08,
+      "end": 202.66
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "So ten years later, they're trying to undo it.",
+      "start": 202.71,
+      "end": 205.81
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Which means advisers got paid to put it together, and advisers will get paid to take it apart. Keep that in mind. Now, the map.",
+      "start": 205.86,
+      "end": 214.22
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "Go on.",
+      "start": 214.27,
+      "end": 214.767
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Think of a bank as two big worlds with a wall between them. On one side you have the investment banking division, which people call I-B-D. On the other side you have markets, which is sales and trading. Around both of them, you have research, risk, compliance, operations and technology.",
+      "start": 215.287,
+      "end": 233.367
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "Hang on. Isn't the whole thing investment banking? Trading is part of I-B-D, no?",
+      "start": 233.417,
+      "end": 238.897
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "That's the first mix-up, and it's a common one. No. I-B-D works on private, confidential information. The Kraft Heinz team knew about the merger weeks before the public did. Traders work on public information and buy and sell securities all day. If those two groups talked freely, you'd have insider trading. So there's a wall, sometimes literally a separate floor with separate badge access. Bankers call it the private side and the public side.",
+      "start": 238.947,
+      "end": 266.997
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "Okay. So which side is the spring week I'm applying for?",
+      "start": 267.047,
+      "end": 270.957
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "Depends which box you tick. You said corporate finance, mergers and acquisitions. That's I-B-D, the private side. So let's open up I-B-D, because inside it there's another split that confuses almost everyone.",
+      "start": 271.007,
+      "end": 285.577
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "Coverage and product?",
+      "start": 285.627,
+      "end": 287.757
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "Exactly. Coverage teams are organised by industry. Consumer and retail, technology, healthcare, industrials, energy, F-I-G, which is financial institutions, and a financial sponsors group that covers private equity firms. A senior coverage banker might have twenty or thirty companies they know inside out. They have lunch with the C-F-O, they send ideas, they're there for years before any deal happens.",
+      "start": 287.807,
+      "end": 315.317
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "So coverage is the relationship.",
+      "start": 315.367,
+      "end": 318.387
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "Right. Product teams are organised by what you're selling. Mergers and acquisitions advises on buying and selling companies. E-C-M, equity capital markets, helps companies raise money by selling shares: I-P-Os, follow-on offerings. D-C-M, debt capital markets, helps them issue bonds. Leveraged finance arranges the debt for riskier borrowers, especially private equity buyouts.",
+      "start": 318.437,
+      "end": 344.017
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "So when Kraft needed advice, did coverage do it or mergers and acquisitions?",
+      "start": 344.067,
+      "end": 349.377
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "Both, usually. The consumer coverage banker owns the relationship with Kraft's board and management. When the deal becomes real, mergers and acquisitions specialists come in to run the process, build the valuation, negotiate terms. On a big deal you'll see a combined team, and the client often can't tell who reports to whom.",
+      "start": 349.427,
+      "end": 370.677
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "Then, to be honest, I thought mergers and acquisitions bankers basically decide the price.",
+      "start": 370.727,
+      "end": 376.847
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "That's the second big misunderstanding. The bankers advise. The board decides. At Kraft, the directors had a legal duty to their shareholders. Centerview's job was to tell them what the business was worth, how the offer compared, whether the structure made sense, and usually to give a formal opinion that the terms were fair from a financial point of view. That's called a fairness opinion. But the decision, and the responsibility, sit with the board.",
+      "start": 376.897,
+      "end": 404.877
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "Okay. What about investment banks investing money? It's in the name.",
+      "start": 404.927,
+      "end": 411.357
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "Ha. Third misunderstanding. Investment banks mostly don't invest in the companies they advise. They advise and they raise capital. The people who actually buy companies with their own funds are private equity firms, like Three-G in this story, or Carlyle, or K-K-R. The bank helps them. Sometimes it lends to them. But the investing is the client's job.",
+      "start": 411.407,
+      "end": 434.417
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "So Three-G was a client, not a bank.",
+      "start": 434.467,
+      "end": 437.377
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "Right. And for a bank, a firm like Three-G is gold. They do deal after deal, and every deal needs advice and financing. That's why the financial sponsors group exists.",
+      "start": 437.427,
+      "end": 448.167
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "Now, back to Lazard and Centerview. Why would the biggest food deal of the year go to them and not to a giant bank?",
+      "start": 448.217,
+      "end": 455.444
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "Because there are different kinds of banks. Bulge brackets are the giants: Goldman, J-P Morgan, Morgan Stanley and so on. They do everything: advice, lending, trading, capital markets. Then there are elite boutiques like Lazard, Centerview, Evercore, P-J-T. They only advise. No big balance sheet, no trading floor.",
+      "start": 455.964,
+      "end": 478.984
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "So why pick the smaller one? Surely the bank with more resources gives better advice.",
+      "start": 479.034,
+      "end": 483.894
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "Not necessarily. And that's the fourth trap. For pure strategic advice, a boutique has two selling points. First, no conflicts: it isn't trying to sell you a loan or a bond on the side. Second, very senior attention. At Centerview, the people in the room are often partners who've done this for decades. The bulge brackets win when you need everything at once: advice, plus billions in financing, plus a bond issue next month.",
+      "start": 483.944,
+      "end": 510.744
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "Makes sense. And where does a first-year analyst fit into all of this?",
+      "start": 510.794,
+      "end": 515.724
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "At the bottom, doing the work that holds it together. Analysts build the financial models, the valuation, the merger model showing what happens to earnings per share. They put together pitch books, which are the slide decks bankers take to clients. On a sale, they help write the C-I-M, the confidential information memorandum, which is the sales brochure for a company. And they manage the data room, where buyers look at contracts and numbers.",
+      "start": 515.774,
+      "end": 541.574
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "That's a lot of slides.",
+      "start": 541.624,
+      "end": 543.464
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "It's a lot of slides. And a lot of checking whether the number on page thirty-seven matches the number on page twelve. Nobody enjoys it, but it's how you learn.",
+      "start": 543.514,
+      "end": 553.334
+    },
+    {
+      "i": 47,
+      "speaker": "SOFIA",
+      "text": "Last thing. How do the banks actually get paid?",
+      "start": 553.384,
+      "end": 556.894
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "On mergers and acquisitions, mostly a success fee. A percentage of the deal value, paid when the deal closes. If the deal dies, most of that fee dies with it. That's why bankers push hard to get deals done, and why you should always ask whose interests an adviser really serves.",
+      "start": 556.944,
+      "end": 574.194
+    },
+    {
+      "i": 49,
+      "speaker": "SOFIA",
+      "text": "Which explains why they get paid again when Kraft Heinz splits.",
+      "start": 574.244,
+      "end": 578.264
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "Exactly. Right, let's make this useful. What they'll ask you. I'm the interviewer. Sofia, what does an investment bank do?",
+      "start": 578.314,
+      "end": 588.884
+    },
+    {
+      "i": 51,
+      "speaker": "SOFIA",
+      "text": "Um... it helps companies with money? Buying other companies and... raising money.",
+      "start": 588.934,
+      "end": 595.444
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Not wrong, but too vague. Here's the strong answer. An investment bank helps companies, governments and investors do two things: raise capital, through shares and debt, and make strategic decisions, like buying, selling or merging businesses. It also makes markets in securities through its trading business. Then give one example: for instance, Lazard and Centerview advising Heinz and Kraft on their twenty fifteen merger. Thirty seconds, clear structure, one concrete example.",
+      "start": 595.494,
+      "end": 627.934
+    },
+    {
+      "i": 53,
+      "speaker": "SOFIA",
+      "text": "Okay. Next.",
+      "start": 627.984,
+      "end": 629.934
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "What's the difference between mergers and acquisitions and E-C-M?",
+      "start": 629.984,
+      "end": 634.114
+    },
+    {
+      "i": 55,
+      "speaker": "SOFIA",
+      "text": "Mergers and acquisitions is companies buying companies, and E-C-M is... the stock market side?",
+      "start": 634.164,
+      "end": 642.324
+    },
+    {
+      "i": 56,
+      "speaker": "MARCO",
+      "text": "Close. Tighten it. Mergers and acquisitions advises on transactions where control of a company changes hands: acquisitions, mergers, disposals. E-C-M helps companies raise equity from investors, through I-P-Os or follow-on share offerings, where no one takes control. Different question: who owns the company, versus how does it get funded.",
+      "start": 642.374,
+      "end": 666.214
+    },
+    {
+      "i": 57,
+      "speaker": "SOFIA",
+      "text": "Last one?",
+      "start": 666.264,
+      "end": 667.564
+    },
+    {
+      "i": 58,
+      "speaker": "MARCO",
+      "text": "Why investment banking and not sales and trading?",
+      "start": 667.614,
+      "end": 671.064
+    },
+    {
+      "i": 59,
+      "speaker": "SOFIA",
+      "text": "Because I like... long-term projects more than fast decisions?",
+      "start": 671.114,
+      "end": 676.364
+    },
+    {
+      "i": 60,
+      "speaker": "MARCO",
+      "text": "That's a decent start. Make it personal and specific. Something like: I'm drawn to the private side, working on one transaction over months, understanding a business well enough to argue what it's worth. Then back it with evidence, something you've actually done, like a valuation project or a case competition. They're testing whether you know the difference and whether you've really chosen.",
+      "start": 676.414,
+      "end": 701.144
+    },
+    {
+      "i": 61,
+      "speaker": "SOFIA",
+      "text": "Got it.",
+      "start": 701.194,
+      "end": 701.64
+    },
+    {
+      "i": 62,
+      "speaker": "MARCO",
+      "text": "Now, the deal of the day. This week, Carlyle and C-V-C D-I-F, two private equity firms, agreed to buy BauWatch from Haniel, a German family investment group.",
+      "start": 702.66,
+      "end": 714.24
+    },
+    {
+      "i": 63,
+      "speaker": "SOFIA",
+      "text": "What's BauWatch?",
+      "start": 714.29,
+      "end": 715.71
+    },
+    {
+      "i": 64,
+      "speaker": "MARCO",
+      "text": "Remote security. Camera towers and surveillance systems for construction sites and other properties. More than fifteen thousand systems across twelve European countries. Revenue grew from fifty-nine million euros in twenty twenty-one to a hundred and fifty-three million in twenty twenty-five.",
+      "start": 715.76,
+      "end": 733.87
+    },
+    {
+      "i": 65,
+      "speaker": "SOFIA",
+      "text": "And the price?",
+      "start": 733.92,
+      "end": 735.05
+    },
+    {
+      "i": 66,
+      "speaker": "MARCO",
+      "text": "Around one billion euros. Carlyle and C-V-C D-I-F take forty-five percent each. Haniel keeps ten percent. Closing is expected in the first quarter of next year.",
+      "start": 735.1,
+      "end": 746.45
+    },
+    {
+      "i": 67,
+      "speaker": "SOFIA",
+      "text": "So Haniel is selling, but not all of it?",
+      "start": 746.5,
+      "end": 749.57
+    },
+    {
+      "i": 68,
+      "speaker": "MARCO",
+      "text": "Right. And that's your interview angle. Why would a seller keep a ten percent stake?",
+      "start": 749.62,
+      "end": 755.2
+    },
+    {
+      "i": 69,
+      "speaker": "SOFIA",
+      "text": "Because it thinks the business will be worth more later?",
+      "start": 755.25,
+      "end": 758.7
+    },
+    {
+      "i": 70,
+      "speaker": "MARCO",
+      "text": "That's the core of it. Keeping a slice lets the seller share in the upside if the new owners grow the business, and it signals confidence to the buyers. Also notice the price: about a billion on a hundred and fifty-three million of revenue. Roughly six and a half times revenue. For a security business, that's the market paying for fast growth and recurring contracts. And on the bank side, this is exactly the kind of deal the financial sponsors group and leveraged finance live on.",
+      "start": 758.75,
+      "end": 790.35
+    },
+    {
+      "i": 71,
+      "speaker": "SOFIA",
+      "text": "Okay. Quiz time?",
+      "start": 790.4,
+      "end": 792.07
+    },
+    {
+      "i": 72,
+      "speaker": "MARCO",
+      "text": "Quiz time. For whoever's listening. Question one: in a bank, which team owns the long-term client relationship, coverage or product? Question two: Kraft shareholders got a special dividend of sixteen dollars and fifty cents a share. If you owned one hundred Kraft shares, how much cash did you get? Question three: is a private equity firm like Carlyle an investment bank? Question four: a company wants to list its shares on the stock exchange for the first time. Which product team runs that? Question five: Kraft Heinz promised one and a half billion dollars of annual cost savings. If the market values those savings at ten times, what are they worth?",
+      "start": 792.12,
+      "end": 838.71
+    },
+    {
+      "i": 73,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 838.76,
+      "end": 841.05
+    },
+    {
+      "i": 74,
+      "speaker": "MARCO",
+      "text": "Answers. One: coverage. Product teams bring the specialist execution. Two: one thousand six hundred and fifty dollars. Three: no. It's an investor that buys companies with its own funds. Banks advise it and lend to it. Four: E-C-M, equity capital markets, running an I-P-O. Five: fifteen billion dollars, before counting the cost of actually achieving the savings. And that gap between the promise and the reality is the whole Kraft Heinz story.",
+      "start": 841.1,
+      "end": 874.45
+    },
+    {
+      "i": 75,
+      "speaker": "SOFIA",
+      "text": "I got four out of five. I forgot about the cost of achieving the savings.",
+      "start": 874.5,
+      "end": 878.72
+    },
+    {
+      "i": 76,
+      "speaker": "MARCO",
+      "text": "Everyone does. Interviewers love that one. Tomorrow: the income statement, and how WeWork invented something called community-adjusted EBITDA. It's the best lesson you'll ever get on why you never take a company's own numbers at face value.",
+      "start": 878.77,
+      "end": 893.018
+    }
+  ]
+}

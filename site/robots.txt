@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://llpcll.github.io/deal-desk/sitemap.xml

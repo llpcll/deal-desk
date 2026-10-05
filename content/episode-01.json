@@ -1,0 +1,420 @@
+{
+  "visuals": [
+    {
+      "at": "March twenty-fifth, twenty fifteen. H-J Heinz",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Merger",
+      "name": "Kraft Heinz",
+      "sub": "H. J. Heinz and Kraft Foods combine",
+      "lines": [
+        "Combined revenue of roughly $28bn",
+        "Eight brands each selling more than $1bn a year"
+      ],
+      "date": "Announced 25 March 2015"
+    },
+    {
+      "at": "Kraft shareholders would end up owning forty-nine percent",
+      "type": "keynumbers",
+      "title": "How the deal was structured",
+      "items": [
+        {
+          "value": "49%",
+          "label": "of the combined company to Kraft shareholders"
+        },
+        {
+          "value": "51%",
+          "label": "to Heinz's owners, 3G Capital and Berkshire Hathaway"
+        },
+        {
+          "value": "$16.50",
+          "label": "special cash dividend per Kraft share"
+        },
+        {
+          "value": "$10bn",
+          "label": "total dividend, funded by new equity from 3G and Berkshire",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "Each side needs an adviser. Heinz hired Lazard",
+      "type": "table",
+      "title": "Who advised whom",
+      "columns": [
+        "",
+        "Financial adviser",
+        "Lawyers"
+      ],
+      "rows": [
+        [
+          "Heinz",
+          "Lazard",
+          "Cravath; Kirkland & Ellis"
+        ],
+        [
+          "Kraft",
+          "Centerview Partners",
+          "Sullivan & Cromwell"
+        ]
+      ]
+    },
+    {
+      "at": "They promised one and a half billion dollars a year of cost savings",
+      "type": "keynumbers",
+      "title": "How it turned out",
+      "items": [
+        {
+          "value": "$1.5bn",
+          "label": "annual cost savings promised by the end of 2017"
+        },
+        {
+          "value": "$15bn",
+          "label": "written off the Kraft and Oscar Mayer brands, February 2019",
+          "approx": true
+        },
+        {
+          "value": "36%",
+          "label": "dividend cut"
+        },
+        {
+          "value": "$12.6bn",
+          "label": "loss posted",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "Think of a bank as two big worlds with a wall between them",
+      "type": "table",
+      "title": "Two worlds and a wall",
+      "columns": [
+        "",
+        "Private side",
+        "Public side"
+      ],
+      "rows": [
+        [
+          "Who",
+          "Investment banking division (IBD)",
+          "Markets: sales and trading"
+        ],
+        [
+          "Information",
+          "Confidential, before the public knows",
+          "Public"
+        ],
+        [
+          "Daily work",
+          "Advising on transactions",
+          "Buying and selling securities"
+        ]
+      ],
+      "note": "Around both sit research, risk, compliance, operations and technology. The wall stops confidential deal information reaching traders."
+    },
+    {
+      "at": "Coverage teams are organised by industry",
+      "type": "table",
+      "title": "Inside IBD: coverage and product",
+      "columns": [
+        "Coverage, by industry",
+        "Product, by what's sold"
+      ],
+      "rows": [
+        [
+          "Consumer and retail",
+          "Mergers and acquisitions"
+        ],
+        [
+          "Technology",
+          "Equity capital markets (ECM)"
+        ],
+        [
+          "Healthcare",
+          "Debt capital markets (DCM)"
+        ],
+        [
+          "Industrials, energy",
+          "Leveraged finance"
+        ],
+        [
+          "Financial institutions (FIG), financial sponsors",
+          ""
+        ]
+      ],
+      "note": "Coverage owns the long-term relationship; product teams bring the specialist execution."
+    },
+    {
+      "at": "Bulge brackets are the giants",
+      "type": "table",
+      "title": "Two kinds of bank",
+      "columns": [
+        "",
+        "Bulge brackets",
+        "Elite boutiques"
+      ],
+      "rows": [
+        [
+          "Examples",
+          "Goldman, J.P. Morgan, Morgan Stanley",
+          "Lazard, Centerview, Evercore, PJT"
+        ],
+        [
+          "What they do",
+          "Advice, lending, trading, capital markets",
+          "Advice only"
+        ],
+        [
+          "Why clients pick them",
+          "Everything at once, including financing",
+          "No conflicts, senior attention"
+        ]
+      ]
+    },
+    {
+      "at": "Analysts build the financial models",
+      "type": "table",
+      "title": "What a first-year analyst does",
+      "columns": [
+        "Task",
+        "What it is"
+      ],
+      "rows": [
+        [
+          "Financial models",
+          "Valuation, and the merger model's effect on earnings per share"
+        ],
+        [
+          "Pitch books",
+          "The slide decks bankers take to clients"
+        ],
+        [
+          "CIM",
+          "The confidential information memorandum: a company's sales brochure"
+        ],
+        [
+          "Data room",
+          "Where buyers review contracts and numbers"
+        ]
+      ]
+    },
+    {
+      "at": "On mergers and acquisitions, mostly a success fee",
+      "type": "formula",
+      "title": "How advisers get paid",
+      "formula": "Success fee = a percentage of deal value, paid at closing",
+      "note": "If the deal dies, most of the fee dies with it."
+    },
+    {
+      "at": "This week, Carlyle and C-V-C D-I-F",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "BauWatch",
+      "sub": "Remote video surveillance for construction sites and other properties",
+      "lines": [
+        "Acquired by Carlyle and CVC DIF from Haniel"
+      ],
+      "date": "Announced 17 September 2026"
+    },
+    {
+      "at": "Revenue grew from fifty-nine million euros",
+      "type": "bars",
+      "title": "BauWatch revenue",
+      "unit": "€m",
+      "items": [
+        {
+          "label": "2021",
+          "value": 59
+        },
+        {
+          "label": "2025",
+          "value": 153
+        }
+      ],
+      "note": "More than 15,000 systems across 12 European countries."
+    },
+    {
+      "at": "Around one billion euros. Carlyle and C-V-C D-I-F take forty-five percent each",
+      "type": "keynumbers",
+      "title": "The terms",
+      "items": [
+        {
+          "value": "€1bn",
+          "label": "price",
+          "approx": true
+        },
+        {
+          "value": "45%",
+          "label": "Carlyle"
+        },
+        {
+          "value": "45%",
+          "label": "CVC DIF"
+        },
+        {
+          "value": "10%",
+          "label": "kept by Haniel"
+        }
+      ],
+      "note": "Closing expected in the first quarter of 2027."
+    },
+    {
+      "at": "Also notice the price: about a billion",
+      "type": "formula",
+      "title": "The multiple",
+      "formula": "€1bn ÷ €153m revenue ≈ 6.5x revenue",
+      "note": "The market paying for fast growth and recurring contracts."
+    },
+    {
+      "at": "Quiz time. For whoever's listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers. One: coverage",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "In a bank, which team owns the long-term client relationship?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Product, organised by deal type"
+          },
+          {
+            "id": "b",
+            "text": "Coverage, organised by industry"
+          },
+          {
+            "id": "c",
+            "text": "Research, organised by sector"
+          },
+          {
+            "id": "d",
+            "text": "Equity capital markets"
+          }
+        ],
+        "correct": "b",
+        "explain": "Coverage bankers know their companies for years; product teams such as mergers and acquisitions bring the specialist execution when a deal happens.",
+        "explain_at": "Coverage teams are organised by industry"
+      },
+      {
+        "id": "q2",
+        "q": "Kraft paid a special dividend of $16.50 a share. How much cash did 100 shares receive?",
+        "options": [
+          {
+            "id": "a",
+            "text": "$1,650"
+          },
+          {
+            "id": "b",
+            "text": "$165"
+          },
+          {
+            "id": "c",
+            "text": "$16,500"
+          },
+          {
+            "id": "d",
+            "text": "$1,500"
+          }
+        ],
+        "correct": "a",
+        "explain": "100 × $16.50 = $1,650. The $10bn total, funded by 3G and Berkshire, was spread across all of Kraft's shares.",
+        "explain_at": "a special cash dividend of sixteen dollars and fifty cents"
+      },
+      {
+        "id": "q3",
+        "q": "Is a private equity firm like Carlyle an investment bank?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes, investment banks invest in companies"
+          },
+          {
+            "id": "b",
+            "text": "Yes, it's a type of bulge-bracket bank"
+          },
+          {
+            "id": "c",
+            "text": "No, it's an elite boutique adviser"
+          },
+          {
+            "id": "d",
+            "text": "No, it buys companies with its own funds"
+          }
+        ],
+        "correct": "d",
+        "explain": "Private equity firms buy companies with their own funds. Banks advise them and lend to them, which is why banks have a financial sponsors group.",
+        "explain_at": "Third misunderstanding. Investment banks mostly don't invest"
+      },
+      {
+        "id": "q4",
+        "q": "A company wants to list its shares for the first time. Which product team runs that?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mergers and acquisitions"
+          },
+          {
+            "id": "b",
+            "text": "Debt capital markets"
+          },
+          {
+            "id": "c",
+            "text": "Equity capital markets"
+          },
+          {
+            "id": "d",
+            "text": "Sales and trading"
+          }
+        ],
+        "correct": "c",
+        "explain": "An IPO raises equity, so ECM runs it. Mergers and acquisitions advises when control of a company changes hands.",
+        "explain_at": "E-C-M, equity capital markets, helps companies raise money"
+      },
+      {
+        "id": "q5",
+        "q": "Kraft Heinz promised $1.5bn of annual cost savings. At ten times, what are they worth?",
+        "options": [
+          {
+            "id": "a",
+            "text": "$15bn, from the day they're announced"
+          },
+          {
+            "id": "b",
+            "text": "$15bn, less the cost of getting them"
+          },
+          {
+            "id": "c",
+            "text": "$1.5bn, as savings aren't capitalised"
+          },
+          {
+            "id": "d",
+            "text": "$10bn, the size of the dividend"
+          }
+        ],
+        "correct": "b",
+        "explain": "1.5 × 10 = $15bn, before the cost of actually achieving the savings. Kraft Heinz cut hard, but the brands stopped growing.",
+        "explain_at": "They promised one and a half billion dollars a year of cost savings"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "H.J. Heinz Company and Kraft Foods Group sign definitive merger agreement (Kraft Heinz press release, 25 March 2015)",
+      "url": "https://news.kraftheinzcompany.com/press-releases-details/2015/HJ-Heinz-Company-and-Kraft-Foods-Group-Sign-Definitive-Merger-Agreement-to-Form-The-Kraft-Heinz-Company/default.aspx"
+    },
+    {
+      "label": "Carlyle and CVC DIF agree to acquire BauWatch from Haniel (CVC press release)",
+      "url": "https://www.cvc.com/media/news/2026/carlyle-and-cvc-dif-agree-to-acquire-bauwatch-from-haniel/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Think of a bank as two big worlds"
+  }
+}

@@ -1,13 +1,22 @@
-# Secrets
+# Secrets and keys
 .env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
 
-# Local caches, models and scratch
+# Local state: logs, caches, models, scratch, the spend ledger
+logs/
 pipeline/cache/
 pipeline/models/
+pipeline/usage.json
 __pycache__/
 .preview/
-logs/
+.claude/settings.local.json
 
-# Rendered audio lives in site/audio (published copy); the voice samples stay local
+# Rendered audio lives in site/audio (the published copy); voice samples stay local
 audio/*.mp3
 samples/*.wav
+samples/*.mp3
+*.png.key

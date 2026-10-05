@@ -63,7 +63,7 @@ MARCO: Exactly. Coverage teams are organised by industry. Consumer and retail, t
 
 SOFIA: So coverage is the relationship.
 
-MARCO: Right. Product teams are organised by what you're selling. mergers and acquisitions advises on buying and selling companies. E-C-M, equity capital markets, helps companies raise money by selling shares: I-P-Os, follow-on offerings. D-C-M, debt capital markets, helps them issue bonds. Leveraged finance arranges the debt for riskier borrowers, especially private equity buyouts.
+MARCO: Right. Product teams are organised by what you're selling. Mergers and acquisitions advises on buying and selling companies. E-C-M, equity capital markets, helps companies raise money by selling shares: I-P-Os, follow-on offerings. D-C-M, debt capital markets, helps them issue bonds. Leveraged finance arranges the debt for riskier borrowers, especially private equity buyouts.
 
 SOFIA: So when Kraft needed advice, did coverage do it or mergers and acquisitions?
 
@@ -113,9 +113,9 @@ SOFIA: Okay. Next.
 
 MARCO: What's the difference between mergers and acquisitions and E-C-M?
 
-SOFIA: mergers and acquisitions is companies buying companies, and E-C-M is... the stock market side?
+SOFIA: Mergers and acquisitions is companies buying companies, and E-C-M is... the stock market side?
 
-MARCO: Close. Tighten it. mergers and acquisitions advises on transactions where control of a company changes hands: acquisitions, mergers, disposals. E-C-M helps companies raise equity from investors, through I-P-Os or follow-on share offerings, where no one takes control. Different question: who owns the company, versus how does it get funded.
+MARCO: Close. Tighten it. Mergers and acquisitions advises on transactions where control of a company changes hands: acquisitions, mergers, disposals. E-C-M helps companies raise equity from investors, through I-P-Os or follow-on share offerings, where no one takes control. Different question: who owns the company, versus how does it get funded.
 
 SOFIA: Last one?
 

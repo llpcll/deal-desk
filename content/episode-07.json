@@ -1,0 +1,449 @@
+{
+  "visuals": [
+    {
+      "at": "Round one, how a bank works",
+      "type": "table",
+      "title": "Round one: how a bank works",
+      "columns": [
+        "Question",
+        "The answer to give"
+      ],
+      "rows": [
+        [
+          "Coverage or product?",
+          "Coverage: by industry, owns the relationship. Product: specialist execution"
+        ],
+        [
+          "Why the wall?",
+          "Private-side bankers hold confidential information; traders trade on public information"
+        ],
+        [
+          "Who decides the deal?",
+          "The board. Bankers advise, sometimes with a fairness opinion"
+        ],
+        [
+          "Why a boutique?",
+          "No lending or trading conflicts, senior bankers on the deal"
+        ]
+      ]
+    },
+    {
+      "at": "Round two, the income statement",
+      "type": "steps",
+      "title": "Round two: the income statement",
+      "items": [
+        {
+          "label": "Revenue",
+          "detail": "What was sold"
+        },
+        {
+          "label": "Gross profit",
+          "detail": "Minus cost of goods sold"
+        },
+        {
+          "label": "EBIT",
+          "detail": "Minus operating expenses such as SG&A and R&D"
+        },
+        {
+          "label": "Pre-tax income",
+          "detail": "Minus interest"
+        },
+        {
+          "label": "Net income",
+          "detail": "Minus tax"
+        }
+      ],
+      "note": "EBITDA isn't usually a line: add depreciation and amortisation back to EBIT."
+    },
+    {
+      "at": "Round three, the balance sheet",
+      "type": "formula",
+      "title": "Round three: the balance sheet",
+      "formula": "Assets = liabilities + equity",
+      "note": "Every asset was paid for by someone: lenders (liabilities) or owners (equity). Leverage of 20x means a 5% fall in assets wipes out equity."
+    },
+    {
+      "at": "Round four, the cash flow statement",
+      "type": "waterfall",
+      "title": "Round four: from net income to free cash flow",
+      "unit": "",
+      "steps": [
+        {
+          "label": "Net income",
+          "value": 80,
+          "kind": "total"
+        },
+        {
+          "label": "Depreciation",
+          "value": 20,
+          "kind": "add"
+        },
+        {
+          "label": "Receivables up",
+          "value": 15,
+          "kind": "sub"
+        },
+        {
+          "label": "Cash from operations",
+          "value": 85,
+          "kind": "total"
+        },
+        {
+          "label": "Capex",
+          "value": 50,
+          "kind": "sub"
+        },
+        {
+          "label": "Free cash flow",
+          "value": 35,
+          "kind": "total"
+        }
+      ]
+    },
+    {
+      "at": "Round five. The big one",
+      "type": "table",
+      "title": "Round five: depreciation up 10, tax at 25%",
+      "columns": [
+        "Statement",
+        "Answer"
+      ],
+      "rows": [
+        [
+          "Income statement",
+          "Operating income −10, tax −2.5, net income −7.5"
+        ],
+        [
+          "Cash flow",
+          "Net income −7.5, add back 10, cash +2.5"
+        ],
+        [
+          "Balance sheet",
+          "Cash +2.5, PP&E −10, equity −7.5. Balances"
+        ]
+      ],
+      "note": "Target: under thirty seconds, out loud."
+    },
+    {
+      "at": "Round six, working capital",
+      "type": "formula",
+      "title": "Round six: working capital",
+      "formula": "30 + 20 − 60 = −10 days",
+      "note": "Inventory days + receivable days − payable days. Negative can be a strength (Amazon, supermarkets) or a sign of trouble: check why."
+    },
+    {
+      "at": "The mistakes you made on the first days were almost all about order and direction",
+      "type": "table",
+      "title": "The mistakes interviewers listen for",
+      "columns": [
+        "Mistake",
+        "Fix"
+      ],
+      "rows": [
+        [
+          "Forgetting tax",
+          "Tax sits between EBIT and net income"
+        ],
+        [
+          "Thinking depreciation is cash",
+          "The cash left when the asset was bought"
+        ],
+        [
+          "Receivables up is good for cash",
+          "Asset up, cash down"
+        ]
+      ]
+    },
+    {
+      "at": "Last Friday, Eaton, the Irish-domiciled power management group",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "Eaton / COL Group",
+      "sub": "Medium-voltage electrical distribution equipment, including SF6-free switchgear",
+      "lines": [
+        "Bought from Oaktree",
+        "Four Italian sites: Turin, Milan, Bergamo, Catania"
+      ],
+      "date": "Announced September 2026; closing expected Q1 2027"
+    },
+    {
+      "at": "Eight hundred and ten over two hundred and fifty",
+      "type": "formula",
+      "title": "The multiple",
+      "formula": "€810m ÷ €250m forward revenue ≈ 3.2x",
+      "note": "€810m is enterprise value. What Oaktree takes home as equity depends on the debt inside COL."
+    },
+    {
+      "at": "Review quiz, so it's longer. Ten questions",
+      "type": "quizcall",
+      "title": "Review quiz",
+      "text": "Ten questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers. One: coverage. Two: EBIT",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Which team owns the long-term client relationship?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Product, by deal type"
+          },
+          {
+            "id": "b",
+            "text": "Research, by sector"
+          },
+          {
+            "id": "c",
+            "text": "Sales and trading"
+          },
+          {
+            "id": "d",
+            "text": "Coverage, by industry"
+          }
+        ],
+        "correct": "d",
+        "explain": "Coverage teams own the relationship; product teams such as mergers and acquisitions bring the specialist execution.",
+        "explain_at": "Coverage teams are organised by industry and own the client relationship"
+      },
+      {
+        "id": "q2",
+        "q": "Tax at 25%. EBITDA is 200, depreciation 50, interest 30. What's net income?",
+        "options": [
+          {
+            "id": "a",
+            "text": "120"
+          },
+          {
+            "id": "b",
+            "text": "112.5"
+          },
+          {
+            "id": "c",
+            "text": "90"
+          },
+          {
+            "id": "d",
+            "text": "127.5"
+          }
+        ],
+        "correct": "c",
+        "explain": "EBIT 150, pre-tax income 120, tax 30, net income 90. Skipping tax gives 120, skipping interest 112.5, skipping depreciation 127.5.",
+        "explain_at": "Revenue, minus cost of goods sold, gives gross profit"
+      },
+      {
+        "id": "q3",
+        "q": "Why add depreciation back on the cash flow statement?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Depreciation creates cash each year"
+          },
+          {
+            "id": "b",
+            "text": "It cut profit, but no cash left"
+          },
+          {
+            "id": "c",
+            "text": "It's a financing item, not operating"
+          },
+          {
+            "id": "d",
+            "text": "Tax rules require the add-back"
+          }
+        ],
+        "correct": "b",
+        "explain": "Depreciation reduced net income, but the cash left when the asset was bought, not in this period.",
+        "explain_at": "add back ten of depreciation, cash up two point five"
+      },
+      {
+        "id": "q4",
+        "q": "A company issues 50 of new shares for cash. What changes on the balance sheet?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cash +50, equity +50"
+          },
+          {
+            "id": "b",
+            "text": "Cash +50, debt +50"
+          },
+          {
+            "id": "c",
+            "text": "Cash +50, net income +50"
+          },
+          {
+            "id": "d",
+            "text": "Equity +50, cash unchanged"
+          }
+        ],
+        "correct": "a",
+        "explain": "New shareholders hand over cash, so cash and equity both rise by 50.",
+        "explain_at": "Because every asset was paid for somehow"
+      },
+      {
+        "id": "q5",
+        "q": "A company repays 40 of debt with cash. What happens to net income?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Down 40"
+          },
+          {
+            "id": "b",
+            "text": "Down 30, after tax"
+          },
+          {
+            "id": "c",
+            "text": "Up 40"
+          },
+          {
+            "id": "d",
+            "text": "No change"
+          }
+        ],
+        "correct": "d",
+        "explain": "Repaying debt isn't an expense. Only the interest hits the income statement.",
+        "explain_at": "Five: nothing. Repaying debt isn't an expense"
+      },
+      {
+        "id": "q6",
+        "q": "Tax at 25%. Depreciation goes up by 20. What happens to cash?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Down 20"
+          },
+          {
+            "id": "b",
+            "text": "Down 15"
+          },
+          {
+            "id": "c",
+            "text": "Up 5"
+          },
+          {
+            "id": "d",
+            "text": "No change"
+          }
+        ],
+        "correct": "c",
+        "explain": "The extra depreciation cuts the tax bill by 20 × 25% = 5. The depreciation itself doesn't move cash.",
+        "explain_at": "Depreciation goes up by ten, tax rate twenty-five percent. Go."
+      },
+      {
+        "id": "q7",
+        "q": "Receivables fall by 10. What happens to cash?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Down 10"
+          },
+          {
+            "id": "b",
+            "text": "Up 10"
+          },
+          {
+            "id": "c",
+            "text": "No change"
+          },
+          {
+            "id": "d",
+            "text": "Up 7.5, after tax"
+          }
+        ],
+        "correct": "b",
+        "explain": "Customers paid what they owed, so cash came in: an asset going down releases cash.",
+        "explain_at": "Net income is eighty, depreciation twenty, receivables go up by fifteen"
+      },
+      {
+        "id": "q8",
+        "q": "What's the difference between book value and market value of equity?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Accounting value vs price × shares"
+          },
+          {
+            "id": "b",
+            "text": "Market value leaves out intangibles"
+          },
+          {
+            "id": "c",
+            "text": "None for a listed company"
+          },
+          {
+            "id": "d",
+            "text": "Book value includes the debt"
+          }
+        ],
+        "correct": "a",
+        "explain": "Book value comes from the balance sheet; market value is share price times shares and reflects expected future earnings.",
+        "explain_at": "Eight: book value is the accounting value"
+      },
+      {
+        "id": "q9",
+        "q": "Which is a legitimate adjustment to EBITDA?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Marketing, since it varies each year"
+          },
+          {
+            "id": "b",
+            "text": "Head office costs, as overheads"
+          },
+          {
+            "id": "c",
+            "text": "Stock-based pay, as it isn't cash"
+          },
+          {
+            "id": "d",
+            "text": "A genuine one-off, like a settlement"
+          }
+        ],
+        "correct": "d",
+        "explain": "A one-off cost can come out if it really doesn't come back. Marketing and head office are the costs WeWork stripped out.",
+        "explain_at": "It stripped out costs like marketing and head office"
+      },
+      {
+        "id": "q10",
+        "q": "A buyer pays 800 million for a business with 200 million of revenue. What's the revenue multiple?",
+        "options": [
+          {
+            "id": "a",
+            "text": "3x"
+          },
+          {
+            "id": "b",
+            "text": "2x"
+          },
+          {
+            "id": "c",
+            "text": "4x"
+          },
+          {
+            "id": "d",
+            "text": "8x"
+          }
+        ],
+        "correct": "c",
+        "explain": "800 ÷ 200 = 4x revenue, the same sum as Eaton's 810 over 250 for COL.",
+        "explain_at": "Eight hundred and ten over two hundred and fifty"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Eaton signs agreement to acquire COL Group (Eaton news release)",
+      "url": "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-signs-agreement-to-acquire-col-group.html"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Round one, how a bank works"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(./**)",
+      "Glob",
+      "Grep",
+      "WebSearch",
+      "WebFetch",
+      "Edit(./scripts/**)",
+      "Edit(./content/**)"
+    ],
+    "deny": [
+      "Bash",
+      "PowerShell",
+      "NotebookEdit",
+      "Agent",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./logs/**)",
+      "Read(./pipeline/cache/**)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Read(~/.config/**)",
+      "Read(~/.claude/**)",
+      "Read(~/.git-credentials)",
+      "Read(~/AppData/**)",
+      "Edit(./.claude/**)",
+      "Edit(./.github/**)",
+      "Edit(./pipeline/**)",
+      "Edit(./site/**)",
+      "Edit(./audio/**)",
+      "Edit(./published.json)",
+      "Edit(./podcast.json)",
+      "Edit(./.gitignore)"
+    ]
+  }
+}

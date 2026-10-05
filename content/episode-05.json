@@ -1,0 +1,409 @@
+{
+  "visuals": [
+    {
+      "at": "Start with net income. It's the bottom line of the income statement",
+      "type": "table",
+      "title": "How the three statements connect",
+      "columns": [
+        "Link",
+        "From",
+        "To"
+      ],
+      "rows": [
+        [
+          "One",
+          "Net income, bottom of the income statement",
+          "Top of the cash flow statement"
+        ],
+        [
+          "Two",
+          "Net income, less dividends",
+          "Retained earnings, in equity"
+        ],
+        [
+          "Three",
+          "Change in cash, end of the cash flow statement",
+          "Cash on the balance sheet"
+        ]
+      ],
+      "note": "Every other cash flow line is a change in a balance sheet item: depreciation and capex move PP&E, working capital and debt lines move too."
+    },
+    {
+      "at": "Go ahead. Try it first. Assume a twenty-five percent tax rate",
+      "type": "table",
+      "title": "Depreciation up 10, tax at 25%",
+      "columns": [
+        "Statement",
+        "Line",
+        "Change"
+      ],
+      "align": [
+        "left",
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Income statement",
+          "Operating income",
+          "−10"
+        ],
+        [
+          "",
+          "Tax",
+          "−2.5"
+        ],
+        [
+          "",
+          "Net income",
+          "−7.5"
+        ],
+        [
+          "Cash flow",
+          "Net income",
+          "−7.5"
+        ],
+        [
+          "",
+          "Add back depreciation",
+          "+10"
+        ],
+        [
+          "",
+          "Cash from operations",
+          "+2.5"
+        ],
+        [
+          "Balance sheet",
+          "Cash",
+          "+2.5"
+        ],
+        [
+          "",
+          "PP&E",
+          "−10"
+        ],
+        [
+          "",
+          "Retained earnings (equity)",
+          "−7.5"
+        ]
+      ],
+      "note": "Assets down 7.5, liabilities and equity down 7.5. It balances."
+    },
+    {
+      "at": "Yes, by two point five. And be precise about why",
+      "type": "formula",
+      "title": "The depreciation tax shield",
+      "formula": "Extra depreciation × tax rate = 10 × 25% = 2.5",
+      "note": "The only real cash effect. Depreciation itself doesn't move cash."
+    },
+    {
+      "at": "Variation one. A company buys a hundred of equipment with cash",
+      "type": "table",
+      "title": "Variation one: buy 100 of equipment with cash",
+      "columns": [
+        "Statement",
+        "Change"
+      ],
+      "rows": [
+        [
+          "Income statement",
+          "Nothing on day one"
+        ],
+        [
+          "Cash flow",
+          "Capex, investing: −100"
+        ],
+        [
+          "Balance sheet",
+          "Cash −100, PP&E +100; total assets unchanged"
+        ]
+      ]
+    },
+    {
+      "at": "The café invoices a client twenty of catering",
+      "type": "table",
+      "title": "Variation two: invoice 20, not yet paid",
+      "columns": [
+        "Statement",
+        "Line",
+        "Change"
+      ],
+      "align": [
+        "left",
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Income statement",
+          "Revenue",
+          "+20"
+        ],
+        [
+          "",
+          "Tax",
+          "+5"
+        ],
+        [
+          "",
+          "Net income",
+          "+15"
+        ],
+        [
+          "Cash flow",
+          "Receivables up",
+          "−20"
+        ],
+        [
+          "",
+          "Cash from operations",
+          "−5"
+        ],
+        [
+          "Balance sheet",
+          "Cash",
+          "−5"
+        ],
+        [
+          "",
+          "Receivables",
+          "+20"
+        ],
+        [
+          "",
+          "Retained earnings",
+          "+15"
+        ]
+      ],
+      "note": "Nothing collected yet, but tax is still owed on the profit."
+    },
+    {
+      "at": "And the general method, for any version of the question",
+      "type": "steps",
+      "title": "The method, for any version",
+      "items": [
+        {
+          "label": "Income statement",
+          "detail": "Is it revenue or an expense this period? Don't forget tax"
+        },
+        {
+          "label": "Cash flow statement",
+          "detail": "Start from net income, adjust for non-cash items and working capital"
+        },
+        {
+          "label": "Balance sheet",
+          "detail": "Cash plus every other line that moved"
+        },
+        {
+          "label": "Check it balances",
+          "detail": "If not, look for tax or a working capital change"
+        }
+      ]
+    },
+    {
+      "at": "This week the British competition regulator, the C-M-A",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Under review",
+      "name": "Kone / TK Elevator",
+      "sub": "Finland's lift and escalator maker buys its German rival, formerly part of thyssenkrupp",
+      "lines": [
+        "Would create the world's biggest lift maker by sales",
+        "The biggest deal in Finnish history"
+      ],
+      "date": "Announced April 2026; UK review opened 22 September"
+    },
+    {
+      "at": "They bought it from thyssenkrupp in twenty twenty",
+      "type": "bars",
+      "title": "TK Elevator's value",
+      "unit": "€bn",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "Advent and Cinven's purchase, 2020",
+          "value": 17.2
+        },
+        {
+          "label": "Kone's offer, 2026",
+          "value": 29.4,
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "About five billion euros in cash, roughly fifteen billion in new Kone shares",
+      "type": "keynumbers",
+      "title": "How Kone pays",
+      "items": [
+        {
+          "value": "€5bn",
+          "label": "cash",
+          "approx": true
+        },
+        {
+          "value": "€15bn",
+          "label": "new Kone shares",
+          "approx": true
+        },
+        {
+          "value": "TK Elevator's debt",
+          "label": "taken on by Kone"
+        }
+      ],
+      "note": "Anything paid above the value of TK Elevator's identifiable assets becomes goodwill."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers. One: net income down fifteen",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Tax at 25%. Depreciation goes up by 20. What happens to net income and cash?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Net income −20, cash −20"
+          },
+          {
+            "id": "b",
+            "text": "Net income −15, cash +5"
+          },
+          {
+            "id": "c",
+            "text": "Net income −15, cash −15"
+          },
+          {
+            "id": "d",
+            "text": "Net income −20, cash unchanged"
+          }
+        ],
+        "correct": "b",
+        "explain": "Pre-tax income falls 20 and tax falls 5, so net income falls 15. Add back the 20 of depreciation: cash rises by the 5 of tax saved.",
+        "explain_at": "Depreciation is tax-deductible, so the government effectively absorbs a quarter"
+      },
+      {
+        "id": "q2",
+        "q": "A company borrows 50 in cash. What happens?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Financing +50; cash and debt +50"
+          },
+          {
+            "id": "b",
+            "text": "Revenue +50; cash and equity +50"
+          },
+          {
+            "id": "c",
+            "text": "Operating +50; cash and debt +50"
+          },
+          {
+            "id": "d",
+            "text": "Financing +50; cash and equity +50"
+          }
+        ],
+        "correct": "a",
+        "explain": "Borrowing isn't income, so the income statement doesn't move: financing +50, cash up 50, debt up 50.",
+        "explain_at": "Then you just skip it. Borrowing a hundred"
+      },
+      {
+        "id": "q3",
+        "q": "It pays 10 of dividends. Where does that show up?",
+        "options": [
+          {
+            "id": "a",
+            "text": "An expense of 10 on the income statement"
+          },
+          {
+            "id": "b",
+            "text": "Operating −10; retained earnings −10"
+          },
+          {
+            "id": "c",
+            "text": "Financing −10; debt −10"
+          },
+          {
+            "id": "d",
+            "text": "Financing −10; retained earnings −10"
+          }
+        ],
+        "correct": "d",
+        "explain": "Dividends aren't an expense. They're cash paid to the owners: financing −10, cash down 10, retained earnings down 10.",
+        "explain_at": "Retained earnings goes up by net income, and down by any dividends paid"
+      },
+      {
+        "id": "q4",
+        "q": "It buys 30 of inventory with cash. What happens to cash from operations?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Up 30"
+          },
+          {
+            "id": "b",
+            "text": "No change, it's an asset swap"
+          },
+          {
+            "id": "c",
+            "text": "Down 30"
+          },
+          {
+            "id": "d",
+            "text": "Down 22.5, after tax"
+          }
+        ],
+        "correct": "c",
+        "explain": "Inventory is an asset that went up, so cash from operations falls by 30. It isn't an expense yet, so net income doesn't move.",
+        "explain_at": "Changes in receivables, inventory and payables come from working capital"
+      },
+      {
+        "id": "q5",
+        "q": "Where does net income end up on the balance sheet?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cash, at the end of the year"
+          },
+          {
+            "id": "b",
+            "text": "Retained earnings, in equity"
+          },
+          {
+            "id": "c",
+            "text": "Liabilities, until it's paid out"
+          },
+          {
+            "id": "d",
+            "text": "PP&E, as reinvested profit"
+          }
+        ],
+        "correct": "b",
+        "explain": "Net income flows into retained earnings, inside equity, which is how the balance sheet keeps balancing.",
+        "explain_at": "Net income also flows into the balance sheet, into retained earnings"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "KONE / TK Elevator merger inquiry (UK Competition and Markets Authority case page)",
+      "url": "https://www.gov.uk/cma-cases/kone-slash-tk-elevator-merger-inquiry"
+    },
+    {
+      "label": "Finland's Kone to buy German rival TK Elevator (CNBC, 29 April 2026)",
+      "url": "https://www.cnbc.com/2026/04/29/kone-tk-elevator-deal-europe-business.html"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Where do the statements connect?"
+  }
+}
