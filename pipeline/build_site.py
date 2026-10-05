@@ -329,6 +329,7 @@ def build_feed(episodes, published):
       <guid isPermaLink="false">deal-desk-{x(e['id'])}</guid>
       <pubDate>{email.utils.format_datetime(pub)}</pubDate>
       <enclosure url="{x(base + 'audio/' + e['audio'])}" length="{e['bytes']}" type="audio/mpeg"/>
+      <itunes:author>{x(cfg['author'])}</itunes:author>
       <itunes:duration>{int(round(e['seconds']))}</itunes:duration>
       <itunes:season>1</itunes:season>
       <itunes:episode>{e['number']}</itunes:episode>

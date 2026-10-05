@@ -401,6 +401,22 @@ def ffmpeg_exe():
     return imageio_ffmpeg.get_ffmpeg_exe()
 
 
+def tag_mp3(path, number, title):
+    """Write ID3v2.3 tags (title, artist, album, track, year, copyright) in place, without
+    re-encoding. Podcast apps and Apple's checks read these."""
+    tmp = path + ".tagging.mp3"
+    year = str(datetime.date.today().year)
+    subprocess.run([ffmpeg_exe(), "-y", "-loglevel", "error", "-i", path, "-map", "0:a", "-c", "copy",
+                    "-map_metadata", "-1", "-id3v2_version", "3", "-write_id3v1", "1",
+                    "-metadata", f"title={number}. {title}", "-metadata", "artist=The Deal Desk",
+                    "-metadata", "album_artist=The Deal Desk", "-metadata", "album=The Deal Desk, Season 1",
+                    "-metadata", f"track={number}", "-metadata", f"date={year}", "-metadata", "genre=Podcast",
+                    "-metadata", f"copyright=© {year} The Deal Desk",
+                    "-metadata", "comment=AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.",
+                    tmp], check=True)
+    os.replace(tmp, path)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("script")
@@ -484,6 +500,7 @@ def main():
                     "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", "-ac", "1", "-b:a", "96k", mp3],
                    check=True)
     os.remove(tmp_wav)
+    tag_mp3(mp3, int(m.group(1)) if m else 0, re.sub(r"^The Deal Desk, episode \d+:\s*", "", title or ""))
     meta = {"id": ep_id, "title": title, "hook": hook, "engine": engine,
             "model": MODEL if engine == "gemini" else "kokoro-v1.0",
             "voices": {s: (GEMINI if engine == "gemini" else KOKORO)[s][0] for s in ("MARCO", "SOFIA")},
