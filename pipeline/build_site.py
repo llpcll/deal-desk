@@ -16,7 +16,7 @@ Output:
     site/index.html
     site/feed.xml              podcast RSS (settings in podcast.json)
 """
-import argparse, datetime, email.utils, glob, html, json, os, re, shutil, sys
+import argparse, datetime, email.utils, glob, hashlib, html, json, os, re, shutil, sys
 from xml.sax.saxutils import escape as xml_escape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -44,6 +44,17 @@ def release_date(season, n):
 
 def long_date(d):
     return f"{d.day} {d:%B %Y}"
+
+
+def versioned(page):
+    """Add ?v=<content hash> to the page's assets/*.js and *.css links. GitHub Pages lets
+    browsers cache them for ten minutes, so without this a fix reaches visitors late."""
+    def add(m):
+        path = os.path.join(SITE, "assets", m.group(2))
+        if not os.path.exists(path):
+            return m.group(0)
+        return f'{m.group(1)}{m.group(2)}?v={hashlib.sha256(open(path, "rb").read()).hexdigest()[:10]}"'
+    return re.sub(r'((?:src|href)="[^"]*assets/)([\w.-]+\.(?:js|css))"', add, page)
 
 
 def next_block(season, published, prefix):
@@ -246,7 +257,7 @@ def build_episode(meta_path, published, season, nxt):
                .replace("{{DATA}}", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")))
     out_dir = os.path.join(SITE, ep_id)
     os.makedirs(out_dir, exist_ok=True)
-    open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8").write(page)
+    open(os.path.join(out_dir, "index.html"), "w", encoding="utf-8").write(versioned(page))
     print(f"  site/{ep_id}/index.html: {len(meta['lines'])} lines, {len(visuals)} visuals, "
           f"{len((quiz or {}).get('questions', []))} quiz questions")
     return {"id": ep_id, "number": num, "title": title, "hook": meta.get("hook"),
@@ -287,11 +298,11 @@ def build_index(episodes, published, season, nxt):
                .replace("{{HEAD_META}}", head_meta(cfg, "The Deal Desk, Season 1", cfg["subtitle"], "", "share/home.png", ""))
                .replace("{{FOOTER}}", footer("", cfg))
                .replace("{{WEEKS}}", "\n".join(weeks)).replace("{{RELEASED_COUNT}}", str(released)))
-    open(os.path.join(SITE, "index.html"), "w", encoding="utf-8").write(page)
+    open(os.path.join(SITE, "index.html"), "w", encoding="utf-8").write(versioned(page))
     nf = open(os.path.join(TEMPLATES, "404.html"), encoding="utf-8").read()
     base_path = "/" + cfg["base_url"].split("//", 1)[1].split("/", 1)[1] if cfg["base_url"].count("/") > 3 else "/"
-    open(os.path.join(SITE, "404.html"), "w", encoding="utf-8").write(
-        nf.replace("{{CSP}}", CSP_META).replace("{{BASE}}", base_path).replace("{{FOOTER}}", footer(base_path, cfg)))
+    open(os.path.join(SITE, "404.html"), "w", encoding="utf-8").write(versioned(
+        nf.replace("{{CSP}}", CSP_META).replace("{{BASE}}", base_path).replace("{{FOOTER}}", footer(base_path, cfg))))
 
 
 def build_feed(episodes, published):
