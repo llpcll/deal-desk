@@ -24,20 +24,28 @@
     return new Date(t);
   }
 
+  // Always English, whatever the browser language; only the time zone is the viewer's.
+  // Built from parts so it reads "Wednesday 7 October at 07:30 CEST" in every browser.
+  const WHEN = new Intl.DateTimeFormat("en-GB", {
+    weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit",
+    hourCycle: "h23", timeZoneName: "short",
+  });
+  function localWhen(instant) {
+    const p = WHEN.formatToParts(instant).reduce((o, x) => ((o[x.type] = x.value), o), {});
+    return `${p.weekday} ${p.day} ${p.month} at ${p.hour}:${p.minute} ${p.timeZoneName}`;
+  }
+
   const pad = (n) => String(n).padStart(2, "0");
   function span(ms) {
     const s = Math.floor(ms / 1000), d = Math.floor(s / 86400), h = Math.floor((s % 86400) / 3600);
     const m = Math.floor((s % 3600) / 60), sec = s % 60;
-    return (d ? `${d} d ` : "") + `${h} h ${pad(m)} min ${pad(sec)} s`;
+    return (d ? `${d}d ` : "") + `${h}h ${pad(m)}m ${pad(sec)}s`;
   }
 
   document.querySelectorAll(".next-ep[data-date]").forEach((box) => {
     const release = zonedInstant(box.dataset.date, box.dataset.time, box.dataset.tz);
     const when = box.querySelector(".next-when"), count = box.querySelector(".next-count");
-    const local = release.toLocaleString(undefined, {
-      weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit", timeZoneName: "short",
-    });
-    when.textContent = `Releases ${local}, your time.`;
+    when.textContent = `Releases ${localWhen(release)} (your time)`;
     count.hidden = false;
 
     let timer = null;
