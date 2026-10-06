@@ -17,7 +17,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Mon, 05 Oct 2026 11:31:01 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 09:56:02 +0200</lastBuildDate>
+    <item>
+      <title>14. Week two review, one café chain and every valuation tool</title>
+      <description>Equity value, the bridge, multiples, comps, precedents and the D-C-F, all on one company. Then Schneider Electric's twenty-three billion dollar bet on software. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-14/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Equity value, the bridge, multiples, comps, precedents and the D-C-F, all on one company. Then Schneider Electric&#x27;s twenty-three billion dollar bet on software.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-14/">https://llpcll.github.io/deal-desk/episode-14/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/0000857005/000119312526413124/d174191dex991.htm">Schneider Electric to acquire PTC: joint press release (PTC Form 8-K, exhibit 99.1, SEC)</a></li><li><a href="https://news.microsoft.com/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/">Microsoft to acquire Activision Blizzard (Microsoft press release, 18 January 2022)</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/schneider-electric-shares-plunge-record-110438302.html">Schneider Electric shares plunge on record $22.6bn PTC deal (Euronews, via Yahoo Finance)</a></li><li><a href="https://live.euronext.com/en/financial-news/frances-schneider-electric-confirms-226-billion-deal-buy-us-software-firm-ptc">Schneider Electric confirms $22.6 billion deal to buy US software firm PTC (Reuters, via Euronext)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-14/</link>
+      <guid isPermaLink="false">deal-desk-episode-14</guid>
+      <pubDate>Tue, 06 Oct 2026 09:56:02 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-14.mp3" length="8889331" type="audio/mpeg"/>
+      <itunes:author>The Deal Desk</itunes:author>
+      <itunes:duration>741</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>14</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-14.json" type="application/json+chapters"/>
+    </item>
     <item>
       <title>13. The D-C-F, and why a euro today beats a euro tomorrow</title>
       <description>Two experts valued Dell on the same day with the same method. One said twenty-eight dollars a share, the other under thirteen. Welcome to the discounted cash flow. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-13/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>

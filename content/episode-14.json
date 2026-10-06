@@ -1,0 +1,274 @@
+{
+  "visuals": [
+    {
+      "at": "Microsoft agrees to buy Activision Blizzard",
+      "type": "tombstone",
+      "title": "Where week two started",
+      "kicker": "All-cash acquisition",
+      "name": "Microsoft / Activision Blizzard",
+      "sub": "$95 a share in cash",
+      "lines": [
+        "$68.7bn, inclusive of Activision Blizzard's net cash"
+      ],
+      "date": "Announced 18 January 2022"
+    },
+    {
+      "at": "One thousand, plus four hundred, plus fifty, minus one hundred, minus fifty",
+      "type": "waterfall",
+      "title": "Cafe Group: from equity value to enterprise value",
+      "unit": "",
+      "decimals": 0,
+      "steps": [
+        { "label": "Equity value", "value": 1000, "kind": "total" },
+        { "label": "Debt", "value": 400, "kind": "add" },
+        { "label": "Non-controlling interest (bakery)", "value": 50, "kind": "add" },
+        { "label": "Cash", "value": 100, "kind": "sub" },
+        { "label": "Stake in coffee roaster", "value": 50, "kind": "sub" },
+        { "label": "Enterprise value", "value": 1300, "kind": "total" }
+      ],
+      "note": "Hypothetical company. The outside stake in the bakery is added, not subtracted."
+    },
+    {
+      "at": "One rule covers the whole bridge",
+      "type": "formula",
+      "title": "The bridge in one line",
+      "formula": "EV = equity value + debt + non-controlling interests − cash − associates",
+      "note": "Whatever is in the EBITDA has to be in the enterprise value. Preferred shares and, depending on the EBITDA definition, leases also go on."
+    },
+    {
+      "at": "Second trap. Equity value goes up two hundred",
+      "type": "table",
+      "title": "Cafe Group issues 200 of new shares and keeps the cash",
+      "columns": ["", "Before", "After"],
+      "align": ["left", "right", "right"],
+      "rows": [
+        ["Equity value", "1,000", "1,200"],
+        ["Cash", "100", "300"],
+        ["Enterprise value", "1,300", "1,300"]
+      ],
+      "highlight": 2,
+      "highlightLabel": "unchanged",
+      "note": "Enterprise value changes when the business changes, not when the financing does."
+    },
+    {
+      "at": "Five listed café chains trade at",
+      "type": "table",
+      "title": "Five café chain comps",
+      "columns": ["Peer", "EV / EBITDA"],
+      "align": ["left", "right"],
+      "rows": [
+        ["Peer A", "8x"],
+        ["Peer B", "9x"],
+        ["Peer C", "10x"],
+        ["Peer D", "11x"],
+        ["Peer E", "20x"]
+      ],
+      "highlight": 2,
+      "highlightLabel": "median",
+      "note": "Hypothetical peers. Cafe Group's own multiple is 1,300 ÷ 130 = 10x."
+    },
+    {
+      "at": "Third trap. That's the average",
+      "type": "keynumbers",
+      "title": "Average or median",
+      "items": [
+        { "value": "11.6x", "label": "average, pulled up by one peer at 20x" },
+        { "value": "10x", "label": "median, what bankers use" },
+        { "value": "1,000", "label": "implied equity value: €10 a share" }
+      ],
+      "note": "10x × 130 = 1,300 of enterprise value, minus 300 of net claims."
+    },
+    {
+      "at": "Twelve times one hundred and thirty is",
+      "type": "keynumbers",
+      "title": "Precedents: what a buyer pays for control",
+      "items": [
+        { "value": "12x", "label": "median of past café chain takeovers" },
+        { "value": "1,560", "label": "implied enterprise value" },
+        { "value": "1,260", "label": "implied equity value" },
+        { "value": "€12.60", "label": "per share" },
+        { "value": "26%", "label": "premium over €10" }
+      ]
+    },
+    {
+      "at": "Divide by one point one twice",
+      "type": "formula",
+      "title": "Present value, two years out",
+      "formula": "PV = 100 ÷ 1.1² = 100 ÷ 1.21 ≈ 83",
+      "note": "Divide by one plus the rate for each year. Subtracting 20% would give 80, the trap from episode 13."
+    },
+    {
+      "at": "Now put the methods together",
+      "type": "football",
+      "title": "Cafe Group's football field",
+      "bars": [
+        { "label": "Trading comps", "from": 9, "to": 11 },
+        { "label": "Precedent transactions", "from": 11, "to": 14 },
+        { "label": "DCF", "from": 10, "to": 15 }
+      ],
+      "marker": { "value": 12.6, "label": "Offer €12.60" },
+      "note": "Hypothetical company, € per share. The offer sits above comps and inside the precedent and DCF ranges."
+    },
+    {
+      "at": "Right methods, wrong ending",
+      "type": "steps",
+      "title": "How would you value a company?",
+      "items": [
+        { "label": "Trading comps", "detail": "What the market pays for similar companies today, without control" },
+        { "label": "Precedent transactions", "detail": "What buyers have paid for control, including synergies" },
+        { "label": "DCF", "detail": "What the business is worth on its own cash flows" },
+        { "label": "Football field", "detail": "Each method as a range, weighted by the situation, never averaged" }
+      ]
+    },
+    {
+      "at": "Schneider Electric, the French energy management group",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "All-cash acquisition",
+      "name": "Schneider Electric / PTC",
+      "sub": "Software for designing, manufacturing and servicing products",
+      "lines": [
+        "$205 a share in cash"
+      ],
+      "date": "Announced 5 October 2026"
+    },
+    {
+      "at": "So about one point one billion between them",
+      "type": "waterfall",
+      "title": "PTC: from equity value to enterprise value",
+      "unit": "$bn",
+      "decimals": 1,
+      "steps": [
+        { "label": "Equity value", "value": 22.6, "kind": "total" },
+        { "label": "Net debt and other claims", "value": 1.1, "kind": "add" },
+        { "label": "Enterprise value", "value": 23.7, "kind": "total" }
+      ],
+      "note": "The middle step is the gap between the two announced figures, both approximate."
+    },
+    {
+      "at": "Forty-two point three percent over PTC's",
+      "type": "keynumbers",
+      "title": "Schneider Electric and PTC",
+      "items": [
+        { "value": "$205", "label": "per share, in cash" },
+        { "value": "$23.7bn", "label": "enterprise value", "approx": true },
+        { "value": "42.3%", "label": "premium to PTC's last close" },
+        { "value": "46.1%", "label": "premium to the 30-day volume-weighted average" },
+        { "value": "21x", "label": "EV / adjusted EBITA, 2027 forecast" },
+        { "value": "13x", "label": "including full cost synergies" }
+      ]
+    },
+    {
+      "at": "It's paying mostly with borrowed money",
+      "type": "table",
+      "title": "Synergies and financing",
+      "columns": ["", "Amount"],
+      "align": ["left", "right"],
+      "rows": [
+        ["Cost savings a year, by year three", "€250m"],
+        ["Revenue synergies", "~€800m"],
+        ["New debt", "€16–17bn"],
+        ["New shares", "€5–6bn"]
+      ],
+      "note": "Closing expected by the third quarter of 2027. Schneider's shares fell more than 9% in morning trading in Paris."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions across week two. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Market cap 800, debt 300, cash 100, non-controlling interests 40, a stake in an associate worth 20. Enterprise value?",
+        "options": [
+          { "id": "a", "text": "940" },
+          { "id": "b", "text": "1,020" },
+          { "id": "c", "text": "1,060" },
+          { "id": "d", "text": "1,220" }
+        ],
+        "correct": "b",
+        "explain": "800 + 300 + 40 − 100 − 20 = 1,020. Non-controlling interests are added because their EBITDA is consolidated; subtracting them gives 940.",
+        "explain_at": "One thousand, plus four hundred, plus fifty, minus one hundred, minus fifty"
+      },
+      {
+        "id": "q2",
+        "q": "A company issues 200 of new shares and keeps the cash. What happens to enterprise value?",
+        "options": [
+          { "id": "a", "text": "It rises by 200" },
+          { "id": "b", "text": "It falls by 200" },
+          { "id": "c", "text": "It rises by 400" },
+          { "id": "d", "text": "It stays the same" }
+        ],
+        "correct": "d",
+        "explain": "Equity value and cash both rise by 200 and cancel out. The business itself hasn't changed.",
+        "explain_at": "Enterprise value changes when the business changes"
+      },
+      {
+        "id": "q3",
+        "q": "Five peers trade at 6x, 7x, 8x, 9x and 25x EBITDA. Which multiple do you apply?",
+        "options": [
+          { "id": "a", "text": "8x, the median" },
+          { "id": "b", "text": "11x, the average" },
+          { "id": "c", "text": "25x, the top peer" },
+          { "id": "d", "text": "6x, the cheapest peer" }
+        ],
+        "correct": "a",
+        "explain": "The 25x outlier drags the average up to 11x. Bankers use the median, which here is 8x.",
+        "explain_at": "Bankers use the median"
+      },
+      {
+        "id": "q4",
+        "q": "The unaffected share price is 20 and the offer is 26. What's the premium?",
+        "options": [
+          { "id": "a", "text": "23%" },
+          { "id": "b", "text": "26%" },
+          { "id": "c", "text": "30%" },
+          { "id": "d", "text": "6%" }
+        ],
+        "correct": "c",
+        "explain": "26 ÷ 20 − 1 = 30%. Dividing the 6 by the offer price gives 23%, a common slip.",
+        "explain_at": "Two euros sixty over ten. Twenty-six percent"
+      },
+      {
+        "id": "q5",
+        "q": "PTC: about $22.6bn of equity value and $23.7bn of enterprise value. What does the gap tell you?",
+        "options": [
+          { "id": "a", "text": "A premium of about $1.1bn over market value" },
+          { "id": "b", "text": "Net debt and other claims of about $1.1bn" },
+          { "id": "c", "text": "Cash of about $1.1bn more than its debt" },
+          { "id": "d", "text": "Synergies worth about $1.1bn to Schneider" }
+        ],
+        "correct": "b",
+        "explain": "Enterprise value is above equity value, so PTC has more debt and other claims than cash. Net cash would put enterprise value below equity value, as at Activision.",
+        "explain_at": "PTC has more debt and other claims than cash"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Schneider Electric to acquire PTC: joint press release (PTC Form 8-K, exhibit 99.1, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000857005/000119312526413124/d174191dex991.htm"
+    },
+    {
+      "label": "Microsoft to acquire Activision Blizzard (Microsoft press release, 18 January 2022)",
+      "url": "https://news.microsoft.com/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/"
+    },
+    {
+      "label": "Schneider Electric shares plunge on record $22.6bn PTC deal (Euronews, via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/schneider-electric-shares-plunge-record-110438302.html"
+    },
+    {
+      "label": "Schneider Electric confirms $22.6 billion deal to buy US software firm PTC (Reuters, via Euronext)",
+      "url": "https://live.euronext.com/en/financial-news/frances-schneider-electric-confirms-226-billion-deal-buy-us-software-firm-ptc"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Round one. One company, every tool from the week."
+  }
+}
