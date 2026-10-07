@@ -1,0 +1,479 @@
+{
+  "visuals": [
+    {
+      "at": "Right after the end of nineteen eighty-five",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Acquisition",
+      "name": "Berkshire Hathaway / Scott Fetzer",
+      "sub": "Seventeen businesses, including World Book and Kirby",
+      "lines": [
+        "About $320m, with $90m of debt left in place"
+      ],
+      "date": "Bought right after year-end 1985"
+    },
+    {
+      "at": "In his letter to shareholders, he showed",
+      "type": "bars",
+      "title": "Scott Fetzer's 1986 net income, two ways",
+      "unit": "$m",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "Old Scott Fetzer (as if no deal)",
+          "value": 40.2,
+          "approx": true
+        },
+        {
+          "label": "New Scott Fetzer (inside Berkshire)",
+          "value": 28.6,
+          "approx": true
+        }
+      ],
+      "note": "Same business, same cash. The gap is the extra depreciation and amortisation from restating the assets at the price Berkshire paid."
+    },
+    {
+      "at": "He called it owner earnings",
+      "type": "formula",
+      "title": "Buffett's owner earnings",
+      "formula": "Owner earnings = reported earnings + depreciation and amortisation − capital spending needed to stay competitive",
+      "note": "From Berkshire Hathaway's 1986 letter. On this measure, the old and new Scott Fetzer were identical."
+    },
+    {
+      "at": "First trap, the tooth fairy trap",
+      "type": "table",
+      "title": "What EBITDA leaves out",
+      "columns": [
+        "Cost",
+        "Why it's real cash"
+      ],
+      "align": [
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Tax",
+          "Paid on operating profit every year"
+        ],
+        [
+          "Capital expenditure",
+          "Ovens, new cafés, refits"
+        ],
+        [
+          "Working capital",
+          "Cash tied up in stock and in customers who pay later"
+        ]
+      ],
+      "note": "Cafe Group's EBITDA is 130. Its unlevered free cash flow turns out to be 50."
+    },
+    {
+      "at": "Subtract fifteen. Unlevered free cash flow: fifty.",
+      "type": "waterfall",
+      "title": "Cafe Group: from EBITDA to unlevered free cash flow",
+      "steps": [
+        {
+          "label": "EBITDA",
+          "value": 130,
+          "kind": "total"
+        },
+        {
+          "label": "Depreciation and amortisation",
+          "value": 30,
+          "kind": "sub"
+        },
+        {
+          "label": "EBIT",
+          "value": 100,
+          "kind": "total"
+        },
+        {
+          "label": "Tax at 25% (no interest)",
+          "value": 25,
+          "kind": "sub"
+        },
+        {
+          "label": "Add back D&A",
+          "value": 30,
+          "kind": "add"
+        },
+        {
+          "label": "Capex",
+          "value": 40,
+          "kind": "sub"
+        },
+        {
+          "label": "Increase in working capital",
+          "value": 15,
+          "kind": "sub"
+        },
+        {
+          "label": "Unlevered FCF",
+          "value": 50,
+          "kind": "total"
+        }
+      ],
+      "note": "Hypothetical example. Interest is ignored: unlevered means as if the company had no debt."
+    },
+    {
+      "at": "So the formula is EBIT times one minus the tax rate",
+      "type": "formula",
+      "title": "Unlevered free cash flow",
+      "formula": "Unlevered FCF = EBIT × (1 − tax rate) + D&A − capex − increase in working capital",
+      "note": "EBIT comes from the income statement; D&A, capex and the change in working capital from the cash flow statement."
+    },
+    {
+      "at": "Fourth trap. EBIT falls by ten",
+      "type": "table",
+      "title": "Depreciation rises by 10: what happens to free cash flow?",
+      "columns": [
+        "",
+        "Before",
+        "Depreciation +10"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "EBIT",
+          "100",
+          "90"
+        ],
+        [
+          "Tax at 25%",
+          "−25",
+          "−22.5"
+        ],
+        [
+          "Add back D&A",
+          "+30",
+          "+40"
+        ],
+        [
+          "Capex",
+          "−40",
+          "−40"
+        ],
+        [
+          "Increase in working capital",
+          "−15",
+          "−15"
+        ],
+        [
+          "Unlevered FCF",
+          "50",
+          "52.5"
+        ]
+      ],
+      "highlight": 5,
+      "highlightLabel": "up 2.5",
+      "note": "Depreciation isn't cash, but it cuts taxable profit: tax falls by 10 × 25% = 2.5."
+    },
+    {
+      "at": "Close, but which taxes? Say it properly.",
+      "type": "steps",
+      "title": "Interview answer: EBITDA to unlevered free cash flow",
+      "items": [
+        {
+          "label": "EBITDA",
+          "detail": "Subtract depreciation and amortisation to get EBIT"
+        },
+        {
+          "label": "Tax EBIT",
+          "detail": "At the company's tax rate, ignoring interest"
+        },
+        {
+          "label": "Add back non-cash charges",
+          "detail": "Depreciation, amortisation and similar items"
+        },
+        {
+          "label": "Subtract investment",
+          "detail": "Capital expenditure and the increase in net working capital"
+        },
+        {
+          "label": "Unlevered free cash flow",
+          "detail": "Cash available to lenders and shareholders together"
+        }
+      ]
+    },
+    {
+      "at": "No. Because it's a matching rule.",
+      "type": "table",
+      "title": "Match the cash flow, the rate and the value",
+      "columns": [
+        "Cash flow",
+        "Belongs to",
+        "Discount at",
+        "Gives"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Unlevered FCF",
+          "Lenders and shareholders",
+          "Weighted average cost of capital",
+          "Enterprise value"
+        ],
+        [
+          "Levered FCF",
+          "Shareholders only",
+          "Cost of equity",
+          "Equity value"
+        ]
+      ],
+      "note": "Interest and its tax saving go into the weighted average cost of capital (episode 16). Levered free cash flow is episode 19."
+    },
+    {
+      "at": "From Milan, and it's a fight about cash flow forecasts",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Increased takeover offer",
+      "name": "CVC and GBL / Recordati",
+      "sub": "Italian drugmaker; CVC already holds about 47%",
+      "lines": [
+        "€53.00 a share, called best and final"
+      ],
+      "date": "Raised on 6 October 2026"
+    },
+    {
+      "at": "On Tuesday, the sixth of October, they raised it",
+      "type": "keynumbers",
+      "title": "Recordati: the revised terms",
+      "items": [
+        {
+          "value": "€51.29",
+          "label": "original offer per share"
+        },
+        {
+          "value": "€53.00",
+          "label": "revised offer per share, best and final"
+        },
+        {
+          "value": "€0.71",
+          "label": "dividend already paid"
+        },
+        {
+          "value": "€53.71",
+          "label": "total per share, including the dividend"
+        },
+        {
+          "value": "16.6%",
+          "label": "premium to the close on 25 March 2026"
+        }
+      ],
+      "note": "25 March was the last trading day before the bid was announced. The offer now runs until 23 October."
+    },
+    {
+      "at": "Lazard's range was roughly forty-five",
+      "type": "football",
+      "title": "Recordati: two DCFs, one company (€ a share)",
+      "bars": [
+        {
+          "label": "Lazard DCF (board's adviser)",
+          "from": 45,
+          "to": 54
+        },
+        {
+          "label": "Rothschild DCF (independent directors' adviser)",
+          "from": 52,
+          "to": 61
+        }
+      ],
+      "marker": {
+        "value": 53,
+        "label": "Revised offer €53"
+      },
+      "note": "Ranges rounded, as in the episode. The board approved the original offer by six votes to four in July."
+    },
+    {
+      "at": "the activist fund Palliser Capital",
+      "type": "keynumbers",
+      "title": "Outside the boardroom",
+      "items": [
+        {
+          "value": "€60+",
+          "label": "Palliser Capital's minimum price"
+        },
+        {
+          "value": "€60",
+          "label": "average analyst target (Il Sole 24 Ore)",
+          "approx": true
+        },
+        {
+          "value": "€53",
+          "label": "revised offer"
+        }
+      ]
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "EBIT is 200, the tax rate 25%, depreciation 40, capex 60, and working capital rises by 20. Unlevered free cash flow?",
+        "options": [
+          {
+            "id": "a",
+            "text": "150"
+          },
+          {
+            "id": "b",
+            "text": "110"
+          },
+          {
+            "id": "c",
+            "text": "70"
+          },
+          {
+            "id": "d",
+            "text": "160"
+          }
+        ],
+        "correct": "b",
+        "explain": "200 × 0.75 = 150, plus 40 of depreciation, minus 60 of capex, minus the 20 increase in working capital: 110. Adding the 20 instead gives 150.",
+        "explain_at": "So the formula is EBIT times one minus the tax rate"
+      },
+      {
+        "id": "q2",
+        "q": "Working capital goes up by 10. What happens to free cash flow?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Up by 10: more assets"
+          },
+          {
+            "id": "b",
+            "text": "Unchanged: it's on the balance sheet"
+          },
+          {
+            "id": "c",
+            "text": "Down by 10"
+          },
+          {
+            "id": "d",
+            "text": "Down by 2.5 after tax"
+          }
+        ],
+        "correct": "c",
+        "explain": "More stock or slower-paying customers means cash sitting in the business, so subtract the full increase.",
+        "explain_at": "When working capital goes up, cash goes down."
+      },
+      {
+        "id": "q3",
+        "q": "Why don't you subtract interest when calculating unlevered free cash flow?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Interest is usually too small to matter"
+          },
+          {
+            "id": "b",
+            "text": "Interest is a non-cash accounting charge"
+          },
+          {
+            "id": "c",
+            "text": "It's already deducted in reaching EBIT"
+          },
+          {
+            "id": "d",
+            "text": "The cash belongs to lenders and shareholders"
+          }
+        ],
+        "correct": "d",
+        "explain": "Unlevered cash flow is for all capital providers; the cost of debt and its tax saving go into the weighted average cost of capital instead.",
+        "explain_at": "Unlevered means we pretend the company has no debt"
+      },
+      {
+        "id": "q4",
+        "q": "Depreciation rises by 20 and the tax rate is 25%. What happens to unlevered free cash flow?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Up by 5"
+          },
+          {
+            "id": "b",
+            "text": "Down by 20"
+          },
+          {
+            "id": "c",
+            "text": "Down by 15"
+          },
+          {
+            "id": "d",
+            "text": "Unchanged"
+          }
+        ],
+        "correct": "a",
+        "explain": "EBIT falls by 20, so tax falls by 5; the 20 of depreciation is added back because it isn't cash. Net effect: up 5.",
+        "explain_at": "Fourth trap. EBIT falls by ten"
+      },
+      {
+        "id": "q5",
+        "q": "Lazard's DCF range for Recordati was about €45–54 a share, Rothschild's about €52–61. Where does the €53 offer sit?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Below both advisers' ranges"
+          },
+          {
+            "id": "b",
+            "text": "Middle of both advisers' ranges"
+          },
+          {
+            "id": "c",
+            "text": "Top of Lazard's, bottom of Rothschild's"
+          },
+          {
+            "id": "d",
+            "text": "Bottom of Lazard's, top of Rothschild's"
+          }
+        ],
+        "correct": "c",
+        "explain": "€53 is near the top of Lazard's range and near the bottom of Rothschild's, so the argument is about whose cash flow forecasts you believe.",
+        "explain_at": "Fifty-three is near the top of Lazard's range"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Recordati: public tender offer documents, including Respighi BidCo's 6 October 2026 press release raising the offer to €53.00",
+      "url": "https://recordati.com/investors-public-tender-offers/"
+    },
+    {
+      "label": "Berkshire Hathaway: 1986 letter to shareholders (Scott Fetzer and owner earnings)",
+      "url": "https://www.berkshirehathaway.com/letters/1986.html"
+    },
+    {
+      "label": "Berkshire Hathaway: 1985 letter to shareholders (the Scott Fetzer acquisition)",
+      "url": "https://www.berkshirehathaway.com/letters/1985.html"
+    },
+    {
+      "label": "CVC, GBL sweeten bid for Italian drugmaker Recordati (Reuters, via Euronext)",
+      "url": "https://live.euronext.com/en/financial-news/cvc-gbl-sweeten-bid-italian-drugmaker-recordati"
+    },
+    {
+      "label": "Recordati: Palliser Capital writes to the board to reject the CVC-GBL bid (Il Sole 24 Ore)",
+      "url": "https://en.ilsole24ore.com/art/recordati-palliser-capital-writes-to-the-board-to-reject-the-cvc-gbl-takeover-bid-AJZTOuCB"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Let's build it."
+  }
+}
