@@ -2,12 +2,15 @@
 
     with repolock.hold("daily", wait_minutes=90): ...
 
-A lock whose owner process has died is treated as stale and taken over.
+A lock is stale, and taken over, when its owner process has died or it is older than
+STALE_MINUTES. The age rule covers a live but stuck owner (on 2026-10-07 a run frozen by
+Modern Standby held the lock for hours); the daily run stops itself well before that age.
 """
 import contextlib, ctypes, datetime, json, os, sys, time
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOCK = os.path.join(ROOT, "logs", "repo.lock")
+STALE_MINUTES = 90
 
 
 class Busy(Exception):
@@ -29,6 +32,18 @@ def _alive(pid):
         return True
     except OSError:
         return False
+
+
+def _age_minutes(h):
+    """Minutes since the lock was taken, from its "since" field or else the file's mtime."""
+    try:
+        since = datetime.datetime.fromisoformat(h["since"]).timestamp()
+    except (TypeError, KeyError, ValueError):
+        try:
+            since = os.path.getmtime(LOCK)
+        except OSError:
+            return 0
+    return (time.time() - since) / 60
 
 
 def holder():
@@ -54,6 +69,12 @@ def hold(owner, wait_minutes=0, log=print):
             h = holder()
             if h and not _alive(h.get("pid", -1)):
                 log(f"removing stale lock left by {h.get('owner')} (pid {h.get('pid')})")
+                os.remove(LOCK)
+                continue
+            age = _age_minutes(h)
+            if age > STALE_MINUTES:
+                log(f"taking over lock held by {h.get('owner') if h else '?'} (pid {h.get('pid') if h else '?'}) "
+                    f"since {h.get('since') if h else '?'}: {age:.0f} minutes old, over {STALE_MINUTES}")
                 os.remove(LOCK)
                 continue
             if time.time() >= deadline:
