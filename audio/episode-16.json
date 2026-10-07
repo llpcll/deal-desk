@@ -1,0 +1,466 @@
+{
+  "id": "episode-16",
+  "title": "The Deal Desk, episode 16: The cost of capital, or how Klarna lost eighty-five percent",
+  "hook": "In thirteen months Klarna's valuation fell from forty-five point six billion dollars to six point seven billion. One of its oldest backers said the business had never been stronger. The discount rate had moved.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-08T00:37:55",
+  "duration": 723.078,
+  "audio": "episode-16.mp3",
+  "chunks": [
+    {
+      "words": 446,
+      "seconds": 169.9,
+      "expected": 178.4,
+      "attempts": 1,
+      "coverage": 0.974,
+      "transcribed_words": 451,
+      "script_words": 454,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    },
+    {
+      "words": 476,
+      "seconds": 186.0,
+      "expected": 190.4,
+      "attempts": 1,
+      "coverage": 0.975,
+      "transcribed_words": 476,
+      "script_words": 485,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    },
+    {
+      "words": 468,
+      "seconds": 187.1,
+      "expected": 187.2,
+      "attempts": 1,
+      "coverage": 0.966,
+      "transcribed_words": 473,
+      "script_words": 475,
+      "method": "whisper",
+      "lines_matched": 18,
+      "problems": []
+    },
+    {
+      "words": 448,
+      "seconds": 178.1,
+      "expected": 179.2,
+      "attempts": 1,
+      "coverage": 0.973,
+      "transcribed_words": 443,
+      "script_words": 450,
+      "method": "whisper",
+      "lines_matched": 10,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode sixteen. Yesterday we learned that the tooth fairy doesn't pay for the ovens. Today we find out who sets the discount rate. The weighted average cost of capital, the capital asset pricing model, and beta. And we start in Stockholm.",
+      "start": 0.46,
+      "end": 19.13
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Klarna?",
+      "start": 19.18,
+      "end": 20.32
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Klarna, the Swedish buy now, pay later company. In June twenty twenty-one, a funding round valued it at forty-five point six billion dollars. On the eleventh of July twenty twenty-two, it raised eight hundred million dollars at a valuation of six point seven billion.",
+      "start": 20.37,
+      "end": 38.19
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "That's down more than eighty percent.",
+      "start": 38.24,
+      "end": 40.95
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "Eighty-five percent, in about thirteen months. And here's the strange part. Michael Moritz of Sequoia, which first invested in Klarna in twenty ten, said the business was stronger than at any time since then. He put the fall entirely down to investors suddenly voting the opposite way.",
+      "start": 41.0,
+      "end": 59.77
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "So what changed, if the business didn't?",
+      "start": 59.82,
+      "end": 63.04
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "Klarna's own press release pointed to the worst stock downturn in fifty years, and compared itself with listed fintech companies whose shares had collapsed. Behind that downturn sat one number. In March twenty twenty-two, the Federal Reserve started raising its key rate from close to zero, to a range of a quarter to half a percent. By December, it was four and a quarter to four and a half.",
+      "start": 63.09,
+      "end": 87.8
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "Four points in nine months.",
+      "start": 87.85,
+      "end": 89.94
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "And every discount rate in the world moved with it. Most of Klarna's value lived in the future, in profits years away. When the rate you discount at goes up, far-off profits shrink the most. By the end of today you'll be able to show why.",
+      "start": 89.99,
+      "end": 105.15
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "So the discount rate is just the interest rate.",
+      "start": 105.2,
+      "end": 108.11
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "First trap. The interest rate is the starting point, not the answer. Remember episode fifteen: unlevered free cash flow belongs to lenders and shareholders together. So the discount rate has to be what both of them demand, blended. That's the weighted average cost of capital. In interviews you'll hear it as wack, W-A-C-C. Two ingredients, the cost of debt and the cost of equity, each weighted by how much of the company it funds.",
+      "start": 108.16,
+      "end": 135.99
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "Cost of debt is easy. It's the interest rate the company pays.",
+      "start": 136.04,
+      "end": 139.3
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "Nearly. It's the rate the company would pay to borrow today, not the coupon on bonds it issued years ago. Say Cafe Group could borrow at eight percent. But interest cuts the tax bill. With tax at twenty-five percent, the after-tax cost of debt is six percent. That's the tax saving we parked yesterday. It lives here, in the rate, not in the cash flow.",
+      "start": 139.35,
+      "end": 163.82
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "And equity? Shareholders don't charge interest. Dividends are optional. So equity is the cheap money.",
+      "start": 163.87,
+      "end": 170.25
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "Second trap, and the most expensive one. Equity is the dearest money a company has. Shareholders are paid last, after lenders, staff and the tax office, and nothing is promised to them. So they demand more. To put a number on it, we use the capital asset pricing model. C-A-P-M, usually said cap-em. Cost of equity equals the risk-free rate, plus beta times the equity risk premium.",
+      "start": 170.77,
+      "end": 200.24
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "Three pieces.",
+      "start": 200.29,
+      "end": 201.42
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "The risk-free rate is the yield on a government bond, in the same currency as the cash flows. Say four percent. The equity risk premium is the extra return investors want for holding shares instead of that bond, across the whole market. Say five percent. And beta says how much this company's shares move when the market moves.",
+      "start": 201.47,
+      "end": 222.75
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "So beta measures how risky the share is. A share that swings a lot has a high beta.",
+      "start": 222.8,
+      "end": 229.42
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Third trap. Beta measures how a share moves with the market, not how much it swings on its own. A small drug developer can jump fifty percent on one trial result, but an investor holding a hundred different shares can diversify that away. Nobody can diversify away the market itself, so that's the risk investors get paid for. A beta of one moves with the market. One point five moves half as much again.",
+      "start": 229.47,
+      "end": 255.37
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "And Cafe Group?",
+      "start": 255.42,
+      "end": 257.46
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Cafés suffer when people stop spending, so say one point two. Four percent, plus one point two times five. That's six more points. Cost of equity: ten percent.",
+      "start": 257.51,
+      "end": 268.11
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "Then the weights. Cafe Group's balance sheet shows very little equity, so it's mostly debt.",
+      "start": 268.16,
+      "end": 275.1
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Fourth trap. Market values, not book values. The balance sheet records what shareholders paid in years ago. What matters is what investors would hand over for those shares today. Keep it round: at market value, Cafe Group is three quarters equity and one quarter debt. Three quarters of ten is seven and a half. A quarter of six is one and a half. Weighted average cost of capital: nine percent.",
+      "start": 275.15,
+      "end": 301.87
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "So nine percent is what all of Cafe Group's investors, together, expect to earn.",
+      "start": 301.92,
+      "end": 308.41
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "Exactly. And that's why it's the right rate for unlevered free cash flow. Same owners, same cash, same rate. Now back to twenty twenty-two. Take a company whose cost of capital goes from eight percent to ten. One hundred of cash arriving next year is worth about ninety-three today at eight percent, and about ninety-one at ten. It barely moves. Now one hundred arriving in ten years. At eight percent, about forty-six. At ten, about thirty-nine.",
+      "start": 308.46,
+      "end": 338.27
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "That's a sixth of its value gone. For the same cash.",
+      "start": 338.32,
+      "end": 342.03
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "That's Klarna. A mature business earning steady cash today barely flinches when rates rise. A growth company whose profits sit years ahead takes the full hit. The business can be stronger than ever and still be worth far less.",
+      "start": 342.08,
+      "end": 356.06
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "Okay.",
+      "start": 356.11,
+      "end": 356.604
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: walk me through the weighted average cost of capital.",
+      "start": 357.124,
+      "end": 362.834
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "It's the average of the cost of debt and the cost of equity.",
+      "start": 362.884,
+      "end": 366.054
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "Weighted, and after tax. Say it properly. Cost of equity from the capital asset pricing model: risk-free rate plus beta times the equity risk premium. Cost of debt at today's borrowing rate, minus the tax saving. Weight each by its share of the company at market value, often a target mix for that kind of business. Add them up. That's the return all capital providers require, the rate for unlevered free cash flow.",
+      "start": 366.104,
+      "end": 393.514
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 393.564,
+      "end": 394.644
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "Which is cheaper, debt or equity, and why?",
+      "start": 394.694,
+      "end": 399.104
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "Debt, because interest rates are lower than what the stock market returns.",
+      "start": 399.154,
+      "end": 403.324
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "Right answer, thin reason. Lenders are paid before shareholders, often with security, so they take less risk. And interest is tax deductible. Then the follow-up: why not fund everything with debt? Because more debt makes the equity riskier, so its beta and its cost rise, and lenders charge more too. Past a point, the risk of going bust outweighs the tax saving.",
+      "start": 403.374,
+      "end": 430.164
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "Third?",
+      "start": 430.214,
+      "end": 430.984
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "How do you find beta for a private company, or for one division of a group?",
+      "start": 431.034,
+      "end": 436.564
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "Use the parent company's beta. Or if there's no parent, one, the market average.",
+      "start": 436.614,
+      "end": 441.554
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "Neither. Find listed companies in the same business. Their betas include the effect of their own debt, so you unlever each one to strip that out. Take the median, then relever it at your target's own mix of debt and equity. Bankers call it unlevering and relevering beta, and it's the standard answer.",
+      "start": 441.604,
+      "end": 460.734
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 460.784,
+      "end": 461.864
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "A division, as it happens. Yesterday, Wednesday the seventh of October, NCC, the Swedish construction group, agreed to sell its Industry business: stone materials and asphalt, made in quarries and plants across the Nordic countries. Enterprise value, eight point two billion Swedish kronor.",
+      "start": 461.914,
+      "end": 480.114
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "Who's buying?",
+      "start": 480.164,
+      "end": 481.064
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "Two buyers in one deal. Heidelberg Materials, the German building materials group, takes the operations in Sweden and Norway. C-R-H, another building materials group, takes Denmark and Finland. The price is paid in cash at completion, which NCC expects in the second half of twenty twenty-seven, subject to regulatory approval. NCC expects a positive cash flow of about seven billion kronor.",
+      "start": 481.114,
+      "end": 506.094
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "And how big is the business?",
+      "start": 506.144,
+      "end": 507.714
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "In twenty twenty-five, sales of twelve point six billion kronor and operating profit of eight hundred and seventy-nine million. Divide eight point two billion by eight hundred and seventy-nine million, and the price is a little over nine times operating profit.",
+      "start": 507.764,
+      "end": 523.244
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "Why would NCC sell?",
+      "start": 523.294,
+      "end": 525.564
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "In its own words, Industry makes standard products from fixed plants, while contracting, NCC's main business, is project-based and needs much less capital. The chief executive, Tomas Carlsson, said the sale reduces NCC's capital intensity and strengthens its financial flexibility.",
+      "start": 525.614,
+      "end": 544.104
+    },
+    {
+      "i": 47,
+      "speaker": "SOFIA",
+      "text": "Episode fifteen. Quarries need capex, every year.",
+      "start": 544.624,
+      "end": 549.634
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "Exactly. And now episode sixteen. Here's your interview question. You're valuing NCC's Industry business with a D-C-F. Which discount rate do you use?",
+      "start": 549.684,
+      "end": 561.444
+    },
+    {
+      "i": 49,
+      "speaker": "SOFIA",
+      "text": "NCC's, because it's NCC's business. Or no, Heidelberg's, because Heidelberg is paying, and a bigger company has a lower cost of capital, so it can pay more.",
+      "start": 561.494,
+      "end": 571.794
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "Two traps in one answer. NCC's group rate blends a contractor with a quarry business, and the rate has to match the risk of the cash flows you're valuing. So take the betas of listed building materials companies, which happen to include both buyers, unlever them, take the median and relever. And the buyer's rate doesn't belong either. The risk comes with the asset, not the owner. A buyer that discounts a riskier target at its own lower rate overpays. If Heidelberg can afford more, the reasons are savings and fit, and those go in the cash flows.",
+      "start": 571.844,
+      "end": 609.814
+    },
+    {
+      "i": 51,
+      "speaker": "SOFIA",
+      "text": "So the discount rate follows the cash, not whoever's buying.",
+      "start": 609.864,
+      "end": 614.494
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Nicely put. Quiz. For you listening. Question one: the risk-free rate is three percent, beta is one point five, and the equity risk premium is six percent. What's the cost of equity? Question two: equity worth six hundred costs ten percent, debt worth four hundred costs five percent before tax, and the tax rate is twenty percent. What's the weighted average cost of capital? Question three: why do you use the after-tax cost of debt? Question four: the discount rate rises from eight to ten percent. Which loses more of its value: one hundred arriving next year, or one hundred arriving in ten years? Question five: you're valuing NCC's Industry business. Whose beta do you start from?",
+      "start": 614.544,
+      "end": 663.784
+    },
+    {
+      "i": 53,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 663.834,
+      "end": 666.034
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "Answers. One: twelve percent. Three, plus one point five times six. Two: seven point six percent. Equity is sixty percent of the total, so sixty percent of ten is six. Debt costs four percent after tax, and forty percent of four is one point six. Three: because interest reduces the company's tax bill, so debt costs less than its headline rate. Four: the one hundred in ten years. The further away the cash, the harder a higher rate hits it. Five: listed building materials peers, unlevered and relevered. Not NCC's group beta, and not the buyer's.",
+      "start": 666.084,
+      "end": 701.964
+    },
+    {
+      "i": 55,
+      "speaker": "SOFIA",
+      "text": "So Klarna didn't get worse. The rate got higher.",
+      "start": 702.014,
+      "end": 705.394
+    },
+    {
+      "i": 56,
+      "speaker": "MARCO",
+      "text": "And the rate hits hardest at the far end of the forecast, which is where most of a D-C-F's value usually sits. Tomorrow, episode seventeen: terminal value. What a business is worth after the forecast stops, the two ways to calculate it, and why one small assumption can move the whole answer.",
+      "start": 705.444,
+      "end": 722.618
+    }
+  ]
+}

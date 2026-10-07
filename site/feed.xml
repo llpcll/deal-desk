@@ -17,7 +17,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 10:15:56 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:37:56 +0200</lastBuildDate>
+    <item>
+      <title>16. The cost of capital, or how Klarna lost eighty-five percent</title>
+      <description>In thirteen months Klarna's valuation fell from forty-five point six billion dollars to six point seven billion. One of its oldest backers said the business had never been stronger. The discount rate had moved. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-16/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>In thirteen months Klarna&#x27;s valuation fell from forty-five point six billion dollars to six point seven billion. One of its oldest backers said the business had never been stronger. The discount rate had moved.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-16/">https://llpcll.github.io/deal-desk/episode-16/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.ncc.com/media/press-releases/pressrelease/555a285c7caf9560/ncc-divests-business-area-industry-for-sek-82-billion-and-strengthens-focus-on-contracting/">NCC: NCC divests business area Industry for SEK 8.2 billion and strengthens focus on contracting (press release, 7 October 2026)</a></li><li><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm">Federal Reserve: FOMC statement, 16 March 2022 (target range raised to 1/4 to 1/2 percent)</a></li><li><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20221214a.htm">Federal Reserve: FOMC statement, 14 December 2022 (target range raised to 4-1/4 to 4-1/2 percent)</a></li><li><a href="https://techcrunch.com/2022/07/11/klarna-confirms-800m-raise-as-valuation-drops-85-to-6-7b/">Klarna confirms $800M raise as valuation drops 85% to $6.7B (TechCrunch, 11 July 2022)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-16/</link>
+      <guid isPermaLink="false">deal-desk-episode-16</guid>
+      <pubDate>Thu, 08 Oct 2026 00:37:56 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-16.mp3" length="8678306" type="audio/mpeg"/>
+      <itunes:author>The Deal Desk</itunes:author>
+      <itunes:duration>723</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>16</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-16.json" type="application/json+chapters"/>
+    </item>
     <item>
       <title>15. Unlevered free cash flow, or who pays for the capex</title>
       <description>Warren Buffett once showed the same company's year with two very different profits. He trusted neither. He trusted the cash. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-15/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>

@@ -1,0 +1,471 @@
+{
+  "visuals": [
+    {
+      "at": "Klarna, the Swedish buy now, pay later company",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Down round",
+      "name": "Klarna",
+      "sub": "Swedish buy now, pay later company",
+      "lines": [
+        "Raised $800m at a $6.7bn valuation"
+      ],
+      "date": "Announced 11 July 2022"
+    },
+    {
+      "at": "it raised eight hundred million dollars at a valuation",
+      "type": "bars",
+      "title": "Klarna's valuation, thirteen months apart",
+      "unit": "$bn",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "June 2021 funding round",
+          "value": 45.6
+        },
+        {
+          "label": "July 2022 funding round",
+          "value": 6.7
+        }
+      ],
+      "note": "A fall of about 85%. Sequoia's Michael Moritz said the business was stronger than at any time since Sequoia first invested in 2010."
+    },
+    {
+      "at": "In March twenty twenty-two, the Federal Reserve started raising",
+      "type": "keynumbers",
+      "title": "The 2022 rate shock: the Fed's target range",
+      "items": [
+        {
+          "value": "0.25–0.5%",
+          "label": "March 2022, the first rise from close to zero"
+        },
+        {
+          "value": "4.25–4.5%",
+          "label": "December 2022"
+        }
+      ],
+      "note": "Every discount rate is built on top of the risk-free rate, so when it rose, valuations fell."
+    },
+    {
+      "at": "That's the weighted average cost of capital. In interviews",
+      "type": "formula",
+      "title": "Weighted average cost of capital (WACC)",
+      "formula": "WACC = equity weight × cost of equity + debt weight × cost of debt × (1 − tax rate)",
+      "note": "Weights at market value. The discount rate for unlevered free cash flow, which belongs to lenders and shareholders together."
+    },
+    {
+      "at": "Cost of equity equals the risk-free rate, plus beta times the equity risk premium",
+      "type": "formula",
+      "title": "Capital asset pricing model (CAPM)",
+      "formula": "Cost of equity = risk-free rate + beta × equity risk premium",
+      "note": "Risk-free rate: government bond yield in the cash flows' currency. Equity risk premium: the extra return the whole market demands over that bond."
+    },
+    {
+      "at": "Cost of equity: ten percent.",
+      "type": "table",
+      "title": "Cafe Group: cost of equity",
+      "columns": [
+        "Input",
+        "Value"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Risk-free rate",
+          "4%"
+        ],
+        [
+          "Beta",
+          "1.2"
+        ],
+        [
+          "Equity risk premium",
+          "5%"
+        ],
+        [
+          "Beta × premium",
+          "6%"
+        ],
+        [
+          "Cost of equity",
+          "10%"
+        ]
+      ],
+      "highlight": 4,
+      "highlightLabel": "4% + 1.2 × 5%",
+      "note": "Hypothetical example. Beta measures how the shares move with the market, not how much they swing on their own."
+    },
+    {
+      "at": "Weighted average cost of capital: nine percent.",
+      "type": "table",
+      "title": "Cafe Group: weighted average cost of capital",
+      "columns": [
+        "Source",
+        "Weight",
+        "Cost",
+        "Contribution"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Equity",
+          "75%",
+          "10%",
+          "7.5%"
+        ],
+        [
+          "Debt (8% before 25% tax)",
+          "25%",
+          "6%",
+          "1.5%"
+        ],
+        [
+          "WACC",
+          "",
+          "",
+          "9%"
+        ]
+      ],
+      "highlight": 2,
+      "highlightLabel": "the discount rate",
+      "note": "Hypothetical example. Weights at market value, not book value."
+    },
+    {
+      "at": "Now one hundred arriving in ten years.",
+      "type": "table",
+      "title": "Present value of 100 when the rate rises from 8% to 10%",
+      "columns": [
+        "Cash flow",
+        "At 8%",
+        "At 10%",
+        "Change"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "100 next year",
+          "~93",
+          "~91",
+          "about −2%"
+        ],
+        [
+          "100 in ten years",
+          "~46",
+          "~39",
+          "about −17%, a sixth"
+        ]
+      ],
+      "highlight": 1,
+      "highlightLabel": "far-off cash is hit hardest",
+      "note": "100 ÷ 1.08 ≈ 92.6 and 100 ÷ 1.10 ≈ 90.9; 100 ÷ 1.08^10 ≈ 46.3 and 100 ÷ 1.10^10 ≈ 38.6. Why growth companies like Klarna fell furthest in 2022."
+    },
+    {
+      "at": "Weighted, and after tax. Say it properly.",
+      "type": "steps",
+      "title": "Interview answer: walking through WACC",
+      "items": [
+        {
+          "label": "Cost of equity",
+          "detail": "CAPM: risk-free rate + beta × equity risk premium"
+        },
+        {
+          "label": "Cost of debt",
+          "detail": "Today's borrowing rate, minus the tax saving on interest"
+        },
+        {
+          "label": "Weights",
+          "detail": "Each source's share of the company at market value, often a target mix"
+        },
+        {
+          "label": "WACC",
+          "detail": "The return all capital providers require: the rate for unlevered free cash flow"
+        }
+      ]
+    },
+    {
+      "at": "Find listed companies in the same business.",
+      "type": "steps",
+      "title": "Beta for a private company or a division",
+      "items": [
+        {
+          "label": "Listed peers",
+          "detail": "Companies in the same business, with observable betas"
+        },
+        {
+          "label": "Unlever",
+          "detail": "Strip out the effect of each peer's own debt"
+        },
+        {
+          "label": "Median",
+          "detail": "One central unlevered beta for the business"
+        },
+        {
+          "label": "Relever",
+          "detail": "At the target's own mix of debt and equity"
+        }
+      ]
+    },
+    {
+      "at": "NCC, the Swedish construction group, agreed",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Divestment",
+      "name": "NCC Industry",
+      "sub": "Stone materials and asphalt across the Nordic countries",
+      "lines": [
+        "Sold to Heidelberg Materials and CRH for an enterprise value of SEK 8.2bn"
+      ],
+      "date": "Announced 7 October 2026"
+    },
+    {
+      "at": "Two buyers in one deal.",
+      "type": "table",
+      "title": "One sale, two buyers",
+      "columns": [
+        "Buyer",
+        "Takes"
+      ],
+      "align": [
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Heidelberg Materials",
+          "Sweden and Norway"
+        ],
+        [
+          "CRH",
+          "Denmark and Finland"
+        ]
+      ],
+      "note": "Paid in cash at completion, expected in the second half of 2027, subject to regulatory approval. NCC expects a positive cash flow of about SEK 7bn."
+    },
+    {
+      "at": "sales of twelve point six billion kronor",
+      "type": "keynumbers",
+      "title": "NCC Industry in four numbers",
+      "items": [
+        {
+          "value": "SEK 8.2bn",
+          "label": "enterprise value"
+        },
+        {
+          "value": "SEK 12.6bn",
+          "label": "sales in 2025"
+        },
+        {
+          "value": "SEK 879m",
+          "label": "operating profit in 2025"
+        },
+        {
+          "value": "9.3x",
+          "label": "enterprise value over 2025 operating profit",
+          "approx": true
+        }
+      ],
+      "note": "The multiple is derived: 8.2bn ÷ 879m ≈ 9.3, \"a little over nine times\" in the episode."
+    },
+    {
+      "at": "Two traps in one answer.",
+      "type": "table",
+      "title": "Which discount rate for NCC Industry?",
+      "columns": [
+        "Rate",
+        "Verdict"
+      ],
+      "align": [
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "NCC's group rate",
+          "Blends a contractor with a quarry business"
+        ],
+        [
+          "The buyer's own rate",
+          "The risk comes with the asset, not the owner"
+        ],
+        [
+          "Building materials peers, unlevered and relevered",
+          "Matches the risk of the cash flows being valued"
+        ]
+      ],
+      "highlight": 2,
+      "highlightLabel": "the strong answer",
+      "note": "If a buyer can pay more, savings and fit go in the cash flows, not the discount rate."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "The risk-free rate is 3%, beta is 1.5 and the equity risk premium is 6%. What's the cost of equity?",
+        "options": [
+          {
+            "id": "a",
+            "text": "9%"
+          },
+          {
+            "id": "b",
+            "text": "13.5%"
+          },
+          {
+            "id": "c",
+            "text": "12%"
+          },
+          {
+            "id": "d",
+            "text": "10.5%"
+          }
+        ],
+        "correct": "c",
+        "explain": "3% + 1.5 × 6% = 12%. Beta multiplies the equity risk premium only, not the risk-free rate, and the risk-free rate is still added on top.",
+        "explain_at": "Cost of equity equals the risk-free rate, plus beta times the equity risk premium"
+      },
+      {
+        "id": "q2",
+        "q": "Equity worth 600 costs 10%, debt worth 400 costs 5% before tax, and the tax rate is 20%. What's the WACC?",
+        "options": [
+          {
+            "id": "a",
+            "text": "7.6%"
+          },
+          {
+            "id": "b",
+            "text": "8%"
+          },
+          {
+            "id": "c",
+            "text": "7.5%"
+          },
+          {
+            "id": "d",
+            "text": "7%"
+          }
+        ],
+        "correct": "a",
+        "explain": "60% × 10% = 6%, plus 40% × 4% (5% after 20% tax) = 1.6%: 7.6%. Using the pre-tax 5% gives 8%; a simple average gives 7.5%.",
+        "explain_at": "Three quarters of ten is seven and a half"
+      },
+      {
+        "id": "q3",
+        "q": "Why do you use the after-tax cost of debt in the WACC?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Interest is subtracted in the cash flow"
+          },
+          {
+            "id": "b",
+            "text": "Lenders pay tax on interest they receive"
+          },
+          {
+            "id": "c",
+            "text": "Debt ranks ahead of equity in a default"
+          },
+          {
+            "id": "d",
+            "text": "Interest reduces the company's tax bill"
+          }
+        ],
+        "correct": "d",
+        "explain": "Interest is tax deductible, so debt costs less than its headline rate. The saving goes in the discount rate, not the unlevered cash flow.",
+        "explain_at": "But interest cuts the tax bill."
+      },
+      {
+        "id": "q4",
+        "q": "The discount rate rises from 8% to 10%. Which loses more of its present value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The 100 arriving next year"
+          },
+          {
+            "id": "b",
+            "text": "The 100 arriving in ten years"
+          },
+          {
+            "id": "c",
+            "text": "Both lose the same share"
+          },
+          {
+            "id": "d",
+            "text": "Neither: the cash is unchanged"
+          }
+        ],
+        "correct": "b",
+        "explain": "The rate compounds over every year of waiting: the 100 next year falls about 2%, the 100 in ten years about a sixth. That's why growth companies fell hardest in 2022.",
+        "explain_at": "Now one hundred arriving in ten years."
+      },
+      {
+        "id": "q5",
+        "q": "You're valuing NCC's Industry business with a DCF. Whose beta do you start from?",
+        "options": [
+          {
+            "id": "a",
+            "text": "NCC's group beta, since it owns it"
+          },
+          {
+            "id": "b",
+            "text": "The buyer's beta, since it pays"
+          },
+          {
+            "id": "c",
+            "text": "Peers' betas, unlevered and relevered"
+          },
+          {
+            "id": "d",
+            "text": "One, the market average beta"
+          }
+        ],
+        "correct": "c",
+        "explain": "The rate has to match the risk of the cash flows being valued, so use listed building materials peers. The risk comes with the asset, not the owner.",
+        "explain_at": "the rate has to match the risk of the cash flows you're valuing"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "NCC: NCC divests business area Industry for SEK 8.2 billion and strengthens focus on contracting (press release, 7 October 2026)",
+      "url": "https://www.ncc.com/media/press-releases/pressrelease/555a285c7caf9560/ncc-divests-business-area-industry-for-sek-82-billion-and-strengthens-focus-on-contracting/"
+    },
+    {
+      "label": "Federal Reserve: FOMC statement, 16 March 2022 (target range raised to 1/4 to 1/2 percent)",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm"
+    },
+    {
+      "label": "Federal Reserve: FOMC statement, 14 December 2022 (target range raised to 4-1/4 to 4-1/2 percent)",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20221214a.htm"
+    },
+    {
+      "label": "Klarna confirms $800M raise as valuation drops 85% to $6.7B (TechCrunch, 11 July 2022)",
+      "url": "https://techcrunch.com/2022/07/11/klarna-confirms-800m-raise-as-valuation-drops-85-to-6-7b/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So the discount rate is just the interest rate."
+  }
+}
