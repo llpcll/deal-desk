@@ -462,22 +462,21 @@ def published_today(today):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--no-publish", action="store_true")
+    ap.add_argument("--dry-run", action="store_true", help="write and render a short test script; publish nothing")
+    args = ap.parse_args()  # before the status line, so --help or a typo doesn't overwrite it
+    args.no_publish = args.no_publish or args.dry_run
     status = "FAILED: stopped before finishing"
     try:
-        rc, status = _main()
+        rc, status = _main(args)
         return rc
     finally:
         write_last_run(status)
 
 
-def _main():
+def _main(args):
     global _log_file, _deadline
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--no-publish", action="store_true")
-    ap.add_argument("--dry-run", action="store_true", help="write and render a short test script; publish nothing")
-    args = ap.parse_args()
-    args.no_publish = args.no_publish or args.dry_run
-
     os.makedirs(LOG_DIR, exist_ok=True)
     today = datetime.date.today()
     _log_file = open(os.path.join(LOG_DIR, f"daily-{today}.log"), "a", encoding="utf-8")
