@@ -461,6 +461,18 @@ def published_today(today):
     return [k for k, v in published.items() if v[:10] == today.isoformat()]
 
 
+def already_published(ep_id):
+    """Status for a run that finds today's episode in published.json. published.json is
+    written before the push, so a blocked push leaves the episode recorded but not live:
+    report that as a failure instead of OK."""
+    ahead = int(git("rev-list", "--count", "@{upstream}..HEAD").strip() or 0)
+    if ahead:
+        log(f"FAILED: {ep_id} is recorded but {ahead} commit(s) are not pushed; push by hand after reviewing them")
+        return 1, f"FAILED: {ep_id} not pushed ({ahead} commit(s) ahead of GitHub); push by hand after reviewing them"
+    log(f"{ep_id} already published today; nothing to do")
+    return 0, f"OK: {ep_id} already published today"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-publish", action="store_true")
@@ -485,8 +497,7 @@ def _main(args):
     # most one a day. Check before waiting for the lock, then again after pulling.
     done = published_today(today)
     if done and not args.no_publish:
-        log(f"{done[0]} already published today; nothing to do")
-        return 0, f"OK: {done[0]} already published today"
+        return already_published(done[0])
     keep_awake()
     try:
         lock = repolock.hold("daily", wait_minutes=LOCK_WAIT_MINUTES, log=log)
@@ -505,8 +516,7 @@ def _main(args):
         published = build_site.load_json(build_site.PUBLISHED, {})
         done = published_today(today)
         if done and not args.no_publish:
-            log(f"{done[0]} already published today; nothing to do")
-            return 0, f"OK: {done[0]} already published today"
+            return already_published(done[0])
         n = max(int(k.split("-")[1]) for k in published) + 1
         log(f"next episode: {n}")
 
