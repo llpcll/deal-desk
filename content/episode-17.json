@@ -1,0 +1,469 @@
+{
+  "visuals": [
+    {
+      "at": "D-F-C Global, a payday lender",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Take-private, then appraisal",
+      "name": "DFC Global",
+      "sub": "Payday lender",
+      "lines": [
+        "Acquired by Lone Star for $9.50 a share"
+      ],
+      "date": "Appraisal reversed by the Delaware Supreme Court, August 2017"
+    },
+    {
+      "at": "Fair value: ten dollars twenty-one.",
+      "type": "keynumbers",
+      "title": "DFC Global: three values, weighted equally",
+      "items": [
+        {
+          "value": "$9.50",
+          "label": "deal price"
+        },
+        {
+          "value": "$8.07",
+          "label": "comparable companies"
+        },
+        {
+          "value": "$13.07",
+          "label": "the court's own DCF"
+        },
+        {
+          "value": "$10.21",
+          "label": "fair value, one third each"
+        }
+      ],
+      "note": "Per share. The Court of Chancery's first decision."
+    },
+    {
+      "at": "from three point one percent to four",
+      "type": "bars",
+      "title": "The one number the court changed",
+      "unit": "%",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "Perpetuity growth, first decision",
+          "value": 3.1
+        },
+        {
+          "label": "Perpetuity growth, after reargument",
+          "value": 4.0
+        }
+      ],
+      "note": "The DCF went back above the deal price and fair value became $10.30. The Supreme Court: \"no adequate basis in the record supports this major change in growth rate.\""
+    },
+    {
+      "at": "terminal value equals next year's cash flow divided by",
+      "type": "formula",
+      "title": "Perpetuity growth (Gordon growth) method",
+      "formula": "Terminal value = next year's cash flow ÷ (discount rate − growth rate)",
+      "note": "Next year's cash flow is the first year after the forecast: the final-year cash flow × (1 + growth)."
+    },
+    {
+      "at": "One hundred grown by two percent is one hundred and two",
+      "type": "table",
+      "title": "Cafe Group: terminal value",
+      "columns": [
+        "Input",
+        "Value"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Year-5 free cash flow",
+          "100"
+        ],
+        [
+          "Long-term growth",
+          "2%"
+        ],
+        [
+          "Year-6 free cash flow",
+          "102"
+        ],
+        [
+          "Discount rate (WACC)",
+          "9%"
+        ],
+        [
+          "Terminal value, end of year 5",
+          "~1,460"
+        ]
+      ],
+      "highlight": 4,
+      "highlightLabel": "102 ÷ 7%",
+      "note": "Hypothetical example. Dividing 100 instead of 102 gives about 1,430: the first trap."
+    },
+    {
+      "at": "Enterprise value about one thousand three hundred and forty",
+      "type": "waterfall",
+      "title": "Cafe Group: where the value sits",
+      "unit": "",
+      "decimals": 0,
+      "steps": [
+        {
+          "label": "Forecast years, today's value",
+          "value": 390,
+          "kind": "total"
+        },
+        {
+          "label": "Terminal value, discounted 5 years",
+          "value": 950,
+          "kind": "add"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 1340,
+          "kind": "total"
+        }
+      ],
+      "note": "Rounded. \"Just under 400\" is shown as 390. 1,460 ÷ 1.09^5 (about 1.54) ≈ 950, about 70% of the total."
+    },
+    {
+      "at": "Take growth from two percent to three",
+      "type": "table",
+      "title": "Same cash flow, different growth (discount rate 9%)",
+      "columns": [
+        "Long-term growth",
+        "Terminal value"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "2%",
+          "~1,460"
+        ],
+        [
+          "3%",
+          "~1,720"
+        ],
+        [
+          "8%",
+          "10,800"
+        ],
+        [
+          "9%",
+          "formula breaks"
+        ]
+      ],
+      "highlight": 1,
+      "highlightLabel": "+18% for one point",
+      "note": "Hypothetical. 102 ÷ 7%, 103 ÷ 6%, 108 ÷ 1%. Long-term growth should stay at or below the economy's, usually 2 to 3% in developed markets."
+    },
+    {
+      "at": "The exit multiple method.",
+      "type": "formula",
+      "title": "Exit multiple method",
+      "formula": "Terminal value = final-year EBITDA × multiple of comparable companies",
+      "note": "Cafe Group: 150 × 8 = 1,200. A multiple is a growth assumption in disguise, and it carries today's market mood."
+    },
+    {
+      "at": "Our growth method gave about one thousand four hundred and sixty",
+      "type": "bars",
+      "title": "Cross-checking the two methods",
+      "unit": "",
+      "decimals": 0,
+      "items": [
+        {
+          "label": "Perpetuity growth (2%)",
+          "value": 1460,
+          "approx": true
+        },
+        {
+          "label": "Exit multiple (8x EBITDA)",
+          "value": 1200
+        }
+      ],
+      "note": "1,460 is nearly 10x year-5 EBITDA of 150. Either 2% growth is generous or 8x is cautious: explain the gap, don't average it."
+    },
+    {
+      "at": "Half right. Name both with their formulas.",
+      "type": "steps",
+      "title": "Interview answer: the two terminal value methods",
+      "items": [
+        {
+          "label": "Perpetuity growth",
+          "detail": "Next year's cash flow ÷ (discount rate − growth rate)"
+        },
+        {
+          "label": "Exit multiple",
+          "detail": "Final-year EBITDA × a multiple from comparable companies"
+        },
+        {
+          "label": "What each rests on",
+          "detail": "The business's own cash, or what the market pays today"
+        },
+        {
+          "label": "Cross-check",
+          "detail": "Use one; test it with the implied multiple or implied growth rate"
+        }
+      ]
+    },
+    {
+      "at": "Schneider Electric, the French energy management",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition, all cash",
+      "name": "Schneider Electric / PTC",
+      "sub": "American industrial software company",
+      "lines": [
+        "$205 a share, enterprise value $23.7bn"
+      ],
+      "date": "Announced 5 October 2026"
+    },
+    {
+      "at": "twenty-three point seven billion dollars",
+      "type": "keynumbers",
+      "title": "Schneider Electric / PTC in six numbers",
+      "items": [
+        {
+          "value": "$205",
+          "label": "per share, in cash"
+        },
+        {
+          "value": "42.3%",
+          "label": "premium to the last close of $144.03"
+        },
+        {
+          "value": "$22.6bn",
+          "label": "equity value",
+          "approx": true
+        },
+        {
+          "value": "$23.7bn",
+          "label": "enterprise value (€21.1bn)"
+        },
+        {
+          "value": "21x",
+          "label": "adjusted EBITA, 2027 estimate"
+        },
+        {
+          "value": "13x",
+          "label": "including full run-rate cost savings"
+        }
+      ]
+    },
+    {
+      "at": "In cash, backed by a bridge loan",
+      "type": "table",
+      "title": "Savings and financing",
+      "columns": [
+        "Item",
+        "Amount"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Cost savings a year, by year 3",
+          "€250m"
+        ],
+        [
+          "Revenue synergies",
+          "~€800m"
+        ],
+        [
+          "New shares",
+          "€5–6bn"
+        ],
+        [
+          "New debt",
+          "€16–17bn"
+        ]
+      ],
+      "note": "Bridge loan from Morgan Stanley and Société Générale. Completion expected by the third quarter of 2027, subject to PTC shareholders and regulators."
+    },
+    {
+      "at": "ten percent belongs in the forecast years",
+      "type": "steps",
+      "title": "Valuing a fast grower like PTC",
+      "items": [
+        {
+          "label": "Forecast years",
+          "detail": "About 10% a year revenue growth expected to 2029"
+        },
+        {
+          "label": "Fade",
+          "detail": "Extend the forecast until growth slows towards the economy's rate"
+        },
+        {
+          "label": "Terminal value",
+          "detail": "Long-run growth rate, cross-checked with an exit multiple"
+        }
+      ],
+      "note": "PTC: revenue €2.4bn in 2025, adjusted EBITA margin about 40%. The cost savings carry into the terminal value too."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Final-year free cash flow is 200, long-term growth is 2% and the discount rate is 10%. What's the terminal value with the perpetuity growth method?",
+        "options": [
+          {
+            "id": "a",
+            "text": "2,500"
+          },
+          {
+            "id": "b",
+            "text": "2,550"
+          },
+          {
+            "id": "c",
+            "text": "2,040"
+          },
+          {
+            "id": "d",
+            "text": "1,700"
+          }
+        ],
+        "correct": "b",
+        "explain": "Grow the final year first: 200 × 1.02 = 204, then divide by 10% − 2% = 8%: 2,550. Dividing 200 instead of 204 gives 2,500, the first trap.",
+        "explain_at": "The formula wants next year's cash flow"
+      },
+      {
+        "id": "q2",
+        "q": "You've calculated a terminal value at the end of year five. What do you do with it before adding it to the value of the forecast years?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Discount it back one year"
+          },
+          {
+            "id": "b",
+            "text": "Grow it at the long-term rate"
+          },
+          {
+            "id": "c",
+            "text": "Add it to the forecast as it is"
+          },
+          {
+            "id": "d",
+            "text": "Discount it back five years"
+          }
+        ],
+        "correct": "d",
+        "explain": "Terminal value is a value at the end of year five, so it's discounted back five years at the same rate as the forecast cash flows.",
+        "explain_at": "so you discount it back five years like any other cash flow"
+      },
+      {
+        "id": "q3",
+        "q": "Why shouldn't the perpetuity growth rate be above the long-run growth rate of the economy?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The company would outgrow the whole economy"
+          },
+          {
+            "id": "b",
+            "text": "The company would become too risky to value"
+          },
+          {
+            "id": "c",
+            "text": "The tax rate would rise as the company grows"
+          },
+          {
+            "id": "d",
+            "text": "Lenders would stop funding the company"
+          }
+        ],
+        "correct": "a",
+        "explain": "A company growing faster than the economy forever would one day be bigger than the economy. Long-term growth usually sits at 2 to 3% in developed markets.",
+        "explain_at": "Nothing grows faster than the economy forever"
+      },
+      {
+        "id": "q4",
+        "q": "Terminal value is 75% of your DCF value. What do you do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Shorten the forecast to reduce it"
+          },
+          {
+            "id": "b",
+            "text": "Switch to the exit multiple method"
+          },
+          {
+            "id": "c",
+            "text": "Accept it, test the inputs, show a range"
+          },
+          {
+            "id": "d",
+            "text": "Lower the discount rate to balance it"
+          }
+        ],
+        "correct": "c",
+        "explain": "More than half is normal for a healthy company. A shorter forecast pushes even more value into the terminal value; test the growth rate, discount rate and multiple instead.",
+        "explain_at": "What it tells you is where to spend your time"
+      },
+      {
+        "id": "q5",
+        "q": "PTC's revenue is expected to grow about 10% a year to 2029. How do you handle that in a DCF?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Put 10% growth into the terminal value"
+          },
+          {
+            "id": "b",
+            "text": "Let growth fade before the terminal value"
+          },
+          {
+            "id": "c",
+            "text": "Use Schneider's lower discount rate"
+          },
+          {
+            "id": "d",
+            "text": "Stop the forecast in 2027 instead"
+          }
+        ],
+        "correct": "b",
+        "explain": "Ten percent belongs in the forecast years. Extend the forecast until growth fades towards the economy's rate, then apply the terminal value and cross-check with an exit multiple.",
+        "explain_at": "ten percent belongs in the forecast years"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "PTC Inc.: Schneider Electric to acquire PTC, press release (Form 8-K, Exhibit 99.1, SEC, 5 October 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191dex991.htm"
+    },
+    {
+      "label": "PTC Inc.: Form 8-K on the merger agreement with Schneider Electric (SEC, 5 October 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191d8k.htm"
+    },
+    {
+      "label": "Schneider Electric to buy US software maker PTC for $22.6bn in cash (The Next Web)",
+      "url": "https://thenextweb.com/news/schneider-electric-ptc-22-6bn"
+    },
+    {
+      "label": "DFC Global: Delaware Supreme Court strongly endorses reliance on merger price (Harvard Law School Forum on Corporate Governance, 4 August 2017)",
+      "url": "https://corpgov.law.harvard.edu/2017/08/04/dfc-global-delaware-supreme-court-strongly-endorses-reliance-on-merger-price/"
+    },
+    {
+      "label": "Appraisal rights: navigating the maze after DFC Global, Dell and Aruba (Harvard Law School Forum on Corporate Governance, 17 April 2018)",
+      "url": "https://corpgov.law.harvard.edu/2018/04/17/appraisal-rights-navigating-the-maze-after-dfc-global-dell-and-aruba/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Okay. So the forecast runs five years."
+  }
+}

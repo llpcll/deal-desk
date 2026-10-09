@@ -17,7 +17,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 00:37:56 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 03:56:22 +0200</lastBuildDate>
+    <item>
+      <title>17. Terminal value, or the judge who changed one number</title>
+      <description>A Delaware court moved one assumption from three point one percent to four. The Supreme Court sent the valuation back. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-17/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>A Delaware court moved one assumption from three point one percent to four. The Supreme Court sent the valuation back.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-17/">https://llpcll.github.io/deal-desk/episode-17/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191dex991.htm">PTC Inc.: Schneider Electric to acquire PTC, press release (Form 8-K, Exhibit 99.1, SEC, 5 October 2026)</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191d8k.htm">PTC Inc.: Form 8-K on the merger agreement with Schneider Electric (SEC, 5 October 2026)</a></li><li><a href="https://thenextweb.com/news/schneider-electric-ptc-22-6bn">Schneider Electric to buy US software maker PTC for $22.6bn in cash (The Next Web)</a></li><li><a href="https://corpgov.law.harvard.edu/2017/08/04/dfc-global-delaware-supreme-court-strongly-endorses-reliance-on-merger-price/">DFC Global: Delaware Supreme Court strongly endorses reliance on merger price (Harvard Law School Forum on Corporate Governance, 4 August 2017)</a></li><li><a href="https://corpgov.law.harvard.edu/2018/04/17/appraisal-rights-navigating-the-maze-after-dfc-global-dell-and-aruba/">Appraisal rights: navigating the maze after DFC Global, Dell and Aruba (Harvard Law School Forum on Corporate Governance, 17 April 2018)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-17/</link>
+      <guid isPermaLink="false">deal-desk-episode-17</guid>
+      <pubDate>Fri, 09 Oct 2026 03:56:22 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-17.mp3" length="8936910" type="audio/mpeg"/>
+      <itunes:author>The Deal Desk</itunes:author>
+      <itunes:duration>745</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>17</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-17.json" type="application/json+chapters"/>
+    </item>
     <item>
       <title>16. The cost of capital, or how Klarna lost eighty-five percent</title>
       <description>In thirteen months Klarna's valuation fell from forty-five point six billion dollars to six point seven billion. One of its oldest backers said the business had never been stronger. The discount rate had moved. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-16/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
