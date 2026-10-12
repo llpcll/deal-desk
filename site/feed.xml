@@ -17,7 +17,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Mon, 12 Oct 2026 17:18:30 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 17:31:08 +0200</lastBuildDate>
+    <item>
+      <title>20. Valuing banks and insurers, or the bank that sold for a fifteenth of its book</title>
+      <description>In March twenty twenty-three, U-B-S paid three billion francs for a bank whose accounts showed forty-five billion of equity. Nobody believed the accounts. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-20/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>In March twenty twenty-three, U-B-S paid three billion francs for a bank whose accounts showed forty-five billion of equity. Nobody believed the accounts.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-20/">https://llpcll.github.io/deal-desk/episode-20/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.sec.gov/Archives/edgar/data/1053092/000137036823000011/a230209q4er-ex99_1.htm">Credit Suisse Earnings Release 4Q22 (SEC filing, exhibit 99.1)</a></li><li><a href="https://live.euronext.com/en/financial-news/frances-bpce-takes-7-stake-sabadell-bolstering-spanish-banks-defences">France&#x27;s BPCE takes 7% stake in Sabadell, bolstering Spanish bank&#x27;s defences (Reuters, via Euronext)</a></li><li><a href="https://www.marketscreener.com/news/groupe-bpce-acquired-7-stake-in-banco-de-sabadell-s-a--ce785dd9d98bf425">Groupe BPCE acquired 7% stake in Banco de Sabadell (MarketScreener)</a></li><li><a href="https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS">Acquisition of Credit Suisse by UBS (Wikipedia)</a></li><li><a href="https://www.fool.com/investing/2023/09/07/why-ubs-group-stock-soared-209-in-august/">Why UBS Group stock soared in August 2023 (The Motley Fool)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-20/</link>
+      <guid isPermaLink="false">deal-desk-episode-20</guid>
+      <pubDate>Mon, 12 Oct 2026 17:31:08 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-20.mp3" length="9128779" type="audio/mpeg"/>
+      <itunes:author>The Deal Desk</itunes:author>
+      <itunes:duration>761</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>20</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-20.json" type="application/json+chapters"/>
+    </item>
     <item>
       <title>19. Levered versus unlevered free cash flow, or the water company that couldn't pay its owners</title>
       <description>Thames Water kept collecting bills from millions of Londoners. Its holding company still defaulted, because the cash had a queue to join first. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-19/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>

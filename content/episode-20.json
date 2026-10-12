@@ -1,0 +1,453 @@
+{
+  "visuals": [
+    {
+      "at": "On the nineteenth of March twenty twenty-three",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Emergency takeover",
+      "name": "UBS / Credit Suisse",
+      "sub": "Swiss bank founded in 1856, rescued in a deal brokered by the Swiss government",
+      "lines": [
+        "CHF 3bn, paid in UBS shares"
+      ],
+      "date": "Announced 19 March 2023"
+    },
+    {
+      "at": "Three billion Swiss francs, in U-B-S shares",
+      "type": "keynumbers",
+      "title": "The terms",
+      "items": [
+        {
+          "value": "CHF 3bn",
+          "label": "total price, in UBS shares"
+        },
+        {
+          "value": "1 for 22.48",
+          "label": "UBS shares per Credit Suisse share"
+        },
+        {
+          "value": "CHF 0.76",
+          "label": "per Credit Suisse share",
+          "approx": true
+        },
+        {
+          "value": "CHF 1.86",
+          "label": "Credit Suisse close on Friday 17 March"
+        }
+      ]
+    },
+    {
+      "at": "Credit Suisse's last annual accounts",
+      "type": "bars",
+      "title": "Price paid against book value",
+      "unit": "CHF bn",
+      "decimals": 0,
+      "items": [
+        {
+          "label": "Price UBS paid",
+          "value": 3
+        },
+        {
+          "label": "Shareholders' equity, end of 2022",
+          "value": 45,
+          "approx": true
+        }
+      ],
+      "note": "About a fifteenth of book value. Book equity was CHF 45.1bn in Credit Suisse's 2022 results."
+    },
+    {
+      "at": "But look at why the price was so low",
+      "type": "keynumbers",
+      "title": "Why the book wasn't trusted",
+      "items": [
+        {
+          "value": "CHF 7.3bn",
+          "label": "Credit Suisse's net loss in 2022",
+          "approx": true
+        },
+        {
+          "value": "CHF 9bn",
+          "label": "losses guaranteed by the Swiss state, at most"
+        },
+        {
+          "value": "CHF 16bn",
+          "label": "AT1 bonds written down to zero"
+        },
+        {
+          "value": "$28.9bn",
+          "label": "negative goodwill UBS booked in its second quarter"
+        }
+      ]
+    },
+    {
+      "at": "First trap. For Cafe Group, debt is how",
+      "type": "table",
+      "title": "Why enterprise value fails for a bank",
+      "columns": [
+        "",
+        "Cafe Group",
+        "Safe Bank"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Debt and deposits",
+          "How the business is funded",
+          "The raw material"
+        ],
+        [
+          "Interest",
+          "A financing cost",
+          "The main operating cost"
+        ],
+        [
+          "What you value",
+          "Enterprise value, then equity",
+          "Equity directly"
+        ]
+      ]
+    },
+    {
+      "at": "Second trap. A bank has its own version of capex",
+      "type": "waterfall",
+      "title": "Safe Bank: from net income to dividends",
+      "unit": "",
+      "decimals": 0,
+      "steps": [
+        {
+          "label": "Net income",
+          "value": 120,
+          "kind": "total"
+        },
+        {
+          "label": "Kept back as capital to grow 2%",
+          "value": 20,
+          "kind": "sub"
+        },
+        {
+          "label": "Free cash flow to equity",
+          "value": 100,
+          "kind": "total"
+        }
+      ],
+      "note": "Book equity of 1,000 growing 2% a year needs 20 more capital each year."
+    },
+    {
+      "at": "One hundred, divided by ten percent minus two percent",
+      "type": "formula",
+      "title": "The dividend discount model",
+      "formula": "Equity value = dividend ÷ (cost of equity − growth) = 100 ÷ (10% − 2%) = 1,250",
+      "note": "Levered cash flow, discounted at the cost of equity: the matching rule from episode 19."
+    },
+    {
+      "at": "Price to book equals return on equity minus growth",
+      "type": "formula",
+      "title": "What price to book should be",
+      "formula": "P / B = (ROE − g) ÷ (cost of equity − g) = (12% − 2%) ÷ (10% − 2%) = 1.25x",
+      "note": "1,250 of value on 1,000 of book: the same answer as the dividend discount model."
+    },
+    {
+      "at": "Now cut Safe Bank's return to eight percent",
+      "type": "table",
+      "title": "Safe Bank at two returns on equity",
+      "columns": [
+        "",
+        "ROE 12%",
+        "ROE 8%"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Net income",
+          "120",
+          "80"
+        ],
+        [
+          "Kept back to grow 2%",
+          "20",
+          "20"
+        ],
+        [
+          "Dividends",
+          "100",
+          "60"
+        ],
+        [
+          "Value at 10% cost of equity",
+          "1,250",
+          "750"
+        ],
+        [
+          "Price to book",
+          "1.25x",
+          "0.75x"
+        ]
+      ],
+      "highlight": 4,
+      "highlightLabel": "below book when ROE < cost of equity",
+      "note": "Book equity of 1,000 in both cases."
+    },
+    {
+      "at": "Same family. An insurer collects premiums",
+      "type": "table",
+      "title": "Valuing an insurer",
+      "columns": [
+        "Measure",
+        "What it tells you"
+      ],
+      "align": [
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Price to book",
+          "Value against the equity, driven by return on equity"
+        ],
+        [
+          "Price to earnings",
+          "Value against profit"
+        ],
+        [
+          "Solvency ratio",
+          "Capital held ÷ capital required (Solvency II)"
+        ],
+        [
+          "Embedded value",
+          "Life insurers: book plus today's value of profits on policies already sold"
+        ]
+      ],
+      "note": "As at a bank, the money held for customers is part of the business, so you value the equity directly."
+    },
+    {
+      "at": "On Tuesday, the sixth of October, B-P-C-E",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Strategic stake",
+      "name": "BPCE / Banco Sabadell",
+      "sub": "France's second-largest banking group buys into Spain's fourth-largest bank",
+      "lines": [
+        "About 7% of Sabadell"
+      ],
+      "date": "Announced 6 October 2026"
+    },
+    {
+      "at": "And both sides were clear about that",
+      "type": "keynumbers",
+      "title": "The stake",
+      "items": [
+        {
+          "value": "7%",
+          "label": "of Sabadell, bought by BPCE",
+          "approx": true
+        },
+        {
+          "value": "9.9%",
+          "label": "the most BPCE intends to hold"
+        },
+        {
+          "value": "€1.2bn",
+          "label": "value of the stake at market prices (price paid not disclosed)",
+          "approx": true
+        },
+        {
+          "value": "Early 2027",
+          "label": "talks on cooperation expected to conclude"
+        }
+      ]
+    },
+    {
+      "at": "And it's a big balance sheet",
+      "type": "keynumbers",
+      "title": "Banco Sabadell",
+      "items": [
+        {
+          "value": "€17bn",
+          "label": "implied market value of the whole bank",
+          "approx": true
+        },
+        {
+          "value": "€179bn",
+          "label": "deposits at the end of 2025",
+          "approx": true
+        },
+        {
+          "value": "€163bn",
+          "label": "loans at the end of 2025",
+          "approx": true
+        }
+      ],
+      "note": "Derived: €1.2bn ÷ 7% ≈ €17bn."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Why don't bankers value a bank with EV / EBITDA?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Banks have so much debt that EV gets enormous"
+          },
+          {
+            "id": "b",
+            "text": "Banks don't report an EBITDA figure"
+          },
+          {
+            "id": "c",
+            "text": "Deposits and interest are part of the business"
+          },
+          {
+            "id": "d",
+            "text": "Deposits count as cash, not as debt"
+          }
+        ],
+        "correct": "c",
+        "explain": "For a bank, deposits are the raw material and interest is an operating cost, so the business can't be separated from its funding. Value the equity directly.",
+        "explain_at": "For a bank, deposits are the raw material"
+      },
+      {
+        "id": "q2",
+        "q": "A bank earns an ROE of 12%, its cost of equity is 10% and it grows 2% a year. What price to book should it trade at?",
+        "options": [
+          {
+            "id": "a",
+            "text": "1.25x"
+          },
+          {
+            "id": "b",
+            "text": "1.2x"
+          },
+          {
+            "id": "c",
+            "text": "1.5x"
+          },
+          {
+            "id": "d",
+            "text": "0.8x"
+          }
+        ],
+        "correct": "a",
+        "explain": "(ROE − g) ÷ (cost of equity − g) = (12 − 2) ÷ (10 − 2) = 1.25x. Dividing 12 by 10 forgets growth and gives 1.2x.",
+        "explain_at": "Price to book equals return on equity minus growth"
+      },
+      {
+        "id": "q3",
+        "q": "Safe Bank earns 120 on 1,000 of book equity and grows 2% a year. How much can it pay out in dividends?",
+        "options": [
+          {
+            "id": "a",
+            "text": "120"
+          },
+          {
+            "id": "b",
+            "text": "20"
+          },
+          {
+            "id": "c",
+            "text": "110"
+          },
+          {
+            "id": "d",
+            "text": "100"
+          }
+        ],
+        "correct": "d",
+        "explain": "To grow its loans 2%, the bank must grow its equity 2%: 20 kept back from 120 leaves 100. Treating all of net income as free cash flow ignores the capital it must hold.",
+        "explain_at": "Only the other one hundred can go to shareholders"
+      },
+      {
+        "id": "q4",
+        "q": "A bank trades at 0.6 times book. What's the most likely reason?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A bargain: a euro of book for sixty cents"
+          },
+          {
+            "id": "b",
+            "text": "Expected returns below its cost of equity"
+          },
+          {
+            "id": "c",
+            "text": "Its growth rate is above the market's"
+          },
+          {
+            "id": "d",
+            "text": "Too much debt on its balance sheet"
+          }
+        ],
+        "correct": "b",
+        "explain": "A price below book usually means the market expects the bank to earn less than its cost of equity, or doubts the book itself. It's cheap only if returns recover.",
+        "explain_at": "A bank below book is usually telling you it earns less than its cost of equity"
+      },
+      {
+        "id": "q5",
+        "q": "A 7% stake in Sabadell is worth about €1.2bn. Roughly what is the whole bank worth?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About €17bn"
+          },
+          {
+            "id": "b",
+            "text": "About €8bn"
+          },
+          {
+            "id": "c",
+            "text": "About €12bn"
+          },
+          {
+            "id": "d",
+            "text": "About €24bn"
+          }
+        ],
+        "correct": "a",
+        "explain": "€1.2bn ÷ 7% ≈ €17bn. Multiplying 1.2 by 7 instead of dividing gives about €8bn.",
+        "explain_at": "At market prices, Reuters put the stake at about one point two billion euros"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Credit Suisse Earnings Release 4Q22 (SEC filing, exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1053092/000137036823000011/a230209q4er-ex99_1.htm"
+    },
+    {
+      "label": "France's BPCE takes 7% stake in Sabadell, bolstering Spanish bank's defences (Reuters, via Euronext)",
+      "url": "https://live.euronext.com/en/financial-news/frances-bpce-takes-7-stake-sabadell-bolstering-spanish-banks-defences"
+    },
+    {
+      "label": "Groupe BPCE acquired 7% stake in Banco de Sabadell (MarketScreener)",
+      "url": "https://www.marketscreener.com/news/groupe-bpce-acquired-7-stake-in-banco-de-sabadell-s-a--ce785dd9d98bf425"
+    },
+    {
+      "label": "Acquisition of Credit Suisse by UBS (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Acquisition_of_Credit_Suisse_by_UBS"
+    },
+    {
+      "label": "Why UBS Group stock soared in August 2023 (The Motley Fool)",
+      "url": "https://www.fool.com/investing/2023/09/07/why-ubs-group-stock-soared-209-in-august/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Why wouldn't it work? Take E-V to EBITDA"
+  }
+}
