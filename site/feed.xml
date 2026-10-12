@@ -17,7 +17,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Fri, 09 Oct 2026 03:56:22 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 07:35:31 +0200</lastBuildDate>
+    <item>
+      <title>18. D-C-F sensitivities and traps, or the shares that were counted twice</title>
+      <description>A four billion dollar software takeover went through at twenty-four dollars a share. With the right share count, the same money was worth fifty-eight cents more. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-18/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>A four billion dollar software takeover went through at twenty-four dollars a share. With the right share count, the same money was worth fifty-eight cents more.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-18/">https://llpcll.github.io/deal-desk/episode-18/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.ta.com/news/ta-portfolio-company-rocscience-to-be-acquired-by-hexagon/">TA portfolio company Rocscience to be acquired by Hexagon (TA Associates)</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1085280/000119312514427486/d829865dex991.htm">In re TIBCO Software Inc. Stockholders Litigation: Delaware Court of Chancery opinion, November 2014 (SEC filing)</a></li><li><a href="https://www.vermoegenszentrum.ch/en/stock-exchange-and-markets/news/hexagon-agrees-buy-geotechnical-software-provider-rocscience-usd">Hexagon agrees to buy Rocscience for USD 535 million (VZ VermögensZentrum)</a></li><li><a href="https://www.faruqilaw.com/blog/179/settlement-approved-in-tibco-software-inc-stockholder-litigation">Settlement approved in Tibco Software stockholder litigation (Faruqi &amp; Faruqi)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-18/</link>
+      <guid isPermaLink="false">deal-desk-episode-18</guid>
+      <pubDate>Mon, 12 Oct 2026 07:35:31 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-18.mp3" length="8744143" type="audio/mpeg"/>
+      <itunes:author>The Deal Desk</itunes:author>
+      <itunes:duration>729</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>18</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-18.json" type="application/json+chapters"/>
+    </item>
     <item>
       <title>17. Terminal value, or the judge who changed one number</title>
       <description>A Delaware court moved one assumption from three point one percent to four. The Supreme Court sent the valuation back. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-17/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>

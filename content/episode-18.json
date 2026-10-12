@@ -1,0 +1,461 @@
+{
+  "visuals": [
+    {
+      "at": "In September twenty fourteen, Vista Equity Partners",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Agreed take-private",
+      "name": "Vista Equity Partners / Tibco",
+      "sub": "American software company, bought for $24 a share in cash",
+      "lines": [
+        "Enterprise value about $4.3bn at announcement"
+      ],
+      "date": "September 2014"
+    },
+    {
+      "at": "Pay the bigger total over the right number of shares",
+      "type": "table",
+      "title": "One spreadsheet, two answers",
+      "columns": [
+        "",
+        "As presented",
+        "Right share count"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Equity value at $24 a share",
+          "~$4.24bn",
+          "~$4.14bn"
+        ],
+        [
+          "Price a share for ~$4.24bn",
+          "$24.00",
+          "~$24.58"
+        ]
+      ],
+      "note": "About 4.1 million unvested restricted shares were counted twice, out of about 173 million."
+    },
+    {
+      "at": "About a hundred million dollars in total",
+      "type": "keynumbers",
+      "title": "What the share count cost",
+      "items": [
+        {
+          "value": "~$100m",
+          "label": "gap between the presented and the true equity value"
+        },
+        {
+          "value": "58c",
+          "label": "per share, roughly",
+          "approx": true
+        },
+        {
+          "value": "$30m",
+          "label": "settlement approved in Delaware, September 2016"
+        }
+      ]
+    },
+    {
+      "at": "You build a sensitivity table",
+      "type": "steps",
+      "title": "Building a sensitivity table",
+      "items": [
+        {
+          "label": "Pick two inputs",
+          "detail": "Usually the discount rate and the long-term growth rate (or the exit multiple)"
+        },
+        {
+          "label": "Set honest ranges",
+          "detail": "Discount rate down the side, growth across the top"
+        },
+        {
+          "label": "Fill the grid",
+          "detail": "Nine cells, nine values, each a full D-C-F"
+        },
+        {
+          "label": "Read the range",
+          "detail": "Present a range, not one number"
+        }
+      ]
+    },
+    {
+      "at": "Let's see. Keep the five forecast years",
+      "type": "table",
+      "title": "Cafe Group: three cells of the table",
+      "columns": [
+        "Discount rate",
+        "Long-term growth",
+        "Enterprise value"
+      ],
+      "align": [
+        "left",
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "8%",
+          "3%",
+          "~1,800"
+        ],
+        [
+          "9%",
+          "2%",
+          "~1,340"
+        ],
+        [
+          "10%",
+          "1%",
+          "~1,080"
+        ]
+      ],
+      "highlight": 1,
+      "highlightLabel": "base case",
+      "note": "Five forecast years of 100 of cash each, worth just under 400 today at 9%. The other six cells are not shown."
+    },
+    {
+      "at": "The low corner is about a fifth below the middle",
+      "type": "bars",
+      "title": "Same company, two assumptions moved",
+      "unit": "",
+      "items": [
+        {
+          "label": "10% and 1%",
+          "value": 1080,
+          "approx": true
+        },
+        {
+          "label": "9% and 2% (middle)",
+          "value": 1340,
+          "approx": true
+        },
+        {
+          "label": "8% and 3%",
+          "value": 1800,
+          "approx": true
+        }
+      ],
+      "note": "About a fifth down, about a third up: the table is lopsided towards optimism."
+    },
+    {
+      "at": "Because the gap between the discount rate",
+      "type": "formula",
+      "title": "Why the table is lopsided",
+      "formula": "Terminal value = FCF × (1 + g) ÷ (discount rate − g)",
+      "note": "Middle cell: a gap of 7 points. Shrink it to 5 and value jumps; widen it to 9 and value falls by less."
+    },
+    {
+      "at": "the value tops four thousand, three times the middle",
+      "type": "keynumbers",
+      "title": "A range too wide to help",
+      "items": [
+        {
+          "value": "4,000+",
+          "label": "Cafe Group at 6% growth and an 8% discount rate, three times the middle"
+        }
+      ],
+      "note": "Flex the discount rate by half a point to a point, and growth by half a point."
+    },
+    {
+      "at": "First subtract net debt, say three hundred and forty million",
+      "type": "waterfall",
+      "title": "From enterprise value to equity value",
+      "unit": "€m",
+      "decimals": 0,
+      "steps": [
+        {
+          "label": "Enterprise value",
+          "value": 1340,
+          "kind": "total"
+        },
+        {
+          "label": "Net debt",
+          "value": 340,
+          "kind": "sub"
+        },
+        {
+          "label": "Equity value",
+          "value": 1000,
+          "kind": "total"
+        }
+      ],
+      "note": "Cafe Group, in millions of euros."
+    },
+    {
+      "at": "Divide one billion by one hundred and five million",
+      "type": "table",
+      "title": "Cafe Group: what is a share worth?",
+      "columns": [
+        "Calculation",
+        "Per share"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Enterprise value ÷ 100m shares",
+          "€13.40"
+        ],
+        [
+          "Equity value ÷ 100m basic shares",
+          "€10.00"
+        ],
+        [
+          "Equity value ÷ 105m diluted shares",
+          "~€9.50"
+        ]
+      ],
+      "highlight": 2,
+      "highlightLabel": "right answer",
+      "note": "The first row forgets the lenders; the second forgets staff options and restricted shares."
+    },
+    {
+      "at": "They're in the plumbing",
+      "type": "steps",
+      "title": "Checks before you trust a model",
+      "items": [
+        {
+          "label": "Share count",
+          "detail": "Diluted, with nothing counted twice"
+        },
+        {
+          "label": "Net debt",
+          "detail": "Including leases"
+        },
+        {
+          "label": "Currency",
+          "detail": "Cash flows and discount rate in the same one"
+        },
+        {
+          "label": "The hockey stick",
+          "detail": "Forecast checked against the company's history and its peers"
+        }
+      ]
+    },
+    {
+      "at": "On Friday, the ninth of October, Hexagon",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "Hexagon / Rocscience",
+      "sub": "Software that models how rock and soil behave, for mines, tunnels and dams",
+      "lines": [
+        "Sold by TA Associates, the founders and management"
+      ],
+      "date": "Announced 9 October 2026"
+    },
+    {
+      "at": "Hexagon expects revenue approaching fifty million dollars",
+      "type": "keynumbers",
+      "title": "Rocscience in five numbers",
+      "items": [
+        {
+          "value": "$535m",
+          "label": "enterprise value, cash-free and debt-free",
+          "approx": true
+        },
+        {
+          "value": "~$50m",
+          "label": "expected revenue in 2026"
+        },
+        {
+          "value": "80%+",
+          "label": "of revenue recurring"
+        },
+        {
+          "value": "40%+",
+          "label": "margin on Hexagon's measure of operating profit"
+        },
+        {
+          "value": "10x+",
+          "label": "enterprise value to 2026 revenue"
+        }
+      ],
+      "note": "Closing expected in the fourth quarter of 2026."
+    },
+    {
+      "at": "That's a reverse D-C-F",
+      "type": "steps",
+      "title": "A reverse D-C-F",
+      "items": [
+        {
+          "label": "Start from the price",
+          "detail": "Enterprise value of about $535m"
+        },
+        {
+          "label": "Solve for the inputs",
+          "detail": "What revenue growth and margins does that price require?"
+        },
+        {
+          "label": "Judge them",
+          "detail": "Believable for this business, against its history and peers?"
+        }
+      ]
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "A DCF gives an enterprise value of 800m. Net debt is 200m. There are 40m basic shares and 50m diluted shares. What's a share worth?",
+        "options": [
+          {
+            "id": "a",
+            "text": "16"
+          },
+          {
+            "id": "b",
+            "text": "15"
+          },
+          {
+            "id": "c",
+            "text": "12"
+          },
+          {
+            "id": "d",
+            "text": "20"
+          }
+        ],
+        "correct": "c",
+        "explain": "Subtract net debt first: 800 − 200 = 600m of equity. Then divide by the diluted count: 600 ÷ 50 = 12. Dividing enterprise value by shares gives 16; using basic shares gives 15.",
+        "explain_at": "Two mistakes. Enterprise value belongs to lenders and shareholders together"
+      },
+      {
+        "id": "q2",
+        "q": "In a DCF sensitivity table, why does the high corner sit further from the middle than the low corner?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Higher growth also raises the forecast years"
+          },
+          {
+            "id": "b",
+            "text": "The rate-minus-growth gap is a denominator"
+          },
+          {
+            "id": "c",
+            "text": "Low discount rates are more common in practice"
+          },
+          {
+            "id": "d",
+            "text": "Bankers set wider ranges on the upside"
+          }
+        ],
+        "correct": "b",
+        "explain": "Terminal value divides by the discount rate minus growth. Shrinking that gap from 7 points to 5 raises value more than widening it to 9 lowers it.",
+        "explain_at": "Because the gap between the discount rate and the growth rate sits at the bottom of a fraction"
+      },
+      {
+        "id": "q3",
+        "q": "You raise the growth rate in your forecast and leave capex unchanged. What's the problem?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It's fine: growth and capex are separate inputs"
+          },
+          {
+            "id": "b",
+            "text": "The discount rate should fall to match"
+          },
+          {
+            "id": "c",
+            "text": "The tax rate should rise with the profits"
+          },
+          {
+            "id": "d",
+            "text": "Growth comes free, so value is overstated"
+          }
+        ],
+        "correct": "d",
+        "explain": "Growth needs reinvestment: new sites, equipment, working capital. Good models link the growth rate to capex, so faster growth means less free cash flow in the early years.",
+        "explain_at": "Third trap. Growth isn't free"
+      },
+      {
+        "id": "q4",
+        "q": "What went wrong in Tibco's 2014 sale to Vista Equity Partners?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Restricted shares were counted twice"
+          },
+          {
+            "id": "b",
+            "text": "The growth rate was set too high"
+          },
+          {
+            "id": "c",
+            "text": "Net debt was left out of the bridge"
+          },
+          {
+            "id": "d",
+            "text": "Staff options were left out of the count"
+          }
+        ],
+        "correct": "a",
+        "explain": "About 4.1 million unvested restricted shares were double-counted, so $24 a share added up to about $100m less than the equity value the deal was presented at.",
+        "explain_at": "counted about four point one million unvested restricted shares twice"
+      },
+      {
+        "id": "q5",
+        "q": "What is a reverse DCF?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A DCF run at the buyer's discount rate"
+          },
+          {
+            "id": "b",
+            "text": "A DCF built on the seller's own forecast"
+          },
+          {
+            "id": "c",
+            "text": "Working out what growth a price requires"
+          },
+          {
+            "id": "d",
+            "text": "Building a DCF, then comparing it to the price"
+          }
+        ],
+        "correct": "c",
+        "explain": "You start from the price paid and solve for the growth and margins it implies, then judge whether they're believable. Comparing one model with the price gives a verdict, not a test.",
+        "explain_at": "That's a reverse D-C-F: start from the price"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "TA portfolio company Rocscience to be acquired by Hexagon (TA Associates)",
+      "url": "https://www.ta.com/news/ta-portfolio-company-rocscience-to-be-acquired-by-hexagon/"
+    },
+    {
+      "label": "In re TIBCO Software Inc. Stockholders Litigation: Delaware Court of Chancery opinion, November 2014 (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1085280/000119312514427486/d829865dex991.htm"
+    },
+    {
+      "label": "Hexagon agrees to buy Rocscience for USD 535 million (VZ VermögensZentrum)",
+      "url": "https://www.vermoegenszentrum.ch/en/stock-exchange-and-markets/news/hexagon-agrees-buy-geotechnical-software-provider-rocscience-usd"
+    },
+    {
+      "label": "Settlement approved in Tibco Software stockholder litigation (Faruqi & Faruqi)",
+      "url": "https://www.faruqilaw.com/blog/179/settlement-approved-in-tibco-software-inc-stockholder-litigation"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Start with the assumptions, then."
+  }
+}
