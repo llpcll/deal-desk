@@ -3,6 +3,8 @@
 
     python pipeline/daily.py               # what the 6:45 scheduled task runs
     python pipeline/daily.py --no-publish  # stop after rendering; preview with build_site.py --drafts --serve
+    python pipeline/daily.py --catch-up    # publish the next episode even if one went out today,
+                                           # as long as its scheduled release date has come; run once per missed day
     python pipeline/daily.py --dry-run     # test the whole path (lock, power request, network, Claude, render)
                                            # on a six-line script rendered into logs/dryrun/; nothing is published
 
@@ -477,6 +479,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-publish", action="store_true")
     ap.add_argument("--dry-run", action="store_true", help="write and render a short test script; publish nothing")
+    ap.add_argument("--catch-up", action="store_true",
+                    help="publish the next episode even if one went out today, if its release date has come")
     args = ap.parse_args()  # before the status line, so --help or a typo doesn't overwrite it
     args.no_publish = args.no_publish or args.dry_run
     status = "FAILED: stopped before finishing"
@@ -496,7 +500,7 @@ def _main(args):
     # The task runs at 6:45, again at 7:30 and at logon as safety nets, so it must publish at
     # most one a day. Check before waiting for the lock, then again after pulling.
     done = published_today(today)
-    if done and not args.no_publish:
+    if done and not args.no_publish and not args.catch_up:
         return already_published(done[0])
     keep_awake()
     try:
@@ -515,10 +519,13 @@ def _main(args):
             git("pull", "--rebase", "--autostash")
         published = build_site.load_json(build_site.PUBLISHED, {})
         done = published_today(today)
-        if done and not args.no_publish:
+        if done and not args.no_publish and not args.catch_up:
             return already_published(done[0])
         n = max(int(k.split("-")[1]) for k in published) + 1
-        log(f"next episode: {n}")
+        if args.catch_up and build_site.release_date(build_site.load_json(build_site.SEASON_FILE), n) > today:
+            log(f"episode {n} is not due until later; nothing to catch up")
+            return 0, f"OK: caught up, episode {n} is not due yet"
+        log(f"next episode: {n}{' (catch-up)' if args.catch_up else ''}")
 
         script, content = episode_files(n)
         if not script:
