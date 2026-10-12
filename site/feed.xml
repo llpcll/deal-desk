@@ -17,7 +17,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Mon, 12 Oct 2026 07:35:31 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 17:18:30 +0200</lastBuildDate>
+    <item>
+      <title>19. Levered versus unlevered free cash flow, or the water company that couldn't pay its owners</title>
+      <description>Thames Water kept collecting bills from millions of Londoners. Its holding company still defaulted, because the cash had a queue to join first. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-19/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Thames Water kept collecting bills from millions of Londoners. Its holding company still defaulted, because the cash had a queue to join first.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-19/">https://llpcll.github.io/deal-desk/episode-19/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.hl.co.uk/shares/stock-market-news/company--news/informa-to-buy-clarion-for-A2.24bn,-separate-academic-business">Informa to buy Clarion for £2.24bn, separate academic business (Hargreaves Lansdown)</a></li><li><a href="https://www.irishnews.com/news/uk/informa-to-buy-rival-events-firm-clarion-for-22bn-amid-strategy-overhaul-GGJNTGCOKVNXJOBCPZL7GX2SLI/">Informa to buy rival events firm Clarion for £2.2bn amid strategy overhaul (PA, via The Irish News)</a></li><li><a href="https://www.cityam.com/?p=2463282">Informa snaps up Clarion Events in £2.2bn deal with Blackstone (City AM)</a></li><li><a href="https://au.news.yahoo.com/thames-water-crisis-deepens-holding-125500461.html">Thames Water crisis deepens as holding company defaults on debt (Yahoo News)</a></li><li><a href="https://en.wikipedia.org/wiki/Thames_Water">Thames Water: ownership and finances (Wikipedia)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-19/</link>
+      <guid isPermaLink="false">deal-desk-episode-19</guid>
+      <pubDate>Mon, 12 Oct 2026 17:18:30 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-19.mp3" length="8532573" type="audio/mpeg"/>
+      <itunes:author>The Deal Desk</itunes:author>
+      <itunes:duration>711</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>19</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-19.json" type="application/json+chapters"/>
+    </item>
     <item>
       <title>18. D-C-F sensitivities and traps, or the shares that were counted twice</title>
       <description>A four billion dollar software takeover went through at twenty-four dollars a share. With the right share count, the same money was worth fifty-eight cents more. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-18/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>

@@ -1,0 +1,466 @@
+{
+  "id": "episode-19",
+  "title": "The Deal Desk, episode 19: Levered versus unlevered free cash flow, or the water company that couldn't pay its owners",
+  "hook": "Thames Water kept collecting bills from millions of Londoners. Its holding company still defaulted, because the cash had a queue to join first.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-12T17:18:28",
+  "duration": 710.937,
+  "audio": "episode-19.mp3",
+  "chunks": [
+    {
+      "words": 464,
+      "seconds": 168.1,
+      "expected": 185.6,
+      "attempts": 1,
+      "coverage": 0.955,
+      "transcribed_words": 458,
+      "script_words": 468,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    },
+    {
+      "words": 483,
+      "seconds": 191.1,
+      "expected": 193.2,
+      "attempts": 1,
+      "coverage": 0.98,
+      "transcribed_words": 488,
+      "script_words": 489,
+      "method": "whisper",
+      "lines_matched": 16,
+      "problems": []
+    },
+    {
+      "words": 409,
+      "seconds": 164.1,
+      "expected": 163.6,
+      "attempts": 1,
+      "coverage": 0.954,
+      "transcribed_words": 398,
+      "script_words": 415,
+      "method": "whisper",
+      "lines_matched": 17,
+      "problems": []
+    },
+    {
+      "words": 454,
+      "seconds": 185.7,
+      "expected": 181.6,
+      "attempts": 1,
+      "coverage": 0.985,
+      "transcribed_words": 458,
+      "script_words": 461,
+      "method": "whisper",
+      "lines_matched": 9,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode nineteen. So far our D-C-F has valued the whole business, for lenders and shareholders together. Today, the shareholders' slice on its own. And we start with a company almost everyone in London pays every month.",
+      "start": 0.59,
+      "end": 16.84
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Let me guess. The water bill.",
+      "start": 16.89,
+      "end": 18.8
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Thames Water. It supplies around fifteen million people in London and the south east of England. In two thousand and six, a consortium led by Macquarie, the Australian infrastructure investor, agreed to buy it in a deal worth about eight billion pounds.",
+      "start": 18.85,
+      "end": 32.99
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "Water sounds like the safest business there is. People don't stop drinking it.",
+      "start": 33.04,
+      "end": 37.47
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "So did the lenders. By the time Macquarie sold its last stake, in twenty seventeen, the company's debt had more than doubled, to over ten billion pounds. Over the same years, shareholders received close to three billion pounds in dividends.",
+      "start": 37.52,
+      "end": 53.23
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "So they borrowed, and paid themselves.",
+      "start": 53.28,
+      "end": 56.33
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "That was the criticism. Now move forward. On the twenty-eighth of March twenty twenty-four, the shareholders of the day said they would not put in five hundred million pounds of new equity they had planned. Part of it was meant for Kemble, the holding company above Thames Water, which had a loan of one hundred and ninety million pounds due at the end of April.",
+      "start": 56.38,
+      "end": 77.69
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "Why would a holding company need help? It owns a water company.",
+      "start": 77.74,
+      "end": 81.9
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "Because Kemble had no business of its own. It was funded entirely by the dividends Thames Water sent up to it. Thames still collected the bills. But the cash had to pay for pipes and treatment works first, then the interest on Thames Water's own debt, and only then could anything go upstairs. A few days later, in early April, Kemble missed an interest payment and sent a notice of default to the holders of about four hundred million pounds of its bonds.",
+      "start": 81.95,
+      "end": 110.42
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "So the water kept flowing, and the cash didn't.",
+      "start": 110.47,
+      "end": 114.27
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "Not to the owners. The cash a business produces before anyone is paid for funding it is one number. The cash left for shareholders, after the lenders, is another. That's unlevered and levered free cash flow. By the end of today you'll know how to get from one to the other, and why mixing them up gives you the wrong answer.",
+      "start": 114.32,
+      "end": 133.85
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "Start with Cafe Group, then. In episode fifteen its unlevered free cash flow was fifty.",
+      "start": 133.9,
+      "end": 139.41
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "Fifty. Remember how we got there. EBIT of one hundred, taxed at twenty-five percent as if Cafe Group had no debt, leaves seventy-five. Add back thirty of depreciation and amortisation, take off forty of capex and fifteen for working capital. Fifty. Cash for everyone who funded the business, lenders and shareholders together.",
+      "start": 139.46,
+      "end": 161.9
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "And in episode fifteen I wanted to take off the interest, twenty, and you stopped me. Now I'm allowed.",
+      "start": 161.95,
+      "end": 168.43
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "Now you're allowed. Levered free cash flow is what's left for shareholders. So from fifty, what do you take off?",
+      "start": 168.95,
+      "end": 176.21
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "The twenty of interest. Thirty.",
+      "start": 176.26,
+      "end": 178.62
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "First trap. Interest cuts the tax bill. To get to fifty, we taxed the full one hundred of EBIT, as if there were no interest. The real company pays tax on eighty, so its tax bill is twenty, not twenty-five. Twenty of interest, five of it back through tax. The real cost is fifteen. Fifty minus fifteen: thirty-five.",
+      "start": 178.67,
+      "end": 200.13
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "So take off the interest after tax. Twenty times one minus the tax rate.",
+      "start": 200.18,
+      "end": 206.1
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Exactly. And there's a second route to the same place, from the bottom of the income statement. EBIT one hundred, minus twenty of interest, eighty before tax. Tax of twenty, net income sixty. Add back thirty of depreciation and amortisation, take off forty of capex and fifteen of working capital. Thirty-five again.",
+      "start": 206.15,
+      "end": 228.0
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "Good, it matches. Thirty-five is the answer, then.",
+      "start": 228.05,
+      "end": 231.38
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Not quite. One more line. Lenders want their money back, not just the interest. If Cafe Group repays ten of its debt this year, that's ten that never reaches shareholders. Levered free cash flow: twenty-five. And if instead it borrows ten more, the shareholders' cash goes up by ten, to forty-five.",
+      "start": 231.43,
+      "end": 250.86
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "Then borrowing makes the company more valuable. Borrow every year, and the shareholders get more every year.",
+      "start": 250.91,
+      "end": 257.41
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Second trap. Borrowing moves cash forward in time. It doesn't create it. The ten you borrow today comes back as interest every year and a repayment later. That's Thames Water in one line: borrowed money paid out to shareholders, then years in which the cash went to the lenders first.",
+      "start": 257.46,
+      "end": 277.58
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "Okay. So which discount rate? Nine percent, our wack.",
+      "start": 277.63,
+      "end": 281.97
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "Third trap, and the one interviewers love. It's a matching rule. Unlevered free cash flow belongs to lenders and shareholders, so you discount it at the weighted average cost of capital, nine percent, and you get enterprise value. Levered free cash flow belongs only to shareholders, so you discount it at the cost of equity. For Cafe Group that's ten percent, from episode sixteen. And what comes out is equity value.",
+      "start": 282.02,
+      "end": 309.48
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "And then I take off net debt to get to equity value.",
+      "start": 309.53,
+      "end": 313.35
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "Fourth trap. You already did. The interest and the repayments are inside the cash flows. Subtract net debt again, and you've charged shareholders for the debt twice. From a levered D-C-F you go straight to equity value, then divide by the diluted share count from yesterday.",
+      "start": 313.4,
+      "end": 331.85
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "So which one do bankers actually use?",
+      "start": 331.9,
+      "end": 334.34
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "In mergers and acquisitions, nearly always unlevered. A buyer usually replaces the target's debt with its own financing, so the old structure doesn't matter. Unlevered values the business separately from how it's funded. Levered earns its place in two areas: banks, where debt is the raw material, and leveraged buyouts, where the whole question is whether the cash can pay the lenders.",
+      "start": 334.39,
+      "end": 358.52
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "Okay.",
+      "start": 358.57,
+      "end": 359.885
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: what's the difference between levered and unlevered free cash flow?",
+      "start": 360.505,
+      "end": 366.735
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "Levered includes the debt, unlevered doesn't.",
+      "start": 366.785,
+      "end": 369.955
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "Too vague, and they'll ask what includes the debt means. The strong answer: unlevered free cash flow is the cash available to all capital providers, before any interest or debt repayment. Levered free cash flow is what's left for shareholders, after interest net of tax and after debt repayments, plus any new borrowing. Then say what each one is for. Unlevered, at the weighted average cost of capital, gives enterprise value. Levered, at the cost of equity, gives equity value.",
+      "start": 370.005,
+      "end": 400.495
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 400.545,
+      "end": 401.465
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "Unlevered free cash flow is one hundred. Interest is forty, the tax rate is twenty-five percent, and the company repays twenty of debt. What's levered free cash flow?",
+      "start": 401.515,
+      "end": 414.255
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "One hundred minus forty minus twenty. Forty.",
+      "start": 414.305,
+      "end": 418.575
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "Close, but you've forgotten the tax. Forty of interest saves ten of tax, so it costs thirty. One hundred minus thirty minus twenty: fifty.",
+      "start": 418.625,
+      "end": 428.005
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "Third?",
+      "start": 428.055,
+      "end": 428.925
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "Why do bankers usually prefer an unlevered D-C-F?",
+      "start": 428.975,
+      "end": 433.705
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "Because it's simpler. You don't have to model the debt.",
+      "start": 433.755,
+      "end": 437.265
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "Half right. Lead with the reason that matters. In a deal, the buyer will choose its own financing, so you want the value of the business itself, whatever it's funded with. That also makes companies with different debt comparable. Then show you know the exceptions: banks and insurers, where you value the equity directly, and leveraged buyouts, where levered cash flow decides whether the debt gets paid.",
+      "start": 437.315,
+      "end": 463.025
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 463.075,
+      "end": 468.935
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "A British buyer, and a private equity seller. On Tuesday, the sixth of October, Informa, the London-listed events and academic publishing group, agreed to buy Clarion Events from Blackstone. Clarion was founded in nineteen forty-seven, it's based in the U-K, and it owns more than one hundred event brands, including I-F-A Berlin, the consumer electronics show.",
+      "start": 468.985,
+      "end": 485.285
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "How much?",
+      "start": 485.335,
+      "end": 486.255
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "An enterprise value of about two point two four billion pounds. Informa puts that at eleven point one times Clarion's expected EBITDA for twenty twenty-seven, or about nine times including fifty million pounds a year of cost savings it has identified so far. Completion is expected towards the end of the fourth quarter.",
+      "start": 486.305,
+      "end": 505.685
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "Eleven point one times. So Clarion's EBITDA is about two hundred million pounds.",
+      "start": 505.735,
+      "end": 510.445
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "Nicely done. And Clarion is expected to bring in more than five hundred and seventy-five million pounds of revenue in twenty twenty-seven, with an adjusted operating margin above thirty percent.",
+      "start": 510.495,
+      "end": 522.995
+    },
+    {
+      "i": 47,
+      "speaker": "SOFIA",
+      "text": "How is Informa paying?",
+      "start": 523.045,
+      "end": 524.352
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "Partly with new shares. Informa is raising about nine hundred and forty million pounds from investors, and it's pausing its share buyback. It expects earnings per share to rise by a mid-single-digit percentage by twenty twenty-seven. So here's your interview question. You're valuing Clarion for Informa. Levered or unlevered free cash flow?",
+      "start": 524.872,
+      "end": 551.192
+    },
+    {
+      "i": 49,
+      "speaker": "SOFIA",
+      "text": "Levered. Private equity owners usually load their companies with debt, so I want to capture Blackstone's debt.",
+      "start": 551.242,
+      "end": 557.722
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "That's the matching rule, from the other side. The price is an enterprise value, the whole business, so compare it with an enterprise value: unlevered cash flow at a weighted average cost of capital. Whatever debt sits on a target is normally repaid at completion, out of the price. And how Informa pays is Informa's choice, not a feature of Clarion. Where levered thinking does matter is for Informa's own shareholders. Earnings per share is a number after interest. Fund a deal with debt and you add interest. Fund it with shares and you add shares. That trade-off is accretion and dilution, episode twenty-four.",
+      "start": 557.772,
+      "end": 597.802
+    },
+    {
+      "i": 51,
+      "speaker": "SOFIA",
+      "text": "So the business gets valued unlevered, and the funding gets judged levered.",
+      "start": 597.852,
+      "end": 602.642
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Nicely put. Quiz. For you listening. Question one: Cafe Group's unlevered free cash flow is fifty, interest is twenty, the tax rate is twenty-five percent, and no debt is repaid. What's levered free cash flow? Question two: what discount rate do you use for levered free cash flow, and what value does it give you? Question three: your levered D-C-F gives six hundred million, and net debt is two hundred million. What equity value do you report? Question four: why do bankers usually prefer an unlevered D-C-F in mergers and acquisitions? Question five: Informa is paying an enterprise value of two point two four billion pounds for Clarion. Which kind of D-C-F do you compare it with?",
+      "start": 602.692,
+      "end": 651.532
+    },
+    {
+      "i": 53,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 651.582,
+      "end": 653.402
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "Answers. One: thirty-five. Twenty of interest saves five of tax, so it costs fifteen. Two: the cost of equity, and it gives equity value. Three: six hundred million. The debt is already inside the cash flows, so don't subtract it again. Four: because it values the business whatever it's funded with, and the buyer will choose its own financing. Five: an unlevered one, discounted at the weighted average cost of capital, because the price is an enterprise value.",
+      "start": 653.452,
+      "end": 686.772
+    },
+    {
+      "i": 55,
+      "speaker": "SOFIA",
+      "text": "So unlevered tells you what the business is worth, and levered tells you what's left for the owners.",
+      "start": 686.822,
+      "end": 693.192
+    },
+    {
+      "i": 56,
+      "speaker": "MARCO",
+      "text": "And that's exactly why you can't value a bank the way we've valued Cafe Group. For a bank, debt isn't how the business is funded. It's what the business sells. Tomorrow, episode twenty: valuing banks and insurers. Why enterprise value stops working, and what bankers use instead.",
+      "start": 693.242,
+      "end": 710.477
+    }
+  ]
+}

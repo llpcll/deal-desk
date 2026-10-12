@@ -1,0 +1,458 @@
+{
+  "visuals": [
+    {
+      "at": "Thames Water. It supplies around fifteen million people",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Consortium takeover",
+      "name": "Macquarie consortium / Thames Water",
+      "sub": "Water for around 15 million people in London and the south east of England",
+      "lines": [
+        "Deal worth about £8bn"
+      ],
+      "date": "2006"
+    },
+    {
+      "at": "the company's debt had more than doubled",
+      "type": "keynumbers",
+      "title": "Thames Water under Macquarie, 2006 to 2017",
+      "items": [
+        {
+          "value": "£8bn",
+          "label": "deal value in 2006",
+          "approx": true
+        },
+        {
+          "value": "£10bn+",
+          "label": "debt by 2017, more than double"
+        },
+        {
+          "value": "£3bn",
+          "label": "dividends to shareholders over the period",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "On the twenty-eighth of March twenty twenty-four",
+      "type": "keynumbers",
+      "title": "Spring 2024",
+      "items": [
+        {
+          "value": "£500m",
+          "label": "new equity the shareholders decided not to put in (28 March)"
+        },
+        {
+          "value": "£190m",
+          "label": "Kemble loan due at the end of April"
+        },
+        {
+          "value": "£400m",
+          "label": "Kemble bonds that got a notice of default in early April",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "Because Kemble had no business of its own",
+      "type": "steps",
+      "title": "Who gets paid first",
+      "items": [
+        {
+          "label": "Customers' bills",
+          "detail": "The cash the business brings in"
+        },
+        {
+          "label": "Pipes and treatment works",
+          "detail": "Running costs and investment come out first"
+        },
+        {
+          "label": "Thames Water's lenders",
+          "detail": "Interest on the operating company's debt"
+        },
+        {
+          "label": "Dividends to Kemble",
+          "detail": "The holding company's only source of cash"
+        },
+        {
+          "label": "Kemble's lenders, then owners",
+          "detail": "Paid from whatever is left"
+        }
+      ]
+    },
+    {
+      "at": "So take off the interest after tax",
+      "type": "formula",
+      "title": "From unlevered to levered free cash flow",
+      "formula": "Levered FCF = unlevered FCF − interest × (1 − tax rate) − debt repaid + new borrowing",
+      "note": "Cafe Group: 20 of interest at a 25% tax rate costs 15 after tax."
+    },
+    {
+      "at": "And there's a second route to the same place",
+      "type": "table",
+      "title": "Cafe Group: levered FCF from net income",
+      "columns": [
+        "Line",
+        "Value"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "EBIT",
+          "100"
+        ],
+        [
+          "Interest",
+          "−20"
+        ],
+        [
+          "Tax at 25% on 80",
+          "−20"
+        ],
+        [
+          "Net income",
+          "60"
+        ],
+        [
+          "Add back depreciation and amortisation",
+          "+30"
+        ],
+        [
+          "Capex",
+          "−40"
+        ],
+        [
+          "Increase in working capital",
+          "−15"
+        ],
+        [
+          "Levered FCF, before debt repayment",
+          "35"
+        ]
+      ],
+      "highlight": 7,
+      "highlightLabel": "same as 50 − 15",
+      "note": "The first route: unlevered FCF of 50, minus 15 of interest after tax."
+    },
+    {
+      "at": "Not quite. One more line.",
+      "type": "waterfall",
+      "title": "Cafe Group: from unlevered to levered FCF",
+      "unit": "",
+      "decimals": 0,
+      "steps": [
+        {
+          "label": "Unlevered FCF",
+          "value": 50,
+          "kind": "total"
+        },
+        {
+          "label": "Interest after tax",
+          "value": 15,
+          "kind": "sub"
+        },
+        {
+          "label": "Debt repaid",
+          "value": 10,
+          "kind": "sub"
+        },
+        {
+          "label": "Levered FCF",
+          "value": 25,
+          "kind": "total"
+        }
+      ],
+      "note": "Interest of 20 less a tax saving of 5. Borrowing 10 more instead of repaying 10 would give 45."
+    },
+    {
+      "at": "Third trap, and the one interviewers love",
+      "type": "table",
+      "title": "The matching rule",
+      "columns": [
+        "Cash flow",
+        "Belongs to",
+        "Discount at",
+        "Gives"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Unlevered FCF",
+          "Lenders and shareholders",
+          "WACC (Cafe Group: 9%)",
+          "Enterprise value"
+        ],
+        [
+          "Levered FCF",
+          "Shareholders",
+          "Cost of equity (Cafe Group: 10%)",
+          "Equity value"
+        ]
+      ],
+      "note": "Don't subtract net debt from a levered DCF: the debt is already in the cash flows."
+    },
+    {
+      "at": "On Tuesday, the sixth of October, Informa",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "Informa / Clarion Events",
+      "sub": "UK events organiser founded in 1947, with more than 100 event brands including IFA Berlin",
+      "lines": [
+        "Bought from Blackstone"
+      ],
+      "date": "Announced 6 October 2026"
+    },
+    {
+      "at": "Informa puts that at eleven point one times",
+      "type": "bars",
+      "title": "What Informa is paying, in EBITDA multiples",
+      "unit": "x",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "Expected 2027 EBITDA",
+          "value": 11.1
+        },
+        {
+          "label": "Including £50m a year of cost savings",
+          "value": 9,
+          "approx": true
+        }
+      ],
+      "note": "Enterprise value of about £2.24bn."
+    },
+    {
+      "at": "So Clarion's EBITDA is about two hundred million pounds",
+      "type": "keynumbers",
+      "title": "Working back from the multiple",
+      "items": [
+        {
+          "value": "£200m",
+          "label": "Clarion's implied EBITDA for 2027",
+          "approx": true
+        }
+      ],
+      "note": "Derived: £2.24bn ÷ 11.1 ≈ £200m."
+    },
+    {
+      "at": "And Clarion is expected to bring in more than",
+      "type": "keynumbers",
+      "title": "Clarion in five numbers",
+      "items": [
+        {
+          "value": "£2.24bn",
+          "label": "enterprise value",
+          "approx": true
+        },
+        {
+          "value": "11.1x",
+          "label": "expected 2027 EBITDA"
+        },
+        {
+          "value": "£50m",
+          "label": "a year of cost savings identified so far"
+        },
+        {
+          "value": "£575m+",
+          "label": "expected revenue in 2027"
+        },
+        {
+          "value": "30%+",
+          "label": "adjusted operating margin"
+        }
+      ]
+    },
+    {
+      "at": "Partly with new shares",
+      "type": "keynumbers",
+      "title": "How Informa is paying",
+      "items": [
+        {
+          "value": "£940m",
+          "label": "raised from investors in new shares",
+          "approx": true
+        },
+        {
+          "value": "Paused",
+          "label": "Informa's share buyback"
+        },
+        {
+          "value": "Mid-single digits",
+          "label": "expected rise in earnings per share by 2027"
+        }
+      ],
+      "note": "Earnings per share is measured after interest: a levered number."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Unlevered FCF is 50, interest is 20, the tax rate is 25% and no debt is repaid. What's levered FCF?",
+        "options": [
+          {
+            "id": "a",
+            "text": "30"
+          },
+          {
+            "id": "b",
+            "text": "35"
+          },
+          {
+            "id": "c",
+            "text": "50"
+          },
+          {
+            "id": "d",
+            "text": "15"
+          }
+        ],
+        "correct": "b",
+        "explain": "Interest cuts the tax bill: 20 of interest saves 5 of tax, so it costs 15. 50 − 15 = 35. Taking off the full 20 gives 30.",
+        "explain_at": "Twenty of interest, five of it back through tax"
+      },
+      {
+        "id": "q2",
+        "q": "What discount rate do you use for levered free cash flow, and what value does it give you?",
+        "options": [
+          {
+            "id": "a",
+            "text": "WACC, giving enterprise value"
+          },
+          {
+            "id": "b",
+            "text": "WACC, giving equity value"
+          },
+          {
+            "id": "c",
+            "text": "Cost of debt, giving equity value"
+          },
+          {
+            "id": "d",
+            "text": "Cost of equity, giving equity value"
+          }
+        ],
+        "correct": "d",
+        "explain": "Levered FCF belongs only to shareholders, so it's discounted at what shareholders demand, the cost of equity, and gives equity value. WACC goes with unlevered FCF and enterprise value.",
+        "explain_at": "so you discount it at the cost of equity"
+      },
+      {
+        "id": "q3",
+        "q": "Your levered DCF gives 600m. Net debt is 200m. What equity value do you report?",
+        "options": [
+          {
+            "id": "a",
+            "text": "600m"
+          },
+          {
+            "id": "b",
+            "text": "400m"
+          },
+          {
+            "id": "c",
+            "text": "800m"
+          },
+          {
+            "id": "d",
+            "text": "200m"
+          }
+        ],
+        "correct": "a",
+        "explain": "Interest and repayments are already inside levered cash flows, so the result is equity value. Subtracting net debt again charges shareholders for the debt twice.",
+        "explain_at": "Subtract net debt again, and you've charged shareholders for the debt twice"
+      },
+      {
+        "id": "q4",
+        "q": "Why do bankers usually prefer an unlevered DCF in mergers and acquisitions?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It's simpler, with no debt to model"
+          },
+          {
+            "id": "b",
+            "text": "It gives a higher value than levered"
+          },
+          {
+            "id": "c",
+            "text": "Value doesn't depend on the funding"
+          },
+          {
+            "id": "d",
+            "text": "It captures the target's current debt"
+          }
+        ],
+        "correct": "c",
+        "explain": "A buyer will choose its own financing, so you want the value of the business itself, whatever it's funded with. Simplicity is a side benefit, not the main reason.",
+        "explain_at": "In a deal, the buyer will choose its own financing"
+      },
+      {
+        "id": "q5",
+        "q": "Informa is paying an enterprise value of about £2.24bn for Clarion. Which DCF do you compare that price with?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Levered: Informa is raising money to pay"
+          },
+          {
+            "id": "b",
+            "text": "Unlevered: the price is an enterprise value"
+          },
+          {
+            "id": "c",
+            "text": "Levered: to capture Blackstone's debt"
+          },
+          {
+            "id": "d",
+            "text": "Levered, at the weighted average cost"
+          }
+        ],
+        "correct": "b",
+        "explain": "An enterprise value is the price of the whole business, so it's compared with unlevered cash flows discounted at the WACC. The target's old debt and the buyer's funding don't change what the business is worth.",
+        "explain_at": "The price is an enterprise value, the whole business"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Informa to buy Clarion for £2.24bn, separate academic business (Hargreaves Lansdown)",
+      "url": "https://www.hl.co.uk/shares/stock-market-news/company--news/informa-to-buy-clarion-for-A2.24bn,-separate-academic-business"
+    },
+    {
+      "label": "Informa to buy rival events firm Clarion for £2.2bn amid strategy overhaul (PA, via The Irish News)",
+      "url": "https://www.irishnews.com/news/uk/informa-to-buy-rival-events-firm-clarion-for-22bn-amid-strategy-overhaul-GGJNTGCOKVNXJOBCPZL7GX2SLI/"
+    },
+    {
+      "label": "Informa snaps up Clarion Events in £2.2bn deal with Blackstone (City AM)",
+      "url": "https://www.cityam.com/?p=2463282"
+    },
+    {
+      "label": "Thames Water crisis deepens as holding company defaults on debt (Yahoo News)",
+      "url": "https://au.news.yahoo.com/thames-water-crisis-deepens-holding-125500461.html"
+    },
+    {
+      "label": "Thames Water: ownership and finances (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Thames_Water"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Start with Cafe Group, then."
+  }
+}
