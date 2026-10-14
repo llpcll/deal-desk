@@ -17,7 +17,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Mon, 12 Oct 2026 17:31:08 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 11:50:55 +0200</lastBuildDate>
+    <item>
+      <title>21. Week three review, the D-C-F from cash flow to share price</title>
+      <description>Six episodes, one café chain, one chain of sums from EBITDA to a price per share. Then Crédit Agricole buys a German bank from Lone Star, and nobody says what it paid. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-21/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Six episodes, one café chain, one chain of sums from EBITDA to a price per share. Then Crédit Agricole buys a German bank from Lone Star, and nobody says what it paid.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-21/">https://llpcll.github.io/deal-desk/episode-21/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.lesoleil.com/communiques-de-presse/2026/10/12/credit-agricole-sa-le-credit-agricole-accelere-son-developpement-en-allemagne-et-signe-un-accord-en-vue-de-lacquisition-de-ikb-deutsche-industriebank-2LA3CA2VSNDCNLPXLBF37M2YCE/">Crédit Agricole S.A.: Le Crédit Agricole accélère son développement en Allemagne et signe un accord en vue de l&#x27;acquisition de IKB Deutsche Industriebank (press release, 12 October 2026)</a></li><li><a href="https://www.boersen-zeitung.de/banken-finanzen/helaba-soll-gefallen-an-der-ikb-finden">Helaba soll Gefallen an der IKB finden (Bloomberg, via Börsen-Zeitung, 30 September 2026)</a></li><li><a href="https://finance.yahoo.com/markets/stocks/articles/lone-star-explores-ikb-sale-150919264.html">Lone Star explores IKB sale after nearly two decades (Bloomberg, via Yahoo Finance, 22 May 2026)</a></li><li><a href="https://corpgov.law.harvard.edu/2017/08/04/dfc-global-delaware-supreme-court-strongly-endorses-reliance-on-merger-price/">DFC Global: Delaware Supreme Court strongly endorses reliance on merger price (Harvard Law School Forum on Corporate Governance, 4 August 2017)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-21/</link>
+      <guid isPermaLink="false">deal-desk-episode-21</guid>
+      <pubDate>Wed, 14 Oct 2026 11:50:55 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-21.mp3" length="8508404" type="audio/mpeg"/>
+      <itunes:author>The Deal Desk</itunes:author>
+      <itunes:duration>709</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>21</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-21.json" type="application/json+chapters"/>
+    </item>
     <item>
       <title>20. Valuing banks and insurers, or the bank that sold for a fifteenth of its book</title>
       <description>In March twenty twenty-three, U-B-S paid three billion francs for a bank whose accounts showed forty-five billion of equity. Nobody believed the accounts. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-20/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
