@@ -1,0 +1,474 @@
+{
+  "visuals": [
+    {
+      "at": "On the eleventh of November twenty fifteen",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Recommended cash offer",
+      "name": "AB InBev / SABMiller",
+      "sub": "The world's largest brewer agrees to buy the second largest",
+      "lines": [
+        "£44 a share in cash, about £71bn"
+      ],
+      "date": "Announced 11 November 2015"
+    },
+    {
+      "at": "About thirty-five percent from corporate",
+      "type": "bars",
+      "title": "Where the $1.4bn a year of cost synergies would come from",
+      "unit": "%",
+      "decimals": 0,
+      "items": [
+        {
+          "label": "Corporate and overlapping regional head offices",
+          "value": 35,
+          "approx": true
+        },
+        {
+          "label": "Brewery and distribution efficiency",
+          "value": 25,
+          "approx": true
+        },
+        {
+          "label": "Procurement and engineering",
+          "value": 20,
+          "approx": true
+        },
+        {
+          "label": "Sharing best practice",
+          "value": 20,
+          "approx": true
+        }
+      ],
+      "note": "Pre-tax run-rate savings of at least $1.4bn a year, in full by the end of year four. One-off costs of about $0.9bn. Revenue synergies were not quantified."
+    },
+    {
+      "at": "In July, A-B InBev raised the offer to forty-five pounds",
+      "type": "keynumbers",
+      "title": "SABMiller: the terms",
+      "items": [
+        {
+          "value": "£29.34",
+          "label": "share price on 14 September 2015, before talk of an approach"
+        },
+        {
+          "value": "£44",
+          "label": "offer per share, November 2015 (about £71bn)"
+        },
+        {
+          "value": "£45",
+          "label": "final offer per share, July 2016 (about £79bn)"
+        },
+        {
+          "value": "10 Oct 2016",
+          "label": "completion"
+        }
+      ],
+      "note": "The offer was raised after the pound fell following the Brexit vote."
+    },
+    {
+      "at": "Add the one point oh five billion dollars",
+      "type": "bars",
+      "title": "The savings target grew",
+      "unit": "$bn a year",
+      "decimals": 2,
+      "items": [
+        {
+          "label": "Promised, November 2015",
+          "value": 1.4
+        },
+        {
+          "label": "Plus SABMiller's own plan ($1.05bn)",
+          "value": 2.45
+        },
+        {
+          "label": "Raised, March 2017",
+          "value": 2.8
+        }
+      ],
+      "note": "By March 2017, $829m had already been delivered."
+    },
+    {
+      "at": "Fifty percent of an undisturbed value",
+      "type": "keynumbers",
+      "title": "Was the premium covered? A rough check",
+      "items": [
+        {
+          "value": "£47bn",
+          "label": "undisturbed value of SABMiller",
+          "approx": true
+        },
+        {
+          "value": ">£20bn",
+          "label": "premium paid at about 50%"
+        },
+        {
+          "value": "$10bn",
+          "label": "$1.4bn a year after tax, at ten times",
+          "approx": true
+        }
+      ],
+      "note": "Derived: £71bn ÷ 1.5 ≈ £47bn, so the premium is about £24bn. The synergy value assumes a 25% tax rate and a 10x multiple."
+    },
+    {
+      "at": "First trap. Bigger on the slide",
+      "type": "table",
+      "title": "Cost and revenue synergies",
+      "columns": [
+        "",
+        "Cost synergies",
+        "Revenue synergies"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Examples",
+          "One head office, fewer breweries, better supplier terms",
+          "Cross-selling, higher prices"
+        ],
+        [
+          "Who controls them",
+          "The buyer",
+          "Customers and competitors"
+        ],
+        [
+          "How bankers treat them",
+          "Valued, after tax and costs",
+          "Discounted heavily or left out"
+        ]
+      ],
+      "note": "AB InBev quantified only cost synergies for SABMiller."
+    },
+    {
+      "at": "Seventy-five over ten percent: seven hundred and fifty",
+      "type": "formula",
+      "title": "Valuing cost synergies",
+      "formula": "Value = savings × (1 − tax) ÷ discount rate = 100 × 75% ÷ 10% = 750",
+      "note": "Hop Brewing and Malt Brewing, €m. Capitalising the pre-tax 100 gives 1,000: the tax trap."
+    },
+    {
+      "at": "Call it six hundred.",
+      "type": "waterfall",
+      "title": "From gross to net synergies",
+      "unit": "€m",
+      "decimals": 0,
+      "steps": [
+        {
+          "label": "After-tax savings, capitalised",
+          "value": 750,
+          "kind": "total"
+        },
+        {
+          "label": "One-off costs, after tax",
+          "value": 100,
+          "kind": "sub"
+        },
+        {
+          "label": "A year to build up",
+          "value": 40,
+          "kind": "sub"
+        },
+        {
+          "label": "Net synergies",
+          "value": 610,
+          "kind": "total"
+        }
+      ],
+      "note": "Rounded to about 600 in the episode. The cost of the delay is approximate."
+    },
+    {
+      "at": "Say Hop offers one thousand three hundred",
+      "type": "waterfall",
+      "title": "Who gets the synergies",
+      "unit": "€m",
+      "decimals": 0,
+      "steps": [
+        {
+          "label": "Malt on its own",
+          "value": 1000,
+          "kind": "total"
+        },
+        {
+          "label": "Premium: synergies paid to sellers",
+          "value": 300,
+          "kind": "add"
+        },
+        {
+          "label": "Offer price",
+          "value": 1300,
+          "kind": "total"
+        },
+        {
+          "label": "Synergies kept by Hop",
+          "value": 300,
+          "kind": "add"
+        },
+        {
+          "label": "Walk-away price",
+          "value": 1600,
+          "kind": "total"
+        }
+      ],
+      "note": "A 30% premium pays away half of the 600 of net synergies."
+    },
+    {
+      "at": "Two hundred of sales isn't two hundred of profit",
+      "type": "formula",
+      "title": "Valuing revenue synergies",
+      "formula": "200 revenue × 20% margin = 40 pre-tax → 30 after tax → 30 ÷ 10% = 300",
+      "note": "Before any haircut for doubt. Treating the 200 of sales as profit gives 1,500."
+    },
+    {
+      "at": "Strong answer: synergies are the value",
+      "type": "steps",
+      "title": "How to value synergies",
+      "items": [
+        {
+          "label": "Identify",
+          "detail": "Cost synergies first; revenue synergies discounted heavily"
+        },
+        {
+          "label": "After tax",
+          "detail": "Profit, not sales, and after the taxman's share"
+        },
+        {
+          "label": "Net of costs and time",
+          "detail": "Take off one-off costs and allow for the build-up"
+        },
+        {
+          "label": "Decide the share",
+          "detail": "Standalone value plus net synergies is the ceiling, not the offer"
+        }
+      ]
+    },
+    {
+      "at": "Last Wednesday, the seventh of October",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "Wittington and Fairfax / Boots",
+      "sub": "The Weston family's holding company buys the British pharmacy chain from Sycamore Partners and the Pessina family",
+      "lines": [
+        "About $8.9bn including assumed debt (about £6.7bn)"
+      ],
+      "date": "Announced 7 October 2026"
+    },
+    {
+      "at": "Fairfax Financial, the Toronto insurance group",
+      "type": "keynumbers",
+      "title": "Boots: the terms",
+      "items": [
+        {
+          "value": "$8.9bn",
+          "label": "total price, including assumed debt",
+          "approx": true
+        },
+        {
+          "value": "$2.3bn",
+          "label": "Fairfax's commitment, at most",
+          "approx": true
+        },
+        {
+          "value": "50%",
+          "label": "of the equity Fairfax expects to own"
+        },
+        {
+          "value": "Q1 2027",
+          "label": "expected completion"
+        }
+      ],
+      "note": "Wittington has operational control; Galen Weston becomes chairman."
+    },
+    {
+      "at": "Two point three buys half",
+      "type": "waterfall",
+      "title": "Boots: a rough split of the price",
+      "unit": "$bn",
+      "decimals": 1,
+      "steps": [
+        {
+          "label": "Equity (2 × $2.3bn, at most)",
+          "value": 4.6,
+          "kind": "total"
+        },
+        {
+          "label": "Debt and other claims",
+          "value": 4.3,
+          "kind": "add"
+        },
+        {
+          "label": "Total price",
+          "value": 8.9,
+          "kind": "total"
+        }
+      ],
+      "note": "Derived, not disclosed: Fairfax's up-to $2.3bn buys half the equity, so equity is up to about $4.6bn and the rest of the $8.9bn is about $4.3bn."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "A buyer finds cost savings of 100 a year before tax. Tax is 25%, the discount rate 10%, no growth. What are the savings worth?",
+        "options": [
+          {
+            "id": "a",
+            "text": "1,000"
+          },
+          {
+            "id": "b",
+            "text": "750"
+          },
+          {
+            "id": "c",
+            "text": "75"
+          },
+          {
+            "id": "d",
+            "text": "650"
+          }
+        ],
+        "correct": "b",
+        "explain": "100 × (1 − 25%) = 75 after tax, and 75 ÷ 10% = 750. Capitalising the pre-tax 100 gives 1,000, the trap Sofia fell into.",
+        "explain_at": "Seventy-five over ten percent: seven hundred and fifty"
+      },
+      {
+        "id": "q2",
+        "q": "A target is worth 1,000 on its own and the net synergies are worth 600. What's the walk-away price?",
+        "options": [
+          {
+            "id": "a",
+            "text": "1,300"
+          },
+          {
+            "id": "b",
+            "text": "1,750"
+          },
+          {
+            "id": "c",
+            "text": "2,000"
+          },
+          {
+            "id": "d",
+            "text": "1,600"
+          }
+        ],
+        "correct": "d",
+        "explain": "Standalone value plus net synergies: 1,000 + 600. Paying it hands every bit of synergy to the sellers, so it's the ceiling, not the offer.",
+        "explain_at": "That's the walk-away price"
+      },
+      {
+        "id": "q3",
+        "q": "Why do bankers trust cost synergies more than revenue synergies?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The buyer controls them"
+          },
+          {
+            "id": "b",
+            "text": "They're usually the bigger number"
+          },
+          {
+            "id": "c",
+            "text": "They need no one-off costs"
+          },
+          {
+            "id": "d",
+            "text": "They don't reduce the tax bill"
+          }
+        ],
+        "correct": "a",
+        "explain": "The buyer can close an office or sign a supply contract itself; revenue synergies depend on customers and competitors.",
+        "explain_at": "A cost saving is in the buyer's own hands"
+      },
+      {
+        "id": "q4",
+        "q": "What was the largest source of AB InBev's promised $1.4bn a year of savings from SABMiller?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Procurement and engineering"
+          },
+          {
+            "id": "b",
+            "text": "Brewery and distribution efficiency"
+          },
+          {
+            "id": "c",
+            "text": "Overlapping head offices"
+          },
+          {
+            "id": "d",
+            "text": "Sharing best practice"
+          }
+        ],
+        "correct": "c",
+        "explain": "Corporate and overlapping regional head offices were about 35% of the total; breweries and distribution about a quarter.",
+        "explain_at": "About thirty-five percent from corporate"
+      },
+      {
+        "id": "q5",
+        "q": "Fairfax commits up to $2.3bn for half of Boots' equity, in a deal worth $8.9bn including debt. Roughly how much is debt?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About $6.6bn"
+          },
+          {
+            "id": "b",
+            "text": "About $4.3bn"
+          },
+          {
+            "id": "c",
+            "text": "About $4.6bn"
+          },
+          {
+            "id": "d",
+            "text": "About $2.3bn"
+          }
+        ],
+        "correct": "b",
+        "explain": "$2.3bn is half the equity, so equity is up to about $4.6bn and debt about $8.9bn − $4.6bn = $4.3bn. Subtracting only Fairfax's cheque gives $6.6bn.",
+        "explain_at": "Two point three buys half"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Fairfax partners with Wittington Investments in acquisition of Boots (Fairfax Financial press release, 7 October 2026)",
+      "url": "https://www.fairfax.ca/press-releases/fairfax-partners-with-wittington-investments-in-acquisition-of-boots-2026-10-07/"
+    },
+    {
+      "label": "Recommended acquisition of SABMiller plc by AB InBev, 11 November 2015 (SEC filing, Form 6-K exhibit 99.1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001140467/000119312515374802/d30700dex991.htm"
+    },
+    {
+      "label": "Canada's Weston family and Fairfax Financial partner to buy UK's Boots in $8.9B deal (Insurance Journal, Reuters)",
+      "url": "https://insurancejournal.com/news/international/2026/10/08/888403.htm"
+    },
+    {
+      "label": "AB InBev completes takeover of SABMiller (BeverageDaily)",
+      "url": "https://beveragedaily.com/Article/2016/10/11/AB-InBev-completes-takeover-of-SABMiller"
+    },
+    {
+      "label": "AB InBev raises merger savings after weak year end (Reuters, via Investing.com)",
+      "url": "https://investing.com/news/stock-market-news/ab-inbev-raises-merger-savings-after-weak-year-end-463217"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So start with the definition"
+  }
+}
