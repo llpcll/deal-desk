@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """The daily job: write, render and publish the next episode.
 
-    python pipeline/daily.py               # what the 6:45 scheduled task runs
+    python pipeline/daily.py               # what the 6:00 scheduled task runs
     python pipeline/daily.py --no-publish  # stop after rendering; preview with build_site.py --drafts --serve
     python pipeline/daily.py --catch-up    # publish the next episode even if one went out today,
                                            # as long as its scheduled release date has come; run once per missed day
     python pipeline/daily.py --dry-run     # test the whole path (lock, power request, network, Claude, render)
                                            # on a six-line script rendered into logs/dryrun/; nothing is published
 
-The task also runs at 7:30 and at logon, so a 6:45 missed while the laptop was asleep or off is caught up;
-nothing happens if an episode was already published today.
+The episode is prepared from 6:00 and held until the release time in content/season-1.json (07:00),
+then published. The task also runs at 7:30 and at logon, so a 6:00 missed while the laptop was asleep
+or off is caught up (published late); nothing happens if an episode was already published today.
 
 The next episode is the one after the highest number in published.json. Every step
 is skipped if its output already exists, so a failed run can simply be run again:
@@ -431,6 +432,19 @@ def publish(n, title):
     log(f"published {ep_id}")
 
 
+def wait_for_release(today):
+    """Hold a finished episode until today's release time (season-1.json, Rome time).
+    The wait doesn't count towards RUN_MINUTES; the power request keeps the PC awake."""
+    global _deadline
+    t = build_site.load_json(build_site.SEASON_FILE)["release_time"]
+    at = datetime.datetime.combine(today, datetime.time.fromisoformat(t))
+    wait = (at - datetime.datetime.now()).total_seconds()
+    if wait > 0:
+        log(f"ready; holding until {t} to publish")
+        _deadline += wait
+        time.sleep(wait)
+
+
 DRY_RUN_SCRIPT = os.path.join(ROOT, "scripts", "dryrun-test.md")
 
 
@@ -497,7 +511,7 @@ def _main(args):
     today = datetime.date.today()
     _log_file = open(os.path.join(LOG_DIR, f"daily-{today}.log"), "a", encoding="utf-8")
     log(f"--- daily run{' (dry run)' if args.dry_run else ''}, pid {os.getpid()}")
-    # The task runs at 6:45, again at 7:30 and at logon as safety nets, so it must publish at
+    # The task runs at 6:00, again at 7:30 and at logon as safety nets, so it must publish at
     # most one a day. Check before waiting for the lock, then again after pulling.
     done = published_today(today)
     if done and not args.no_publish and not args.catch_up:
@@ -557,6 +571,8 @@ def _main(args):
         if args.no_publish:
             log(f"episode {n} rendered, not published. Preview: python pipeline/build_site.py --drafts --serve")
             return 0, f"OK: episode {n} rendered, not published"
+        if not args.catch_up:
+            wait_for_release(today)
         publish(n, title)
         return 0, f"OK: published episode-{n:02d}"
     except Exception as e:

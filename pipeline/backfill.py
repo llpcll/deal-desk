@@ -8,7 +8,7 @@ same), so no Kokoro fallback: if the monthly cap would be passed, it stops.
     python pipeline/backfill.py --episodes 12   # e.g. re-render episode 12 in the current voice
 
 Holds the repo lock while running. Keeps --reserve requests of Gemini's daily limit
-free for the 6:45 episode. If the daily limit is reached it stops (exit code 75);
+free for the 6:00 episode. If the daily limit is reached it stops (exit code 75);
 running it again the next day carries on where it left off, since rendered chunks
 are cached. It doesn't commit or push: the daily job publishes.
 """
@@ -37,7 +37,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--first", action="store_true", help="episode 1 only")
     ap.add_argument("--episodes", default="1-11", help="e.g. 1-11 or 12 or 1,3,5")
-    ap.add_argument("--reserve", type=int, default=20, help="daily requests kept free for the 6:45 job")
+    ap.add_argument("--reserve", type=int, default=20, help="daily requests kept free for the 6:00 job")
     args = ap.parse_args()
     nums = [1] if args.first else sorted({n for part in args.episodes.split(",")
                                           for n in (range(int(part.split("-")[0]), int(part.split("-")[-1]) + 1))})

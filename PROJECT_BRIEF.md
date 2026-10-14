@@ -51,11 +51,11 @@ A daily corporate-finance podcast for the show's owner, a first-year business st
 - **Site:** `.github/workflows/pages.yml` deploys `site/` to GitHub Pages on every push that changes it. Base URL is set in `podcast.json`.
 - **Feed:** `site/feed.xml`, built by `pipeline/build_site.py` from `podcast.json` (title, description, categories Business > Careers and Education > Courses, owner email, base URL) and `published.json` (episode id → publication time). Only episodes in `published.json` appear on the site and in the feed; anything else is a draft (`build_site.py --drafts` to preview). The show is labelled AI-voiced in the channel description, subtitle and copyright, in every episode's notes, on the cover art and on the website. Cover art: `site/cover.jpg`, 3000×3000, drawn by `pipeline/make_cover.py`.
 - **Spotify for Creators:** submit `<base URL>/feed.xml`. Spotify emails a code to `owner_email` in `podcast.json` to verify ownership; that address is public in the feed.
-- **Daily job (option A):** Windows scheduled task "The Deal Desk daily episode", daily at 6:45 (wakes the PC, catches up if it was off, runs only while the user is logged in), runs `pipeline/run_daily.cmd` → `pipeline/daily.py`:
+- **Daily job (option A):** Windows scheduled task "The Deal Desk daily episode", daily at 6:00 (wakes the PC, catches up if it was off, runs only while the user is logged in), runs `pipeline/run_daily.cmd` → `pipeline/daily.py`:
   1. Writes `scripts/episode-NN-*.md` and `content/episode-NN.json` with the Claude Code CLI in headless mode. It's allowed only to read the repo, search and fetch web pages, and write those two folders. It must verify the deal of the day (last 7 days) with web sources.
   2. Checks both files against the brief: format, banned words, no digits or symbols in dialogue, length, quiz anchors, visual types, sources. On failure Claude fixes them (twice at most), otherwise the run stops without publishing.
   3. Renders with `render.py`: Gemini, or Kokoro beyond the monthly cap.
-  4. Adds the episode to `published.json`, rebuilds the site and feed, commits and pushes.
+  4. Waits until the release time, 07:00 Rome (`release_time` in `content/season-1.json`; not for `--catch-up`), then adds the episode to `published.json`, rebuilds the site and feed, commits and pushes.
 
   Each step is skipped if its output exists, so a failed run can be re-run, and a script written by hand into `scripts/` is used as-is. Logs are in `logs/daily-YYYY-MM-DD.log`. Test without publishing: `python pipeline/daily.py --no-publish`.
 
@@ -71,7 +71,7 @@ A daily corporate-finance podcast for the show's owner, a first-year business st
   - **Accuracy:** tested against known line starts, median error 0.06 s with 97% of lines within 0.5 s. On the real episode 12, 58 of 59 line starts were verified by re-transcribing the audio at each start, and all 15 visuals land on the right line in the browser.
   - **Sound:** compared with line-by-line rendering, loudness, intelligibility and pace are unchanged and turn-taking is the model's own. Sofia's voice sits lower (median 183 Hz vs 222 Hz).
   - **Throttle:** at most 8 requests a minute and 10K tokens a minute, with backoff on per-minute 429s.
-- **Daily limit tracking:** `pipeline/usage.json` (local only, gitignored) counts requests per Pacific day. `--reserve N` leaves N free (the backfill keeps 20 for the 06:45 run). Exit code 75 means "daily limit reached, run again after the reset".
+- **Daily limit tracking:** `pipeline/usage.json` (local only, gitignored) counts requests per Pacific day. `--reserve N` leaves N free (the backfill keeps 20 for the 06:00 run). Exit code 75 means "daily limit reached, run again after the reset".
 - **Backfill:** `pipeline/backfill.py` renders episodes 1–11 from their scripts, Gemini only (no Kokoro, so Season 1 sounds the same), and marks each released on 22 September 2026 + N days at 07:00 Rome. It's resumable, holds `logs/repo.lock`, keeps 20 requests in reserve, and doesn't push.
   - The scheduled task "The Deal Desk backfill" (10:00 daily, disabled) carries on after a rate-limit stop.
   - The daily job waits up to 90 minutes for the lock rather than skipping.

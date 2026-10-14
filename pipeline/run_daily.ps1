@@ -1,4 +1,4 @@
-# Run by the "The Deal Desk daily episode" scheduled task at 6:45, 7:30 and at logon (daily.py publishes at most one a day).
+# Run by the "The Deal Desk daily episode" scheduled task at 6:00, 7:30 and at logon (daily.py holds the episode until 07:00 and publishes at most one a day).
 # Claude only writes the script; rendering, building and pushing happen here, outside Claude,
 # and daily.py refuses to push anything outside scripts/, content/, audio/, site/, published.json.
 param([switch]$DryRun)   # -DryRun: write and render a short test script, publish nothing

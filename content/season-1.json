@@ -2,7 +2,7 @@
   "season": 1,
   "title": "Season 1",
   "start": "2026-09-22",
-  "release_time": "07:30",
+  "release_time": "07:00",
   "timezone": "Europe/Rome",
   "note": "Episode N is released on start + N days. Titles of released episodes come from their scripts.",
   "weeks": [

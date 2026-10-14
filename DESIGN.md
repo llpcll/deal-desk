@@ -171,7 +171,7 @@ Only use figures that appear in the episode script; derived numbers (such as the
 
 **Next episode block.**
 - A `<details>` box with the episode number, its title and a one-line teaser. It sits on the home page and at the end of every episode page.
-- Opening it shows the release time, 07:30 Europe/Rome on start date + N days, converted to the viewer's local time, with a live countdown (`assets/next.js`).
+- Opening it shows the release time, 07:00 Europe/Rome on start date + N days, converted to the viewer's local time, with a live countdown (`assets/next.js`).
 - At zero it says "Publishing now, refresh in a few minutes". More than three hours late, it says "Running late today".
 - Without JavaScript it shows the date and Rome time as plain text.
 

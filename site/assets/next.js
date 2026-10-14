@@ -1,4 +1,4 @@
-/* "Next episode" countdown. The release time is 07:30 Europe/Rome on the episode's date;
+/* "Next episode" countdown. The release time is 07:00 Europe/Rome on the episode's date;
    it is converted to the viewer's local time here, in the browser. Without JavaScript the
    box still opens and shows the date as plain text. */
 (() => {
@@ -25,7 +25,7 @@
   }
 
   // Always English, whatever the browser language; only the time zone is the viewer's.
-  // Built from parts so it reads "Wednesday 7 October at 07:30 CEST" in every browser.
+  // Built from parts so it reads "Wednesday 7 October at 07:00 CEST" in every browser.
   const WHEN = new Intl.DateTimeFormat("en-GB", {
     weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit",
     hourCycle: "h23", timeZoneName: "short",
