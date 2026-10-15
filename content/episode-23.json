@@ -1,0 +1,490 @@
+{
+  "visuals": [
+    {
+      "at": "On the twenty-fifth of April, Twitter agreed",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Agreed cash takeover",
+      "name": "Elon Musk / Twitter",
+      "sub": "Twitter agrees to be acquired by an entity wholly owned by Elon Musk",
+      "lines": [
+        "$54.20 a share in cash, about $44bn"
+      ],
+      "date": "Announced 25 April 2022"
+    },
+    {
+      "at": "Meaning he couldn't look properly inside the company",
+      "type": "keynumbers",
+      "title": "Twitter: the terms",
+      "items": [
+        {
+          "value": "$54.20",
+          "label": "offer per share, in cash"
+        },
+        {
+          "value": "$44bn",
+          "label": "total value",
+          "approx": true
+        },
+        {
+          "value": "38%",
+          "label": "premium to the price before Musk disclosed his stake"
+        },
+        {
+          "value": "$25.5bn",
+          "label": "committed debt and margin loans"
+        },
+        {
+          "value": "$21bn",
+          "label": "Musk's own equity",
+          "approx": true
+        }
+      ],
+      "note": "Musk waived due diligence, and there was no financing condition."
+    },
+    {
+      "at": "The contract gave Twitter the right to specific performance",
+      "type": "table",
+      "title": "Twitter: from offer to closing",
+      "columns": [
+        "Date (2022)",
+        "What happened"
+      ],
+      "align": [
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "4 April",
+          "Musk discloses a stake of about 9%"
+        ],
+        [
+          "14 April",
+          "Offer of $54.20 a share in cash"
+        ],
+        [
+          "15 April",
+          "Twitter's board adopts a poison pill"
+        ],
+        [
+          "25 April",
+          "Merger agreement signed"
+        ],
+        [
+          "13 May",
+          "Musk tweets the deal is temporarily on hold"
+        ],
+        [
+          "8 July",
+          "Musk gives notice of termination"
+        ],
+        [
+          "12 July",
+          "Twitter sues in the Delaware Court of Chancery"
+        ],
+        [
+          "27 October",
+          "Deal closes at the original price, before the trial set for 17 October"
+        ]
+      ],
+      "highlight": 7,
+      "highlightLabel": "closing",
+      "note": "Six months from signing to closing, at the price agreed in April."
+    },
+    {
+      "at": "First trap. A first-round bid is a ticket",
+      "type": "steps",
+      "title": "Alpine Data: an auction narrows the field",
+      "items": [
+        {
+          "label": "Teaser to 60 buyers",
+          "detail": "A page or two on the business, without naming it"
+        },
+        {
+          "label": "25 sign an NDA",
+          "detail": "They receive the information memorandum"
+        },
+        {
+          "label": "8 indicative bids",
+          "detail": "Non-binding ranges, €800m to €1.1bn"
+        },
+        {
+          "label": "2 binding bids",
+          "detail": "After the data room, management meetings and due diligence"
+        },
+        {
+          "label": "1 signs",
+          "detail": "Often after a few weeks of exclusivity"
+        }
+      ],
+      "note": "Illustrative round numbers from the episode. Three or four bidders usually go through to round two."
+    },
+    {
+      "at": "Bidder A offers one thousand and fifty million",
+      "type": "table",
+      "title": "Two binding bids for Alpine Data",
+      "columns": [
+        "",
+        "Bidder A",
+        "Bidder B"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Price",
+          "€1,050m",
+          "€1,000m"
+        ],
+        [
+          "Financing",
+          "Must raise the debt",
+          "Fully financed"
+        ],
+        [
+          "Changes to the contract",
+          "",
+          "Almost none"
+        ],
+        [
+          "Chance the deal fails",
+          "1 in 10",
+          ""
+        ]
+      ],
+      "note": "Hypothetical bids. The one-in-ten chance of failure is the episode's assumption."
+    },
+    {
+      "at": "Ninety percent of one thousand and fifty",
+      "type": "formula",
+      "title": "Price times the chance of getting paid",
+      "formula": "Bidder A: 90% × €1,050m ≈ €945m < Bidder B: €1,000m",
+      "note": "And a failed sale isn't zero: the seller starts again months later, with a business that now looks damaged."
+    },
+    {
+      "at": "Third trap. Signing is the binding promise",
+      "type": "table",
+      "title": "Signing and closing",
+      "columns": [
+        "",
+        "Signing",
+        "Closing"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "What happens",
+          "The binding promise",
+          "Money and shares change hands"
+        ],
+        [
+          "What it waits for",
+          "Due diligence and the contract",
+          "Competition and foreign investment approvals, sometimes a shareholder vote"
+        ],
+        [
+          "Twitter",
+          "25 April 2022",
+          "27 October 2022"
+        ]
+      ],
+      "note": "Three to six months between them is normal; a year or more for a big cross-border deal."
+    },
+    {
+      "at": "The contract has a reverse termination fee of three percent",
+      "type": "bars",
+      "title": "Why the buyer would like to walk away",
+      "unit": "€m",
+      "decimals": 0,
+      "items": [
+        {
+          "label": "Price signed",
+          "value": 1000
+        },
+        {
+          "label": "Alpine on its own after a 30% fall",
+          "value": 700,
+          "approx": true
+        },
+        {
+          "label": "Reverse termination fee (3%)",
+          "value": 30
+        }
+      ],
+      "note": "Illustrative. The fee usually applies only in set cases, such as the debt not arriving or a regulator blocking the deal; otherwise the seller can ask a court to force completion."
+    },
+    {
+      "at": "Musk's fee was one billion dollars",
+      "type": "keynumbers",
+      "title": "The fee that didn't buy a way out",
+      "items": [
+        {
+          "value": "$1bn",
+          "label": "Musk's reverse termination fee, a little over 2% of the price"
+        }
+      ],
+      "note": "Derived: $1bn ÷ c. $44bn ≈ 2.3%. Twitter would have owed Musk the same $1bn in limited cases, such as accepting a better offer."
+    },
+    {
+      "at": "Strong answer: preparation, with a teaser",
+      "type": "steps",
+      "title": "A sale process, start to finish",
+      "items": [
+        {
+          "label": "Preparation",
+          "detail": "Teaser, information memorandum, NDAs"
+        },
+        {
+          "label": "First round",
+          "detail": "Non-binding indicative offers narrow the field"
+        },
+        {
+          "label": "Second round",
+          "detail": "Data room, management meetings, due diligence, contract mark-ups"
+        },
+        {
+          "label": "Binding bids and signing",
+          "detail": "Often a spell of exclusivity with one bidder first"
+        },
+        {
+          "label": "Closing",
+          "detail": "Once regulators, and sometimes shareholders, have approved"
+        }
+      ]
+    },
+    {
+      "at": "On Tuesday, the thirteenth of October, Reuters reported",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Talks confirmed",
+      "name": "LSEG / Octus",
+      "sub": "The London Stock Exchange Group in talks with Permira to buy the credit data company",
+      "lines": [
+        "About $3.5bn; no final agreement reached"
+      ],
+      "date": "Confirmed 13 October 2026"
+    },
+    {
+      "at": "Permira bought a majority in twenty twenty-two",
+      "type": "keynumbers",
+      "title": "Octus in five numbers",
+      "items": [
+        {
+          "value": "$3.5bn",
+          "label": "price under discussion",
+          "approx": true
+        },
+        {
+          "value": "$1.3bn",
+          "label": "valuation when Permira bought a majority in 2022"
+        },
+        {
+          "value": "$145m",
+          "label": "EBITDA expected this year",
+          "approx": true
+        },
+        {
+          "value": "$200m",
+          "label": "EBITDA expected next year",
+          "approx": true
+        },
+        {
+          "value": "−4.7%",
+          "label": "LSEG's share price on 13 October",
+          "approx": true
+        }
+      ],
+      "note": "The EBITDA figures come from a person familiar with the matter, quoted in the press, not from the companies."
+    },
+    {
+      "at": "On this year's one hundred and forty-five million",
+      "type": "bars",
+      "title": "One price, two multiples",
+      "unit": "x EBITDA",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "This year's EBITDA (c. $145m)",
+          "value": 24.1,
+          "approx": true
+        },
+        {
+          "label": "Next year's EBITDA (c. $200m)",
+          "value": 17.5,
+          "approx": true
+        }
+      ],
+      "note": "Derived: $3.5bn ÷ $145m and $3.5bn ÷ $200m. It isn't known whether the $3.5bn includes debt, so treat both as rough."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "In a sale process, what is a first-round bid?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A binding offer the seller can accept"
+          },
+          {
+            "id": "b",
+            "text": "A non-binding range to reach round two"
+          },
+          {
+            "id": "c",
+            "text": "A final price set after due diligence"
+          },
+          {
+            "id": "d",
+            "text": "A public offer made to all shareholders"
+          }
+        ],
+        "correct": "b",
+        "explain": "First-round bids are indicative and based only on the information memorandum. The highest one doesn't win; it buys a place in the second round.",
+        "explain_at": "A first-round bid is a ticket to the next round"
+      },
+      {
+        "id": "q2",
+        "q": "Bidder A offers 1,050 with a one in ten chance its financing fails. Bidder B offers 1,000, fully financed. Which is worth more to the seller?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A, since 1,050 beats 1,000"
+          },
+          {
+            "id": "b",
+            "text": "Equal, since both are about 1,000"
+          },
+          {
+            "id": "c",
+            "text": "A, worth about 995 after the risk"
+          },
+          {
+            "id": "d",
+            "text": "B, since A is worth about 945"
+          }
+        ],
+        "correct": "d",
+        "explain": "90% × 1,050 ≈ 945, already below B's 1,000, and a failed sale leaves the seller worse off than where it started.",
+        "explain_at": "Ninety percent of one thousand and fifty is about nine hundred and forty-five"
+      },
+      {
+        "id": "q3",
+        "q": "What's the difference between signing and closing?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Signing is the promise; closing is when money changes hands"
+          },
+          {
+            "id": "b",
+            "text": "Signing is non-binding; closing makes the deal binding"
+          },
+          {
+            "id": "c",
+            "text": "Signing is when the buyer pays; closing is the board vote"
+          },
+          {
+            "id": "d",
+            "text": "Signing is the announcement; closing ends due diligence"
+          }
+        ],
+        "correct": "a",
+        "explain": "Signing commits both sides; closing comes once the conditions, such as regulatory approvals and any shareholder vote, are met. Twitter signed in April and closed in October.",
+        "explain_at": "Third trap. Signing is the binding promise"
+      },
+      {
+        "id": "q4",
+        "q": "Which part of the merger agreement let Twitter force Elon Musk to complete the deal?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The reverse termination fee"
+          },
+          {
+            "id": "b",
+            "text": "The material adverse change clause"
+          },
+          {
+            "id": "c",
+            "text": "Specific performance"
+          },
+          {
+            "id": "d",
+            "text": "The poison pill"
+          }
+        ],
+        "correct": "c",
+        "explain": "Specific performance lets a court order the buyer to complete rather than just pay damages. The $1bn fee applied only in set cases, so it didn't buy Musk a way out.",
+        "explain_at": "The contract gave Twitter the right to specific performance"
+      },
+      {
+        "id": "q5",
+        "q": "Octus is priced at about $3.5bn, with EBITDA of about $145m this year. Roughly what multiple of this year's EBITDA is that?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 17.5x"
+          },
+          {
+            "id": "b",
+            "text": "About 24x"
+          },
+          {
+            "id": "c",
+            "text": "About 2.7x"
+          },
+          {
+            "id": "d",
+            "text": "About 35x"
+          }
+        ],
+        "correct": "b",
+        "explain": "$3.5bn ÷ $145m ≈ 24x. Dividing by next year's $200m gives 17.5x, the number Sofia picked; say which year you're using.",
+        "explain_at": "On this year's one hundred and forty-five million, it's about twenty-four times"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "LSEG: response to press speculation on Octus acquisition (LSEG press release, 13 October 2026)",
+      "url": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-response-to-press-speculation-octus-acquisition"
+    },
+    {
+      "label": "Elon Musk to acquire Twitter, 25 April 2022 (Twitter, Inc. SEC filing, Form DEFA14A)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1418091/000119312522117743/d319190ddefa14a.htm"
+    },
+    {
+      "label": "LSEG zeigt Interesse am US-Finanzdatenanbieter Octus (Börsen-Zeitung)",
+      "url": "https://www.boersen-zeitung.de/banken-finanzen/lseg-zeigt-interesse-am-us-finanzdatenanbieter-octus"
+    },
+    {
+      "label": "Elon Musk's Twitter deal includes a $1 billion termination fee on both sides (TechCrunch)",
+      "url": "https://techcrunch.com/2022/04/26/elon-musks-twitter-deal-includes-a-1-billion-termination-fee-on-both-sides"
+    },
+    {
+      "label": "In re Twitter, Inc. v. Elon Musk et al. (Cornerstone Research case summary)",
+      "url": "https://www.cornerstone.com/insights/cases/in-re-twitter-inc-v-elon-musk-et-al/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So let's walk through the process"
+  }
+}

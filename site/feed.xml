@@ -17,7 +17,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Wed, 14 Oct 2026 12:04:23 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 08:43:26 +0200</lastBuildDate>
+    <item>
+      <title>23. The deal process, or the buyer who tried to walk away from Twitter</title>
+      <description>Elon Musk signed to buy Twitter, tried to walk away, and a contract made him finish. Then the London Stock Exchange Group confirms talks to buy Octus, and nothing is signed yet. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-23/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Elon Musk signed to buy Twitter, tried to walk away, and a contract made him finish. Then the London Stock Exchange Group confirms talks to buy Octus, and nothing is signed yet.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-23/">https://llpcll.github.io/deal-desk/episode-23/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.lseg.com/en/media-centre/press-releases/2026/lseg-response-to-press-speculation-octus-acquisition">LSEG: response to press speculation on Octus acquisition (LSEG press release, 13 October 2026)</a></li><li><a href="https://www.sec.gov/Archives/edgar/data/1418091/000119312522117743/d319190ddefa14a.htm">Elon Musk to acquire Twitter, 25 April 2022 (Twitter, Inc. SEC filing, Form DEFA14A)</a></li><li><a href="https://www.boersen-zeitung.de/banken-finanzen/lseg-zeigt-interesse-am-us-finanzdatenanbieter-octus">LSEG zeigt Interesse am US-Finanzdatenanbieter Octus (Börsen-Zeitung)</a></li><li><a href="https://techcrunch.com/2022/04/26/elon-musks-twitter-deal-includes-a-1-billion-termination-fee-on-both-sides">Elon Musk&#x27;s Twitter deal includes a $1 billion termination fee on both sides (TechCrunch)</a></li><li><a href="https://www.cornerstone.com/insights/cases/in-re-twitter-inc-v-elon-musk-et-al/">In re Twitter, Inc. v. Elon Musk et al. (Cornerstone Research case summary)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-23/</link>
+      <guid isPermaLink="false">deal-desk-episode-23</guid>
+      <pubDate>Thu, 15 Oct 2026 08:43:26 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-23.mp3" length="8541640" type="audio/mpeg"/>
+      <itunes:author>The Deal Desk</itunes:author>
+      <itunes:duration>712</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>23</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-23.json" type="application/json+chapters"/>
+    </item>
     <item>
       <title>22. Synergies, or the beer merger that ran on savings</title>
       <description>Ten years ago this week, Anheuser-Busch InBev closed its takeover of SABMiller on a promise of one point four billion dollars a year. Then the Weston family buys Boots, and nobody names a synergy. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-22/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>

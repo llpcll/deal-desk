@@ -1,0 +1,459 @@
+{
+  "id": "episode-23",
+  "title": "The Deal Desk, episode 23: The deal process, or the buyer who tried to walk away from Twitter",
+  "hook": "Elon Musk signed to buy Twitter, tried to walk away, and a contract made him finish. Then the London Stock Exchange Group confirms talks to buy Octus, and nothing is signed yet.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-15T08:43:24",
+  "duration": 711.684,
+  "audio": "episode-23.mp3",
+  "chunks": [
+    {
+      "words": 450,
+      "seconds": 172.7,
+      "expected": 180.0,
+      "attempts": 1,
+      "coverage": 0.963,
+      "transcribed_words": 460,
+      "script_words": 463,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    },
+    {
+      "words": 467,
+      "seconds": 178.6,
+      "expected": 186.8,
+      "attempts": 1,
+      "coverage": 0.958,
+      "transcribed_words": 460,
+      "script_words": 471,
+      "method": "whisper",
+      "lines_matched": 15,
+      "problems": []
+    },
+    {
+      "words": 426,
+      "seconds": 175.0,
+      "expected": 170.4,
+      "attempts": 1,
+      "coverage": 0.979,
+      "transcribed_words": 425,
+      "script_words": 429,
+      "method": "whisper",
+      "lines_matched": 13,
+      "problems": []
+    },
+    {
+      "words": 474,
+      "seconds": 183.4,
+      "expected": 189.6,
+      "attempts": 1,
+      "coverage": 0.938,
+      "transcribed_words": 461,
+      "script_words": 484,
+      "method": "whisper",
+      "lines_matched": 12,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode twenty-three. Today, how they actually come together: the deal process, from the first phone call to the day the money moves. And the best way to learn the rules is to watch someone try to break them.",
+      "start": 0.46,
+      "end": 15.55
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Elon Musk.",
+      "start": 15.6,
+      "end": 16.9
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Elon Musk. On the fourth of April twenty twenty-two, he disclosed a stake of about nine percent in Twitter. Ten days later he offered fifty-four dollars twenty a share in cash. The next day, Twitter's board adopted a poison pill, a defence that makes it ruinously expensive to build a bigger stake without the board's approval.",
+      "start": 16.95,
+      "end": 38.32
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "So the board said no.",
+      "start": 38.37,
+      "end": 39.98
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "For about ten days. On the twenty-fifth of April, Twitter agreed: fifty-four dollars twenty a share, about forty-four billion dollars in total, a thirty-eight percent premium to the price before he disclosed his stake. Musk had twenty-five and a half billion dollars of committed debt and margin loans, and about twenty-one billion of his own equity. And two details that mattered later. He waived his right to due diligence. And there was no financing condition.",
+      "start": 40.03,
+      "end": 68.25
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "Meaning what?",
+      "start": 68.3,
+      "end": 69.75
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "Meaning he couldn't look properly inside the company before signing, and he couldn't walk away because the money fell through. Then technology shares fell. On the thirteenth of May he tweeted that the deal was temporarily on hold, pending proof that spam and fake accounts were less than five percent of users. On the eighth of July he gave notice that he was terminating the agreement.",
+      "start": 69.8,
+      "end": 92.97
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "Can he just do that?",
+      "start": 93.02,
+      "end": 95.23
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "Twitter said no, and sued him four days later in the Delaware Court of Chancery. The contract gave Twitter the right to specific performance: a court could order Musk to complete the deal, not just pay damages. The trial was set for the seventeenth of October. In early October, Musk agreed to go ahead on the original terms, and the deal closed on the evening of the twenty-seventh of October twenty twenty-two. Same price he'd signed in April.",
+      "start": 95.28,
+      "end": 125.76
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "So the contract won.",
+      "start": 125.81,
+      "end": 128.22
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "The contract won. Which is why bankers and lawyers spend months on it. So let's walk through the process. Start with the most common version: an auction, run by a bank for the seller. Round numbers. Alpine Data is owned by a private equity fund, and the fund wants to sell.",
+      "start": 128.27,
+      "end": 146.95
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "So the bank calls everyone it knows.",
+      "start": 147.0,
+      "end": 149.62
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "First it prepares. A teaser, a page or two describing the business without naming it. Then an information memorandum, the full sales document. The teaser goes to a long list: competitors, other funds, say sixty possible buyers. Anyone interested signs a non-disclosure agreement, an N-D-A, and gets the memorandum. Say twenty-five sign.",
+      "start": 149.67,
+      "end": 172.3
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "And then they bid.",
+      "start": 172.35,
+      "end": 173.041
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "First round. A few weeks later, they send indicative offers: non-binding, usually a range, based only on the memorandum. Say eight bids, from eight hundred million to one point one billion euros.",
+      "start": 173.561,
+      "end": 186.461
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "Easy. One point one billion wins.",
+      "start": 186.511,
+      "end": 189.101
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "First trap. A first-round bid is a ticket to the next round, not a price. Anyone can write one point one billion on a letter they don't have to honour. The bank picks three or four bidders to go through, on price but also on credibility. Can they pay? Will the regulators let them buy?",
+      "start": 189.151,
+      "end": 207.551
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "And round two is where they check the numbers.",
+      "start": 207.601,
+      "end": 210.301
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Exactly. A virtual data room with contracts, accounts and customer data. Meetings with management. Due diligence by accountants, tax advisers and lawyers. Meanwhile the seller's lawyers send a draft sale and purchase agreement, and each bidder marks it up. Then binding bids. Say two are left. Bidder A offers one thousand and fifty million, but only if it can raise the debt. Bidder B offers one thousand, fully financed, with almost no changes to the contract.",
+      "start": 210.351,
+      "end": 242.371
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "Bidder A. Fifty million is fifty million.",
+      "start": 242.421,
+      "end": 245.771
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Second trap. The seller cares about price times the chance of getting paid. Say there's a one in ten chance that A's financing fails. Ninety percent of one thousand and fifty is about nine hundred and forty-five, already below B. And if A fails, the seller is back at the start, months later, with a business that now looks damaged. Sellers pay for certainty. That's why Musk agreeing to no financing condition mattered so much.",
+      "start": 245.821,
+      "end": 271.381
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "So B wins. Then what?",
+      "start": 271.431,
+      "end": 274.031
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Often a few weeks of exclusivity, B alone, to finish the contract. Then signing.",
+      "start": 274.081,
+      "end": 280.121
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "And the deal is done.",
+      "start": 280.171,
+      "end": 281.691
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "Third trap. Signing is the binding promise. Closing is when the money and the shares change hands. In between sit the conditions: competition authorities, foreign investment screening and, for a listed target, a shareholder vote. Three to six months is normal, a year or more for a big cross-border deal. Twitter signed in April and closed in October.",
+      "start": 281.741,
+      "end": 305.161
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "And if something goes wrong in between?",
+      "start": 305.211,
+      "end": 307.711
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "That's what the contract is for. B signs at one thousand. Then markets fall, similar companies trade thirty percent lower, and on its own Alpine is now worth about seven hundred. The contract has a reverse termination fee of three percent: thirty million.",
+      "start": 307.761,
+      "end": 326.291
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "Then B pays thirty and walks away. Better than overpaying by three hundred.",
+      "start": 326.341,
+      "end": 330.961
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "Fourth trap. The fee isn't a price for changing your mind. It usually applies only in set cases, such as the debt not arriving or a regulator blocking the deal. Otherwise the seller can ask a court to force completion. Musk's fee was one billion dollars, a little over two percent of the price, and it didn't buy him a way out.",
+      "start": 331.011,
+      "end": 352.015
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "What about a material adverse change? Something bad happened.",
+      "start": 352.536,
+      "end": 357.125
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "The clause usually excludes market-wide falls. It covers serious damage to this company specifically, lasting years rather than months. In twenty eighteen, in a case called Akorn, a Delaware court let a buyer walk away on those grounds, which law firms described as the first time. Buyer's remorse is not a material adverse change.",
+      "start": 357.175,
+      "end": 380.055
+    },
+    {
+      "i": 31,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: walk me through a sale process.",
+      "start": 380.106,
+      "end": 384.435
+    },
+    {
+      "i": 32,
+      "speaker": "SOFIA",
+      "text": "The bank finds a buyer, they agree a price, the buyer does due diligence, they sign, and it's done.",
+      "start": 384.486,
+      "end": 390.736
+    },
+    {
+      "i": 33,
+      "speaker": "MARCO",
+      "text": "Right order, missing most of the middle, and signing isn't the end. Strong answer: preparation, with a teaser and an information memorandum. Non-disclosure agreements. A non-binding first round to narrow the field. A second round with the data room, management meetings and due diligence, and bidders marking up the contract. Binding bids, often exclusivity with one bidder, then signing. Then the conditions, regulators and sometimes shareholders, and finally closing, when the money moves. And the competition between bidders is what keeps the price up.",
+      "start": 390.786,
+      "end": 431.175
+    },
+    {
+      "i": 34,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 431.226,
+      "end": 432.216
+    },
+    {
+      "i": 35,
+      "speaker": "MARCO",
+      "text": "Why might a seller accept a lower bid?",
+      "start": 432.266,
+      "end": 435.505
+    },
+    {
+      "i": 36,
+      "speaker": "SOFIA",
+      "text": "It wouldn't, unless the higher bidder can't be trusted.",
+      "start": 435.555,
+      "end": 438.906
+    },
+    {
+      "i": 37,
+      "speaker": "MARCO",
+      "text": "That's most of it, but say why in deal terms. Strong answer: the seller compares value and certainty. A lower bid can be better if it's fully financed, needs fewer approvals, makes fewer changes to the contract, or can close sooner. A higher bid with a financing condition or a long competition review is worth less once you allow for the chance it fails, and a failed sale damages the business. Then name the protections: specific performance, and a reverse termination fee.",
+      "start": 438.956,
+      "end": 471.196
+    },
+    {
+      "i": 38,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 471.245,
+      "end": 472.425
+    },
+    {
+      "i": 39,
+      "speaker": "MARCO",
+      "text": "A deal that hasn't been signed yet, which is exactly why it's useful today. On Tuesday, the thirteenth of October, Reuters reported that the London Stock Exchange Group, L-S-E-G, was in talks to buy Octus, a credit data company owned by the private equity firm Permira. That afternoon, L-S-E-G confirmed it: discussions with Permira, a price of about three point five billion dollars, and in its words, no final agreement has been reached and no transaction is guaranteed.",
+      "start": 472.476,
+      "end": 500.935
+    },
+    {
+      "i": 40,
+      "speaker": "SOFIA",
+      "text": "Why would the buyer announce it? Isn't it the seller's secret?",
+      "start": 500.986,
+      "end": 505.336
+    },
+    {
+      "i": 41,
+      "speaker": "MARCO",
+      "text": "Because L-S-E-G is listed, and a deal that size is inside information for its own shareholders. Once the talks were in the press, it put out a statement, headed \"Response to press speculation\", rather than let the shares trade on rumours. L-S-E-G shares closed down about four point seven percent that day.",
+      "start": 505.385,
+      "end": 524.885
+    },
+    {
+      "i": 42,
+      "speaker": "SOFIA",
+      "text": "And what is Octus?",
+      "start": 524.936,
+      "end": 527.41
+    },
+    {
+      "i": 43,
+      "speaker": "MARCO",
+      "text": "A New York company that sells credit intelligence and data to investors, investment banks and law firms, strong in private and illiquid credit. Permira bought a majority in twenty twenty-two at a valuation of one point three billion dollars. And according to a person familiar with the matter, quoted in the press, Octus expects EBITDA of about one hundred and forty-five million dollars this year, and around two hundred million next year.",
+      "start": 527.93,
+      "end": 555.02
+    },
+    {
+      "i": 44,
+      "speaker": "SOFIA",
+      "text": "Three point five billion over two hundred million. Seventeen and a half times. Not bad for a data business.",
+      "start": 555.07,
+      "end": 561.48
+    },
+    {
+      "i": 45,
+      "speaker": "MARCO",
+      "text": "You picked next year's number. On this year's one hundred and forty-five million, it's about twenty-four times. Both are fair to quote, as long as you say which. And we don't know whether the three point five billion includes debt, so treat these as rough.",
+      "start": 561.53,
+      "end": 575.29
+    },
+    {
+      "i": 46,
+      "speaker": "SOFIA",
+      "text": "So where are they in the process?",
+      "start": 575.34,
+      "end": 577.91
+    },
+    {
+      "i": 47,
+      "speaker": "MARCO",
+      "text": "That's your interview question. Where are we, and what happens next?",
+      "start": 577.96,
+      "end": 582.16
+    },
+    {
+      "i": 48,
+      "speaker": "SOFIA",
+      "text": "Due diligence. Then they sign, and it's done.",
+      "start": 582.21,
+      "end": 585.48
+    },
+    {
+      "i": 49,
+      "speaker": "MARCO",
+      "text": "Half right, and the same trap as before. Permira has also talked to other potential buyers, so this looks like an auction near its end, possibly with L-S-E-G in exclusivity. Next: finish the due diligence and the contract, sign, then regulatory approval, then closing. And the leak changes the negotiation. Permira knows the buyer is public now, and L-S-E-G's shares have already said what the market thinks of the price.",
+      "start": 585.53,
+      "end": 613.73
+    },
+    {
+      "i": 50,
+      "speaker": "SOFIA",
+      "text": "So the market got a vote before the deal was even signed.",
+      "start": 613.78,
+      "end": 618.57
+    },
+    {
+      "i": 51,
+      "speaker": "MARCO",
+      "text": "Nicely put. Quiz. For you listening. Question one: in a sale process, what is a first-round bid? Question two: bidder A offers one thousand and fifty with a one in ten chance its financing fails; bidder B offers one thousand, fully financed. Which is worth more to the seller? Question three: what's the difference between signing and closing? Question four: which part of the contract let Twitter force Elon Musk to complete? Question five: Octus is priced at about three point five billion dollars, with EBITDA of about one hundred and forty-five million this year. Roughly what multiple is that?",
+      "start": 618.62,
+      "end": 660.17
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 660.22,
+      "end": 660.95
+    },
+    {
+      "i": 53,
+      "speaker": "MARCO",
+      "text": "Answers. One: a non-binding, indicative offer, usually a range, that gets a bidder into the second round. Two: bidder B. Ninety percent of one thousand and fifty is about nine hundred and forty-five. Three: signing is the binding promise; closing is when the money and shares change hands, once the conditions are met. Four: specific performance, a court order to complete. Five: about twenty-four times this year's EBITDA, or seventeen and a half times next year's.",
+      "start": 661.0,
+      "end": 694.03
+    },
+    {
+      "i": 54,
+      "speaker": "SOFIA",
+      "text": "So the price is only half the deal. The other half is whether it actually closes.",
+      "start": 694.08,
+      "end": 698.86
+    },
+    {
+      "i": 55,
+      "speaker": "MARCO",
+      "text": "And once it closes, the buyer's shareholders ask a simple question: does this deal make my earnings per share go up or down? Tomorrow, episode twenty-four: accretion and dilution.",
+      "start": 698.91,
+      "end": 711.224
+    }
+  ]
+}
