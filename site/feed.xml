@@ -17,7 +17,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Thu, 15 Oct 2026 08:43:26 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 07:00:00 +0200</lastBuildDate>
+    <item>
+      <title>24. Accretion and dilution, or the deal Microsoft said would shrink its earnings</title>
+      <description>Microsoft paid twenty-six billion dollars for LinkedIn and told investors their earnings per share would go down. Then Galderma buys ZO Skin Health and promises neither up nor down. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-24/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>Microsoft paid twenty-six billion dollars for LinkedIn and told investors their earnings per share would go down. Then Galderma buys ZO Skin Health and promises neither up nor down.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-24/">https://llpcll.github.io/deal-desk/episode-24/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.galderma.com/news/galderma-signs-agreement-acquire-zo-skin-health">Galderma signs agreement to acquire ZO Skin Health (Galderma press release, 14 October 2026)</a></li><li><a href="https://news.microsoft.com/2016/06/13/microsoft-to-acquire-linkedin/">Microsoft to acquire LinkedIn (Microsoft press release, 13 June 2016)</a></li><li><a href="https://news.linkedin.com/2017/microsoft-completes-acquisition-of-linkedin">Microsoft completes acquisition of LinkedIn (LinkedIn newsroom, 8 December 2016)</a></li><li><a href="https://www.wmar2news.com/news/national/microsoft-to-buy-linkedin-for-262-billion">Microsoft to buy LinkedIn for $26.2 billion (Associated Press via WMAR)</a></li><li><a href="https://www.bluewin.ch/en/news/galderma-acquires-u.s.-skincare-brand-for-1.5-billion-li.3634987">Galderma acquires U.S. skincare brand for $1.5 billion (blue News)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-24/</link>
+      <guid isPermaLink="false">deal-desk-episode-24</guid>
+      <pubDate>Mon, 19 Oct 2026 07:00:00 +0200</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-24.mp3" length="8930979" type="audio/mpeg"/>
+      <itunes:author>The Deal Desk</itunes:author>
+      <itunes:duration>744</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>24</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-24.json" type="application/json+chapters"/>
+    </item>
     <item>
       <title>23. The deal process, or the buyer who tried to walk away from Twitter</title>
       <description>Elon Musk signed to buy Twitter, tried to walk away, and a contract made him finish. Then the London Stock Exchange Group confirms talks to buy Octus, and nothing is signed yet. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-23/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>

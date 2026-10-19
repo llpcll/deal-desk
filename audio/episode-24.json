@@ -1,0 +1,473 @@
+{
+  "id": "episode-24",
+  "title": "The Deal Desk, episode 24: Accretion and dilution, or the deal Microsoft said would shrink its earnings",
+  "hook": "Microsoft paid twenty-six billion dollars for LinkedIn and told investors their earnings per share would go down. Then Galderma buys ZO Skin Health and promises neither up nor down.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-19T06:00:23",
+  "duration": 744.137,
+  "audio": "episode-24.mp3",
+  "chunks": [
+    {
+      "words": 483,
+      "seconds": 192.4,
+      "expected": 193.2,
+      "attempts": 1,
+      "coverage": 0.951,
+      "transcribed_words": 470,
+      "script_words": 488,
+      "method": "whisper",
+      "lines_matched": 16,
+      "problems": []
+    },
+    {
+      "words": 477,
+      "seconds": 176.1,
+      "expected": 190.8,
+      "attempts": 1,
+      "coverage": 0.99,
+      "transcribed_words": 482,
+      "script_words": 485,
+      "method": "whisper",
+      "lines_matched": 13,
+      "problems": []
+    },
+    {
+      "words": 460,
+      "seconds": 185.7,
+      "expected": 184.0,
+      "attempts": 1,
+      "coverage": 0.953,
+      "transcribed_words": 458,
+      "script_words": 466,
+      "method": "whisper",
+      "lines_matched": 18,
+      "problems": []
+    },
+    {
+      "words": 467,
+      "seconds": 188.0,
+      "expected": 186.8,
+      "attempts": 1,
+      "coverage": 0.975,
+      "transcribed_words": 464,
+      "script_words": 473,
+      "method": "whisper",
+      "lines_matched": 11,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode twenty-four. Today, the question a buyer's shareholders ask about every deal. Does it make my earnings per share go up, or down? Accretion and dilution. And we start with a buyer that answered \"down\" in its own press release.",
+      "start": 0.46,
+      "end": 21.35
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Who would announce that?",
+      "start": 21.4,
+      "end": 22.95
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Microsoft. On the thirteenth of June twenty sixteen, it agreed to buy LinkedIn for one hundred and ninety-six dollars a share in cash, about twenty-six point two billion dollars including LinkedIn's net cash. On the Friday before, LinkedIn had closed at one hundred and thirty-one dollars and eight cents. So a premium of about fifty percent.",
+      "start": 23.0,
+      "end": 44.89
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "And Microsoft had twenty-six billion lying around?",
+      "start": 44.94,
+      "end": 48.51
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "It said it would pay mainly with new debt. And then the line that matters today. Microsoft expected the deal to dilute its adjusted earnings per share by about one percent, for the rest of its financial year twenty seventeen and for twenty eighteen. Microsoft's year ends in June. It expected the deal to become accretive in financial year twenty nineteen, less than two years after closing.",
+      "start": 48.56,
+      "end": 74.23
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "Accretive meaning earnings per share go up.",
+      "start": 74.28,
+      "end": 77.39
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "Up because of the deal. Dilutive, down. The deal closed on the eighth of December twenty sixteen. So Microsoft paid a fifty percent premium and told its shareholders, plainly, you'll earn a little less per share for two years.",
+      "start": 77.44,
+      "end": 92.39
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "Why would shareholders accept that?",
+      "start": 92.44,
+      "end": 94.76
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "That's the whole episode. Start with the mechanics. Earnings per share is net income divided by the number of shares. After a deal, you build pro forma earnings per share: the buyer's net income, plus the target's, plus any synergies after tax, minus the new costs of paying for it. Then divide by the buyer's shares, plus any new shares it issued to pay.",
+      "start": 94.81,
+      "end": 118.68
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "That sounds like a lot of moving parts.",
+      "start": 118.73,
+      "end": 120.69
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "Round numbers, millions of euros. Atlas earns one hundred a year and has one hundred million shares. Earnings per share, one euro. Its shares trade at twenty euros, so a price to earnings ratio of twenty. Atlas wants to buy Birch, which earns ten a year. Atlas offers one hundred and fifty for the whole company.",
+      "start": 120.74,
+      "end": 140.9
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "So Atlas pays fifteen times Birch's earnings.",
+      "start": 140.95,
+      "end": 144.41
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "At the offer price, yes. Always use the price you're paying, premium included, not the price Birch traded at before. First way to pay: all in shares. How many new Atlas shares?",
+      "start": 144.46,
+      "end": 158.21
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "Birch has, say, fifty million shares. So Atlas adds fifty million.",
+      "start": 158.26,
+      "end": 164.39
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "First trap. Birch's shares disappear at closing. What counts is how many Atlas shares Atlas has to print to hand over one hundred and fifty of value. At twenty euros each, seven and a half million.",
+      "start": 164.44,
+      "end": 178.76
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "Then net income is one hundred plus ten, one hundred and ten. Shares, one hundred and seven and a half. One hundred and ten over one hundred and seven and a half is about one euro and two cents.",
+      "start": 178.81,
+      "end": 192.718
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "Accretive by about two point three percent. Second way to pay: all debt. Atlas borrows one hundred and fifty at six percent.",
+      "start": 193.238,
+      "end": 202.948
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "Interest is nine. One hundred and ten minus nine, one hundred and one, over one hundred million shares. One euro and one cent.",
+      "start": 202.998,
+      "end": 212.248
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Second trap. Interest is paid before tax, so the taxman pays part of it. At a twenty-five percent tax rate, nine of interest costs Atlas six and three quarters after tax. Net income is one hundred and three and a quarter. Earnings per share about one euro and three cents. Accretive by about three and a quarter percent.",
+      "start": 212.298,
+      "end": 233.088
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "So debt beats shares.",
+      "start": 233.138,
+      "end": 235.208
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Here, yes. And cash beats both. Say Atlas has one hundred and fifty in the bank earning four percent. Spending it gives up six of interest a year, four and a half after tax. Earnings per share goes to about one euro and five and a half cents.",
+      "start": 235.258,
+      "end": 251.978
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "Is there a quicker way? I can't do that division in an interview every time.",
+      "start": 252.028,
+      "end": 256.648
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "There is. Each way of paying has a cost, as a yield. Shares cost the buyer's earnings yield: one over its price to earnings ratio. One over twenty, five percent. Debt costs the after-tax interest rate: four and a half percent. Cash costs the after-tax interest you give up: three percent. Then the target's earnings yield at the offer price: ten over one hundred and fifty, about six point seven percent. If the target earns more than the money costs, the deal is accretive.",
+      "start": 256.698,
+      "end": 287.278
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "Six point seven beats all three. So all three are accretive.",
+      "start": 287.328,
+      "end": 292.228
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "Exactly. Now raise the price. Atlas pays two hundred and fifty for Birch, twenty-five times earnings. Birch's yield falls to four percent. In shares, Atlas issues twelve and a half million. One hundred and ten over one hundred and twelve and a half: about ninety-eight cents. Dilutive by just over two percent.",
+      "start": 292.278,
+      "end": 313.008
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "Because Atlas paid twenty-five times with a currency worth twenty times.",
+      "start": 313.058,
+      "end": 317.918
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "Nicely put. And to get back to one euro, Atlas needs net income of one hundred and twelve and a half. Two and a half more after tax, about three and a third before tax. That's the synergy needed to break even, and bankers put that number on the first page.",
+      "start": 317.968,
+      "end": 333.728
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "So the rule is simple. Accretive is a good deal, dilutive is a bad one.",
+      "start": 333.778,
+      "end": 339.168
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "Third trap, and the big one. Look at debt again. At four and a half percent after tax, Atlas could pay up to about twenty-two times Birch's earnings and still call it accretive. Earnings per share ignores the price relative to value, it ignores the extra risk from the debt, and it ignores growth. A slow, risky business bought with borrowed money can be accretive. A fast-growing one bought at a high price can be dilutive for years and still be worth it.",
+      "start": 339.218,
+      "end": 369.191
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "Which is Microsoft's argument.",
+      "start": 369.711,
+      "end": 373.301
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "Exactly. LinkedIn's profits were small next to a price of twenty-six billion, so the interest on the new debt outweighed them at first. Microsoft was paying for growth, and it told the market when it expected the numbers to turn. And that adjusted figure left out some of the accounting charges a deal creates.",
+      "start": 373.351,
+      "end": 393.961
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "Accounting charges?",
+      "start": 394.011,
+      "end": 395.621
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "When you buy a company, you revalue its assets, and some of the new values have to be written off over time. That's a new cost that lowers pro forma earnings. It's episode twenty-five, so for now just remember it's on the list.",
+      "start": 395.671,
+      "end": 410.171
+    },
+    {
+      "i": 33,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: walk me through an accretion dilution analysis.",
+      "start": 410.221,
+      "end": 415.671
+    },
+    {
+      "i": 34,
+      "speaker": "SOFIA",
+      "text": "You add the two companies' net incomes and divide by the total shares of both.",
+      "start": 415.721,
+      "end": 420.881
+    },
+    {
+      "i": 35,
+      "speaker": "MARCO",
+      "text": "Close, but the shares are wrong and half the adjustments are missing. Strong answer: start with the buyer's and the target's net income. Add synergies after tax. Subtract the after-tax interest on new debt, the after-tax interest lost on cash used, and new amortisation from revaluing the target's assets. Divide by the buyer's existing shares plus the new shares issued to pay. Compare with the buyer's earnings per share on its own. Then say how much in pre-tax synergies would make the deal break even.",
+      "start": 420.931,
+      "end": 453.441
+    },
+    {
+      "i": 36,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 453.491,
+      "end": 454.331
+    },
+    {
+      "i": 37,
+      "speaker": "MARCO",
+      "text": "A company on twenty times earnings buys one on fifteen times, all in stock. Accretive or dilutive?",
+      "start": 454.381,
+      "end": 463.341
+    },
+    {
+      "i": 38,
+      "speaker": "SOFIA",
+      "text": "Accretive. It's buying cheaper earnings with more expensive shares.",
+      "start": 463.391,
+      "end": 467.991
+    },
+    {
+      "i": 39,
+      "speaker": "MARCO",
+      "text": "Good instinct, but say what you're assuming. Strong answer: accretive at first sight, because the buyer gets about six point seven percent of earnings yield and pays with currency that costs five percent. Then check the fifteen times is at the offer price, and that new amortisation doesn't wipe out the gap. And add that accretion alone doesn't prove the deal creates value.",
+      "start": 468.041,
+      "end": 493.241
+    },
+    {
+      "i": 40,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 493.291,
+      "end": 494.571
+    },
+    {
+      "i": 41,
+      "speaker": "MARCO",
+      "text": "A Swiss buyer and an American skincare brand. On Wednesday, the fourteenth of October, Galderma, the Swiss dermatology group, signed an agreement to buy all of ZO Skin Health for an enterprise value of one point five billion dollars.",
+      "start": 494.621,
+      "end": 511.171
+    },
+    {
+      "i": 42,
+      "speaker": "SOFIA",
+      "text": "Who is ZO?",
+      "start": 511.221,
+      "end": 512.691
+    },
+    {
+      "i": 43,
+      "speaker": "MARCO",
+      "text": "A brand founded by the dermatologist Zein Obagi, based in Irvine, California. It sells mainly through doctors: more than sixteen thousand five hundred physician, medical spa and online accounts, in more than forty countries. The sellers are funds managed by Blackstone Tactical Opportunities, and the Obagi family. Net sales were about three hundred and thirty million dollars in the twelve months to June twenty twenty-six.",
+      "start": 512.741,
+      "end": 540.281
+    },
+    {
+      "i": 44,
+      "speaker": "SOFIA",
+      "text": "One point five billion over three hundred and thirty million. About four and a half times sales.",
+      "start": 540.331,
+      "end": 545.421
+    },
+    {
+      "i": 45,
+      "speaker": "MARCO",
+      "text": "That's right, and it's a revenue multiple, so don't call it an earnings multiple. The release gives no profit figure for ZO.",
+      "start": 545.471,
+      "end": 553.371
+    },
+    {
+      "i": 46,
+      "speaker": "SOFIA",
+      "text": "And how is Galderma paying?",
+      "start": 553.421,
+      "end": 555.319
+    },
+    {
+      "i": 47,
+      "speaker": "MARCO",
+      "text": "All in cash, from existing cash and bank financing. And here's the line for today. Galderma expects the deal to be neutral to its core earnings per share in the first full year after closing. It also says the deal will slightly dilute its core EBITDA margin in twenty twenty-seven, and be broadly in line with the group average from twenty twenty-eight. Closing is expected in the fourth quarter of twenty twenty-six or early twenty twenty-seven, subject to regulatory approvals.",
+      "start": 555.879,
+      "end": 586.739
+    },
+    {
+      "i": 48,
+      "speaker": "SOFIA",
+      "text": "Neutral. So the deal does nothing for shareholders?",
+      "start": 586.789,
+      "end": 590.709
+    },
+    {
+      "i": 49,
+      "speaker": "MARCO",
+      "text": "That's your interview question. Galderma says neutral. What does that tell you?",
+      "start": 590.759,
+      "end": 596.179
+    },
+    {
+      "i": 50,
+      "speaker": "SOFIA",
+      "text": "That it's not worth doing yet.",
+      "start": 596.229,
+      "end": 598.119
+    },
+    {
+      "i": 51,
+      "speaker": "MARCO",
+      "text": "Same trap as before, from the other side. Strong answer: neutral means that in year one, ZO's earnings and any early synergies roughly cover the cost of the cash given up and the interest on the bank debt. Cash and bank debt are the cheapest money Galderma has, so breaking even on them suggests a full price. The case for the deal sits after year one: growth, and selling ZO alongside Galderma's other brands to the same doctors. And the margin guidance suggests ZO starts with a margin a little below Galderma's average.",
+      "start": 598.169,
+      "end": 634.199
+    },
+    {
+      "i": 52,
+      "speaker": "SOFIA",
+      "text": "So neutral can still be a good deal, and accretive can be a bad one.",
+      "start": 634.249,
+      "end": 638.529
+    },
+    {
+      "i": 53,
+      "speaker": "MARCO",
+      "text": "Exactly. Quiz. For you listening. Question one: a buyer on twenty times earnings buys a target at fifteen times, at the offer price, all in shares, with no synergies. Accretive or dilutive? Question two: Atlas borrows one hundred and fifty at six percent, with a twenty-five percent tax rate. What does the interest cost after tax? Question three: what does an accretive deal tell you about value? Question four: what did Microsoft say LinkedIn would do to its adjusted earnings per share at first? Question five: ZO Skin Health has an enterprise value of one point five billion dollars and net sales of about three hundred and thirty million. Roughly what multiple of sales is that?",
+      "start": 638.579,
+      "end": 689.839
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 689.889,
+      "end": 692.019
+    },
+    {
+      "i": 55,
+      "speaker": "MARCO",
+      "text": "Answers. One: accretive. The target's earnings yield, about six point seven percent, beats the five percent cost of the buyer's shares. Two: six and three quarters. Nine of interest, less a quarter in tax. Three: not much on its own. Earnings per share ignores price, risk and growth. Four: dilute it by about one percent, before turning accretive in financial year twenty nineteen. Five: about four and a half times sales.",
+      "start": 692.069,
+      "end": 722.989
+    },
+    {
+      "i": 56,
+      "speaker": "SOFIA",
+      "text": "So earnings per share is the first question shareholders ask, not the last.",
+      "start": 723.039,
+      "end": 727.829
+    },
+    {
+      "i": 57,
+      "speaker": "MARCO",
+      "text": "And part of the answer hides in the accounting: what happens to all the premium you paid. Tomorrow, episode twenty-five: purchase price allocation and goodwill, and the day Kraft Heinz admitted some of its famous brands were worth billions less than it had thought.",
+      "start": 727.879,
+      "end": 743.677
+    }
+  ]
+}

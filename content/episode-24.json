@@ -1,0 +1,489 @@
+{
+  "visuals": [
+    {
+      "at": "Microsoft. On the thirteenth of June twenty sixteen",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Agreed cash takeover",
+      "name": "Microsoft / LinkedIn",
+      "sub": "Microsoft agrees to buy LinkedIn, financed mainly with new debt",
+      "lines": [
+        "$196 a share in cash, about $26.2bn including LinkedIn's net cash"
+      ],
+      "date": "Announced 13 June 2016"
+    },
+    {
+      "at": "It said it would pay mainly with new debt",
+      "type": "keynumbers",
+      "title": "LinkedIn: the terms",
+      "items": [
+        {
+          "value": "$196",
+          "label": "offer per share, in cash"
+        },
+        {
+          "value": "$26.2bn",
+          "label": "total value, including LinkedIn's net cash",
+          "approx": true
+        },
+        {
+          "value": "$131.08",
+          "label": "LinkedIn's close on the Friday before"
+        },
+        {
+          "value": "50%",
+          "label": "premium to that close",
+          "approx": true
+        },
+        {
+          "value": "−1%",
+          "label": "expected effect on Microsoft's adjusted EPS, rest of FY2017 and FY2018",
+          "approx": true
+        }
+      ],
+      "note": "Microsoft expected the deal to turn accretive in its financial year 2019, less than two years after closing on 8 December 2016."
+    },
+    {
+      "at": "After a deal, you build pro forma earnings per share",
+      "type": "formula",
+      "title": "Pro forma earnings per share",
+      "formula": "Pro forma EPS = (buyer NI + target NI + synergies − new costs, all after tax) ÷ (buyer shares + new shares issued)",
+      "note": "New costs: interest on new debt, interest lost on cash used, and new amortisation from revaluing the target's assets. Compare with the buyer's EPS on its own."
+    },
+    {
+      "at": "Round numbers, millions of euros. Atlas earns",
+      "type": "table",
+      "title": "Atlas buys Birch: the inputs",
+      "columns": [
+        "",
+        "Atlas",
+        "Birch"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Net income",
+          "€100m",
+          "€10m"
+        ],
+        [
+          "Shares",
+          "100m",
+          ""
+        ],
+        [
+          "Earnings per share",
+          "€1.00",
+          ""
+        ],
+        [
+          "Share price",
+          "€20",
+          ""
+        ],
+        [
+          "Price / earnings",
+          "20x",
+          "15x at the offer"
+        ],
+        [
+          "Price paid",
+          "",
+          "€150m"
+        ]
+      ],
+      "note": "Hypothetical companies. Use the offer price, premium included, for the target's multiple."
+    },
+    {
+      "at": "Second trap. Interest is paid before tax",
+      "type": "waterfall",
+      "title": "Paying with debt: Atlas's pro forma net income",
+      "unit": "€m",
+      "decimals": 2,
+      "steps": [
+        {
+          "label": "Atlas net income",
+          "value": 100,
+          "kind": "total"
+        },
+        {
+          "label": "Birch net income",
+          "value": 10,
+          "kind": "add"
+        },
+        {
+          "label": "Interest after tax",
+          "value": -6.75,
+          "kind": "subtract"
+        },
+        {
+          "label": "Pro forma net income",
+          "value": 103.25,
+          "kind": "total"
+        }
+      ],
+      "note": "€150m borrowed at 6% is €9m of interest; at a 25% tax rate it costs €6.75m. Over 100m shares, EPS is about €1.03."
+    },
+    {
+      "at": "Earnings per share goes to about one euro and five and a half cents",
+      "type": "bars",
+      "title": "Three ways to pay €150m: Atlas's pro forma EPS",
+      "unit": "€",
+      "decimals": 3,
+      "items": [
+        {
+          "label": "On its own",
+          "value": 1.0
+        },
+        {
+          "label": "All shares (+2.3%)",
+          "value": 1.023,
+          "approx": true
+        },
+        {
+          "label": "All debt (+3.25%)",
+          "value": 1.033,
+          "approx": true
+        },
+        {
+          "label": "All cash (+5.5%)",
+          "value": 1.055
+        }
+      ],
+      "note": "Shares: €110m ÷ 107.5m shares. Debt: €103.25m ÷ 100m. Cash: €105.5m ÷ 100m, after giving up €4.5m of after-tax interest."
+    },
+    {
+      "at": "Each way of paying has a cost, as a yield",
+      "type": "bars",
+      "title": "What Birch earns against what the money costs",
+      "unit": "%",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "Birch's earnings yield at the offer (10 ÷ 150)",
+          "value": 6.7,
+          "approx": true
+        },
+        {
+          "label": "Shares: Atlas's earnings yield (1 ÷ 20)",
+          "value": 5.0
+        },
+        {
+          "label": "Debt: 6% interest after 25% tax",
+          "value": 4.5
+        },
+        {
+          "label": "Cash: 4% interest given up, after tax",
+          "value": 3.0
+        }
+      ],
+      "note": "If the target earns more than the money costs, the deal is accretive before synergies and new amortisation."
+    },
+    {
+      "at": "Now raise the price. Atlas pays two hundred and fifty",
+      "type": "table",
+      "title": "Same target, higher price, paid in shares",
+      "columns": [
+        "",
+        "Offer €150m",
+        "Offer €250m"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Price / earnings paid",
+          "15x",
+          "25x"
+        ],
+        [
+          "Birch's earnings yield",
+          "6.7%",
+          "4%"
+        ],
+        [
+          "New Atlas shares",
+          "7.5m",
+          "12.5m"
+        ],
+        [
+          "Pro forma EPS",
+          "€1.02",
+          "€0.98"
+        ],
+        [
+          "Effect",
+          "+2.3%",
+          "−2.2%"
+        ]
+      ],
+      "highlight": 4,
+      "highlightLabel": "accretive, then dilutive",
+      "note": "Atlas shares at €20; combined net income €110m in both cases."
+    },
+    {
+      "at": "That's the synergy needed to break even",
+      "type": "keynumbers",
+      "title": "Break-even synergies",
+      "items": [
+        {
+          "value": "€3.3m",
+          "label": "pre-tax synergies a year to bring Atlas's EPS back to €1.00 at the €250m price",
+          "approx": true
+        }
+      ],
+      "note": "Atlas needs net income of €112.5m over 112.5m shares: €2.5m more after tax, about €3.3m before a 25% tax."
+    },
+    {
+      "at": "Atlas could pay up to about twenty-two times",
+      "type": "keynumbers",
+      "title": "Accretive is not the same as good",
+      "items": [
+        {
+          "value": "22x",
+          "label": "the most Atlas could pay for Birch's earnings with debt and still be accretive",
+          "approx": true
+        }
+      ],
+      "note": "Derived: 1 ÷ 4.5% after-tax cost of debt ≈ 22x. EPS ignores the price relative to value, the extra risk from the debt, and growth."
+    },
+    {
+      "at": "Strong answer: start with the buyer's and the target's net income",
+      "type": "steps",
+      "title": "Walk me through an accretion dilution analysis",
+      "items": [
+        {
+          "label": "Combine net income",
+          "detail": "Buyer plus target, plus synergies after tax"
+        },
+        {
+          "label": "Subtract the cost of paying",
+          "detail": "After-tax interest on new debt and on cash used, new amortisation"
+        },
+        {
+          "label": "Count the shares",
+          "detail": "Buyer's existing shares plus new shares issued, not the target's"
+        },
+        {
+          "label": "Compare",
+          "detail": "Pro forma EPS against the buyer's EPS on its own"
+        },
+        {
+          "label": "Break-even synergies",
+          "detail": "The pre-tax savings that would make the deal neutral"
+        }
+      ]
+    },
+    {
+      "at": "On Wednesday, the fourteenth of October, Galderma",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "Galderma / ZO Skin Health",
+      "sub": "The Swiss dermatology group buys the physician-dispensed skincare brand from Blackstone Tactical Opportunities funds and the Obagi family",
+      "lines": [
+        "All cash, enterprise value of $1.5bn"
+      ],
+      "date": "Announced 14 October 2026"
+    },
+    {
+      "at": "All in cash, from existing cash and bank financing",
+      "type": "keynumbers",
+      "title": "ZO Skin Health in five numbers",
+      "items": [
+        {
+          "value": "$1.5bn",
+          "label": "enterprise value, for 100% of the company"
+        },
+        {
+          "value": "$330m",
+          "label": "net sales, twelve months to June 2026",
+          "approx": true
+        },
+        {
+          "value": "4.5x",
+          "label": "enterprise value to sales",
+          "approx": true
+        },
+        {
+          "value": "16,500+",
+          "label": "physician, medical spa and online accounts, in 40+ countries"
+        },
+        {
+          "value": "Neutral",
+          "label": "expected effect on Galderma's core EPS in the first full year after closing"
+        }
+      ],
+      "note": "The multiple is derived ($1.5bn ÷ $330m) and is a revenue multiple; the release gives no profit figure for ZO. Closing expected in Q4 2026 or early 2027."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "A buyer on 20x earnings buys a target at 15x (at the offer price), all in shares, with no synergies. Accretive or dilutive?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Dilutive, since the buyer pays a premium"
+          },
+          {
+            "id": "b",
+            "text": "Accretive, since 6.7% beats 5%"
+          },
+          {
+            "id": "c",
+            "text": "Dilutive, since 15x is below 20x"
+          },
+          {
+            "id": "d",
+            "text": "Neutral, since no synergies are assumed"
+          }
+        ],
+        "correct": "b",
+        "explain": "The target's earnings yield at the offer price is 1 ÷ 15 ≈ 6.7%; the buyer's shares cost 1 ÷ 20 = 5%. It earns more than the money costs, so EPS rises.",
+        "explain_at": "Then the target's earnings yield at the offer price"
+      },
+      {
+        "id": "q2",
+        "q": "Atlas borrows €150m at 6% with a 25% tax rate. What does the interest cost after tax?",
+        "options": [
+          {
+            "id": "a",
+            "text": "€9m"
+          },
+          {
+            "id": "b",
+            "text": "€2.25m"
+          },
+          {
+            "id": "c",
+            "text": "€6.75m"
+          },
+          {
+            "id": "d",
+            "text": "€4.5m"
+          }
+        ],
+        "correct": "c",
+        "explain": "€150m × 6% = €9m of interest, but interest is tax-deductible, so it costs €9m × 75% = €6.75m. Using the full €9m was Sofia's slip.",
+        "explain_at": "Interest is paid before tax, so the taxman pays part of it"
+      },
+      {
+        "id": "q3",
+        "q": "What does an accretive deal tell you about value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Little on its own: EPS ignores price and risk"
+          },
+          {
+            "id": "b",
+            "text": "That the buyer paid less than fair value"
+          },
+          {
+            "id": "c",
+            "text": "That the synergies cover the premium paid"
+          },
+          {
+            "id": "d",
+            "text": "That it's a good deal for shareholders"
+          }
+        ],
+        "correct": "a",
+        "explain": "Cheap debt makes almost any purchase accretive: Atlas could pay about 22x with debt and still raise EPS. EPS ignores the price relative to value, risk and growth.",
+        "explain_at": "Earnings per share ignores the price relative to value"
+      },
+      {
+        "id": "q4",
+        "q": "What did Microsoft say LinkedIn would do to its adjusted EPS at first?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Raise it by about 1%"
+          },
+          {
+            "id": "b",
+            "text": "Leave it unchanged"
+          },
+          {
+            "id": "c",
+            "text": "Dilute it by about 5%"
+          },
+          {
+            "id": "d",
+            "text": "Dilute it by about 1%"
+          }
+        ],
+        "correct": "d",
+        "explain": "About 1% dilution for the rest of financial year 2017 and for 2018, turning accretive in financial year 2019. Microsoft was paying for growth.",
+        "explain_at": "Microsoft expected the deal to dilute its adjusted earnings per share by about one percent"
+      },
+      {
+        "id": "q5",
+        "q": "ZO Skin Health has an enterprise value of $1.5bn and net sales of about $330m. Roughly what multiple is that?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 4.5x EBITDA"
+          },
+          {
+            "id": "b",
+            "text": "About 4.5x sales"
+          },
+          {
+            "id": "c",
+            "text": "About 2.2x sales"
+          },
+          {
+            "id": "d",
+            "text": "About 45x sales"
+          }
+        ],
+        "correct": "b",
+        "explain": "$1.5bn ÷ $330m ≈ 4.5x. It's a revenue multiple; the release gives no profit figure, so calling it an earnings multiple is wrong.",
+        "explain_at": "That's right, and it's a revenue multiple"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Galderma signs agreement to acquire ZO Skin Health (Galderma press release, 14 October 2026)",
+      "url": "https://www.galderma.com/news/galderma-signs-agreement-acquire-zo-skin-health"
+    },
+    {
+      "label": "Microsoft to acquire LinkedIn (Microsoft press release, 13 June 2016)",
+      "url": "https://news.microsoft.com/2016/06/13/microsoft-to-acquire-linkedin/"
+    },
+    {
+      "label": "Microsoft completes acquisition of LinkedIn (LinkedIn newsroom, 8 December 2016)",
+      "url": "https://news.linkedin.com/2017/microsoft-completes-acquisition-of-linkedin"
+    },
+    {
+      "label": "Microsoft to buy LinkedIn for $26.2 billion (Associated Press via WMAR)",
+      "url": "https://www.wmar2news.com/news/national/microsoft-to-buy-linkedin-for-262-billion"
+    },
+    {
+      "label": "Galderma acquires U.S. skincare brand for $1.5 billion (blue News)",
+      "url": "https://www.bluewin.ch/en/news/galderma-acquires-u.s.-skincare-brand-for-1.5-billion-li.3634987"
+    }
+  ],
+  "chapters": {
+    "concept_at": "That's the whole episode. Start with the mechanics"
+  }
+}
