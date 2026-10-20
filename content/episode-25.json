@@ -1,0 +1,518 @@
+{
+  "visuals": [
+    {
+      "at": "Kraft Heinz. Heinz was owned by Berkshire Hathaway",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Merger",
+      "name": "Kraft Heinz",
+      "sub": "Heinz, owned by Berkshire Hathaway and 3G Capital, merges with Kraft; Heinz is the buyer in the accounts",
+      "lines": [
+        "Total price for Kraft about $52.6bn"
+      ],
+      "date": "Closed 2 July 2015"
+    },
+    {
+      "at": "Kraft Heinz valued everything Kraft owned and owed",
+      "type": "waterfall",
+      "title": "Where Kraft Heinz's $52.6bn went",
+      "unit": "$bn",
+      "decimals": 1,
+      "steps": [
+        {
+          "label": "Net assets at fair value",
+          "value": 22.2,
+          "kind": "total"
+        },
+        {
+          "label": "Goodwill",
+          "value": 30.5,
+          "kind": "add"
+        },
+        {
+          "label": "Total price for Kraft",
+          "value": 52.6,
+          "kind": "total"
+        }
+      ],
+      "note": "From Kraft Heinz's final purchase price allocation. Goodwill related mainly to expected synergies and growth."
+    },
+    {
+      "at": "Mostly not. Factories and equipment",
+      "type": "table",
+      "title": "Inside Kraft's $22.2bn of net assets",
+      "columns": [
+        "",
+        "$bn"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Factories and equipment",
+          "4.2"
+        ],
+        [
+          "Identifiable intangible assets",
+          "47.8"
+        ],
+        [
+          "of which trademarks with indefinite lives",
+          "43.1"
+        ],
+        [
+          "Debt",
+          "−9.3"
+        ],
+        [
+          "Deferred tax liabilities",
+          "−16.7"
+        ],
+        [
+          "Other assets and liabilities, net",
+          "−3.8"
+        ],
+        [
+          "Net assets at fair value",
+          "22.2"
+        ]
+      ],
+      "highlight": 1,
+      "highlightLabel": "the brands",
+      "note": "The 'other' line is derived as the balance (cash, working capital, pension and other liabilities). Figures rounded."
+    },
+    {
+      "at": "On the twenty-first of February twenty nineteen",
+      "type": "keynumbers",
+      "title": "Kraft Heinz, 21 February 2019",
+      "items": [
+        {
+          "value": "$15.4bn",
+          "label": "non-cash impairment of goodwill and the Kraft and Oscar Mayer trademarks"
+        },
+        {
+          "value": "$12.6bn",
+          "label": "net loss for the fourth quarter of 2018"
+        },
+        {
+          "value": "−36%",
+          "label": "cut to the dividend"
+        },
+        {
+          "value": "−27.5%",
+          "label": "share price fall the next day",
+          "approx": true
+        }
+      ],
+      "note": "Kraft Heinz also disclosed an SEC subpoena about its procurement accounting."
+    },
+    {
+      "at": "First trap. Before you get to goodwill",
+      "type": "table",
+      "title": "Atlas buys Cedar for €1,000m: the write-ups",
+      "columns": [
+        "",
+        "€m"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Cedar's book net assets",
+          "300"
+        ],
+        [
+          "Factories, up to fair value",
+          "+50"
+        ],
+        [
+          "Brand, never on Cedar's books",
+          "+250"
+        ],
+        [
+          "Customer relationships, never on Cedar's books",
+          "+100"
+        ],
+        [
+          "Total write-ups",
+          "+400"
+        ]
+      ],
+      "highlight": 4,
+      "highlightLabel": "before tax",
+      "note": "Hypothetical company. Price minus book value (700) is not goodwill."
+    },
+    {
+      "at": "Second trap: tax. The accounts will now charge",
+      "type": "waterfall",
+      "title": "From book value to price: Cedar's allocation",
+      "unit": "€m",
+      "decimals": 0,
+      "steps": [
+        {
+          "label": "Book net assets",
+          "value": 300,
+          "kind": "total"
+        },
+        {
+          "label": "Write-ups to fair value",
+          "value": 400,
+          "kind": "add"
+        },
+        {
+          "label": "Deferred tax on write-ups",
+          "value": -100,
+          "kind": "subtract"
+        },
+        {
+          "label": "Fair value of net assets",
+          "value": 600,
+          "kind": "total"
+        },
+        {
+          "label": "Goodwill",
+          "value": 400,
+          "kind": "add"
+        },
+        {
+          "label": "Price paid",
+          "value": 1000,
+          "kind": "total"
+        }
+      ],
+      "note": "Deferred tax is the write-ups times a 25% tax rate. Goodwill is whatever is left of the price."
+    },
+    {
+      "at": "Third trap. Under international rules",
+      "type": "table",
+      "title": "After the deal: what gets amortised",
+      "columns": [
+        "Asset",
+        "Each year"
+      ],
+      "align": [
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Goodwill",
+          "Impairment test, at least once a year"
+        ],
+        [
+          "Brand with an indefinite life",
+          "Impairment test, at least once a year"
+        ],
+        [
+          "Customer relationships",
+          "Amortised: €100m over 10 years, €10m a year"
+        ],
+        [
+          "Factories",
+          "Depreciated"
+        ]
+      ],
+      "highlight": 2,
+      "highlightLabel": "hits earnings",
+      "note": "International rules, and American rules for listed companies. Kraft's $43.1bn of trademarks had indefinite lives."
+    },
+    {
+      "at": "Atlas compares what Cedar is carried at",
+      "type": "bars",
+      "title": "The impairment test, a year later",
+      "unit": "€m",
+      "items": [
+        {
+          "label": "Carried at (net assets plus goodwill)",
+          "value": 1000
+        },
+        {
+          "label": "What the business is worth now",
+          "value": 800
+        }
+      ],
+      "note": "The €200m gap is written off goodwill, from €400m to €200m. An expense, but no cash moves."
+    },
+    {
+      "at": "goodwill is the part of the purchase price left over",
+      "type": "formula",
+      "title": "Goodwill",
+      "formula": "Goodwill = price − (book net assets + write-ups to fair value − deferred tax on write-ups)",
+      "note": "Write-ups include intangibles the target never recorded, such as brands and customer relationships."
+    },
+    {
+      "at": "Strong answer: on the income statement, a one hundred expense",
+      "type": "steps",
+      "title": "A 100 goodwill impairment, through the three statements",
+      "items": [
+        {
+          "label": "Income statement",
+          "detail": "Expense of 100; usually not tax deductible, so net income falls 100"
+        },
+        {
+          "label": "Cash flow statement",
+          "detail": "Net income down 100, impairment added back: cash unchanged"
+        },
+        {
+          "label": "Balance sheet",
+          "detail": "Goodwill down 100, retained earnings down 100"
+        }
+      ]
+    },
+    {
+      "at": "On Monday, the nineteenth of October, Merck KGaA",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed cash acquisition",
+      "name": "Merck KGaA / Silence Therapeutics",
+      "sub": "The Darmstadt group buys the London siRNA biotech and its polycythemia vera drug, divesiran",
+      "lines": [
+        "$20 in cash per US-listed share; equity value about $1.3bn, enterprise value $1.1bn"
+      ],
+      "date": "Announced 19 October 2026"
+    },
+    {
+      "at": "Other way round. Enterprise value is equity value",
+      "type": "waterfall",
+      "title": "Silence: from equity value to enterprise value",
+      "unit": "$bn",
+      "decimals": 1,
+      "steps": [
+        {
+          "label": "Equity value",
+          "value": 1.3,
+          "kind": "total"
+        },
+        {
+          "label": "Net cash",
+          "value": -0.2,
+          "kind": "subtract"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 1.1,
+          "kind": "total"
+        }
+      ],
+      "note": "Net cash is derived as the gap between the two announced figures. Silence had $72m of cash at 30 June and raised about $175m before costs in August, at $13.50 a share."
+    },
+    {
+      "at": "Mainly one drug, divesiran",
+      "type": "keynumbers",
+      "title": "Silence in five numbers",
+      "items": [
+        {
+          "value": "$20",
+          "label": "cash per US-listed share"
+        },
+        {
+          "value": "130%",
+          "label": "premium to the close on 16 October 2026"
+        },
+        {
+          "value": "82%",
+          "label": "premium to the 30-day average of $10.99"
+        },
+        {
+          "value": "88% vs 19%",
+          "label": "divesiran's Phase 2 response rate against placebo"
+        },
+        {
+          "value": "Q1 2027",
+          "label": "expected closing"
+        }
+      ],
+      "note": "Closing needs a shareholder vote, the High Court of England and Wales and regulatory approvals."
+    },
+    {
+      "at": "Strong answer: first, the net cash",
+      "type": "steps",
+      "title": "How Merck could allocate the price",
+      "items": [
+        {
+          "label": "Net cash",
+          "detail": "About $200m, at face value"
+        },
+        {
+          "label": "Divesiran",
+          "detail": "In-process research and development: not amortised until ready for use, tested every year"
+        },
+        {
+          "label": "Deferred tax",
+          "detail": "On the write-up of the drug"
+        },
+        {
+          "label": "Goodwill",
+          "detail": "What's left: the scientists and the technology"
+        }
+      ],
+      "note": "Merck hasn't published an allocation. If almost all the value sits in one asset, the deal can be treated as buying an asset, with no goodwill."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Atlas pays 1,000 for Cedar. Book net assets are 300, write-ups to fair value 400, and the tax rate 25%. How much goodwill?",
+        "options": [
+          {
+            "id": "a",
+            "text": "700"
+          },
+          {
+            "id": "b",
+            "text": "300"
+          },
+          {
+            "id": "c",
+            "text": "400"
+          },
+          {
+            "id": "d",
+            "text": "600"
+          }
+        ],
+        "correct": "c",
+        "explain": "Fair value of net assets is 300 + 400 − 100 of deferred tax = 600, so goodwill is 1,000 − 600 = 400. Using book value gives 700; forgetting the tax gives 300.",
+        "explain_at": "So fair value of net assets is three hundred"
+      },
+      {
+        "id": "q2",
+        "q": "Under international rules, what does a listed company do with goodwill each year?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tests it for impairment, at least annually"
+          },
+          {
+            "id": "b",
+            "text": "Amortises it over its useful life"
+          },
+          {
+            "id": "c",
+            "text": "Depreciates it like factories and equipment"
+          },
+          {
+            "id": "d",
+            "text": "Revalues it upward when the business grows"
+          }
+        ],
+        "correct": "a",
+        "explain": "Goodwill isn't amortised under international rules, or American rules for listed companies; it's tested for impairment at least once a year.",
+        "explain_at": "Under international rules, and American rules for listed companies, goodwill isn't amortised"
+      },
+      {
+        "id": "q3",
+        "q": "Goodwill is impaired by 100 and the impairment isn't tax deductible. What happens to cash?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It falls by 100"
+          },
+          {
+            "id": "b",
+            "text": "It rises by 25"
+          },
+          {
+            "id": "c",
+            "text": "It falls by 75"
+          },
+          {
+            "id": "d",
+            "text": "It's unchanged"
+          }
+        ],
+        "correct": "d",
+        "explain": "The impairment is non-cash: net income falls 100, and it's added back on the cash flow statement. The cash left when the buyer paid.",
+        "explain_at": "add the impairment back because it's non-cash"
+      },
+      {
+        "id": "q4",
+        "q": "Of the $52.6bn Kraft Heinz paid for Kraft, roughly how much was booked as goodwill?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About $15.4bn"
+          },
+          {
+            "id": "b",
+            "text": "About $30.5bn"
+          },
+          {
+            "id": "c",
+            "text": "About $22.2bn"
+          },
+          {
+            "id": "d",
+            "text": "About $47.8bn"
+          }
+        ],
+        "correct": "b",
+        "explain": "Net assets at fair value were about $22.2bn, leaving about $30.5bn of goodwill. $15.4bn was the 2019 impairment, which also hit trademarks.",
+        "explain_at": "about thirty point five billion, was booked as goodwill"
+      },
+      {
+        "id": "q5",
+        "q": "Silence Therapeutics has an equity value of about $1.3bn and an enterprise value of $1.1bn. What does the gap tell you?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About $200m of net debt"
+          },
+          {
+            "id": "b",
+            "text": "About $200m of goodwill"
+          },
+          {
+            "id": "c",
+            "text": "About $200m of net cash"
+          },
+          {
+            "id": "d",
+            "text": "About $200m of control premium"
+          }
+        ],
+        "correct": "c",
+        "explain": "Enterprise value is equity value plus debt minus cash, so a lower enterprise value means net cash. Reading it as debt was Sofia's slip.",
+        "explain_at": "When it's lower, the company has net cash"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Silence Therapeutics enters into agreement to be acquired by Merck KGaA, Darmstadt, Germany (Silence press release, 19 October 2026)",
+      "url": "https://silence-therapeutics.com/investors/press-releases/press-releases-details/2026/Silence-Therapeutics-Enters-into-Agreement-to-be-Acquired-by-Merck-KGaA-Darmstadt-Germany/default.aspx"
+    },
+    {
+      "label": "Kraft Heinz 2016 annual report, note on the 2015 merger and purchase price allocation (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745917000007/R9.htm"
+    },
+    {
+      "label": "Kraft Heinz reports fourth quarter and full year 2018 results (press release, SEC Form 8-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745919000010/ex991-erq42018.htm"
+    },
+    {
+      "label": "Merck KGaA bets on RNAi with $1.3B Silence buyout (BioPharma Dive)",
+      "url": "https://www.biopharmadive.com/news/merck-kgaa-rnai-13b-silence-buyout-blood-disorder-polycythemia-vera/833336/"
+    },
+    {
+      "label": "Warren Buffett says Berkshire overpaid for Kraft Heinz (Business Insurance)",
+      "url": "https://www.businessinsurance.com/warren-buffett-says-berkshire-overpaid-for-kraft-heinz/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So, how does a price become goodwill"
+  }
+}
