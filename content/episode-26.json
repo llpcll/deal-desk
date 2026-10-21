@@ -1,0 +1,457 @@
+{
+  "visuals": [
+    {
+      "at": "Mittal and Arcelor. Arcelor was Europe's steel champion",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Hostile bid",
+      "name": "Mittal Steel / Arcelor",
+      "sub": "Mittal Steel bids directly to the shareholders of Europe's steel champion, over the board's objections",
+      "lines": [
+        "First offer €28.21 a share; final recommended offer €40.40 in cash"
+      ],
+      "date": "27 January to 25 June 2006"
+    },
+    {
+      "at": "On the twenty-seventh of January twenty oh six",
+      "type": "keynumbers",
+      "title": "Mittal's first offer, 27 January 2006",
+      "items": [
+        {
+          "value": "€28.21",
+          "label": "value per Arcelor share"
+        },
+        {
+          "value": "27%",
+          "label": "premium to the previous day's close"
+        },
+        {
+          "value": "€18.6bn",
+          "label": "equity value"
+        },
+        {
+          "value": "75% / 25%",
+          "label": "paid in Mittal shares / in cash"
+        }
+      ],
+      "note": "Before the bid, the Mittal family held 97% of Mittal Steel's voting rights."
+    },
+    {
+      "at": "A white knight, in the jargon",
+      "type": "table",
+      "title": "Two routes on the table in June 2006",
+      "columns": [
+        "",
+        "Severstal merger",
+        "Mittal revised offer"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Price per share",
+          "€44",
+          "€37.74"
+        ],
+        [
+          "What it buys",
+          "About 32% of Arcelor",
+          "The whole company"
+        ],
+        [
+          "Arcelor's board, 12 June",
+          "Recommended",
+          "Inadequate"
+        ]
+      ],
+      "highlight": 0,
+      "highlightLabel": "not like for like",
+      "note": "Arcelor would also buy back up to a quarter of its own shares at €44. Mordashov's €44 bought a third, not control of all the shares."
+    },
+    {
+      "at": "Because Mordashov got about a third of Arcelor",
+      "type": "keynumbers",
+      "title": "Why shareholders were furious",
+      "items": [
+        {
+          "value": "50%",
+          "label": "of all shares had to vote against to block Severstal"
+        },
+        {
+          "value": "35%",
+          "label": "of shares represented at the April meeting"
+        },
+        {
+          "value": "30%",
+          "label": "held by shareholders demanding a new meeting",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "Two weeks later, on the twenty-fifth of June",
+      "type": "bars",
+      "title": "Mittal's offers for Arcelor, per share",
+      "unit": "€",
+      "decimals": 2,
+      "items": [
+        {
+          "label": "First offer, 27 January",
+          "value": 28.21
+        },
+        {
+          "label": "Revised offer, rejected 12 June",
+          "value": 37.74
+        },
+        {
+          "label": "Recommended, 25 June (cash)",
+          "value": 40.4
+        }
+      ],
+      "note": "The final offer valued Arcelor at about €26bn. The Mittal family's stake in the combined group fell to 43.6%; Severstal was in line for a €140m break fee."
+    },
+    {
+      "at": "Not yet. Step two, the bear hug.",
+      "type": "steps",
+      "title": "How a hostile bid unfolds",
+      "items": [
+        {
+          "label": "Private approach",
+          "detail": "Atlas writes to Delta's board offering €24 a share; the board says no"
+        },
+        {
+          "label": "Bear hug",
+          "detail": "Atlas makes the letter public, so shareholders see the price their board refused"
+        },
+        {
+          "label": "Tender offer",
+          "detail": "€25 a share, made directly to shareholders"
+        },
+        {
+          "label": "More than half",
+          "detail": "The offer completes at 50 million shares plus one"
+        }
+      ],
+      "note": "Hypothetical company: Delta has 100 million shares at €20, a market value of €2bn."
+    },
+    {
+      "at": "First trap. The premium is measured against the unaffected price",
+      "type": "formula",
+      "title": "Measuring the premium",
+      "formula": "Premium = offer price ÷ unaffected share price − 1",
+      "note": "Delta: €25 ÷ €20 − 1 = 25%. Against the €24 price after the letter leaked, it looks like about 4%: the wrong base."
+    },
+    {
+      "at": "The opposite. If the shares trade above the offer",
+      "type": "bars",
+      "title": "Delta's share price through the bid",
+      "unit": "€",
+      "items": [
+        {
+          "label": "Unaffected price",
+          "value": 20
+        },
+        {
+          "label": "After the letter is made public",
+          "value": 24
+        },
+        {
+          "label": "Atlas's tender offer",
+          "value": 25
+        },
+        {
+          "label": "Where the shares trade",
+          "value": 26
+        }
+      ],
+      "note": "Hypothetical. Shares above the offer mean investors expect a higher bid, from Atlas or a rival."
+    },
+    {
+      "at": "Second trap. It's the shareholders' company.",
+      "type": "table",
+      "title": "What a target board can do",
+      "columns": [
+        "",
+        "Britain",
+        "America"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Frustrating action",
+          "Not without shareholder approval",
+          "Poison pill, staggered board"
+        ],
+        [
+          "Arguing",
+          "Defence document, higher valuation",
+          "Same"
+        ],
+        [
+          "Returning cash",
+          "Bigger dividend promised",
+          "Same"
+        ],
+        [
+          "Alternatives",
+          "White knight",
+          "White knight"
+        ]
+      ],
+      "highlight": 0,
+      "highlightLabel": "the big difference",
+      "note": "Under the UK Takeover Code, frustrating action includes issuing lots of new shares or selling the best asset."
+    },
+    {
+      "at": "On Monday, the nineteenth of October, Red Cat Holdings",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Proposed voluntary public offer",
+      "name": "Red Cat Holdings / Steyr Motors",
+      "sub": "The Nasdaq-listed American drone maker bids for the Austrian maker of special engines for military vehicles and boats",
+      "lines": [
+        "€39 a share in cash; about €200m, according to press reports"
+      ],
+      "date": "Announced 19 October 2026"
+    },
+    {
+      "at": "The board doesn't sell the company. The shareholders do.",
+      "type": "steps",
+      "title": "Red Cat's path to 50% plus one",
+      "items": [
+        {
+          "label": "B&C Holding Österreich",
+          "detail": "Irrevocable undertaking to tender its stake of about 15%"
+        },
+        {
+          "label": "Chief executive",
+          "detail": "Julian Cassutti intends to tender too"
+        },
+        {
+          "label": "Other shareholders",
+          "detail": "Roughly another 35% needed"
+        },
+        {
+          "label": "Threshold",
+          "detail": "Acceptances for 50% of the shares plus one"
+        }
+      ],
+      "note": "Steyr's supervisory board views the deal favourably, but gives its formal position only after reading the offer document."
+    },
+    {
+      "at": "Roughly, yes. The acceptance period should end",
+      "type": "keynumbers",
+      "title": "Steyr Motors: the offer",
+      "items": [
+        {
+          "value": "€39",
+          "label": "cash per share"
+        },
+        {
+          "value": "50% + 1",
+          "label": "minimum acceptance"
+        },
+        {
+          "value": "18 December",
+          "label": "acceptance period ends"
+        },
+        {
+          "value": "H1 2027",
+          "label": "expected closing"
+        }
+      ],
+      "note": "Needs foreign investment approvals in Austria, Italy, Australia and the UK."
+    },
+    {
+      "at": "Every premium is true. That's why there are several.",
+      "type": "bars",
+      "title": "One offer, three premiums",
+      "unit": "%",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "vs close on 16 October 2026",
+          "value": 28.9
+        },
+        {
+          "label": "vs 30-day volume-weighted average",
+          "value": 27.3
+        },
+        {
+          "label": "vs 52-week low",
+          "value": 55.8
+        }
+      ],
+      "note": "Same €39 offer. Quote the unaffected close; the 52-week low is the flattering one."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Delta's unaffected share price is €20. After a bid letter leaks it trades at €24, and Atlas offers €25. What's the premium?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 4%"
+          },
+          {
+            "id": "b",
+            "text": "25%"
+          },
+          {
+            "id": "c",
+            "text": "20%"
+          },
+          {
+            "id": "d",
+            "text": "About 30%"
+          }
+        ],
+        "correct": "b",
+        "explain": "€25 ÷ €20 − 1 = 25%. The €24 price already contains the bid, so measuring from it, Sofia's slip, understates the premium.",
+        "explain_at": "The premium is measured against the unaffected price"
+      },
+      {
+        "id": "q2",
+        "q": "Under the UK Takeover Code, which of these can't a target board do once a bid is coming, without shareholder approval?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Refuse the offer and publish its reasons"
+          },
+          {
+            "id": "b",
+            "text": "Look for a rival bidder, a white knight"
+          },
+          {
+            "id": "c",
+            "text": "Promise shareholders a bigger dividend"
+          },
+          {
+            "id": "d",
+            "text": "Issue lots of new shares to block it"
+          }
+        ],
+        "correct": "d",
+        "explain": "Issuing shares to block a bid is frustrating action, which needs shareholder approval. Arguing, promising more cash and seeking a white knight are all allowed.",
+        "explain_at": "the board can't take action that would frustrate it"
+      },
+      {
+        "id": "q3",
+        "q": "Who did Arcelor turn to as its white knight against Mittal Steel?",
+        "options": [
+          {
+            "id": "a",
+            "text": "ThyssenKrupp"
+          },
+          {
+            "id": "b",
+            "text": "Dofasco"
+          },
+          {
+            "id": "c",
+            "text": "Severstal"
+          },
+          {
+            "id": "d",
+            "text": "A Dutch trust"
+          }
+        ],
+        "correct": "c",
+        "explain": "Arcelor agreed on 26 May 2006 to merge with Severstal, controlled by Alexei Mordashov. Dofasco was the Canadian business it put in a Dutch trust, so Mittal couldn't sell it to ThyssenKrupp.",
+        "explain_at": "A white knight, in the jargon"
+      },
+      {
+        "id": "q4",
+        "q": "During a bid, the target's shares trade above the offer price. What is the market telling you?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Investors expect a higher bid"
+          },
+          {
+            "id": "b",
+            "text": "The offer price is too high"
+          },
+          {
+            "id": "c",
+            "text": "The deal will probably be blocked"
+          },
+          {
+            "id": "d",
+            "text": "Shareholders prefer the board's plan"
+          }
+        ],
+        "correct": "a",
+        "explain": "Nobody pays more than the offer for a share unless they expect a better one, from the bidder or a rival. Reading it as 'the offer is too high' was Sofia's guess.",
+        "explain_at": "If the shares trade above the offer, investors are betting on a higher bid"
+      },
+      {
+        "id": "q5",
+        "q": "Red Cat needs acceptances for 50% plus one of Steyr Motors' shares. Roughly how much has it secured through irrevocable undertakings?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 35%"
+          },
+          {
+            "id": "b",
+            "text": "About 15%"
+          },
+          {
+            "id": "c",
+            "text": "About 50%"
+          },
+          {
+            "id": "d",
+            "text": "About 29%"
+          }
+        ],
+        "correct": "b",
+        "explain": "The anchor shareholder, B&C Holding Österreich, has irrevocably undertaken to tender its stake of about 15%. Roughly another 35% has to come from everyone else.",
+        "explain_at": "has signed an irrevocable undertaking to tender its stake of about fifteen percent"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Red Cat announces proposed voluntary public purchase offer for Steyr Motors (Red Cat press release, 19 October 2026, via StockTitan)",
+      "url": "https://www.stocktitan.net/news/RCAT/red-cat-announces-proposed-voluntary-public-purchase-offer-for-steyr-2ojkj7jepk7n.html"
+    },
+    {
+      "label": "Mittal Steel announces offer for Arcelor, 27 January 2006 (SEC Form 6-K)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001041989/000090342306000069/mittlal-6kex991_0127.htm"
+    },
+    {
+      "label": "Red Cat launches takeover bid for Steyr Motors at EUR39 per share (MarketScreener)",
+      "url": "https://www.marketscreener.com/quote/stock/STEYR-MOTORS-AG-177749246/news/Red-Cat-launches-takeover-bid-for-Steyr-Motors-at-EUR39-per-share-54510067/"
+    },
+    {
+      "label": "Arcelor board rejects Mittal Steel's revised offer (NBC News, 12 June 2006)",
+      "url": "https://www.nbcnews.com/id/wbna13268533"
+    },
+    {
+      "label": "Mittal, Arcelor agree to $33 billion deal (NBC News, 25 June 2006)",
+      "url": "https://www.nbcnews.com/id/wbna13545913"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So how does a hostile bid work?"
+  }
+}
