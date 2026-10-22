@@ -1,0 +1,382 @@
+{
+  "id": "episode-27",
+  "title": "The Deal Desk, episode 27: The I-P-O process, or why Arm raised nothing from its own listing",
+  "hook": "Ferrari and Arm both went public at the top of their price ranges, and neither company received a cent. Then E-Q-T agrees to take Qiagen private, thirty years after it listed.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-22T10:20:42",
+  "duration": 727.989,
+  "audio": "episode-27.mp3",
+  "chunks": [
+    {
+      "words": 451,
+      "seconds": 181.9,
+      "expected": 180.4,
+      "attempts": 1,
+      "coverage": 0.93,
+      "transcribed_words": 444,
+      "script_words": 469,
+      "method": "whisper",
+      "lines_matched": 11,
+      "problems": []
+    },
+    {
+      "words": 448,
+      "seconds": 167.2,
+      "expected": 179.2,
+      "attempts": 1,
+      "coverage": 0.949,
+      "transcribed_words": 444,
+      "script_words": 453,
+      "method": "whisper",
+      "lines_matched": 11,
+      "problems": []
+    },
+    {
+      "words": 493,
+      "seconds": 195.7,
+      "expected": 197.2,
+      "attempts": 1,
+      "coverage": 0.913,
+      "transcribed_words": 476,
+      "script_words": 508,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    },
+    {
+      "words": 445,
+      "seconds": 181.2,
+      "expected": 178.0,
+      "attempts": 1,
+      "coverage": 0.963,
+      "transcribed_words": 449,
+      "script_words": 456,
+      "method": "whisper",
+      "lines_matched": 9,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode twenty-seven. For five episodes we've been buying whole companies. Today, a company selling a slice of itself to the public for the first time. The initial public offering, the I-P-O. And we start eleven years ago this week, in New York.",
+      "start": 0.46,
+      "end": 19.56
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Ferrari.",
+      "start": 19.61,
+      "end": 20.68
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Ferrari. On the twentieth of October twenty fifteen, Fiat Chrysler priced the I-P-O of its sports car maker. Seventeen point two million shares, about nine percent of Ferrari, at fifty-two dollars each. That was the top of a range of forty-eight to fifty-two dollars, and it came to about eight hundred and ninety-three million dollars. The next day, on the New York Stock Exchange, the shares rose almost fifteen percent, to sixty dollars.",
+      "start": 20.73,
+      "end": 47.93
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "So Ferrari raised almost nine hundred million dollars.",
+      "start": 47.98,
+      "end": 52.06
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "Ferrari raised nothing. The prospectus says so on its cover: Ferrari wasn't selling any shares and would receive none of the proceeds. Every share came from Fiat Chrysler. And the nine percent was a first step. Fiat Chrysler planned to hand its remaining stake, about eighty percent, to its own shareholders in early twenty sixteen. Piero Ferrari, the founder's son, kept his ten percent.",
+      "start": 52.11,
+      "end": 76.4
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "Then why list at all?",
+      "start": 76.45,
+      "end": 78.93
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "To give Ferrari a market price, and its owner a way out. Eight years later, the same idea on a much bigger scale. On the thirteenth of September twenty twenty-three, SoftBank priced the I-P-O of Arm, the British chip designer, on Nasdaq. Ninety-five point five million shares at fifty-one dollars, again the top of the range, which was forty-seven to fifty-one. Four point eight seven billion dollars. And again, the company got none of it. The seller was a SoftBank subsidiary, and SoftBank kept about ninety point six percent of Arm.",
+      "start": 78.98,
+      "end": 113.28
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "Who was buying?",
+      "start": 113.33,
+      "end": 115.07
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "Before pricing, ten cornerstone investors, among them Apple, Google, Nvidia, Samsung and Intel, had indicated interest in buying up to seven hundred and thirty-five million dollars of the shares. Not binding, but a strong signal to everyone else. At fifty-one dollars, Arm was valued at about fifty-four point five billion. The next day the first trade was at fifty-six dollars and ten cents, and the shares closed at sixty-three dollars and fifty-nine cents. Up almost twenty-five percent, a value of about sixty-five billion.",
+      "start": 115.12,
+      "end": 148.51
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "A huge success, then.",
+      "start": 148.56,
+      "end": 150.88
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "For whom? Hold that thought. So how does an I-P-O work? Round numbers. Orbit is owned by its founders and a private equity fund, and has one hundred million shares. It hires banks, the underwriters, and spends months on due diligence and the prospectus, the legal document that offers the shares. Then it announces its intention to float, and the banks set a price range. Say nine to eleven euros a share.",
+      "start": 150.93,
+      "end": 182.19
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "How do they choose the range?",
+      "start": 182.71,
+      "end": 184.35
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "Mostly comparable listed companies, the trading multiples from episode eleven, and then a discount, because investors want a reason to buy something new. Then the roadshow. Management spends a week or two meeting fund managers, and the banks build a book: who wants how many shares, at what price. Orbit sells thirty million shares. Ten million new ones, and twenty million from the existing owners. Say the book is covered ten times, and the deal prices at ten euros.",
+      "start": 184.4,
+      "end": 214.11
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "Thirty million shares at ten euros. Orbit raises three hundred million.",
+      "start": 214.16,
+      "end": 218.55
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "First trap. The offer raises three hundred million, but Orbit only gets the money for the new shares. That's the primary part: ten million shares at ten euros, one hundred million, into the company. The other two hundred million is secondary, and goes to the sellers, like Fiat Chrysler and SoftBank. Always ask which part is which.",
+      "start": 218.6,
+      "end": 240.47
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "And what is Orbit worth now?",
+      "start": 240.52,
+      "end": 244.24
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "One hundred and ten million shares at ten euros: one point one billion. Thirty million of those shares are in public hands. That's the free float, about twenty-seven percent. Arm's was under a tenth. Then there's the banks' fee, the gross spread. Ferrari's prospectus shows a dollar fifty-six a share, three percent. Arm's, a dollar and two cents, two percent. At three percent on Orbit's three hundred million, nine million euros.",
+      "start": 244.29,
+      "end": 272.09
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "But the book was ten times covered. Surely they should have priced at eleven, or higher, and got the most money possible.",
+      "start": 272.14,
+      "end": 279.27
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Second trap. The banks aren't aiming for the highest possible price on the night. They want long-term investors in the book, and a share price that rises a little afterwards, so those investors come back next time. Ten times covered is a reason to price at the top, or lift the range, not to squeeze out every cent. And the allocation is the banks' call, agreed with the company: large long-term funds get more, quick traders get less.",
+      "start": 279.32,
+      "end": 306.79
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "And what stops the price collapsing on day one?",
+      "start": 306.84,
+      "end": 309.62
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "The greenshoe. The banks sell up to fifteen percent more shares than the base deal, borrowed from the sellers. For Orbit, four and a half million extra. If the price falls below ten, the banks buy shares in the market to close that position, which supports the price. If it rises, they exercise an option to buy the extra shares from the sellers at ten euros. Arm's greenshoe was seven million shares. Ferrari's was about one point seven million. Then comes the lock-up: the old owners promise not to sell any more shares for some months.",
+      "start": 309.67,
+      "end": 343.47
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "Fine. Now day one. Orbit closes at twelve euros. Up twenty percent. Success.",
+      "start": 343.52,
+      "end": 349.746
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Third trap. For the investors who got shares, yes. For the sellers, that's two euros a share they could have had. Thirty million shares times two euros: sixty million left on the table. Arm's pop, twelve dollars and fifty-nine cents on ninety-five point five million shares, was about one point two billion dollars that SoftBank didn't collect. A small pop is healthy. A big one usually means the price was too low, or the float too small. Few shares, many buyers.",
+      "start": 350.266,
+      "end": 383.676
+    },
+    {
+      "i": 23,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: walk me through an I-P-O.",
+      "start": 383.726,
+      "end": 388.106
+    },
+    {
+      "i": 24,
+      "speaker": "SOFIA",
+      "text": "The company hires a bank, the bank sets the price, and the shares start trading.",
+      "start": 388.156,
+      "end": 393.276
+    },
+    {
+      "i": 25,
+      "speaker": "MARCO",
+      "text": "Too quick, and the bank doesn't set the price on its own. Strong answer: the company picks its banks. They do due diligence, draft the prospectus for the regulator, and test demand in early meetings with investors. Then the intention to float, the price range, and a roadshow while the banks build the book. The company, the sellers and the banks agree the price together, the banks allocate the shares, and trading starts the next morning. Then the greenshoe and the lock-up. Months of preparation, a couple of weeks of marketing.",
+      "start": 393.326,
+      "end": 426.796
+    },
+    {
+      "i": 26,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 426.846,
+      "end": 428.346
+    },
+    {
+      "i": 27,
+      "speaker": "MARCO",
+      "text": "A stock rises fifty percent on its first day. Was the I-P-O a success?",
+      "start": 428.396,
+      "end": 433.956
+    },
+    {
+      "i": 28,
+      "speaker": "SOFIA",
+      "text": "Yes. It proves the demand was there.",
+      "start": 434.006,
+      "end": 436.706
+    },
+    {
+      "i": 29,
+      "speaker": "MARCO",
+      "text": "It proves the demand was there at a higher price. Strong answer: it depends who you ask. The investors who got shares did very well. The sellers, and the company if it sold new shares, raised less than they could have. A well-priced I-P-O leaves a modest first-day rise and then trades well for months. And don't confuse the money raised with the company's value. Arm raised four point eight seven billion dollars, but was valued at more than ten times that.",
+      "start": 436.756,
+      "end": 466.096
+    },
+    {
+      "i": 30,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 466.146,
+      "end": 467.286
+    },
+    {
+      "i": 31,
+      "speaker": "MARCO",
+      "text": "The reverse of an I-P-O. Last night, Wednesday the twenty-first of October, Qiagen, which makes the kits and machines laboratories use for molecular diagnostics, agreed to be taken private by E-Q-T, the private equity firm. Qiagen's head office is in Venlo, in the Netherlands, but it was founded by scientists in Düsseldorf. The price is forty-six euros and fifty cents a share, in cash. The enterprise value is about ten point eight billion euros, including about one point one billion dollars of net debt.",
+      "start": 467.336,
+      "end": 503.236
+    },
+    {
+      "i": 32,
+      "speaker": "SOFIA",
+      "text": "So shareholders receive ten point eight billion euros.",
+      "start": 503.286,
+      "end": 506.916
+    },
+    {
+      "i": 33,
+      "speaker": "MARCO",
+      "text": "Enterprise value again, as in episode twenty-five. Part of that ten point eight billion pays for the net debt, so the shareholders get less. And the premium?",
+      "start": 506.966,
+      "end": 518.126
+    },
+    {
+      "i": 34,
+      "speaker": "SOFIA",
+      "text": "Measured against yesterday's close, I suppose.",
+      "start": 518.176,
+      "end": 521.496
+    },
+    {
+      "i": 35,
+      "speaker": "MARCO",
+      "text": "Against the unaffected price, from yesterday's episode. Forty point three percent over the close of thirty-three euros and fifteen cents on the eighth of July, the last trading day before reports of private equity interest. And forty-six point nine percent over the three-month volume-weighted average up to that day, thirty-one euros and sixty-six cents. Since July, the shares have been carrying bid hope.",
+      "start": 521.546,
+      "end": 545.879
+    },
+    {
+      "i": 36,
+      "speaker": "SOFIA",
+      "text": "Where's the link with I-P-Os?",
+      "start": 546.399,
+      "end": 548.759
+    },
+    {
+      "i": 37,
+      "speaker": "MARCO",
+      "text": "Qiagen went public on Nasdaq in nineteen ninety-six, the first German company to list there, and in Frankfurt the year after. Thirty years later, E-Q-T plans to end both listings. Both of Qiagen's boards approved the deal unanimously and will recommend that shareholders accept. E-Q-T needs acceptances for half the shares plus one, the financing is committed, with debt from six banks, and closing is expected in the middle of twenty twenty-seven.",
+      "start": 548.809,
+      "end": 576.439
+    },
+    {
+      "i": 38,
+      "speaker": "SOFIA",
+      "text": "But why would a company that's been listed for thirty years want to leave?",
+      "start": 576.489,
+      "end": 580.549
+    },
+    {
+      "i": 39,
+      "speaker": "MARCO",
+      "text": "That's your interview question. Strong answer: a listing gives you a share price, access to capital and shares to pay for acquisitions, but every quarter is on display and the share price is set by people who may sell tomorrow. A private owner can invest for longer, and usually borrows more against the business. For shareholders, the choice is a forty percent premium in cash now against an uncertain price later. An I-P-O and a take-private are the same question asked in opposite directions: who should own this company, and at what price?",
+      "start": 580.599,
+      "end": 614.139
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: Orbit sells thirty million shares at ten euros, ten million of them new and twenty million from existing owners. How much does Orbit itself receive, before fees? Question two: what does a greenshoe let the underwriters do? Question three: Orbit prices at ten euros and closes its first day at twelve. How much was left on the table? Question four: Arm priced at fifty-one dollars and closed its first day at sixty-three dollars and fifty-nine cents. Roughly what was the first-day rise? Question five: E-Q-T's forty point three percent premium for Qiagen is measured against which price?",
+      "start": 614.189,
+      "end": 662.039
+    },
+    {
+      "i": 41,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 662.089,
+      "end": 663.709
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "Answers. One: one hundred million euros, the primary part. The other two hundred million goes to the sellers. Two: sell up to fifteen percent more shares than the base deal, then buy them back in the market if the price falls, or from the sellers through the option if it rises. Three: sixty million euros, two euros on each of the thirty million shares sold. Four: almost twenty-five percent, measured from the offer price. Five: the close of thirty-three euros and fifteen cents on the eighth of July, before reports of private equity interest.",
+      "start": 663.759,
+      "end": 703.209
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "So an I-P-O isn't only about raising money. Often it's an owner selling, and the hard part is the price.",
+      "start": 703.259,
+      "end": 711.049
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "And that's four weeks of buying and selling companies. Tomorrow, episode twenty-eight: the week four review. Synergies, the deal process, accretion and dilution, goodwill, hostile bids and today's I-P-O, tested the way an interviewer would.",
+      "start": 711.099,
+      "end": 727.529
+    }
+  ]
+}

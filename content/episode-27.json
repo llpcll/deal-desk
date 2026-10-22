@@ -1,0 +1,421 @@
+{
+  "visuals": [
+    {
+      "at": "Ferrari. On the twentieth of October twenty fifteen",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Initial public offering",
+      "name": "Ferrari",
+      "sub": "Fiat Chrysler sells about 9% of its sports car maker on the New York Stock Exchange",
+      "lines": [
+        "17.2 million shares at $52, the top of a $48 to $52 range"
+      ],
+      "date": "Priced 20 October 2015"
+    },
+    {
+      "at": "Ferrari raised nothing. The prospectus says so on its cover",
+      "type": "keynumbers",
+      "title": "Ferrari's I-P-O: who got the money",
+      "items": [
+        {
+          "value": "$893m",
+          "label": "raised in the offering",
+          "approx": true
+        },
+        {
+          "value": "100%",
+          "label": "of it to Fiat Chrysler, the seller"
+        },
+        {
+          "value": "$0",
+          "label": "to Ferrari itself"
+        },
+        {
+          "value": "80%",
+          "label": "Fiat Chrysler's remaining stake, to go to its shareholders in early 2016",
+          "approx": true
+        }
+      ],
+      "note": "Piero Ferrari, the founder's son, kept his 10%. On the first day of trading the shares rose almost 15%, to $60."
+    },
+    {
+      "at": "On the thirteenth of September twenty twenty-three",
+      "type": "keynumbers",
+      "title": "Arm's I-P-O, 13 September 2023",
+      "items": [
+        {
+          "value": "$51",
+          "label": "per share, the top of a $47 to $51 range"
+        },
+        {
+          "value": "95.5m",
+          "label": "shares sold by a SoftBank subsidiary"
+        },
+        {
+          "value": "$4.87bn",
+          "label": "raised, none of it for Arm"
+        },
+        {
+          "value": "90.6%",
+          "label": "of Arm kept by SoftBank",
+          "approx": true
+        },
+        {
+          "value": "$735m",
+          "label": "cornerstone investors' interest, not binding (up to)"
+        }
+      ]
+    },
+    {
+      "at": "the first trade was at fifty-six dollars and ten cents",
+      "type": "bars",
+      "title": "Arm's share price, from range to first close",
+      "unit": "$",
+      "decimals": 2,
+      "items": [
+        {
+          "label": "Bottom of the price range",
+          "value": 47
+        },
+        {
+          "label": "Offer price, top of the range",
+          "value": 51
+        },
+        {
+          "label": "First trade, 14 September",
+          "value": 56.1
+        },
+        {
+          "label": "First-day close",
+          "value": 63.59
+        }
+      ],
+      "note": "Valued at about $54.5bn at the offer price and about $65bn at the first close: up almost 25%."
+    },
+    {
+      "at": "So how does an I-P-O work? Round numbers.",
+      "type": "steps",
+      "title": "How an I-P-O works: Orbit",
+      "items": [
+        {
+          "label": "Banks and due diligence",
+          "detail": "Months of work on the prospectus, the legal document that offers the shares"
+        },
+        {
+          "label": "Intention to float",
+          "detail": "Orbit announces the listing; the banks set a range of €9 to €11"
+        },
+        {
+          "label": "Roadshow and bookbuilding",
+          "detail": "Management meets fund managers; the book is covered 10 times"
+        },
+        {
+          "label": "Pricing and allocation",
+          "detail": "30 million shares at €10; the banks decide who gets them"
+        },
+        {
+          "label": "First day of trading",
+          "detail": "Then the greenshoe and the lock-up"
+        }
+      ],
+      "note": "Hypothetical company with 100 million shares before the listing."
+    },
+    {
+      "at": "First trap. The offer raises three hundred million",
+      "type": "waterfall",
+      "title": "Where Orbit's €300m goes",
+      "unit": "€m",
+      "steps": [
+        {
+          "label": "Offer size, 30m shares at €10",
+          "value": 300,
+          "kind": "total"
+        },
+        {
+          "label": "Secondary: 20m existing shares, to the sellers",
+          "value": -200,
+          "kind": "subtract"
+        },
+        {
+          "label": "Primary: 10m new shares, to Orbit",
+          "value": 100,
+          "kind": "total"
+        }
+      ],
+      "note": "Before fees. Ferrari's and Arm's I-P-Os were entirely secondary."
+    },
+    {
+      "at": "One hundred and ten million shares at ten euros",
+      "type": "keynumbers",
+      "title": "Orbit after the listing",
+      "items": [
+        {
+          "value": "€1.1bn",
+          "label": "market value, 110 million shares at €10"
+        },
+        {
+          "value": "27%",
+          "label": "free float, 30 million shares in public hands",
+          "approx": true
+        },
+        {
+          "value": "€9m",
+          "label": "gross spread to the banks, at 3%"
+        }
+      ],
+      "note": "Gross spreads in the prospectuses: Ferrari $1.56 a share (3%), Arm $1.02 (2%). Arm's free float was under a tenth."
+    },
+    {
+      "at": "The greenshoe. The banks sell up to fifteen percent",
+      "type": "table",
+      "title": "How the greenshoe works",
+      "columns": [
+        "",
+        "Price falls below €10",
+        "Price rises above €10"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Banks",
+          "Buy shares in the market",
+          "Exercise the option at €10"
+        ],
+        [
+          "Effect",
+          "Supports the price",
+          "Sellers sell 4.5m more shares"
+        ]
+      ],
+      "note": "The banks sell up to 15% more than the base deal, borrowed from the sellers. Arm's greenshoe was 7 million shares; Ferrari's about 1.7 million."
+    },
+    {
+      "at": "Third trap. For the investors who got shares",
+      "type": "formula",
+      "title": "Money left on the table",
+      "formula": "Left on the table = (first-day close − offer price) × shares sold",
+      "note": "Orbit: (€12 − €10) × 30m = €60m. Arm: ($63.59 − $51) × 95.5m ≈ $1.2bn that SoftBank didn't collect."
+    },
+    {
+      "at": "The reverse of an I-P-O. Last night",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Recommended take-private",
+      "name": "EQT / Qiagen",
+      "sub": "The private equity firm agrees to buy the Venlo-based maker of molecular diagnostics kits and machines",
+      "lines": [
+        "€46.50 a share in cash; enterprise value about €10.8bn"
+      ],
+      "date": "Announced 21 October 2026"
+    },
+    {
+      "at": "Against the unaffected price, from yesterday's episode",
+      "type": "bars",
+      "title": "Qiagen: the premium, measured before the rumours",
+      "unit": "%",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "vs close of €33.15 on 8 July 2026",
+          "value": 40.3
+        },
+        {
+          "label": "vs three-month volume-weighted average, €31.66",
+          "value": 46.9
+        }
+      ],
+      "note": "8 July was the last trading day before reports of private equity interest. Since then the shares have carried bid hope."
+    },
+    {
+      "at": "Qiagen went public on Nasdaq in nineteen ninety-six",
+      "type": "keynumbers",
+      "title": "EQT and Qiagen: the terms",
+      "items": [
+        {
+          "value": "€46.50",
+          "label": "cash per share"
+        },
+        {
+          "value": "€10.8bn",
+          "label": "enterprise value, including about $1.1bn of net debt",
+          "approx": true
+        },
+        {
+          "value": "50% + 1",
+          "label": "minimum acceptance"
+        },
+        {
+          "value": "Mid-2027",
+          "label": "expected closing"
+        }
+      ],
+      "note": "Listed on Nasdaq in 1996 and in Frankfurt in 1997; EQT plans to end both listings. Both boards approved unanimously, and the financing is committed."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Orbit sells 30 million shares at €10: 10 million new and 20 million from existing owners. How much does Orbit itself receive, before fees?",
+        "options": [
+          {
+            "id": "a",
+            "text": "€300m"
+          },
+          {
+            "id": "b",
+            "text": "€100m"
+          },
+          {
+            "id": "c",
+            "text": "€200m"
+          },
+          {
+            "id": "d",
+            "text": "€1.1bn"
+          }
+        ],
+        "correct": "b",
+        "explain": "Only the new shares raise money for the company: 10m × €10 = €100m, the primary part. Taking the whole €300m, Sofia's slip, counts the sellers' money too.",
+        "explain_at": "Orbit only gets the money for the new shares"
+      },
+      {
+        "id": "q2",
+        "q": "What does a greenshoe let the underwriters do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sell extra shares, and buy them back if the price falls"
+          },
+          {
+            "id": "b",
+            "text": "Raise the offer price once the book is covered"
+          },
+          {
+            "id": "c",
+            "text": "Sell more shares at a higher price on day one"
+          },
+          {
+            "id": "d",
+            "text": "Buy shares from the founders at a discount"
+          }
+        ],
+        "correct": "a",
+        "explain": "The banks sell up to 15% more than the base deal. If the price falls they buy shares in the market, supporting it; if it rises they buy the extra shares from the sellers through the option.",
+        "explain_at": "The banks sell up to fifteen percent more shares than the base deal"
+      },
+      {
+        "id": "q3",
+        "q": "Orbit sells 30 million shares at €10 and closes its first day at €12. How much was left on the table?",
+        "options": [
+          {
+            "id": "a",
+            "text": "€360m"
+          },
+          {
+            "id": "b",
+            "text": "€20m"
+          },
+          {
+            "id": "c",
+            "text": "€300m"
+          },
+          {
+            "id": "d",
+            "text": "€60m"
+          }
+        ],
+        "correct": "d",
+        "explain": "€2 a share the sellers could have had, on all 30 million shares sold: €60m. Counting only the 10 million new shares gives €20m.",
+        "explain_at": "Thirty million shares times two euros: sixty million left on the table"
+      },
+      {
+        "id": "q4",
+        "q": "Arm's price range was $47 to $51. It priced at $51 and closed its first day at $63.59. Roughly what was the first-day rise?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 8%"
+          },
+          {
+            "id": "b",
+            "text": "About 35%"
+          },
+          {
+            "id": "c",
+            "text": "About 25%"
+          },
+          {
+            "id": "d",
+            "text": "About 20%"
+          }
+        ],
+        "correct": "c",
+        "explain": "$63.59 ÷ $51 − 1 ≈ 25%, measured from the offer price. From the bottom of the range it looks like 35%; dividing the gain by the closing price gives 20%.",
+        "explain_at": "Up almost twenty-five percent, a value of about sixty-five billion"
+      },
+      {
+        "id": "q5",
+        "q": "EQT's 40.3% premium for Qiagen is measured against which price?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The close the day before the announcement"
+          },
+          {
+            "id": "b",
+            "text": "The three-month average up to October"
+          },
+          {
+            "id": "c",
+            "text": "The close before reports of buyer interest"
+          },
+          {
+            "id": "d",
+            "text": "The price at Qiagen's Nasdaq listing"
+          }
+        ],
+        "correct": "c",
+        "explain": "The unaffected price: €33.15 at the close on 8 July 2026, the last trading day before reports of private equity interest. Yesterday's close, Sofia's guess, already carries bid hope.",
+        "explain_at": "Forty point three percent over the close of thirty-three euros and fifteen cents"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "QIAGEN and EQT announce agreement on a recommended takeover offer (QIAGEN press release, 21 October 2026, via StockTitan)",
+      "url": "https://www.stocktitan.net/news/QGEN/qiagen-and-eqt-private-equity-announce-agreement-on-a-recommended-pj1xnk3uz603.html"
+    },
+    {
+      "label": "Arm Holdings plc: final prospectus, 13 September 2023 (SEC Form 424B4)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1973239/000119312523235320/d550931d424b4.htm"
+    },
+    {
+      "label": "Ferrari N.V.: final prospectus, October 2015 (SEC Form 424B1)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001648416/000119312515349281/d61094d424b1.htm"
+    },
+    {
+      "label": "Arm soars nearly 25% in market debut to $65 billion valuation (Reuters, via Hargreaves Lansdown)",
+      "url": "https://www.hl.co.uk/news/reuters-arm-soars-nearly-25-in-market-debut-to-65-billion-valuation"
+    },
+    {
+      "label": "Ferrari shares soar on Wall Street launch (AGI, 21 October 2015)",
+      "url": "https://www.agi.it/innovazione/news/2015-10-21/ferrari_shares_soar_on_wall_street_launch-314133"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So how does an I-P-O work?"
+  }
+}
