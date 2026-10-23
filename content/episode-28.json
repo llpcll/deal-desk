@@ -1,0 +1,353 @@
+{
+  "visuals": [
+    {
+      "at": "We start with one story that touches almost every episode",
+      "type": "tombstone",
+      "title": "Where week four ends",
+      "kicker": "Approach rejected, then withdrawn",
+      "name": "Kraft Heinz / Unilever",
+      "sub": "A $50-a-share proposal, about $143bn of equity value",
+      "lines": [
+        "Rejected by Unilever on 17 February 2017",
+        "Withdrawn by Kraft Heinz two days later"
+      ],
+      "date": "February 2017"
+    },
+    {
+      "at": "Same idea. Unilever rejected it that day",
+      "type": "keynumbers",
+      "title": "The proposal",
+      "items": [
+        { "value": "$50", "label": "per Unilever share" },
+        { "value": "$30.23", "label": "of it in cash" },
+        { "value": "0.222", "label": "shares of the combined company" },
+        { "value": "$143bn", "label": "equity value", "approx": true },
+        { "value": "18%", "label": "premium to the close on 16 February 2017" },
+        { "value": "17 March", "label": "Takeover Code deadline: firm offer or walk away" }
+      ]
+    },
+    {
+      "at": "The offer was eighteen percent above the old price",
+      "type": "bars",
+      "title": "Offer premium against the share price move",
+      "unit": "%",
+      "items": [
+        { "label": "Premium offered", "value": 18 },
+        { "label": "Unilever's rise during the day", "value": 13, "approx": true }
+      ],
+      "note": "The gap between the share price and the offer is the market's view of the risk that no deal happens."
+    },
+    {
+      "at": "Now the week's other stories, one line each",
+      "type": "table",
+      "title": "Week four in one line each",
+      "columns": ["Story", "The lesson"],
+      "align": ["left", "left"],
+      "rows": [
+        ["AB InBev / SABMiller", "A 50% premium, paid for $1.4bn a year of promised savings"],
+        ["Musk / Twitter", "He tried to walk away; the contract made him close"],
+        ["Microsoft / LinkedIn", "Told shareholders the deal would dilute earnings for two years"],
+        ["Kraft Heinz", "Wrote down $15.4bn, including the Kraft and Oscar Mayer trademarks"],
+        ["Arm", "Raised nothing from its own listing: SoftBank sold the shares"]
+      ]
+    },
+    {
+      "at": "Round one, synergies",
+      "type": "formula",
+      "title": "Valuing cost synergies",
+      "formula": "Value = 80 × (1 − 25%) ÷ 10% = 60 ÷ 10% = 600",
+      "note": "Savings of 80 a year before tax, no growth. Before one-off costs and the time the savings take to arrive."
+    },
+    {
+      "at": "How much of the synergies has it paid away",
+      "type": "bars",
+      "title": "How much of the synergies goes to the seller (€m)",
+      "unit": "",
+      "items": [
+        { "label": "Standalone value", "value": 2000 },
+        { "label": "Offer", "value": 2400 },
+        { "label": "Walk-away price", "value": 2600 }
+      ],
+      "note": "Net synergies of 600. A premium of 400 pays away two thirds of them; the buyer keeps 200."
+    },
+    {
+      "at": "Round two, the process",
+      "type": "table",
+      "title": "Price times the chance of getting paid (€m)",
+      "columns": ["", "Bidder A", "Bidder B"],
+      "align": ["left", "right", "right"],
+      "rows": [
+        ["Offer", "1,200", "1,000"],
+        ["Financing", "Conditional", "Fully financed"],
+        ["Chance it closes", "80%", "Near certain"],
+        ["Risk-adjusted value", "960", "1,000"]
+      ],
+      "highlight": 3,
+      "highlightLabel": "B is worth more",
+      "note": "And a failed sale damages the business, which A's figure leaves out."
+    },
+    {
+      "at": "First trap. Same company, same price",
+      "type": "table",
+      "title": "Atlas: same target, two ways to pay (€m)",
+      "columns": ["", "Standalone", "All shares", "All debt"],
+      "align": ["left", "right", "right", "right"],
+      "rows": [
+        ["Net income", "160", "180", "162"],
+        ["Shares (m)", "160", "185", "160"],
+        ["Earnings per share", "€1.00", "~€0.97", "~€1.01"]
+      ],
+      "highlight": 2,
+      "highlightLabel": "dilutive, then accretive",
+      "note": "Target earns 20, bought for 400 (20x). Shares: 25m new at €16. Debt: 400 at 6%, 24 of interest, 18 after 25% tax. Only the financing changed, not the price."
+    },
+    {
+      "at": "Deferred tax on the write-ups, one hundred and fifty",
+      "type": "waterfall",
+      "title": "From book value to price paid (€m)",
+      "unit": "",
+      "decimals": 0,
+      "steps": [
+        { "label": "Book net assets", "value": 500, "kind": "total" },
+        { "label": "Write-ups (brand, customers)", "value": 600, "kind": "add" },
+        { "label": "Deferred tax at 25%", "value": 150, "kind": "sub" },
+        { "label": "Fair value of net assets", "value": 950, "kind": "total" },
+        { "label": "Goodwill", "value": 1050, "kind": "add" },
+        { "label": "Price paid", "value": 2000, "kind": "total" }
+      ],
+      "note": "A later impairment of 300 cuts goodwill to 750 and net income by 300, but cash doesn't move."
+    },
+    {
+      "at": "Twenty-five percent, over the forty",
+      "type": "bars",
+      "title": "One offer of €50, two premiums",
+      "unit": "%",
+      "decimals": 1,
+      "items": [
+        { "label": "vs unaffected price, €40", "value": 25 },
+        { "label": "vs price after the leak, €46", "value": 8.7 }
+      ],
+      "note": "50 ÷ 46 − 1 ≈ 8.7%, the script's \"under nine percent\". Quote the unaffected price."
+    },
+    {
+      "at": "Third trap. The offer raises six hundred million",
+      "type": "table",
+      "title": "Who gets the I-P-O money (€m)",
+      "columns": ["", "Shares (m)", "Proceeds"],
+      "align": ["left", "right", "right"],
+      "rows": [
+        ["New shares: to the company", "10", "150"],
+        ["Existing shares: to the seller", "30", "450"],
+        ["Total offer at €15", "40", "600"]
+      ],
+      "highlight": 0,
+      "highlightLabel": "what the company raises",
+      "note": "A first-day close of €18 leaves €3 × 40m = €120m on the table."
+    },
+    {
+      "at": "A list of tools, not a decision",
+      "type": "steps",
+      "title": "Deciding what to offer",
+      "items": [
+        { "label": "Standalone value", "detail": "The football field: comparables, precedents, a DCF" },
+        { "label": "Net synergies", "detail": "After tax and one-off costs; standalone plus synergies is the walk-away price" },
+        { "label": "The offer", "detail": "Well below the walk-away, far enough above the unaffected price to win" },
+        { "label": "Financing and process", "detail": "Earnings per share, leverage, rating; rivals, certainty, the contract" }
+      ]
+    },
+    {
+      "at": "On Wednesday, the twenty-first of October, Mobico",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Possible offer, non-binding",
+      "name": "Autobuses de León / Mobico",
+      "sub": "Owner of National Express, with buses in Spain, Portugal and Morocco",
+      "lines": [
+        "46p a share in cash",
+        "Bidder held by CMC Group and an Asterion Industrial Partners fund"
+      ],
+      "date": "Announced 21 October 2026"
+    },
+    {
+      "at": "Reports put it at about fifty-six percent",
+      "type": "keynumbers",
+      "title": "Mobico in numbers",
+      "items": [
+        { "value": "46p", "label": "proposal per share, in cash" },
+        { "value": "~£282m", "label": "equity value, on about 614m shares" },
+        { "value": "~26%", "label": "already held by CMC Group" },
+        { "value": "~56%", "label": "premium to Tuesday's close (reported)" },
+        { "value": "~39.5p", "label": "share price on Wednesday morning" },
+        { "value": "18 November", "label": "deadline for a firm offer, 5pm" }
+      ],
+      "note": "Equity value only: a buyer also takes on Mobico's debt."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Ten questions across week four: Marco reads five, and five more are on the cards. Answer along, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Cost savings of 80 a year before tax, 25% tax, a 10% discount rate and no growth. What are they worth?",
+        "options": [
+          { "id": "a", "text": "800" },
+          { "id": "b", "text": "60" },
+          { "id": "c", "text": "600" },
+          { "id": "d", "text": "450" }
+        ],
+        "correct": "c",
+        "explain": "80 × 75% = 60 after tax, ÷ 10% = 600. Skipping the tax gives 800.",
+        "explain_at": "Round one, synergies"
+      },
+      {
+        "id": "q2",
+        "q": "A buyer on 16x earnings buys a target at 20x, at the offer price, all in shares, no synergies. Accretive or dilutive?",
+        "options": [
+          { "id": "a", "text": "Dilutive" },
+          { "id": "b", "text": "Accretive" },
+          { "id": "c", "text": "Neutral" },
+          { "id": "d", "text": "Can't tell without the share count" }
+        ],
+        "correct": "a",
+        "explain": "The target yields 1 ÷ 20 = 5%, less than the 1 ÷ 16 ≈ 6.25% the buyer's shares cost, so earnings per share fall.",
+        "explain_at": "Round three, accretion and dilution"
+      },
+      {
+        "id": "q3",
+        "q": "A buyer pays 2,000. Book net assets are 500, write-ups 600, tax 25%. Goodwill?",
+        "options": [
+          { "id": "a", "text": "1,500" },
+          { "id": "b", "text": "900" },
+          { "id": "c", "text": "750" },
+          { "id": "d", "text": "1,050" }
+        ],
+        "correct": "d",
+        "explain": "500 + 600 − 150 of deferred tax = 950 of fair value; 2,000 − 950 = 1,050. Price minus book value gives 1,500.",
+        "explain_at": "Round four, goodwill"
+      },
+      {
+        "id": "q4",
+        "q": "An IPO sells 40 million shares at €15, 10 million of them new. How much does the company receive?",
+        "options": [
+          { "id": "a", "text": "€600m" },
+          { "id": "b", "text": "€150m" },
+          { "id": "c", "text": "€450m" },
+          { "id": "d", "text": "€120m" }
+        ],
+        "correct": "b",
+        "explain": "Only the new shares raise money for the company: 10m × €15 = €150m. The other €450m goes to the seller.",
+        "explain_at": "Third trap. The offer raises six hundred million"
+      },
+      {
+        "id": "q5",
+        "q": "Mobico's shares rose to about 39.5p against a 46p proposal. What is the gap telling you?",
+        "options": [
+          { "id": "a", "text": "Investors expect a higher bid" },
+          { "id": "b", "text": "The proposal undervalues Mobico" },
+          { "id": "c", "text": "Doubt that a firm offer will come" },
+          { "id": "d", "text": "The premium is really about 16%" }
+        ],
+        "correct": "c",
+        "explain": "The proposal is non-binding, so the market prices the risk that no firm offer arrives. Shares above the offer would signal a higher bid.",
+        "explain_at": "The gap between the share price and the offer is the market's view of the risk"
+      },
+      {
+        "id": "q6",
+        "q": "Bidder A offers 1,200 with a one in five chance its financing fails; Bidder B offers 1,000, fully financed. Which is worth more to the seller?",
+        "options": [
+          { "id": "a", "text": "Bidder A, the higher price" },
+          { "id": "b", "text": "Bidder B, the certain price" },
+          { "id": "c", "text": "Equal, once fees are counted" },
+          { "id": "d", "text": "Bidder A, if it pays a fee" }
+        ],
+        "correct": "b",
+        "explain": "80% × 1,200 = 960, below B's 1,000, before counting the damage a failed sale does to the business.",
+        "explain_at": "Round two, the process"
+      },
+      {
+        "id": "q7",
+        "q": "A target is worth 2,000 on its own, net synergies are worth 600, and the buyer offers 2,400. How much of the synergies is paid away?",
+        "options": [
+          { "id": "a", "text": "One third" },
+          { "id": "b", "text": "Half" },
+          { "id": "c", "text": "All of them" },
+          { "id": "d", "text": "Two thirds" }
+        ],
+        "correct": "d",
+        "explain": "The premium is 400 out of 600 of synergies: two thirds. Paying the walk-away price of 2,600 would give away all of them.",
+        "explain_at": "How much of the synergies has it paid away"
+      },
+      {
+        "id": "q8",
+        "q": "Goodwill is impaired by 300, and the charge isn't tax deductible. What happens to cash?",
+        "options": [
+          { "id": "a", "text": "Unchanged" },
+          { "id": "b", "text": "Down 300" },
+          { "id": "c", "text": "Down 225" },
+          { "id": "d", "text": "Up 75" }
+        ],
+        "correct": "a",
+        "explain": "The cash left when the company was bought. The impairment is non-cash and is added back on the cash flow statement.",
+        "explain_at": "Second trap. The value is gone"
+      },
+      {
+        "id": "q9",
+        "q": "Unaffected price €40, a leak takes the shares to €46, and the bidder offers €50. What's the premium?",
+        "options": [
+          { "id": "a", "text": "8.7%" },
+          { "id": "b", "text": "25%" },
+          { "id": "c", "text": "15%" },
+          { "id": "d", "text": "20%" }
+        ],
+        "correct": "b",
+        "explain": "50 ÷ 40 − 1 = 25%. Measuring against the leaked €46 gives under 9%, a price that already contains the bid.",
+        "explain_at": "Round five, hostile bids"
+      },
+      {
+        "id": "q10",
+        "q": "Paying with debt instead of shares turns a dilutive deal accretive. What does that tell you?",
+        "options": [
+          { "id": "a", "text": "Debt makes it a better-value deal" },
+          { "id": "b", "text": "The price has effectively fallen" },
+          { "id": "c", "text": "The financing changed, not the value" },
+          { "id": "d", "text": "The target is worth more with debt" }
+        ],
+        "correct": "c",
+        "explain": "Same company, same price: only the cost of the money changed. Earnings per share doesn't see the extra risk the debt adds.",
+        "explain_at": "First trap. Same company, same price"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Mobico Group plc: Statement re possible offer (RNS, Investegate, 21 October 2026)",
+      "url": "https://www.investegate.co.uk/announcement/rns/mobico-group--mcg/statement-re-possible-offer/9833999"
+    },
+    {
+      "label": "Unilever: Statement re announcement by Kraft Heinz Company (Form 6-K, SEC, 17 February 2017)",
+      "url": "https://www.sec.gov/Archives/edgar/data/217410/000165495417001150/a2133x.htm"
+    },
+    {
+      "label": "National Express owner Mobico in £282mn takeover talks as shares surge 33% (London Loves Business, 21 October 2026)",
+      "url": "https://londonlovesbusiness.com/national-express-owner-mobico-in-282mn-takeover-talks-as-shares-surge-33/"
+    },
+    {
+      "label": "Unilever rejects $143bn Kraft-Heinz mega-merger bid (ConfectioneryNews, 17 February 2017)",
+      "url": "https://www.confectionerynews.com/Article/2017/02/17/Unilever-rejects-143bn-Kraft-Heinz-mega-merger-bid/"
+    },
+    {
+      "label": "Kraft pulls $143 billion Unilever offer after early interest (Bloomberg, via Valley News, 19 February 2017)",
+      "url": "https://vnews.com/2017/02/19/kraft-pulls-143-billion-unilever-offer-after-early-interest-8199756/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Different stories, one question"
+  }
+}
