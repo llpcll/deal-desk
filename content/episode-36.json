@@ -1,0 +1,440 @@
+{
+  "visuals": [
+    {
+      "at": "On the eighteenth of January twenty twenty-two",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Agreed acquisition",
+      "name": "Microsoft / Activision Blizzard",
+      "sub": "The company behind Call of Duty, World of Warcraft and Candy Crush",
+      "lines": [
+        "$95 a share in cash, $68.7bn including Activision's net cash"
+      ],
+      "date": "Announced 18 January 2022"
+    },
+    {
+      "at": "The C-M-A approved the new deal",
+      "type": "keynumbers",
+      "title": "Microsoft and Activision, from signing to closing",
+      "items": [
+        {
+          "value": "18 Jan 2022",
+          "label": "agreed at $95 a share, $68.7bn in all"
+        },
+        {
+          "value": "26 Apr 2023",
+          "label": "blocked by the CMA over cloud gaming"
+        },
+        {
+          "value": "Aug 2023",
+          "label": "cloud streaming rights outside the EEA sold to Ubisoft, covering 15 years of games"
+        },
+        {
+          "value": "13 Oct 2023",
+          "label": "new deal approved by the CMA, and closed the same day"
+        }
+      ],
+      "note": "About 21 months from signing to closing."
+    },
+    {
+      "at": "Then the five questions: who and why",
+      "type": "steps",
+      "title": "Telling a deal in two minutes",
+      "items": [
+        {
+          "label": "The headline",
+          "detail": "Who bought what, for how much, and when: about 15 seconds"
+        },
+        {
+          "label": "Who and why",
+          "detail": "The buyer and its reason"
+        },
+        {
+          "label": "The price",
+          "detail": "One number, with one comparison"
+        },
+        {
+          "label": "The payment",
+          "detail": "Cash, shares or new debt"
+        },
+        {
+          "label": "Does it work, and what could stop it?",
+          "detail": "About 18 seconds for each of the five questions"
+        },
+        {
+          "label": "Your view",
+          "detail": "One reason, in the last 15 seconds"
+        }
+      ],
+      "note": "Two minutes at a normal pace is about 300 words."
+    },
+    {
+      "at": "Northgate, a listed company, agrees to buy Harbour",
+      "type": "table",
+      "title": "Northgate buys Harbour (round numbers)",
+      "columns": [
+        "",
+        "Figure"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Undisturbed share price",
+          "€10"
+        ],
+        [
+          "Offer, half cash and half Northgate shares",
+          "€12"
+        ],
+        [
+          "Harbour shares",
+          "100m"
+        ],
+        [
+          "Net debt",
+          "€300m"
+        ],
+        [
+          "EBITDA",
+          "€150m"
+        ],
+        [
+          "Expected cost savings a year",
+          "€50m"
+        ],
+        [
+          "Listed peers, EV / EBITDA",
+          "8x"
+        ]
+      ],
+      "note": "Hypothetical company, used to practise the pitch."
+    },
+    {
+      "at": "Twelve euros a share, a twenty percent premium",
+      "type": "waterfall",
+      "title": "Harbour: from equity value to enterprise value",
+      "unit": "€m",
+      "steps": [
+        {
+          "label": "Equity value: 100m shares at €12",
+          "value": 1200,
+          "kind": "total"
+        },
+        {
+          "label": "Net debt",
+          "value": 300,
+          "kind": "add"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 1500,
+          "kind": "total"
+        }
+      ],
+      "note": "€12 against an undisturbed €10 is a 20% premium. All correct, but as a list, nobody remembers it."
+    },
+    {
+      "at": "Ten times, against eight for the peers",
+      "type": "bars",
+      "title": "One price, three comparisons",
+      "unit": "x",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "Listed peers",
+          "value": 8
+        },
+        {
+          "label": "Northgate's offer, on Harbour's EBITDA",
+          "value": 10
+        },
+        {
+          "label": "Offer, including €50m of savings",
+          "value": 7.5
+        }
+      ],
+      "note": "Two turns above the peers is €300m on €150m of EBITDA, paid for control and the savings."
+    },
+    {
+      "at": "expensive on Harbour alone, cheap if the savings arrive",
+      "type": "formula",
+      "title": "The multiple, with the savings",
+      "formula": "€1,500m ÷ (€150m + €50m) = 7.5x",
+      "note": "Without the savings: €1,500m ÷ €150m = 10x."
+    },
+    {
+      "at": "A view answers three things",
+      "type": "steps",
+      "title": "What a view has to answer",
+      "items": [
+        {
+          "label": "Good for whom?",
+          "detail": "Harbour's shareholders get 20% over the undisturbed price"
+        },
+        {
+          "label": "At this price?",
+          "detail": "For Northgate, only if most of the €50m arrives"
+        },
+        {
+          "label": "Because of what?",
+          "detail": "One reason, and what you'd watch: the cost of achieving the savings"
+        }
+      ],
+      "note": "A good company isn't automatically a good deal. At €20 a share, Harbour would be a terrible one."
+    },
+    {
+      "at": "On Tuesday the twenty-seventh of October",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "Guidewire / hyperexponential",
+      "sub": "London maker of AI software for pricing and underwriting commercial insurance",
+      "lines": [
+        "$1.7bn in cash, plus up to $400m tied to recurring revenue targets"
+      ],
+      "date": "Announced 27 October 2026"
+    },
+    {
+      "at": "Two point one billion is the most it could cost",
+      "type": "waterfall",
+      "title": "The price, with the earn-out",
+      "unit": "$bn",
+      "decimals": 1,
+      "steps": [
+        {
+          "label": "Base price in cash",
+          "value": 1.7,
+          "kind": "total"
+        },
+        {
+          "label": "Earn-out, if revenue targets are met",
+          "value": 0.4,
+          "kind": "add"
+        },
+        {
+          "label": "Most it could cost",
+          "value": 2.1,
+          "kind": "total"
+        }
+      ],
+      "note": "The base price is subject to adjustments. $0.4bn is nearly a fifth of the $2.1bn maximum."
+    },
+    {
+      "at": "Neither company has disclosed H-X's revenue",
+      "type": "keynumbers",
+      "title": "What is known about hx's revenue",
+      "items": [
+        {
+          "value": "Not disclosed",
+          "label": "revenue, so no multiple"
+        },
+        {
+          "value": "$73m",
+          "label": "raised in January 2024, led by Battery Ventures"
+        },
+        {
+          "value": "10x",
+          "label": "growth in sales since 2021, as hx said in 2024"
+        },
+        {
+          "value": "6.5 points",
+          "label": "at least, added to Guidewire's ARR growth in its 2027 financial year"
+        }
+      ],
+      "note": "Guidewire's own ARR from its results, times 6.5%, gives a floor for hx's ARR."
+    },
+    {
+      "at": "One billion dollars of new term loans",
+      "type": "keynumbers",
+      "title": "hyperexponential in five numbers",
+      "items": [
+        {
+          "value": "$1.7bn",
+          "label": "base price, in cash"
+        },
+        {
+          "value": "$400m",
+          "label": "earn-out, at most"
+        },
+        {
+          "value": "$1bn",
+          "label": "new term loans, committed by Bank of America and Citibank"
+        },
+        {
+          "value": "$75bn+",
+          "label": "commercial insurance premium a year written through hx's platform"
+        },
+        {
+          "value": "570+",
+          "label": "insurers in 44 countries using Guidewire's products"
+        }
+      ],
+      "note": "Closing is expected in the second quarter of Guidewire's 2027 financial year."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Harbour's enterprise value is €1.5bn and its EBITDA €150m. The buyer expects €50m a year of savings. What multiple is it effectively paying?",
+        "options": [
+          {
+            "id": "a",
+            "text": "10x"
+          },
+          {
+            "id": "b",
+            "text": "6x"
+          },
+          {
+            "id": "c",
+            "text": "7.5x"
+          },
+          {
+            "id": "d",
+            "text": "8x"
+          }
+        ],
+        "correct": "c",
+        "explain": "Add the savings to EBITDA: €1,500m ÷ €200m = 7.5x. Without them it's 10x, two turns above the peers' 8x.",
+        "explain_at": "Seven and a half times. Below the peers"
+      },
+      {
+        "id": "q2",
+        "q": "What should the first sentence of a deal pitch say?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Who bought what, for how much, when"
+          },
+          {
+            "id": "b",
+            "text": "The background, in the order it happened"
+          },
+          {
+            "id": "c",
+            "text": "Your view on whether it was a good deal"
+          },
+          {
+            "id": "d",
+            "text": "The trends in the buyer's industry"
+          }
+        ],
+        "correct": "a",
+        "explain": "Lead with the headline. Chronology is how you remember a deal, not how you tell it; the view comes last.",
+        "explain_at": "Lead with the headline, one sentence"
+      },
+      {
+        "id": "q3",
+        "q": "An interviewer asks whether a deal was a good one. What does a strong view answer?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yes, if the target is a good company"
+          },
+          {
+            "id": "b",
+            "text": "Whether the buyer's shares went up"
+          },
+          {
+            "id": "c",
+            "text": "Whether its industry is growing"
+          },
+          {
+            "id": "d",
+            "text": "Good for whom, at this price, why"
+          }
+        ],
+        "correct": "d",
+        "explain": "A good company at too high a price is a bad deal. A view says who it's good for, at this price, and gives one reason.",
+        "explain_at": "A good company and a good deal aren't the same thing"
+      },
+      {
+        "id": "q4",
+        "q": "Guidewire may pay up to $2.1bn for hyperexponential. What is the $400m on top of the $1.7bn base price?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Part of the cash paid at closing"
+          },
+          {
+            "id": "b",
+            "text": "An earn-out tied to revenue targets"
+          },
+          {
+            "id": "c",
+            "text": "Debt that Guidewire takes on"
+          },
+          {
+            "id": "d",
+            "text": "Shares given to the founders"
+          }
+        ],
+        "correct": "b",
+        "explain": "It's contingent consideration, paid only if hx reaches recurring revenue targets. So $2.1bn is the most the deal could cost, not the price.",
+        "explain_at": "That's an earn-out"
+      },
+      {
+        "id": "q5",
+        "q": "The interviewer asks for hx's revenue, which hasn't been disclosed. What do you do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Give a round number that sounds right"
+          },
+          {
+            "id": "b",
+            "text": "Switch to talking about the price"
+          },
+          {
+            "id": "c",
+            "text": "Say so, then use what is disclosed"
+          },
+          {
+            "id": "d",
+            "text": "Say you don't know and stop there"
+          }
+        ],
+        "correct": "c",
+        "explain": "An invented number won't survive the follow-up. Say it isn't disclosed, then use what is, such as Guidewire's 6.5 points of extra ARR growth.",
+        "explain_at": "Neither company has disclosed H-X's revenue"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Guidewire signs definitive agreement to acquire hyperexponential (Guidewire press release, 27 October 2026)",
+      "url": "https://www.guidewire.com/about/press-center/press-releases/20261027/guidewire-signs-definitive-agreement-to-acquire-hyperexponential"
+    },
+    {
+      "label": "Microsoft to acquire Activision Blizzard (Microsoft press release, 18 January 2022)",
+      "url": "https://news.microsoft.com/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/"
+    },
+    {
+      "label": "Microsoft / Activision Blizzard merger inquiry (Competition and Markets Authority case page)",
+      "url": "https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry"
+    },
+    {
+      "label": "Microsoft completes $69B Activision Blizzard acquisition (Fox Business, 13 October 2023)",
+      "url": "https://www.foxbusiness.com/markets/microsoft-completes-69b-acquisition-game-maker-activision-blizzard"
+    },
+    {
+      "label": "Hyperexponential raises $73M Series B (TechCrunch, 11 January 2024)",
+      "url": "https://techcrunch.com/2024/01/11/hyperexponential-a16z-insurance/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Which is the problem. You get two"
+  }
+}

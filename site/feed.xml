@@ -17,7 +17,24 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
     <copyright>The Deal Desk. AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 23:20:19 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 23:36:00 +0100</lastBuildDate>
+    <item>
+      <title>36. Talking about a deal, or how to tell Microsoft and Activision in two minutes</title>
+      <description>In twenty twenty-two Microsoft agreed to pay sixty-eight point seven billion dollars for Activision Blizzard, and a British regulator nearly stopped it. Then Guidewire buys hyperexponential, a London insurance software firm, with four hundred million dollars of the price still to be earned. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-36/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
+      <content:encoded><![CDATA[<p>In twenty twenty-two Microsoft agreed to pay sixty-eight point seven billion dollars for Activision Blizzard, and a British regulator nearly stopped it. Then Guidewire buys hyperexponential, a London insurance software firm, with four hundred million dollars of the price still to be earned.</p><p>Transcript, visuals and the interactive quiz: <a href="https://llpcll.github.io/deal-desk/episode-36/">https://llpcll.github.io/deal-desk/episode-36/</a></p><p>AI-voiced: Marco and Sofia are fictional characters with AI-generated voices. Voices by Google Gemini.</p><p>Sources:</p><ul><li><a href="https://www.guidewire.com/about/press-center/press-releases/20261027/guidewire-signs-definitive-agreement-to-acquire-hyperexponential">Guidewire signs definitive agreement to acquire hyperexponential (Guidewire press release, 27 October 2026)</a></li><li><a href="https://news.microsoft.com/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/">Microsoft to acquire Activision Blizzard (Microsoft press release, 18 January 2022)</a></li><li><a href="https://www.gov.uk/cma-cases/microsoft-slash-activision-blizzard-merger-inquiry">Microsoft / Activision Blizzard merger inquiry (Competition and Markets Authority case page)</a></li><li><a href="https://www.foxbusiness.com/markets/microsoft-completes-69b-acquisition-game-maker-activision-blizzard">Microsoft completes $69B Activision Blizzard acquisition (Fox Business, 13 October 2023)</a></li><li><a href="https://techcrunch.com/2024/01/11/hyperexponential-a16z-insurance/">Hyperexponential raises $73M Series B (TechCrunch, 11 January 2024)</a></li></ul>]]></content:encoded>
+      <link>https://llpcll.github.io/deal-desk/episode-36/</link>
+      <guid isPermaLink="false">deal-desk-episode-36</guid>
+      <pubDate>Fri, 30 Oct 2026 23:36:00 +0100</pubDate>
+      <enclosure url="https://llpcll.github.io/deal-desk/audio/episode-36.mp3" length="8716252" type="audio/mpeg"/>
+      <itunes:author>The Deal Desk</itunes:author>
+      <itunes:duration>726</itunes:duration>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>36</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://llpcll.github.io/deal-desk/cover.jpg"/>
+      <podcast:chapters url="https://llpcll.github.io/deal-desk/chapters/episode-36.json" type="application/json+chapters"/>
+    </item>
     <item>
       <title>35. Week five review, from the bidco to the exit</title>
       <description>In twenty twenty two buyout firms beat Kone to thyssenkrupp's lifts, and this year Kone came back to buy them. Six episodes of private equity, tested the way an interviewer would. Then Providence agrees to buy Fitness Park, the French gym chain, at a price nobody will confirm. Transcript, visuals and quiz: https://llpcll.github.io/deal-desk/episode-35/ AI-voiced: Marco and Sofia are fictional characters with AI-generated voices.</description>
