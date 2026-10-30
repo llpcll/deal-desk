@@ -1,0 +1,476 @@
+{
+  "visuals": [
+    {
+      "at": "On Thursday the twentieth of October nineteen eighty-eight",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Leveraged buyout",
+      "name": "KKR / RJR Nabisco",
+      "sub": "The tobacco and biscuit group behind Winston, Camel, Oreo and Ritz",
+      "lines": [
+        "Management opened at $75 a share, about $16.9bn, backed by Shearson Lehman Hutton"
+      ],
+      "date": "Battle began 20 October 1988"
+    },
+    {
+      "at": "In the final round, Johnson's group bid",
+      "type": "bars",
+      "title": "RJR Nabisco: the bids, per share",
+      "unit": "$",
+      "items": [
+        {
+          "label": "Management's opening bid, 20 October",
+          "value": 75
+        },
+        {
+          "label": "KKR's first offer, 24 October",
+          "value": 90
+        },
+        {
+          "label": "KKR's final bid (accepted)",
+          "value": 109
+        },
+        {
+          "label": "Management's final bid",
+          "value": 112
+        }
+      ],
+      "note": "After the first bid the shares rose more than $21, to over $77: the market expected more. The board took KKR's lower bid as the more certain one."
+    },
+    {
+      "at": "About twenty-five billion dollars for the shares",
+      "type": "keynumbers",
+      "title": "RJR Nabisco in numbers",
+      "items": [
+        {
+          "value": "$109",
+          "label": "KKR's winning price per share"
+        },
+        {
+          "value": "$25bn",
+          "label": "for the shares",
+          "approx": true
+        },
+        {
+          "value": "$31bn",
+          "label": "including the debt that came with the company",
+          "approx": true
+        },
+        {
+          "value": "17+ years",
+          "label": "as the largest leveraged buyout in history"
+        }
+      ],
+      "note": "In 1990 KKR put in about $1.7bn of new equity to shore the company up."
+    },
+    {
+      "at": "It writes a cheque for four hundred",
+      "type": "waterfall",
+      "title": "Paying for Harbour",
+      "unit": "£m",
+      "steps": [
+        {
+          "label": "Purchase price, 10x EBITDA of 100",
+          "value": 1000,
+          "kind": "total"
+        },
+        {
+          "label": "Borrowed: 6x EBITDA",
+          "value": -600,
+          "kind": "subtract"
+        },
+        {
+          "label": "Fund's equity cheque",
+          "value": 400,
+          "kind": "total"
+        }
+      ],
+      "note": "Hypothetical company with no debt before the deal."
+    },
+    {
+      "at": "The fund sets up a new company, a bidco",
+      "type": "steps",
+      "title": "Where the debt sits",
+      "items": [
+        {
+          "label": "The fund",
+          "detail": "Puts in £400m of equity; that's all it can lose"
+        },
+        {
+          "label": "The bidco",
+          "detail": "A new company that borrows £600m and buys Harbour"
+        },
+        {
+          "label": "Harbour",
+          "detail": "After the deal, carries the debt that paid for it"
+        },
+        {
+          "label": "Harbour's cash",
+          "detail": "Pays the interest and repays the loans"
+        }
+      ],
+      "note": "The lenders can't come after the fund for more than its equity."
+    },
+    {
+      "at": "Now five years pass",
+      "type": "table",
+      "title": "Harbour: in and out",
+      "columns": [
+        "£m",
+        "Entry",
+        "Exit, year 5"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "EBITDA",
+          "100",
+          "130"
+        ],
+        [
+          "Multiple",
+          "10x",
+          "10x"
+        ],
+        [
+          "Enterprise value",
+          "1,000",
+          "1,300"
+        ],
+        [
+          "Debt",
+          "600",
+          "300"
+        ],
+        [
+          "Fund's equity",
+          "400",
+          "1,000"
+        ]
+      ],
+      "highlight": 4,
+      "highlightLabel": "2.5x the money",
+      "note": "Spare cash of 60 a year, after interest, tax and investment, repays 300 of debt over five years."
+    },
+    {
+      "at": "Second trap, half right",
+      "type": "waterfall",
+      "title": "Where the £600m gain came from",
+      "unit": "£m",
+      "steps": [
+        {
+          "label": "Equity in",
+          "value": 400,
+          "kind": "total"
+        },
+        {
+          "label": "EBITDA growth: 30 more, times 10",
+          "value": 300,
+          "kind": "add"
+        },
+        {
+          "label": "Debt repaid",
+          "value": 300,
+          "kind": "add"
+        },
+        {
+          "label": "Equity out",
+          "value": 1000,
+          "kind": "total"
+        }
+      ],
+      "note": "The multiple stayed at 10x, so the third source of return, a change in the multiple, added nothing. A careful buyer plans on the first two and treats the third as luck."
+    },
+    {
+      "at": "Compare a buyer that pays the whole thousand in cash",
+      "type": "bars",
+      "title": "Harbour: money multiple, with and without debt",
+      "unit": "x",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "£400m equity, £600m debt",
+          "value": 2.5
+        },
+        {
+          "label": "£1,000m in cash, no debt",
+          "value": 1.6
+        }
+      ],
+      "note": "The all-cash figure is rough: the business at £1,300m plus a little over £300m of cash, on £1,000m. A similar gain in pounds, on a cheque two and a half times bigger."
+    },
+    {
+      "at": "Six hundred at eight percent is forty-eight",
+      "type": "table",
+      "title": "Why not borrow everything?",
+      "columns": [
+        "£m",
+        "Debt of 600",
+        "Debt of 900"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Fund's equity",
+          "400",
+          "100"
+        ],
+        [
+          "Interest a year, at 8%",
+          "48",
+          "72"
+        ],
+        [
+          "EBITDA",
+          "100",
+          "100"
+        ]
+      ],
+      "note": "Interest comes before tax, investment and any repayment. And if Harbour's value falls to 600 with 600 of debt, the equity is worth nothing."
+    },
+    {
+      "at": "An L-B-O, announced on Wednesday the twenty-first of October",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Recommended cash acquisition",
+      "name": "Ember / Ashtead Technology",
+      "sub": "The New York private equity firm agrees to buy the AIM-listed subsea equipment and services provider",
+      "lines": [
+        "615p a share in cash; about £505m fully diluted"
+      ],
+      "date": "Announced 21 October 2026"
+    },
+    {
+      "at": "That's eighty point nine percent over the close",
+      "type": "bars",
+      "title": "Ashtead: the premium, before the offer period",
+      "unit": "%",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "vs close of 340p on 22 September 2026",
+          "value": 80.9
+        },
+        {
+          "label": "vs three-month volume-weighted average",
+          "value": 59.3
+        }
+      ],
+      "note": "22 September was the last business day before the offer period began. It took Ember four proposals; the board rejected the first two."
+    },
+    {
+      "at": "Ashtead had net debt of one hundred and sixteen point seven million",
+      "type": "waterfall",
+      "title": "Ashtead: from equity value to enterprise value",
+      "unit": "£m",
+      "steps": [
+        {
+          "label": "Equity value at 615p, fully diluted",
+          "value": 505,
+          "kind": "total"
+        },
+        {
+          "label": "Net debt, 30 June 2026",
+          "value": 117,
+          "kind": "add"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 622,
+          "kind": "total"
+        }
+      ],
+      "note": "Our arithmetic, not a figure in the announcement: about £505m plus £116.7m of net debt, roughly £620m. Net debt is at 30 June; the offer is from October."
+    },
+    {
+      "at": "In the financing. The cash comes from two places",
+      "type": "keynumbers",
+      "title": "How Ember pays",
+      "items": [
+        {
+          "value": "Equity",
+          "label": "from Ember's funds, with a passive co-investment from CalPERS"
+        },
+        {
+          "value": "Term loan",
+          "label": "under an interim facilities agreement arranged by Santander"
+        },
+        {
+          "value": "1.4x",
+          "label": "Ashtead's leverage as a listed company, June 2026"
+        }
+      ],
+      "note": "The buyer is Pine Acquisition UK Bidco. The announcement doesn't give the size of the loan. Completion is expected late in 2026 or early in 2027."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "A fund buys Harbour for 1,000, with 600 of debt. Five years later it sells for 1,300, with 300 of debt left. What multiple of its money does the fund make?",
+        "options": [
+          {
+            "id": "a",
+            "text": "3.25x"
+          },
+          {
+            "id": "b",
+            "text": "2.5x"
+          },
+          {
+            "id": "c",
+            "text": "1.3x"
+          },
+          {
+            "id": "d",
+            "text": "1.6x"
+          }
+        ],
+        "correct": "b",
+        "explain": "1,300 − 300 of debt leaves 1,000 for the equity, on 400 put in: 2.5x. Dividing 1,300 by 400 forgets the debt; 1.3x is the business, not the equity.",
+        "explain_at": "Two and a half times its money in five years"
+      },
+      {
+        "id": "q2",
+        "q": "In a leveraged buyout, who owes the acquisition debt?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The private equity firm that runs the fund"
+          },
+          {
+            "id": "b",
+            "text": "The investors in the private equity fund"
+          },
+          {
+            "id": "c",
+            "text": "The company being bought, through its bidco"
+          },
+          {
+            "id": "d",
+            "text": "The fund and the company, jointly"
+          }
+        ],
+        "correct": "c",
+        "explain": "The bidco borrows and buys the target, so the debt sits with the company and its cash repays it. The fund can lose its equity, but the lenders can't come after it for more.",
+        "explain_at": "First trap. The fund doesn't owe it"
+      },
+      {
+        "id": "q3",
+        "q": "What do lenders most want to see in an LBO target?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Steady cash flows that can carry the debt"
+          },
+          {
+            "id": "b",
+            "text": "Fast growth, so there's plenty of upside"
+          },
+          {
+            "id": "c",
+            "text": "A high multiple that proves its quality"
+          },
+          {
+            "id": "d",
+            "text": "A share price well below its peak"
+          }
+        ],
+        "correct": "a",
+        "explain": "The debt is paid from the company's cash. Fast growth, Sofia's answer, usually eats cash, so a mature business with predictable cash flows suits lenders better.",
+        "explain_at": "Growth helps, but fast growth usually eats cash"
+      },
+      {
+        "id": "q4",
+        "q": "Why did RJR Nabisco's board choose KKR's $109 over management's $112?",
+        "options": [
+          {
+            "id": "a",
+            "text": "KKR's bid used less borrowed money"
+          },
+          {
+            "id": "b",
+            "text": "KKR's bid was worth more in cash"
+          },
+          {
+            "id": "c",
+            "text": "The board wanted management to stay"
+          },
+          {
+            "id": "d",
+            "text": "KKR's offer was more certain"
+          }
+        ],
+        "correct": "d",
+        "explain": "Management's bid had no reset on its securities, so its $112 might have been worth less. Directors were also uneasy about Johnson's golden parachute.",
+        "explain_at": "The board judged its offer more certain"
+      },
+      {
+        "id": "q5",
+        "q": "Ember pays about £505m for Ashtead's shares, and Ashtead's net debt is about £117m. Roughly what is the enterprise value?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About £390m"
+          },
+          {
+            "id": "b",
+            "text": "About £620m"
+          },
+          {
+            "id": "c",
+            "text": "About £505m"
+          },
+          {
+            "id": "d",
+            "text": "About £740m"
+          }
+        ],
+        "correct": "b",
+        "explain": "Enterprise value is equity value plus net debt: £505m + £117m ≈ £620m. Subtracting the debt gives £390m; £505m is the equity alone.",
+        "explain_at": "Add that and you get an enterprise value of roughly six hundred and twenty million"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Recommended offer for Ashtead Technology Holdings plc (Rule 2.7 announcement, 21 October 2026, Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/ashtead-technology-holdings--at./recommended-offer-for-ashtead-technology-holdings/9832840"
+    },
+    {
+      "label": "Ashtead Technology: half-year results to 30 June 2026 (FCA National Storage Mechanism)",
+      "url": "https://data.fca.org.uk/artefacts/NSM/RNS/5cc18c29-9f0a-4bd2-802a-c55f19a6c785.html"
+    },
+    {
+      "label": "Ashtead Technology agrees fourth Ember takeover proposal; shares jump (AJ Bell, 21 October 2026)",
+      "url": "https://www.ajbell.co.uk/news/articles/ashtead-technology-agrees-fourth-ember-takeover-proposal-shares-jump"
+    },
+    {
+      "label": "Firm attempts biggest corporate takeover (UPI, 24 October 1988)",
+      "url": "https://www.upi.com/Archives/1988/10/24/Firm-attempts-biggest-corporate-takeover/1735593668800/"
+    },
+    {
+      "label": "Private equity in the 1980s: RJR Nabisco (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Private_equity_in_the_1980s"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So what is a leveraged buyout?"
+  }
+}
