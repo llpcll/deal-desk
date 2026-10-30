@@ -1,0 +1,511 @@
+{
+  "visuals": [
+    {
+      "at": "Hertz, the American car rental company",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Chapter 11 reorganisation",
+      "name": "Hertz",
+      "sub": "American car rental company, its fleet financed mostly with loans secured on the cars",
+      "lines": [
+        "Total debt of about $17bn at the end of 2019",
+        "Filed for Chapter 11 on 22 May 2020"
+      ],
+      "date": "Emerged 30 June 2021"
+    },
+    {
+      "at": "The shares fell to a low of fifty-nine cents",
+      "type": "keynumbers",
+      "title": "A bankrupt company's shares",
+      "items": [
+        {
+          "value": "$0.59",
+          "label": "the low after the filing"
+        },
+        {
+          "value": "$5.50",
+          "label": "where small investors pushed them"
+        },
+        {
+          "value": "Up to $1bn",
+          "label": "new shares Hertz set out to sell in June 2020"
+        },
+        {
+          "value": "$29m",
+          "label": "sold before the SEC stopped it"
+        }
+      ]
+    },
+    {
+      "at": "the court confirmed Hertz's plan",
+      "type": "keynumbers",
+      "title": "Hertz's plan, confirmed June 2021",
+      "items": [
+        {
+          "value": "In full, in cash",
+          "label": "what every creditor was paid"
+        },
+        {
+          "value": "97%+",
+          "label": "of voting shareholders approved"
+        },
+        {
+          "value": "$1bn+",
+          "label": "value to the old shareholders"
+        },
+        {
+          "value": "$1.53",
+          "label": "cash per share, plus a small stake in the new company"
+        },
+        {
+          "value": "$2.8bn",
+          "label": "new shares from investors led by Knighthead, Certares and Apollo",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "That's a liquidity problem",
+      "type": "table",
+      "title": "Two kinds of trouble",
+      "columns": [
+        "",
+        "Liquidity problem",
+        "Solvency problem"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "The symptom",
+          "A bond is due and nobody will refinance it",
+          "Debts exceed what the business is worth"
+        ],
+        [
+          "Business value",
+          "More than the debt",
+          "Less than the debt"
+        ],
+        [
+          "The fix",
+          "Time",
+          "Someone takes a loss"
+        ]
+      ]
+    },
+    {
+      "at": "most restructurings start outside it",
+      "type": "steps",
+      "title": "From the lenders' table to the courtroom",
+      "items": [
+        {
+          "label": "Covenant waiver",
+          "detail": "Lenders let a broken loan condition pass"
+        },
+        {
+          "label": "Amend and extend",
+          "detail": "Push the maturities out"
+        },
+        {
+          "label": "Forbearance",
+          "detail": "Lenders hold off on their rights while everyone talks"
+        },
+        {
+          "label": "Debt for equity swap",
+          "detail": "Lenders swap part of their debt for shares"
+        },
+        {
+          "label": "Court",
+          "detail": "Chapter 11 in America; a scheme or restructuring plan in Britain, binding a class once 75% by value of those voting agree"
+        }
+      ]
+    },
+    {
+      "at": "Northgate makes one hundred million euros of EBITDA",
+      "type": "table",
+      "title": "Northgate (round numbers, €m)",
+      "columns": [
+        "",
+        "€m"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "EBITDA before the customer leaves",
+          "100"
+        ],
+        [
+          "EBITDA after",
+          "50"
+        ],
+        [
+          "Senior loans, secured",
+          "200"
+        ],
+        [
+          "Junior bonds",
+          "150"
+        ],
+        [
+          "Total debt",
+          "350"
+        ],
+        [
+          "Value at 6x EBITDA",
+          "300"
+        ]
+      ],
+      "highlight": 5,
+      "highlightLabel": "less than the debt",
+      "note": "Hypothetical company. The bonds fall due next year and nobody will refinance them."
+    },
+    {
+      "at": "Debt isn't one pile, it's a queue",
+      "type": "waterfall",
+      "title": "Northgate: who gets the €300m",
+      "unit": "€m",
+      "steps": [
+        {
+          "label": "Value of the business",
+          "value": 300,
+          "kind": "total"
+        },
+        {
+          "label": "Senior loans, paid in full",
+          "value": 200,
+          "kind": "sub"
+        },
+        {
+          "label": "Junior bonds, 100 of 150",
+          "value": 100,
+          "kind": "sub"
+        },
+        {
+          "label": "Left for shareholders",
+          "value": 0,
+          "kind": "total"
+        }
+      ],
+      "note": "Not an equal haircut of 300 ÷ 350 ≈ 86 cents each. Seniors first, then juniors: 100 ÷ 150 ≈ 67 cents."
+    },
+    {
+      "at": "That's the absolute priority rule",
+      "type": "bars",
+      "title": "Recovery, cents on the euro",
+      "unit": "c",
+      "items": [
+        {
+          "label": "Senior loans",
+          "value": 100
+        },
+        {
+          "label": "Junior bonds (the fulcrum)",
+          "value": 67
+        },
+        {
+          "label": "Shareholders",
+          "value": 0
+        }
+      ],
+      "note": "The juniors swap their 150 of bonds for the shares. Debt falls from 350 to 200: 4x EBITDA instead of 7x. Their equity is worth 300 − 200 = 100."
+    },
+    {
+      "at": "Because a forced sale fetches far less",
+      "type": "table",
+      "title": "Keep it alive, or sell everything?",
+      "columns": [
+        "Recovery",
+        "Restructure (300)",
+        "Liquidate (150)"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Senior loans (200)",
+          "100c",
+          "75c"
+        ],
+        [
+          "Junior bonds (150)",
+          "67c",
+          "0c"
+        ],
+        [
+          "Shareholders",
+          "0",
+          "0"
+        ]
+      ],
+      "note": "Hypothetical. In Britain, Thames Water's Class B terms would write off about £1bn of debt in exchange for shares giving a recovery of about 5.9%."
+    },
+    {
+      "at": "The arithmetic is easy. The number six isn't",
+      "type": "table",
+      "title": "The fight over the multiple",
+      "columns": [
+        "Multiple",
+        "Value (€m)",
+        "Junior recovery",
+        "Left for shareholders (€m)"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "5x",
+          "250",
+          "33c",
+          "0"
+        ],
+        [
+          "6x",
+          "300",
+          "67c",
+          "0"
+        ],
+        [
+          "8x",
+          "400",
+          "100c",
+          "50"
+        ]
+      ],
+      "highlight": 2,
+      "highlightLabel": "the Hertz outcome",
+      "note": "Northgate's EBITDA of 50, with 200 of senior loans and 150 of junior bonds. Every class argues for the value that puts the break just below itself."
+    },
+    {
+      "at": "Konecta, based in Madrid",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Forbearance agreement",
+      "name": "Konecta",
+      "sub": "Madrid-based customer service and digital outsourcing group, merged with Italy's Comdata",
+      "lines": [
+        "109,000 employees in 28 countries, about €2bn of revenue",
+        "Controlled by Intermediate Capital Group since 2019"
+      ],
+      "date": "Announced 30 October 2026"
+    },
+    {
+      "at": "a loan of nine hundred and forty-five million euros",
+      "type": "keynumbers",
+      "title": "Konecta's debt, per the Spanish press",
+      "items": [
+        {
+          "value": "€945m",
+          "label": "loan due October 2029"
+        },
+        {
+          "value": "€200m",
+          "label": "revolving credit facility due April 2029"
+        },
+        {
+          "value": "57c",
+          "label": "price of the loan in July, on the euro",
+          "approx": true
+        },
+        {
+          "value": "1.7x",
+          "label": "earnings over interest"
+        }
+      ],
+      "note": "A price, not a recovery: a buyer of distressed debt pays well below what it expects to get back."
+    },
+    {
+      "at": "On Monday the twenty-sixth of October, Konecta said",
+      "type": "steps",
+      "title": "Konecta this week",
+      "items": [
+        {
+          "label": "26 October",
+          "detail": "Constructive talks with shareholders and a majority of lenders under its main loan, to recapitalise"
+        },
+        {
+          "label": "30 October",
+          "detail": "Forbearance agreement with a majority of those lenders"
+        },
+        {
+          "label": "Next",
+          "detail": "The recapitalisation terms: not yet published"
+        }
+      ]
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Northgate is worth €300m. It owes €200m of senior loans and €150m of junior bonds. How much do the junior bonds recover?",
+        "options": [
+          {
+            "id": "a",
+            "text": "86 cents on the euro"
+          },
+          {
+            "id": "b",
+            "text": "67 cents on the euro"
+          },
+          {
+            "id": "c",
+            "text": "100 cents on the euro"
+          },
+          {
+            "id": "d",
+            "text": "33 cents on the euro"
+          }
+        ],
+        "correct": "b",
+        "explain": "The seniors take their 200 first, leaving 100 for 150 of bonds: about 67 cents. 86 cents is an equal haircut, which isn't how the queue works.",
+        "explain_at": "Debt isn't one pile, it's a queue"
+      },
+      {
+        "id": "q2",
+        "q": "In a restructuring, what is the fulcrum security?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The senior loan, secured on the assets"
+          },
+          {
+            "id": "b",
+            "text": "The class that is owed the most money"
+          },
+          {
+            "id": "c",
+            "text": "The shares held by the old owners"
+          },
+          {
+            "id": "d",
+            "text": "The class where the value runs out"
+          }
+        ],
+        "correct": "d",
+        "explain": "It's the class that is only partly covered by the value of the business. Its holders usually swap their debt for the shares and become the owners.",
+        "explain_at": "the fulcrum security"
+      },
+      {
+        "id": "q3",
+        "q": "A company is worth more than its debts, but can't refinance a bond due next month. What kind of problem is that?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A liquidity problem, fixed with time"
+          },
+          {
+            "id": "b",
+            "text": "A solvency problem: someone takes a loss"
+          },
+          {
+            "id": "c",
+            "text": "A reason to file for bankruptcy at once"
+          },
+          {
+            "id": "d",
+            "text": "A reason to sell everything and close"
+          }
+        ],
+        "correct": "a",
+        "explain": "The business is worth more than the debt, so it needs time: an asset sale, new equity, or amend and extend. Court and liquidation come much later.",
+        "explain_at": "That's a liquidity problem"
+      },
+      {
+        "id": "q4",
+        "q": "Why did Hertz's shareholders get anything out of its Chapter 11?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Small investors had bid up the shares"
+          },
+          {
+            "id": "b",
+            "text": "The court split the losses equally"
+          },
+          {
+            "id": "c",
+            "text": "The business was worth more than its debts"
+          },
+          {
+            "id": "d",
+            "text": "Shareholders rank ahead of bondholders"
+          }
+        ],
+        "correct": "c",
+        "explain": "Every creditor was paid in full in cash, and value was left over. The share price rally didn't create that value; the absolute priority rule decided who got it.",
+        "explain_at": "The business turned out to be worth more than everything it owed"
+      },
+      {
+        "id": "q5",
+        "q": "Konecta has signed a forbearance agreement with a majority of its lenders. What does that mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The lenders write off part of the loan"
+          },
+          {
+            "id": "b",
+            "text": "The lenders hold off on their rights for now"
+          },
+          {
+            "id": "c",
+            "text": "The lenders swap their loans for shares"
+          },
+          {
+            "id": "d",
+            "text": "The company files for court protection"
+          }
+        ],
+        "correct": "b",
+        "explain": "Lenders agree not to enforce their rights for a while, so talks on the capital structure can go on. Konecta hasn't published how much debt, if any, would be cut.",
+        "explain_at": "They agree not to enforce their rights for a while"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Konecta announces forbearance agreement with majority of its SFA lenders (Konecta, 30 October 2026)",
+      "url": "https://konecta.com/news-insights/press-releases/konecta-announces-forbearance-agreement-with-majority-of-its-sfa-lenders-as-it-works-to-strengthen-its-capital-structure"
+    },
+    {
+      "label": "Konecta provides update on constructive discussions with its stakeholders (Konecta, 26 October 2026)",
+      "url": "https://konecta.com/news-insights/press-releases/Konecta-provides-update-on-constructive-discussions-with-its-stakeholders-on-strengthening-its-capital-structure"
+    },
+    {
+      "label": "Hertz announces court confirmation of its plan of reorganization (Form 8-K exhibit, SEC, 10 June 2021)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1657853/000110465921081986/tm2119738d1_ex99-2.htm"
+    },
+    {
+      "label": "Hertz Global Holdings registration statement: plan terms, sponsors and debt history (Form S-1, SEC, 2021)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1657853/000110465921126784/tm2128732-1_s1.htm"
+    },
+    {
+      "label": "Konecta's debt and job cuts (Merca2, 2 July 2026, in Spanish)",
+      "url": "https://www.merca2.es/2026/07/02/despidos-call-center-ia-2409833/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So where do we start?"
+  }
+}
