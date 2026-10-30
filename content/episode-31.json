@@ -1,0 +1,514 @@
+{
+  "visuals": [
+    {
+      "at": "Smaller, but the largest in Europe at the time",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Leveraged buyout",
+      "name": "KKR and Stefano Pessina / Alliance Boots",
+      "sub": "The owner of the Boots chemists, won after a bidding contest with Terra Firma",
+      "lines": [
+        "£11.39 a share; about £11.1bn for the shares, enterprise value about £12.2bn"
+      ],
+      "date": "Final offer, 24 April 2007"
+    },
+    {
+      "at": "About fourteen times EBITDA, a high price",
+      "type": "keynumbers",
+      "title": "Alliance Boots: how it was paid for",
+      "items": [
+        {
+          "value": "£12.2bn",
+          "label": "enterprise value",
+          "approx": true
+        },
+        {
+          "value": "14x",
+          "label": "EBITDA",
+          "approx": true
+        },
+        {
+          "value": "£3.8bn",
+          "label": "equity, about £1bn of it Pessina's own money",
+          "approx": true
+        },
+        {
+          "value": "£8.2bn",
+          "label": "debt arranged by banks including Deutsche Bank and Citigroup",
+          "approx": true
+        }
+      ],
+      "note": "Senior loans, junior loans and some payment-in-kind debt that paid no cash interest."
+    },
+    {
+      "at": "In July, the banks failed to sell five billion pounds",
+      "type": "keynumbers",
+      "title": "Stuck with the loans",
+      "items": [
+        {
+          "value": "£5bn",
+          "label": "of senior loans the banks failed to sell in July 2007"
+        }
+      ],
+      "note": "The credit markets froze that summer. Boots' own financing was already in place; later it bought back some of its debt at as little as 60p in the pound."
+    },
+    {
+      "at": "Now split the six hundred",
+      "type": "table",
+      "title": "Harbour's capital structure",
+      "columns": [
+        "£m",
+        "Amount",
+        "x EBITDA",
+        "Rate",
+        "Interest a year"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Senior secured loans",
+          "400",
+          "4.0x",
+          "7%",
+          "28"
+        ],
+        [
+          "High-yield bonds (unsecured)",
+          "200",
+          "2.0x",
+          "10%",
+          "20"
+        ],
+        [
+          "Total debt",
+          "600",
+          "6.0x",
+          "",
+          "48"
+        ],
+        [
+          "Equity",
+          "400",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Price paid",
+          "1,000",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "highlight": 2,
+      "highlightLabel": "same 48 as episode 29",
+      "note": "Illustrative round numbers. EBITDA of 100; the rates are assumptions for the example."
+    },
+    {
+      "at": "First trap. The best rate for the borrower is the lowest one",
+      "type": "bars",
+      "title": "The further down, the higher the return demanded",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Senior secured loans",
+          "value": 7
+        },
+        {
+          "label": "High-yield bonds",
+          "value": 10
+        },
+        {
+          "label": "Equity (target IRR)",
+          "value": 20
+        }
+      ],
+      "note": "Illustrative. Senior lenders are paid first and hold security, so they accept the lowest rate."
+    },
+    {
+      "at": "Second trap. Losses aren't shared out evenly",
+      "type": "table",
+      "title": "Who gets what: losses hit the bottom first",
+      "columns": [
+        "£m",
+        "Owed",
+        "Worth 500",
+        "Worth 300"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Senior secured loans",
+          "400",
+          "400 (100p)",
+          "300 (75p)"
+        ],
+        [
+          "High-yield bonds",
+          "200",
+          "100 (50p)",
+          "0"
+        ],
+        [
+          "Equity",
+          "",
+          "0",
+          "0"
+        ]
+      ],
+      "highlight": 1,
+      "highlightLabel": "the fulcrum at 500",
+      "note": "Sofia's answer, everyone losing a sixth, would share the loss evenly. Claims are paid in order of priority instead."
+    },
+    {
+      "at": "So the sponsor fills the gap with layers below",
+      "type": "steps",
+      "title": "The order of payment",
+      "items": [
+        {
+          "label": "Revolving facility and senior secured loans",
+          "detail": "Paid first, secured on the assets, cheapest; usually floating rate"
+        },
+        {
+          "label": "Second lien loans",
+          "detail": "Secured, but behind the senior lenders"
+        },
+        {
+          "label": "High-yield bonds",
+          "detail": "Usually unsecured and fixed rate, with incurrence covenants"
+        },
+        {
+          "label": "Mezzanine and PIK notes",
+          "detail": "Interest often added to the debt rather than paid in cash"
+        },
+        {
+          "label": "Equity",
+          "detail": "Paid last, so it wants the highest return"
+        }
+      ]
+    },
+    {
+      "at": "Bankers describe the stack with two ratios",
+      "type": "formula",
+      "title": "Interest cover",
+      "formula": "Interest cover = EBITDA ÷ cash interest = 100 ÷ 48 ≈ 2x",
+      "note": "The other ratio is leverage, debt ÷ EBITDA: 6x for Harbour, 4x of it senior."
+    },
+    {
+      "at": "One hundred at twelve percent becomes one hundred and twelve",
+      "type": "table",
+      "title": "£100m of PIK notes at 12%, no cash interest",
+      "columns": [
+        "Year",
+        "Owed, £m"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "0",
+          "100"
+        ],
+        [
+          "1",
+          "112"
+        ],
+        [
+          "2",
+          "about 125"
+        ],
+        [
+          "5",
+          "about 176"
+        ]
+      ],
+      "highlight": 3,
+      "highlightLabel": "out of the equity at exit",
+      "note": "Interest is added to the debt each year and compounds: 100 × 1.12⁵ ≈ 176. Not free money: the most expensive debt in the structure."
+    },
+    {
+      "at": "On Wednesday the twenty-eighth of October, G-E Vernova",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Private equity exit",
+      "name": "GE Vernova / Trench Group",
+      "sub": "Berlin-based maker of high-voltage grid equipment: bushings, instrument transformers and coils",
+      "lines": [
+        "Bought from Triton for the equivalent of $9bn, about half funded with debt"
+      ],
+      "date": "Announced 28 October 2026"
+    },
+    {
+      "at": "The equivalent of nine billion dollars at closing",
+      "type": "keynumbers",
+      "title": "Trench in six numbers",
+      "items": [
+        {
+          "value": "$9bn",
+          "label": "paid at closing (equivalent)"
+        },
+        {
+          "value": "€8bn",
+          "label": "at the exchange rate GE Vernova used",
+          "approx": true
+        },
+        {
+          "value": "13x",
+          "label": "expected 2028 adjusted EBITDA, before synergies"
+        },
+        {
+          "value": "$1.9bn",
+          "label": "expected 2028 revenue"
+        },
+        {
+          "value": "36%",
+          "label": "expected 2028 adjusted EBITDA margin",
+          "approx": true
+        },
+        {
+          "value": "50 / 50",
+          "label": "cash and debt",
+          "approx": true
+        }
+      ],
+      "note": "Closing expected in late 2027, after regulatory approvals."
+    },
+    {
+      "at": "Same price, a different denominator",
+      "type": "bars",
+      "title": "One price, three multiples",
+      "unit": "x",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "On expected 2028 EBITDA (GE Vernova)",
+          "value": 13
+        },
+        {
+          "label": "On expected 2026 EBITDA (our arithmetic)",
+          "value": 19.5,
+          "approx": true
+        },
+        {
+          "label": "Börsen-Zeitung, citing people in finance",
+          "value": 21
+        }
+      ],
+      "note": "2026: about $1.4bn of revenue at a margin of about 33%, so EBITDA of about $0.46bn; $9bn ÷ $0.46bn ≈ 19.5x. Always ask which year's EBITDA."
+    },
+    {
+      "at": "But it's a corporate acquisition",
+      "type": "table",
+      "title": "Leveraged buyout or corporate acquisition?",
+      "columns": [
+        "",
+        "Harbour LBO",
+        "GE Vernova / Trench"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Debt in the deal",
+          "£600m of £1,000m",
+          "about $4.5bn of $9bn"
+        ],
+        [
+          "Who owes it",
+          "Harbour, the target",
+          "GE Vernova, the buyer"
+        ],
+        [
+          "Lent against",
+          "Harbour's EBITDA alone",
+          "a far bigger group's earnings"
+        ],
+        [
+          "Leverage",
+          "6x, in layers",
+          "below 1x, investment grade (committed)"
+        ]
+      ],
+      "note": "$4.5bn is our arithmetic: about half of the $9bn price, which GE Vernova expects to fund equally with cash and debt."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Harbour has £400m of senior loans and £200m of bonds, and the business is worth £500m. How much do the bondholders get?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About £167m"
+          },
+          {
+            "id": "b",
+            "text": "£100m"
+          },
+          {
+            "id": "c",
+            "text": "£200m"
+          },
+          {
+            "id": "d",
+            "text": "£0"
+          }
+        ],
+        "correct": "b",
+        "explain": "Losses are taken from the bottom up: the senior lenders get their £400m first, leaving £100m, or 50p in the pound, for the bonds. Sharing the loss evenly gives Sofia's £167m.",
+        "explain_at": "The bonds are owed two hundred and get the one hundred that's left"
+      },
+      {
+        "id": "q2",
+        "q": "Why do senior loans pay a lower rate than high-yield bonds?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They're paid first and secured on the assets"
+          },
+          {
+            "id": "b",
+            "text": "They're bigger, so they get a better rate"
+          },
+          {
+            "id": "c",
+            "text": "They pay a floating rate, so lenders accept less"
+          },
+          {
+            "id": "d",
+            "text": "Banks lend more cheaply than bond investors"
+          }
+        ],
+        "correct": "a",
+        "explain": "Senior lenders take the least risk: they're first in line and hold security, so they accept the lowest return. Size has nothing to do with it.",
+        "explain_at": "Senior lenders are paid first and hold security"
+      },
+      {
+        "id": "q3",
+        "q": "Harbour issues £100m of PIK notes at 12% and pays no cash interest for five years. Roughly how much does it owe at the end?",
+        "options": [
+          {
+            "id": "a",
+            "text": "£100m, as no cash interest is paid"
+          },
+          {
+            "id": "b",
+            "text": "About £160m"
+          },
+          {
+            "id": "c",
+            "text": "About £176m"
+          },
+          {
+            "id": "d",
+            "text": "About £112m"
+          }
+        ],
+        "correct": "c",
+        "explain": "The interest is added to the debt and compounds: 100 × 1.12⁵ ≈ 176. £160m is simple interest; £100m treats PIK as free money.",
+        "explain_at": "One hundred at twelve percent becomes one hundred and twelve"
+      },
+      {
+        "id": "q4",
+        "q": "GE Vernova says it's paying 13x EBITDA for Trench; the Börsen-Zeitung says 21x. Why the gap?",
+        "options": [
+          {
+            "id": "a",
+            "text": "One figure includes Trench's debt"
+          },
+          {
+            "id": "b",
+            "text": "One is in dollars, the other in euros"
+          },
+          {
+            "id": "c",
+            "text": "One includes the cost synergies"
+          },
+          {
+            "id": "d",
+            "text": "They use EBITDA from different years"
+          }
+        ],
+        "correct": "d",
+        "explain": "13x is on expected 2028 EBITDA, which hasn't been earned yet; on this year's expected EBITDA the same price is about 19.5x. Same price, a different denominator.",
+        "explain_at": "Same price, a different denominator"
+      },
+      {
+        "id": "q5",
+        "q": "GE Vernova funds about half the price of Trench with debt. Why isn't that a leveraged buyout?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It is one: half the price is borrowed"
+          },
+          {
+            "id": "b",
+            "text": "The debt sits with GE Vernova, not Trench"
+          },
+          {
+            "id": "c",
+            "text": "Half is too little debt to count as leverage"
+          },
+          {
+            "id": "d",
+            "text": "Trench was already owned by a fund"
+          }
+        ],
+        "correct": "b",
+        "explain": "The borrowing is GE Vernova's, backed by a far bigger group's earnings and kept below 1x EBITDA. An LBO loads the debt onto the target alone.",
+        "explain_at": "The debt sits with G-E Vernova, a far bigger company"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "GE Vernova to acquire Trench Group (GE Vernova press release, 28 October 2026)",
+      "url": "https://gevernova.com/news/press-releases/ge-vernova-acquire-trench-group"
+    },
+    {
+      "label": "GE Vernova Q3 2026 slides: $9B Trench buy, backlog nears $200B (Investing.com)",
+      "url": "https://www.investing.com/news/company-news/ge-vernova-q3-2026-slides-9b-trench-buy-backlog-nears-200b-93CH-4979286"
+    },
+    {
+      "label": "Triton gibt Berliner Energietechnikfirma Trench Group für 9 Mrd. Dollar ab (Börsen-Zeitung, 28 October 2026)",
+      "url": "https://www.boersen-zeitung.de/unternehmen-branchen/triton-gibt-berliner-energietechnikfirma-trench-group-fuer-9-mrd-dollar-ab"
+    },
+    {
+      "label": "Vintage private equity: KKR and Alliance Boots, a buyout through the crisis (BSIC)",
+      "url": "https://bsic.it/vintage-private-equity-kkr-alliance-boots-a-buyout-through-the-crisis/"
+    },
+    {
+      "label": "KKR debt deal fails for Alliance Boots (Calculated Risk, citing Bloomberg, 25 July 2007)",
+      "url": "https://www.calculatedriskblog.com/2007/07/kkr-debt-deal-fails-for-alliance-boots.html"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Back to Harbour, in millions of pounds"
+  }
+}

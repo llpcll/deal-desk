@@ -1,0 +1,431 @@
+{
+  "id": "episode-31",
+  "title": "The Deal Desk, episode 31: The debt structure of a buyout, or who got paid first at Alliance Boots",
+  "hook": "In twenty oh seven K-K-R bought Boots with about eight billion pounds of borrowed money, and the banks couldn't sell the loans. Then G-E Vernova buys Trench from Triton for about nine billion dollars, half of it borrowed.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-30T22:24:45",
+  "duration": 707.852,
+  "audio": "episode-31.mp3",
+  "chunks": [
+    {
+      "words": 432,
+      "seconds": 160.1,
+      "expected": 172.8,
+      "attempts": 1,
+      "coverage": 0.95,
+      "transcribed_words": 427,
+      "script_words": 436,
+      "method": "whisper",
+      "lines_matched": 12,
+      "problems": []
+    },
+    {
+      "words": 428,
+      "seconds": 171.5,
+      "expected": 171.2,
+      "attempts": 1,
+      "coverage": 0.975,
+      "transcribed_words": 438,
+      "script_words": 439,
+      "method": "whisper",
+      "lines_matched": 12,
+      "problems": []
+    },
+    {
+      "words": 472,
+      "seconds": 188.9,
+      "expected": 188.8,
+      "attempts": 1,
+      "coverage": 0.948,
+      "transcribed_words": 477,
+      "script_words": 483,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    },
+    {
+      "words": 462,
+      "seconds": 185.3,
+      "expected": 184.8,
+      "attempts": 1,
+      "coverage": 0.981,
+      "transcribed_words": 474,
+      "script_words": 475,
+      "method": "whisper",
+      "lines_matched": 13,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode thirty-one. For two episodes Harbour's fund has borrowed six hundred million pounds as if it were one loan. It isn't. Today, the debt structure of a buyout: the layers, what each one costs, and who gets paid first when things go wrong. And we start with the biggest buyout Europe had seen.",
+      "start": 0.46,
+      "end": 23.76
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Bigger than R-J-R?",
+      "start": 23.81,
+      "end": 25.11
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Smaller, but the largest in Europe at the time. On the twenty-fourth of April twenty oh seven, K-K-R and Stefano Pessina, an Italian who already owned about fifteen percent of Alliance Boots, raised their offer to eleven pounds thirty-nine pence a share. That won the owner of the Boots chemists after a bidding contest with Terra Firma. About eleven point one billion pounds for the shares, and an enterprise value of about twelve point two billion.",
+      "start": 25.16,
+      "end": 53.05
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "An Italian at the centre of it. I approve.",
+      "start": 53.1,
+      "end": 56.27
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "About fourteen times EBITDA, a high price. And here's the point for today. The equity was about three point eight billion pounds, about one billion of it Pessina's own money. Banks including Deutsche Bank and Citigroup arranged about eight point two billion pounds of debt. Senior loans, junior loans, and some debt that paid no interest in cash at all.",
+      "start": 56.32,
+      "end": 78.54
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "Debt that pays no interest? Who would lend that?",
+      "start": 78.59,
+      "end": 81.8
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "Hold that. The banks planned to keep a little of the debt and sell the rest to investors. Then came the summer of twenty oh seven, and the credit markets froze. In July, the banks failed to sell five billion pounds of the senior loans. They were stuck holding them.",
+      "start": 81.85,
+      "end": 96.33
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "So Boots went bust?",
+      "start": 96.38,
+      "end": 98.05
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "No. Boots' own financing was signed and in place. The problem was the banks'. Later, Alliance Boots bought some of its own debt back, at prices as low as sixty pence in the pound. Then Walgreens bought the company in two stages, in twenty twelve and twenty fourteen, and K-K-R came out with close to four times its money. Same company, very different outcomes, depending on where you sat in the structure.",
+      "start": 98.1,
+      "end": 124.89
+    },
+    {
+      "i": 9,
+      "speaker": "MARCO",
+      "text": "Back to Harbour, in millions of pounds. EBITDA of one hundred, a price of one thousand, four hundred of equity and six hundred of debt, six times EBITDA. Now split the six hundred. At the top, four hundred of senior secured loans, four times EBITDA. Secured means the lenders hold a charge over Harbour's assets and shares. Below them, two hundred of high-yield bonds, unsecured. Then the equity at the bottom.",
+      "start": 124.94,
+      "end": 153.56
+    },
+    {
+      "i": 10,
+      "speaker": "SOFIA",
+      "text": "Which pays more interest?",
+      "start": 153.61,
+      "end": 155.22
+    },
+    {
+      "i": 11,
+      "speaker": "MARCO",
+      "text": "Guess.",
+      "start": 155.27,
+      "end": 156.3
+    },
+    {
+      "i": 12,
+      "speaker": "SOFIA",
+      "text": "The senior loans. They're bigger and they come first, so they get the best rate.",
+      "start": 156.35,
+      "end": 160.467
+    },
+    {
+      "i": 13,
+      "speaker": "MARCO",
+      "text": "First trap. The best rate for the borrower is the lowest one. Senior lenders are paid first and hold security, so they take the least risk and accept the lowest rate. Say seven percent: twenty-eight a year. The bonds stand behind them, so they ask for more. Say ten percent: twenty a year. Forty-eight in total, the same forty-eight as episode twenty-nine. The further down the stack, the higher the return each layer demands, and the equity at the bottom wants the most: the twenty percent I-R-R from yesterday.",
+      "start": 160.987,
+      "end": 193.077
+    },
+    {
+      "i": 14,
+      "speaker": "SOFIA",
+      "text": "And senior means first to be repaid.",
+      "start": 193.127,
+      "end": 195.977
+    },
+    {
+      "i": 15,
+      "speaker": "MARCO",
+      "text": "First in line when the company is sold or fails. Harbour has a bad few years, and the business is now worth five hundred. Who gets what?",
+      "start": 196.027,
+      "end": 203.997
+    },
+    {
+      "i": 16,
+      "speaker": "SOFIA",
+      "text": "Six hundred of debt, five hundred of value. Everyone loses a sixth?",
+      "start": 204.047,
+      "end": 209.067
+    },
+    {
+      "i": 17,
+      "speaker": "MARCO",
+      "text": "Second trap. Losses aren't shared out evenly. They're taken from the bottom up. The senior lenders are owed four hundred and get four hundred, a hundred pence in the pound. The bonds are owed two hundred and get the one hundred that's left, fifty pence in the pound. The equity gets zero. If the value falls to three hundred, the senior lenders get three hundred, seventy-five pence in the pound, and the bondholders get zero. That's the priority of claims, and it's why senior debt is cheaper.",
+      "start": 209.117,
+      "end": 241.237
+    },
+    {
+      "i": 18,
+      "speaker": "SOFIA",
+      "text": "Then why not borrow all six hundred as senior debt? It's the cheapest.",
+      "start": 241.287,
+      "end": 245.297
+    },
+    {
+      "i": 19,
+      "speaker": "MARCO",
+      "text": "Because senior lenders set a limit. They lend what they're confident they'd recover. Beyond about four times, here, they'd say no, or charge like junior lenders. So the sponsor fills the gap with layers below: second lien loans, high-yield bonds, mezzanine. Each one costs more and sits further from the assets. And above everything there's usually a revolving credit facility, a company overdraft for day-to-day cash, mostly undrawn.",
+      "start": 245.347,
+      "end": 276.707
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "The layers differ in more than price. Loans usually pay a floating rate, bonds a fixed one. Loans have traditionally carried maintenance covenants, leverage tests every quarter. Bonds carry incurrence covenants, which bite only when the company acts, say by borrowing more. Boots' debt was covenant-lite: loans with bond-style protections.",
+      "start": 276.757,
+      "end": 299.547
+    },
+    {
+      "i": 21,
+      "speaker": "MARCO",
+      "text": "Bankers describe the stack with two ratios. Leverage, debt over EBITDA: six times for Harbour, four of it senior. And interest cover, EBITDA over cash interest: one hundred over forty-eight, about two times.",
+      "start": 299.597,
+      "end": 316.187
+    },
+    {
+      "i": 22,
+      "speaker": "SOFIA",
+      "text": "Now the debt that pays no interest.",
+      "start": 316.237,
+      "end": 318.397
+    },
+    {
+      "i": 23,
+      "speaker": "MARCO",
+      "text": "Payment in kind, P-I-K. Say Harbour adds one hundred of P-I-K notes at twelve percent. No cash interest. Each year the interest is added to the amount owed.",
+      "start": 318.447,
+      "end": 329.077
+    },
+    {
+      "i": 24,
+      "speaker": "SOFIA",
+      "text": "So it's free money until the exit.",
+      "start": 329.127,
+      "end": 332.322
+    },
+    {
+      "i": 25,
+      "speaker": "MARCO",
+      "text": "Third trap. It's the most expensive debt in the structure, and it compounds. One hundred at twelve percent becomes one hundred and twelve, then about one hundred and twenty-five, and after five years about one hundred and seventy-six. All of it comes out of the equity at the exit. Sponsors like it because it saves cash for the senior debt. P-I-K lenders accept it because they're paid well for waiting, and they're the last debt to be repaid.",
+      "start": 332.842,
+      "end": 359.702
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: walk me through the capital structure of a typical L-B-O.",
+      "start": 359.752,
+      "end": 365.392
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "A loan from the banks, and the rest is equity from the fund.",
+      "start": 365.442,
+      "end": 368.892
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "That's two layers out of five. Strong answer: from the top, a revolving facility, mostly undrawn. Then senior secured term loans, the biggest and cheapest piece. Then junior debt, such as second lien loans or high-yield bonds, costlier and less protected. Sometimes P-I-K notes. And at the bottom, the sponsor's equity, forty percent in Harbour's case. Then give the two ratios: leverage and interest cover.",
+      "start": 368.942,
+      "end": 399.262
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 399.312,
+      "end": 400.312
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "A company is worth less than its debt. What happens to each layer?",
+      "start": 400.362,
+      "end": 404.822
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "The banks take over, and everyone gets a share of what's left.",
+      "start": 404.872,
+      "end": 408.902
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "Close to the second trap. Strong answer: claims are paid in order of priority. Senior secured lenders first, in full if the value allows, then the junior creditors, and the equity last, usually with nothing. Then the key idea: the fulcrum. That's the most senior layer that isn't paid in full. In Harbour's case at five hundred, the bonds. In a restructuring, the fulcrum creditors usually swap their debt for the equity and become the new owners.",
+      "start": 408.952,
+      "end": 438.032
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 438.082,
+      "end": 439.882
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "A private equity exit, and a buyer that borrows a different way. On Wednesday the twenty-eighth of October, G-E Vernova, the American power equipment group, agreed to buy Trench Group from Triton, a European private equity firm. Trench is based in Berlin and makes high-voltage grid equipment: bushings, instrument transformers and coils. More than three thousand employees and eleven factories in Europe, North America and Asia.",
+      "start": 439.932,
+      "end": 467.242
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "How much?",
+      "start": 467.292,
+      "end": 468.962
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "The equivalent of nine billion dollars at closing, about eight billion euros at the exchange rate G-E Vernova used. It puts the price at thirteen times Trench's expected adjusted EBITDA for twenty twenty-eight, before synergies. That year it expects revenue of one point nine billion dollars, at a margin of about thirty-six percent.",
+      "start": 469.012,
+      "end": 491.722
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "Thirteen times. Cheaper than Boots.",
+      "start": 491.772,
+      "end": 494.792
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "Careful. That's EBITDA two years from now, which hasn't been earned yet. Trench expects revenue of about one point four billion dollars this year, at a margin of about thirty-three percent. On this year's EBITDA the price is about nineteen and a half times, my arithmetic. The Börsen-Zeitung, citing people in finance, says twenty-one. Same price, a different denominator. Whenever someone quotes a multiple, ask: on which year?",
+      "start": 494.842,
+      "end": 521.66
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "And Triton?",
+      "start": 522.81,
+      "end": 524.19
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "Triton bought Trench from Siemens Energy, a deal completed in April twenty twenty-four. The price wasn't disclosed; the Börsen-Zeitung puts it at about five hundred million euros. Since then revenue has more than doubled, to over one billion euros. The paper reports Triton multiplied its equity about twenty times, counting two dividends worth about one billion euros along the way.",
+      "start": 524.24,
+      "end": 549.35
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "Twenty times. Hilton took eleven years to triple.",
+      "start": 549.4,
+      "end": 554.06
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "And this one about three and a half, if it closes on time. An extraordinary I-R-R. The paper doesn't say how the dividends were funded. If Trench borrowed to pay them, that's a dividend recap.",
+      "start": 554.11,
+      "end": 566.25
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "And G-E Vernova pays half with debt. So it's an L-B-O too.",
+      "start": 566.3,
+      "end": 571.86
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "Fourth trap. G-E Vernova will pay about half in cash and half with debt, so roughly four and a half billion dollars of borrowing, my arithmetic. But it's a corporate acquisition. The debt sits with G-E Vernova, a far bigger company with its own earnings, not with Trench. G-E Vernova has committed to keep an investment-grade balance sheet, with debt below one times its adjusted EBITDA. An L-B-O lends against the target alone, six times in Harbour's case, in layers.",
+      "start": 571.91,
+      "end": 601.64
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "When does it close?",
+      "start": 601.69,
+      "end": 602.97
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "Late twenty twenty-seven, after regulatory approvals. G-E Vernova expects fifty to one hundred million dollars a year of cost synergies by twenty thirty.",
+      "start": 603.02,
+      "end": 611.67
+    },
+    {
+      "i": 47,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: Harbour has four hundred of senior loans and two hundred of bonds, and the business is worth five hundred. How much do the bondholders get? Question two: why do senior loans pay a lower rate than high-yield bonds? Question three: Harbour issues one hundred of P-I-K notes at twelve percent and pays no cash interest for five years. Roughly how much does it owe at the end? Question four: G-E Vernova says it's paying thirteen times EBITDA, the Börsen-Zeitung says twenty-one. Why the gap? Question five: G-E Vernova funds half the price with debt. Why isn't that an L-B-O?",
+      "start": 611.72,
+      "end": 655.62
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 655.67,
+      "end": 657.54
+    },
+    {
+      "i": 49,
+      "speaker": "MARCO",
+      "text": "Answers. One: one hundred, fifty pence in the pound. The senior lenders take their four hundred first. Two: they're paid first and secured on the assets, so they carry less risk. Three: about one hundred and seventy-six, because the interest compounds. Four: different years. Thirteen times is on twenty twenty-eight EBITDA, which hasn't been earned yet. Five: the debt sits with G-E Vernova, an investment-grade company, not with Trench.",
+      "start": 657.59,
+      "end": 687.9
+    },
+    {
+      "i": 50,
+      "speaker": "SOFIA",
+      "text": "So the order of payment sets the price of each layer, and the debt that pays no cash costs the most.",
+      "start": 687.95,
+      "end": 695.16
+    },
+    {
+      "i": 51,
+      "speaker": "MARCO",
+      "text": "Now put it all together on one sheet of paper. Tomorrow, episode thirty-two: the paper L-B-O. A pen, a few round numbers and ten minutes, and the exercise private equity interviewers love to set.",
+      "start": 695.21,
+      "end": 707.392
+    }
+  ]
+}
