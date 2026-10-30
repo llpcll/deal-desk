@@ -1,0 +1,438 @@
+{
+  "visuals": [
+    {
+      "at": "On the twenty-ninth of June twenty eighteen",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Controlling stake",
+      "name": "CVC-led consortium / Recordati",
+      "sub": "The family-built Milan drugmaker, strong in medicines for rare diseases",
+      "lines": [
+        "51.8% bought from the Recordati family's holding company at €28 a share"
+      ],
+      "date": "Announced 29 June 2018"
+    },
+    {
+      "at": "The provisional result: seventy-four point six percent",
+      "type": "keynumbers",
+      "title": "Recordati, 2018 and 2026",
+      "items": [
+        {
+          "value": "€28",
+          "label": "a share in 2018, for control: c. €5.9bn for the whole company"
+        },
+        {
+          "value": "€750m",
+          "label": "of the 2018 price paid as a deferred, subordinated debt security"
+        },
+        {
+          "value": "€51.29",
+          "label": "a share offered in May 2026 for the rest, c. €10.7bn in all"
+        },
+        {
+          "value": "€53",
+          "label": "best and final price from 6 October, plus a €0.71 dividend already paid"
+        },
+        {
+          "value": "74.6%",
+          "label": "held by CVC and GBL when acceptances closed on 23 October",
+          "approx": true
+        }
+      ],
+      "note": "CVC's holding company already owned about 47% and committed to tender it. The activist fund Palliser Capital said the price didn't reflect Recordati's value."
+    },
+    {
+      "at": "Five questions, in order",
+      "type": "steps",
+      "title": "Taking a deal apart: five questions",
+      "items": [
+        {
+          "label": "Who is buying, and why?",
+          "detail": "A company with synergies, or a fund that needs a return"
+        },
+        {
+          "label": "What's the price?",
+          "detail": "Per share, as a premium, as an enterprise value and as a multiple"
+        },
+        {
+          "label": "How is it paid for?",
+          "detail": "Cash, shares or new debt: sources and uses"
+        },
+        {
+          "label": "Does it work for the buyer?",
+          "detail": "IRR for a fund, earnings per share for a company"
+        },
+        {
+          "label": "What could stop it?",
+          "detail": "Regulators, shareholders, financing"
+        }
+      ]
+    },
+    {
+      "at": "Ten over eight, minus one",
+      "type": "formula",
+      "title": "The premium, against the undisturbed price",
+      "formula": "Premium = €10 ÷ €8 − 1 = 25%",
+      "note": "Not against €9.50, the price after the rumours. That would give about 5%, Sofia's answer."
+    },
+    {
+      "at": "Recordati's offer measures its premium against the twenty-fifth of March",
+      "type": "bars",
+      "title": "Premiums to the undisturbed price",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Harbour example: €10 offer on €8",
+          "value": 25
+        },
+        {
+          "label": "Recordati, first price (€51.29)",
+          "value": 13,
+          "approx": true
+        },
+        {
+          "label": "Recordati, €53 plus the €0.71 dividend",
+          "value": 17,
+          "approx": true
+        }
+      ],
+      "note": "Recordati's undisturbed date is 25 March 2026. The first premium is from the offer; the second is Marco's arithmetic."
+    },
+    {
+      "at": "One billion plus five hundred of net debt is one point five billion",
+      "type": "waterfall",
+      "title": "Harbour: from equity value to enterprise value",
+      "unit": "€m",
+      "steps": [
+        {
+          "label": "Equity value: 100m shares at €10",
+          "value": 1000,
+          "kind": "total"
+        },
+        {
+          "label": "Net debt",
+          "value": 500,
+          "kind": "add"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 1500,
+          "kind": "total"
+        }
+      ],
+      "note": "1,500 ÷ 150 of EBITDA = 10x. Dividing the equity value instead gives about 6.7x, a third too cheap."
+    },
+    {
+      "at": "Sources and uses, from episode thirty-two",
+      "type": "table",
+      "title": "Harbour's sources and uses",
+      "columns": [
+        "€m",
+        "Amount"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Uses: buy the shares",
+          "1,000"
+        ],
+        [
+          "Uses: repay existing debt",
+          "500"
+        ],
+        [
+          "Total uses",
+          "1,500"
+        ],
+        [
+          "Sources: new debt, 6x EBITDA of 150",
+          "900"
+        ],
+        [
+          "Sources: the fund's equity",
+          "600"
+        ]
+      ],
+      "highlight": 4,
+      "highlightLabel": "not 1,000",
+      "note": "Fees left out to keep the numbers round. Existing debt usually falls due when control changes."
+    },
+    {
+      "at": "The equity is worth one point five billion, on six hundred put in",
+      "type": "keynumbers",
+      "title": "Does it work for the fund?",
+      "items": [
+        {
+          "value": "€2bn",
+          "label": "exit value: EBITDA of 200 at 10x"
+        },
+        {
+          "value": "€500m",
+          "label": "debt left at exit"
+        },
+        {
+          "value": "€1.5bn",
+          "label": "equity at exit, on €600m put in"
+        },
+        {
+          "value": "2.5x",
+          "label": "money multiple in five years, an IRR of about 20%",
+          "approx": true
+        }
+      ],
+      "note": "Illustrative round numbers. Shortcut from episode 30: 2.5x in five years is about 20% a year."
+    },
+    {
+      "at": "Automatic delisting needs ninety percent",
+      "type": "steps",
+      "title": "Taking Recordati private: the thresholds",
+      "items": [
+        {
+          "label": "Two-thirds",
+          "detail": "The consortium's minimum, enough to carry a shareholders' meeting on a merger"
+        },
+        {
+          "label": "74.6% on 23 October",
+          "detail": "Provisional result; the offer reopens 3 to 9 November at €53"
+        },
+        {
+          "label": "Below 90%: a merger",
+          "detail": "Recordati merges into the unlisted bidder; shareholders who don't approve can withdraw for cash, est. c. €52.60"
+        },
+        {
+          "label": "90%",
+          "detail": "Automatic delisting, and the rest can be bought out"
+        }
+      ]
+    },
+    {
+      "at": "On Wednesday the twenty-eighth of October",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "GE Vernova / Trench Group",
+      "sub": "Berlin maker of high-voltage grid equipment: bushings, instrument transformers, coils",
+      "lines": [
+        "Bought from Triton, which acquired it from Siemens Energy in April 2024"
+      ],
+      "date": "Announced 28 October 2026"
+    },
+    {
+      "at": "Nine billion dollars, at one point one two dollars to the euro",
+      "type": "keynumbers",
+      "title": "Trench in six numbers",
+      "items": [
+        {
+          "value": "$9bn",
+          "label": "purchase price, at $1.12 to the euro"
+        },
+        {
+          "value": "13x",
+          "label": "2028 adjusted EBITDA, before synergies"
+        },
+        {
+          "value": "$1.9bn",
+          "label": "expected 2028 revenue, at a margin of about 36%"
+        },
+        {
+          "value": "$5bn",
+          "label": "backlog and framework agreements",
+          "approx": true
+        },
+        {
+          "value": "3,000+",
+          "label": "employees, in eleven factories"
+        },
+        {
+          "value": "50 / 50",
+          "label": "cash and debt, roughly"
+        }
+      ],
+      "note": "Revenue has doubled to more than €1bn since Trench became independent in April 2024. Closing is expected late in 2027."
+    },
+    {
+      "at": "Fifth trap: check the year",
+      "type": "bars",
+      "title": "One price, two multiples",
+      "unit": "x",
+      "items": [
+        {
+          "label": "On 2028 EBITDA (c. $680m)",
+          "value": 13,
+          "approx": true
+        },
+        {
+          "label": "On this year's EBITDA (c. $500m, assumed)",
+          "value": 18,
+          "approx": true
+        }
+      ],
+      "note": "2028: $1.9bn of revenue at about 36%. This year: ENR's c. $1.4bn of revenue at the same margin, Marco's assumption and arithmetic."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Shares traded at €8 before any rumours and closed at €9.50 yesterday. The offer is €10. What's the premium?",
+        "options": [
+          {
+            "id": "a",
+            "text": "5%"
+          },
+          {
+            "id": "b",
+            "text": "19%"
+          },
+          {
+            "id": "c",
+            "text": "25%"
+          },
+          {
+            "id": "d",
+            "text": "20%"
+          }
+        ],
+        "correct": "c",
+        "explain": "Measure against the undisturbed price: 10 ÷ 8 − 1 = 25%. Against €9.50, already lifted by the rumours, you'd get about 5%.",
+        "explain_at": "Measure against the undisturbed price"
+      },
+      {
+        "id": "q2",
+        "q": "An offer values the equity at €1bn. Net debt is €500m and EBITDA is €150m. What multiple of EBITDA is the buyer paying?",
+        "options": [
+          {
+            "id": "a",
+            "text": "6.7x"
+          },
+          {
+            "id": "b",
+            "text": "10x"
+          },
+          {
+            "id": "c",
+            "text": "3.3x"
+          },
+          {
+            "id": "d",
+            "text": "13x"
+          }
+        ],
+        "correct": "b",
+        "explain": "EBITDA belongs to lenders and shareholders, so divide enterprise value: 1,000 + 500 = 1,500, over 150 is 10x. Dividing equity value gives 6.7x.",
+        "explain_at": "One billion is the equity value"
+      },
+      {
+        "id": "q3",
+        "q": "A fund pays €1bn for the shares, repays €500m of existing debt and borrows €900m. How much equity does it put in?",
+        "options": [
+          {
+            "id": "a",
+            "text": "€1bn"
+          },
+          {
+            "id": "b",
+            "text": "€1.5bn"
+          },
+          {
+            "id": "c",
+            "text": "€500m"
+          },
+          {
+            "id": "d",
+            "text": "€600m"
+          }
+        ],
+        "correct": "d",
+        "explain": "Uses are €1.5bn: the shares plus the debt repaid. Take off €900m of new debt and the equity is €600m.",
+        "explain_at": "Six hundred, not one billion"
+      },
+      {
+        "id": "q4",
+        "q": "A bidder ends its offer with 75% of an Italian listed company. How does it usually take the company private?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A merger into the unlisted bidder"
+          },
+          {
+            "id": "b",
+            "text": "They delist it at seventy-five percent"
+          },
+          {
+            "id": "c",
+            "text": "A decision by the target's board"
+          },
+          {
+            "id": "d",
+            "text": "A request to Consob to suspend it"
+          }
+        ],
+        "correct": "a",
+        "explain": "Automatic delisting needs 90%. Below that, the target merges into the unlisted bidder by a shareholder vote, and those who don't approve can withdraw for cash.",
+        "explain_at": "the route is a merger of Recordati into the unlisted bidder"
+      },
+      {
+        "id": "q5",
+        "q": "GE Vernova pays 13x EBITDA for Trench. Why does that make the price look lower than it is?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It includes the expected synergies"
+          },
+          {
+            "id": "b",
+            "text": "It's based on equity value, not EV"
+          },
+          {
+            "id": "c",
+            "text": "It's on EBITDA two years ahead"
+          },
+          {
+            "id": "d",
+            "text": "It's on revenue, not on EBITDA"
+          }
+        ],
+        "correct": "c",
+        "explain": "The 13x is on expected 2028 EBITDA, before synergies. On this year's numbers, with Marco's margin assumption, it's about 18x.",
+        "explain_at": "The thirteen times is on EBITDA for twenty twenty-eight"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "GE Vernova to acquire Trench Group (GE Vernova press release, 28 October 2026)",
+      "url": "https://www.gevernova.com/news/press-releases/ge-vernova-acquire-trench-group"
+    },
+    {
+      "label": "CVC Fund VII acquires controlling stake in Recordati S.p.A. (CVC press release, 29 June 2018)",
+      "url": "https://cvc.com/media/news/2018/2018-06-29-cvc-fund-vii-acquires-controlling-stake-in-recordati-spa"
+    },
+    {
+      "label": "CVC and GBL launch €10.7bn bid to take Recordati private (press release, The Globe and Mail, May 2026)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/RCDTF/pressreleases/2097872/cvc-and-gbl-launch-eur10-7bn-bid-to-take-recordati-private/"
+    },
+    {
+      "label": "CVC and GBL raise their bid for Recordati to 53 euros per share (Il Sole 24 Ore, 6 October 2026)",
+      "url": "https://en.ilsole24ore.com/art/cvc-and-gbl-raise-their-bid-for-recordati-to-53-euros-per-share-AJbA2caB"
+    },
+    {
+      "label": "Recordati si allinea a 53 euro mentre l'attenzione si sposta sull'iter per il delisting (Teleborsa, 26 October 2026)",
+      "url": "https://www.teleborsa.it/News/2026/10/26/recordati-si-allinea-a-53-euro-mentre-l-attenzione-si-sposta-sull-iter-per-il-delisting-55.html"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Five questions, in order"
+  }
+}

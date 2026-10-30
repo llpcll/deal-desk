@@ -1,0 +1,431 @@
+{
+  "id": "episode-34",
+  "title": "The Deal Desk, episode 34: An Italian deal taken apart, or why C-V-C came back for the rest of Recordati",
+  "hook": "In twenty eighteen a buyout firm took control of a Milan drugmaker at twenty-eight euros a share, and this year it came back for the rest at fifty-three. Then G-E Vernova pays nine billion dollars for Trench, a Berlin grid supplier owned by a private equity firm.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-30T23:04:30",
+  "duration": 719.09,
+  "audio": "episode-34.mp3",
+  "chunks": [
+    {
+      "words": 448,
+      "seconds": 182.8,
+      "expected": 179.2,
+      "attempts": 1,
+      "coverage": 0.964,
+      "transcribed_words": 461,
+      "script_words": 466,
+      "method": "whisper",
+      "lines_matched": 13,
+      "problems": []
+    },
+    {
+      "words": 468,
+      "seconds": 191.8,
+      "expected": 187.2,
+      "attempts": 1,
+      "coverage": 0.971,
+      "transcribed_words": 474,
+      "script_words": 477,
+      "method": "whisper",
+      "lines_matched": 16,
+      "problems": []
+    },
+    {
+      "words": 430,
+      "seconds": 167.5,
+      "expected": 172.0,
+      "attempts": 1,
+      "coverage": 0.968,
+      "transcribed_words": 434,
+      "script_words": 439,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    },
+    {
+      "words": 417,
+      "seconds": 175.0,
+      "expected": 166.8,
+      "attempts": 1,
+      "coverage": 0.962,
+      "transcribed_words": 416,
+      "script_words": 424,
+      "method": "whisper",
+      "lines_matched": 9,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode thirty-four. Today we take an Italian deal apart with everything we've covered so far, then run the same method on the biggest European deal of the week. We start in Milan.",
+      "start": 0.46,
+      "end": 14.32
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Finally, home ground. Which deal?",
+      "start": 14.37,
+      "end": 16.93
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Recordati, the family-built Milan drugmaker, strong in medicines for rare diseases. On the twenty-ninth of June twenty eighteen, a consortium led by C-V-C, the buyout firm, agreed to buy the family's holding company, which owned fifty-one point eight percent of Recordati. Twenty-eight euros a share. That valued the whole company at about five point nine billion euros, and the stake at about three billion.",
+      "start": 16.98,
+      "end": 42.69
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "Fifty-one percent. So C-V-C bought control, not the whole company.",
+      "start": 42.74,
+      "end": 48.11
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "Control, and the listing stayed. Italian rules required an offer to the other shareholders at the same twenty-eight euros, but the consortium said it expected Recordati to remain listed. And look at how the family was paid. Seven hundred and fifty million euros of the price came as a deferred, subordinated debt security.",
+      "start": 48.16,
+      "end": 69.33
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "So the family lent part of the price back. A vendor loan, like episode thirty-one.",
+      "start": 69.38,
+      "end": 74.0
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "Exactly that. Now jump to May this year. C-V-C and G-B-L, the Belgian investment company Groupe Bruxelles Lambert, offered to buy all of Recordati and take it off the Milan stock exchange. Fifty-one euros twenty-nine a share, valuing the company at about ten point seven billion euros. C-V-C's holding company already owned about forty-seven percent, and committed to tender it.",
+      "start": 74.05,
+      "end": 100.66
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "Twenty-eight euros to fifty-one. Almost double.",
+      "start": 100.71,
+      "end": 104.91
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "And an activist fund, Palliser Capital, said the price didn't reflect Recordati's value. On the sixth of October the consortium raised it to fifty-three euros, on top of a dividend of seventy-one cents already paid, and called it best and final. The acceptance period closed a week ago today, on Friday the twenty-third of October. The provisional result: seventy-four point six percent.",
+      "start": 104.96,
+      "end": 130.71
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "Seventy-five percent. So they've won.",
+      "start": 130.76,
+      "end": 133.27
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "Hold that thought. First, a method for taking any deal apart. Five questions, in order. One: who is buying, and why? Two: what's the price, as a premium, an enterprise value and a multiple? Three: how is it paid for? Four: does it work for the buyer? Five: what could stop it?",
+      "start": 133.32,
+      "end": 153.73
+    },
+    {
+      "i": 11,
+      "speaker": "MARCO",
+      "text": "Let's run them on round numbers. Harbour again, but this time listed in Milan. One hundred million shares, trading at eight euros before any talk of a bid. Net debt of five hundred million euros, EBITDA of one hundred and fifty million. A fund offers ten euros a share.",
+      "start": 153.78,
+      "end": 171.44
+    },
+    {
+      "i": 12,
+      "speaker": "SOFIA",
+      "text": "Question one: a fund, so it wants a return, not synergies. Question two: the shares jumped to nine fifty yesterday on the rumours, so the premium is about five percent.",
+      "start": 171.49,
+      "end": 183.129
+    },
+    {
+      "i": 13,
+      "speaker": "MARCO",
+      "text": "First trap, from episode twelve. Measure against the undisturbed price, from before the rumours moved the shares. Ten over eight, minus one: twenty-five percent. Recordati's offer measures its premium against the twenty-fifth of March, its undisturbed date. About thirteen percent at the first price, and about seventeen with the raise and the dividend, my arithmetic.",
+      "start": 183.649,
+      "end": 208.639
+    },
+    {
+      "i": 14,
+      "speaker": "SOFIA",
+      "text": "Seventeen percent sounds low for a takeover.",
+      "start": 208.689,
+      "end": 211.609
+    },
+    {
+      "i": 15,
+      "speaker": "MARCO",
+      "text": "It is low for a takeover, which helps explain the activist. Now the rest of question two.",
+      "start": 211.659,
+      "end": 217.989
+    },
+    {
+      "i": 16,
+      "speaker": "SOFIA",
+      "text": "Ten euros times one hundred million shares: a one billion euro deal. One billion over one hundred and fifty of EBITDA, about six point seven times.",
+      "start": 218.038,
+      "end": 228.199
+    },
+    {
+      "i": 17,
+      "speaker": "MARCO",
+      "text": "Second trap. One billion is the equity value. EBITDA belongs to everyone who funds the business, lenders included, so divide the enterprise value. One billion plus five hundred of net debt is one point five billion: ten times EBITDA. Mix the two and the deal looks a third cheaper than it is.",
+      "start": 228.249,
+      "end": 249.399
+    },
+    {
+      "i": 18,
+      "speaker": "SOFIA",
+      "text": "Question three. So the fund needs one billion of equity to buy the shares.",
+      "start": 249.449,
+      "end": 253.949
+    },
+    {
+      "i": 19,
+      "speaker": "MARCO",
+      "text": "Third trap. Sources and uses, from episode thirty-two. Uses: one billion for the shares, plus five hundred to repay Harbour's existing debt, which usually falls due when control changes. One point five billion in all. Sources: say six times EBITDA of new debt, so nine hundred, and the rest is equity. Six hundred, not one billion.",
+      "start": 253.999,
+      "end": 277.589
+    },
+    {
+      "i": 20,
+      "speaker": "SOFIA",
+      "text": "Question four. Does it work?",
+      "start": 277.639,
+      "end": 279.779
+    },
+    {
+      "i": 21,
+      "speaker": "MARCO",
+      "text": "For a fund, that means the I-R-R. Say EBITDA grows to two hundred in five years, and the fund sells at ten times again: two billion. The cash flow has paid the debt down to five hundred. The equity is worth one point five billion, on six hundred put in.",
+      "start": 279.829,
+      "end": 299.369
+    },
+    {
+      "i": 22,
+      "speaker": "SOFIA",
+      "text": "Two and a half times in five years. About twenty percent, episode thirty.",
+      "start": 299.418,
+      "end": 303.978
+    },
+    {
+      "i": 23,
+      "speaker": "MARCO",
+      "text": "Right. For a company buying, you'd ask instead whether earnings per share go up, episode twenty-four. Question five: what could stop it?",
+      "start": 304.029,
+      "end": 314.459
+    },
+    {
+      "i": 24,
+      "speaker": "SOFIA",
+      "text": "The competition authorities.",
+      "start": 314.509,
+      "end": 316.219
+    },
+    {
+      "i": 25,
+      "speaker": "MARCO",
+      "text": "Often, for a company buyer. For a fund buying a listed company, the usual obstacle is the shareholders, and that's where Recordati is now. The consortium's minimum was two-thirds of the votes, enough to carry a shareholders' meeting on a merger. Automatic delisting needs ninety percent.",
+      "start": 316.269,
+      "end": 335.198
+    },
+    {
+      "i": 26,
+      "speaker": "SOFIA",
+      "text": "But at seventy-five percent they own most of it. They can delist it now.",
+      "start": 335.249,
+      "end": 339.379
+    },
+    {
+      "i": 27,
+      "speaker": "MARCO",
+      "text": "Fourth trap. Not automatically. First the offer reopens, from the third to the ninth of November, at fifty-three euros. Below ninety, the route is a merger of Recordati into the unlisted bidder, voted at a shareholders' meeting. Shareholders who don't approve it can withdraw for cash at a value set by a formula, which the Italian news service Teleborsa estimates at about fifty-two euros sixty. So the holdouts choose: fifty-three euros now, or possibly less later.",
+      "start": 339.428,
+      "end": 371.409
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: tell me about a deal you've followed.",
+      "start": 371.459,
+      "end": 375.352
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "Recordati. C-V-C and G-B-L offered fifty-three euros a share for the Italian drugmaker, it's worth about ten point seven billion euros, and they got seventy-five percent. I think it's a good deal.",
+      "start": 375.872,
+      "end": 388.592
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "Accurate, but it's a headline, and the ten point seven billion was at the first price. Strong answer: the five questions, in two minutes. The fund that has controlled Recordati since twenty eighteen, with a partner, buying out the minority to take it private. Fifty-three euros in cash, about seventeen percent over the undisturbed price, low for a takeover, so an activist objected. And the obstacle: ninety percent for automatic delisting. Then your view, with one reason. Episode thirty-six does this properly.",
+      "start": 388.642,
+      "end": 420.632
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 420.682,
+      "end": 421.642
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "Why would a fund that already controls a listed company pay a premium to buy out the minority?",
+      "start": 421.692,
+      "end": 428.682
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "To save the cost of being listed.",
+      "start": 428.732,
+      "end": 430.972
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "A small part. Strong answer: full ownership changes what the fund can do. All the cash flow is its own, not shared with minorities through dividends. It can put debt on the whole company, or merge it with its holding companies, without minority shareholders to protect. It can take long-term decisions without the share price judging every quarter. Then the costs: the premium, and holdouts who can delay the final step.",
+      "start": 431.022,
+      "end": 457.392
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 457.442,
+      "end": 458.782
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "The same five questions on the biggest European deal of the week, and a buyout exit. On Wednesday the twenty-eighth of October, G-E Vernova, the American power equipment group spun out of General Electric, agreed to buy Trench Group from Triton, a European private equity firm.",
+      "start": 458.832,
+      "end": 475.802
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "What does Trench make?",
+      "start": 475.852,
+      "end": 477.062
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "High-voltage grid equipment, from Berlin: bushings, instrument transformers, coils. More than three thousand employees and eleven factories, selling to utilities and the big data centre operators. Question one, who and why. G-E Vernova already buys from Trench, so it's buying a supplier. Its chief executive, Scott Strazik, quoted by the trade magazine E-N-R, says it gives the company a lot more control over the critical technology in its supply chain.",
+      "start": 477.112,
+      "end": 505.442
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "And Triton?",
+      "start": 505.492,
+      "end": 506.602
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "Triton bought Trench from Siemens Energy, and the deal closed in April twenty twenty-four, at a price nobody disclosed. Since then, G-E Vernova says, Trench has doubled its annual revenue to more than one billion euros. So we can't work out Triton's return, but it's selling a business that has grown fast to a buyer that values the supply chain, as in episode thirty-two.",
+      "start": 506.652,
+      "end": 530.652
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "Question two. How much?",
+      "start": 530.702,
+      "end": 533.452
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "Nine billion dollars, at one point one two dollars to the euro, so the dollar figure can move. That's thirteen times adjusted EBITDA, before synergies.",
+      "start": 533.502,
+      "end": 543.278
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "Thirteen times. Harbour was ten, so that's not much more for a business doubling its revenue.",
+      "start": 543.918,
+      "end": 550.338
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "Fifth trap: check the year. The thirteen times is on EBITDA for twenty twenty-eight, two years out. G-E Vernova expects revenue of one point nine billion dollars that year, at a margin of about thirty-six percent. That's about six hundred and eighty million of EBITDA, and nine billion over that is thirteen. E-N-R puts this year's revenue at about one point four billion dollars. At the same margin, which is an assumption, that's about five hundred million of EBITDA, and the price is about eighteen times. My arithmetic. A forward multiple makes a growth story look cheaper.",
+      "start": 550.388,
+      "end": 585.758
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "Question three. How is it paid?",
+      "start": 585.808,
+      "end": 588.298
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "About half cash and half debt. Question four: G-E Vernova says Trench will lift its own margins, and points to about five billion dollars of backlog and framework agreements, some running into the next decade. It hasn't put a number on synergies. Question five: closing is expected late in twenty twenty-seven, after regulatory approvals and consultation with employee representatives.",
+      "start": 588.348,
+      "end": 615.748
+    },
+    {
+      "i": 47,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: shares traded at eight euros before the rumours, nine fifty yesterday, and the offer is ten. What's the premium? Question two: equity value one billion, net debt five hundred, EBITDA one hundred and fifty. What multiple is the buyer paying? Question three: the fund pays one billion for the shares, repays five hundred of debt and borrows nine hundred. How much equity does it put in? Question four: a bidder ends its offer with seventy-five percent of an Italian listed company. How does it usually take it private? Question five: why does G-E Vernova's thirteen times make the price look lower than it is?",
+      "start": 615.798,
+      "end": 659.518
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 659.568,
+      "end": 663.028
+    },
+    {
+      "i": 49,
+      "speaker": "MARCO",
+      "text": "Answers. One: twenty-five percent, against the undisturbed eight, not the nine fifty. Two: ten times. Enterprise value of one point five billion over EBITDA, not the equity value. Three: six hundred. One point five billion of uses, minus nine hundred of debt. Four: a merger into the unlisted bidder, voted at a shareholders' meeting, unless it reaches ninety percent. Five: it's on EBITDA for twenty twenty-eight, two years ahead. On this year's numbers, with my assumption, about eighteen times.",
+      "start": 663.078,
+      "end": 700.658
+    },
+    {
+      "i": 50,
+      "speaker": "SOFIA",
+      "text": "So five questions: who and why, the price, the payment, whether it works, and what could stop it.",
+      "start": 700.708,
+      "end": 708.188
+    },
+    {
+      "i": 51,
+      "speaker": "MARCO",
+      "text": "Then it's time for a test. Tomorrow, episode thirty-five: the week five review. Buyouts and private equity, tested the way an interviewer would.",
+      "start": 708.238,
+      "end": 718.63
+    }
+  ]
+}
