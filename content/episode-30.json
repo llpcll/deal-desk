@@ -1,0 +1,527 @@
+{
+  "visuals": [
+    {
+      "at": "Hilton. On the third of July twenty oh seven",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Leveraged buyout",
+      "name": "Blackstone / Hilton Hotels",
+      "sub": "An all-cash buyout of the hotel group, months before the financial crisis",
+      "lines": [
+        "$47.50 a share, 32% above that day's close; about $26bn including debt"
+      ],
+      "date": "Agreed 3 July 2007"
+    },
+    {
+      "at": "Hilton went public again on the twelfth of December",
+      "type": "table",
+      "title": "Hilton: eleven years in and out",
+      "columns": [
+        "Year",
+        "What happened"
+      ],
+      "align": [
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "2007",
+          "Buyout agreed, about $26bn including debt"
+        ],
+        [
+          "2010",
+          "Debt restructured: $800m of new equity, debt cut to $16bn"
+        ],
+        [
+          "2013",
+          "Back on the stock market, raising about $2.35bn"
+        ],
+        [
+          "2016",
+          "A quarter of the company sold to HNA Group for $6.5bn"
+        ],
+        [
+          "2018",
+          "Last block sold for about $1.3bn"
+        ]
+      ],
+      "note": "Blackstone sold in stages from 2014. Result: about $14bn of profit, more than three times its money."
+    },
+    {
+      "at": "The multiple of money, M-O-I-C, says how much",
+      "type": "formula",
+      "title": "The money multiple",
+      "formula": "MOIC = total cash returned ÷ total cash invested",
+      "note": "How much came back for every pound put in. It says nothing about how long that took: that's the IRR."
+    },
+    {
+      "at": "Check it: four hundred, then four hundred and eighty",
+      "type": "table",
+      "title": "Harbour: 400 compounding at 20% a year",
+      "columns": [
+        "Year",
+        "£m"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "0",
+          "400"
+        ],
+        [
+          "1",
+          "480"
+        ],
+        [
+          "2",
+          "576"
+        ],
+        [
+          "3",
+          "about 690"
+        ],
+        [
+          "4",
+          "about 830"
+        ],
+        [
+          "5",
+          "about 995"
+        ]
+      ],
+      "highlight": 5,
+      "highlightLabel": "≈ 1,000: 2.5x",
+      "note": "Sofia's 30% a year (150% ÷ 5) ignores compounding: at 30%, 400 becomes nearly 1,500."
+    },
+    {
+      "at": "The full definition: the discount rate",
+      "type": "formula",
+      "title": "The internal rate of return",
+      "formula": "0 = Σ cash flowₜ ÷ (1 + IRR)ᵗ",
+      "note": "The discount rate at which the net present value of all the fund's cash flows, in and out, is zero. With one cheque in and one out: IRR = MOIC^(1 ÷ years) − 1."
+    },
+    {
+      "at": "About thirty-six percent a year. Over five years",
+      "type": "bars",
+      "title": "Same 2.5x, different holds: IRR",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Over 3 years",
+          "value": 36,
+          "approx": true
+        },
+        {
+          "label": "Over 5 years",
+          "value": 20,
+          "approx": true
+        },
+        {
+          "label": "Over 7 years",
+          "value": 14,
+          "approx": true
+        }
+      ],
+      "note": "Same multiple, same £600m of profit on £400m. The IRR falls by more than half."
+    },
+    {
+      "at": "Suppose all the money had come back in one go",
+      "type": "bars",
+      "title": "Three times the money: IRR by holding period",
+      "unit": "%",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "3x over 11 years, all back at the end",
+          "value": 10.5,
+          "approx": true
+        },
+        {
+          "label": "3x over 5 years",
+          "value": 25,
+          "approx": true
+        }
+      ],
+      "note": "A simplification of Hilton: in fact Blackstone's money came back in stages from 2014, so its real IRR was higher than the first bar."
+    },
+    {
+      "at": "It made fifty. Harbour made six hundred",
+      "type": "table",
+      "title": "A quick flip against Harbour",
+      "columns": [
+        "£m",
+        "Quick flip",
+        "Harbour"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Put in",
+          "100",
+          "400"
+        ],
+        [
+          "Taken out",
+          "150",
+          "1,000"
+        ],
+        [
+          "Holding period",
+          "1 year",
+          "5 years"
+        ],
+        [
+          "Profit",
+          "50",
+          "600"
+        ],
+        [
+          "Multiple",
+          "1.5x",
+          "2.5x"
+        ],
+        [
+          "IRR",
+          "50%",
+          "about 20%"
+        ]
+      ],
+      "note": "A short hold flatters the IRR; a long hold flatters the multiple. Investors look at both."
+    },
+    {
+      "at": "Third trap. The new debt comes off the exit price",
+      "type": "table",
+      "title": "A dividend recap: same multiple, higher IRR",
+      "columns": [
+        "£m",
+        "No recap",
+        "Dividend recap"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Cash in, year 0",
+          "400",
+          "400"
+        ],
+        [
+          "Cash back, year 2",
+          "0",
+          "200"
+        ],
+        [
+          "Cash back, year 5",
+          "1,000",
+          "800"
+        ],
+        [
+          "Total cash back",
+          "1,000",
+          "1,000"
+        ],
+        [
+          "Multiple",
+          "2.5x",
+          "2.5x"
+        ],
+        [
+          "IRR",
+          "about 20%",
+          "just over 24%"
+        ]
+      ],
+      "highlight": 5,
+      "highlightLabel": "early cash",
+      "note": "The £200m dividend is borrowed by Harbour, so it comes off the exit. Extra interest ignored to keep it simple."
+    },
+    {
+      "at": "Double your money in three years",
+      "type": "table",
+      "title": "IRR shortcuts to learn",
+      "columns": [
+        "Multiple",
+        "In 3 years",
+        "In 5 years"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "2x",
+          "about 26%",
+          "about 15%"
+        ],
+        [
+          "2.5x",
+          "about 36%",
+          "about 20%"
+        ],
+        [
+          "3x",
+          "about 44%",
+          "about 25%"
+        ]
+      ],
+      "note": "Rule of 72: 72 ÷ the annual rate ≈ the years it takes to double."
+    },
+    {
+      "at": "On Friday the thirtieth of October it became a firm offer",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Recommended cash acquisition",
+      "name": "Leita Mobility / Mobico",
+      "sub": "The owner of National Express agrees to be bought by a vehicle of Autobuses de León, owned by the Cosmen family's CMC and Asterion's third infrastructure fund",
+      "lines": [
+        "46p a share in cash; about £308m fully diluted, enterprise value about £2.3bn"
+      ],
+      "date": "Firm offer, 30 October 2026"
+    },
+    {
+      "at": "Fifty-five point one, over twenty-nine point seven pence",
+      "type": "bars",
+      "title": "Mobico: one offer, two premiums",
+      "unit": "%",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "vs 29.7p close, 20 October 2026",
+          "value": 55.1
+        },
+        {
+          "label": "vs 23.8p close, 3 August 2026",
+          "value": 93.3
+        }
+      ],
+      "note": "20 October was the last business day before the offer period; 3 August, the day before the first proposal, at 38p."
+    },
+    {
+      "at": "The announcement puts the enterprise value at about two point three billion",
+      "type": "waterfall",
+      "title": "Mobico: from equity value to enterprise value",
+      "unit": "£m",
+      "steps": [
+        {
+          "label": "Equity value at 46p, fully diluted",
+          "value": 308,
+          "kind": "total"
+        },
+        {
+          "label": "Adjusted net debt",
+          "value": 1134,
+          "kind": "add"
+        },
+        {
+          "label": "Hybrid bond",
+          "value": 500,
+          "kind": "add"
+        },
+        {
+          "label": "Provisions",
+          "value": 285,
+          "kind": "add"
+        },
+        {
+          "label": "Other items",
+          "value": 96,
+          "kind": "add"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 2323,
+          "kind": "total"
+        }
+      ],
+      "note": "Enterprise value of about £2.3bn (£2,323m in the announcement), about 11.7x adjusted EBIT of £198m. 'Other items', mainly non-controlling interests, is the remainder of the announcement's bridge."
+    },
+    {
+      "at": "Ten percent of two point three billion is about two hundred and thirty million",
+      "type": "keynumbers",
+      "title": "Leverage and returns",
+      "items": [
+        {
+          "value": "75%",
+          "label": "rise in Mobico's equity value if its enterprise value rises 10% and the debt doesn't change",
+          "approx": true
+        }
+      ],
+      "note": "Our arithmetic, not the announcement's: about £230m of extra value, all of it for £308m of equity. A 10% fall would take about three quarters of the equity."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "A fund puts in 400 and takes out 1,000 five years later. Roughly what is the IRR?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 30%"
+          },
+          {
+            "id": "b",
+            "text": "About 25%"
+          },
+          {
+            "id": "c",
+            "text": "About 20%"
+          },
+          {
+            "id": "d",
+            "text": "About 15%"
+          }
+        ],
+        "correct": "c",
+        "explain": "400 compounding at 20% a year reaches about 1,000 in five years. Dividing the 150% gain by five gives 30%, which forgets compounding.",
+        "explain_at": "The I-R-R is the yearly rate that turns four hundred into one thousand"
+      },
+      {
+        "id": "q2",
+        "q": "A fund doubles its money in five years. Roughly what is the IRR?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 15%"
+          },
+          {
+            "id": "b",
+            "text": "About 20%"
+          },
+          {
+            "id": "c",
+            "text": "About 26%"
+          },
+          {
+            "id": "d",
+            "text": "About 10%"
+          }
+        ],
+        "correct": "a",
+        "explain": "1.15 compounded for five years is about 2. Sofia's 20% (100% ÷ 5) would compound to about 2.5x; 26% is doubling in three years.",
+        "explain_at": "Strong answer: about fifteen percent"
+      },
+      {
+        "id": "q3",
+        "q": "Two years in, Harbour pays the fund a dividend funded with new debt, and the total cash back is unchanged. What happens?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The extra dividend lifts the multiple and the IRR"
+          },
+          {
+            "id": "b",
+            "text": "The multiple rises; the IRR is unchanged"
+          },
+          {
+            "id": "c",
+            "text": "Both stay where they were"
+          },
+          {
+            "id": "d",
+            "text": "The IRR rises; the multiple is unchanged"
+          }
+        ],
+        "correct": "d",
+        "explain": "The new debt comes off the exit, so total cash, and the multiple, stay the same. Cash arriving three years earlier lifts the IRR, from about 20% to just over 24%.",
+        "explain_at": "Early cash lifts the I-R-R and leaves the multiple where it was"
+      },
+      {
+        "id": "q4",
+        "q": "Blackstone more than tripled its money on Hilton. Why is its IRR well below what 3x in five years would give?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The profit was small for a deal that size"
+          },
+          {
+            "id": "b",
+            "text": "The money was at work for about eleven years"
+          },
+          {
+            "id": "c",
+            "text": "The debt restructuring cut most of the gain"
+          },
+          {
+            "id": "d",
+            "text": "A multiple above three overstates the profit"
+          }
+        ],
+        "correct": "b",
+        "explain": "The same multiple spread over more years means a lower annual return: 3x over 11 years is about 10.5% a year if all paid at the end, against about 25% over five.",
+        "explain_at": "Suppose all the money had come back in one go"
+      },
+      {
+        "id": "q5",
+        "q": "Mobico's equity is worth about £308m and its enterprise value about £2.3bn. If the enterprise value rises 10% and the debt doesn't change, roughly how much does the equity rise?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 10%"
+          },
+          {
+            "id": "b",
+            "text": "About 40%"
+          },
+          {
+            "id": "c",
+            "text": "About 75%"
+          },
+          {
+            "id": "d",
+            "text": "About 7.5%"
+          }
+        ],
+        "correct": "c",
+        "explain": "10% of £2.3bn is about £230m, and all of it goes to £308m of equity: a rise of about 75%. Sofia's 10% forgets the debt in between.",
+        "explain_at": "On three hundred and eight million of equity, that's a rise of about seventy-five percent"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Recommended cash acquisition for Mobico Group plc by Leita Mobility (Rule 2.7 announcement, Investegate)",
+      "url": "https://www.investegate.co.uk/announcement/rns/mobico-group--mcg/recommended-cash-acquisition-for-mobico-group-plc/9849217"
+    },
+    {
+      "label": "Mobico shares jump 11% after accepting £308 million takeover bid from Leita (Investing.com, 30 October 2026)",
+      "url": "https://uk.investing.com/news/stock-market-news/mobico-shares-jump-11-after-accepting-308-million-takeover-bid-from-leita-93CH-4944483"
+    },
+    {
+      "label": "Hilton Worldwide: the 2007 Blackstone buyout, 2010 restructuring and 2013 IPO (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Hilton_Worldwide"
+    },
+    {
+      "label": "Hilton divestment vindicates Blackstone's patience (Commercial Search, 2018)",
+      "url": "https://www.commercialsearch.com/news/hilton-divestment-vindicates-blackstones-patience"
+    },
+    {
+      "label": "After 11 years, Blackstone checks out of Hilton with huge profits (TTG Asia, 23 May 2018)",
+      "url": "https://www.ttgasia.com/2018/05/23/after-11-years-blackstone-checks-out-of-hilton-with-huge-profits/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Back to Harbour, in millions of pounds"
+  }
+}
