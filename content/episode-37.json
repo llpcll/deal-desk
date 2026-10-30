@@ -1,0 +1,425 @@
+{
+  "visuals": [
+    {
+      "at": "Soros. In October nineteen ninety",
+      "type": "tombstone",
+      "title": "The trade",
+      "kicker": "A bet against a currency",
+      "name": "George Soros / the pound",
+      "sub": "Selling sterling short while Britain held it inside the Exchange Rate Mechanism",
+      "lines": [
+        "About $1bn of profit, by most accounts"
+      ],
+      "date": "Black Wednesday, 16 September 1992"
+    },
+    {
+      "at": "The pound went in at two point nine five German marks",
+      "type": "keynumbers",
+      "title": "The pound in the ERM",
+      "items": [
+        {
+          "value": "October 1990",
+          "label": "Britain joins the Exchange Rate Mechanism"
+        },
+        {
+          "value": "DM 2.95",
+          "label": "the rate the pound went in at"
+        },
+        {
+          "value": "DM 2.77",
+          "label": "the floor Britain had to defend",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "The sixteenth of September nineteen ninety-two",
+      "type": "keynumbers",
+      "title": "Black Wednesday, 16 September 1992",
+      "items": [
+        {
+          "value": "10% → 12%",
+          "label": "interest rate rise in the morning"
+        },
+        {
+          "value": "15%",
+          "label": "promised later that day; dealers kept selling"
+        },
+        {
+          "value": "Evening",
+          "label": "Norman Lamont announces Britain is leaving the ERM"
+        },
+        {
+          "value": "10%",
+          "label": "rates back down the next day"
+        }
+      ],
+      "note": "In 2005 the Treasury put the cost of the episode at £3.3bn."
+    },
+    {
+      "at": "The same two minutes as yesterday, with five different parts",
+      "type": "steps",
+      "title": "The markets pitch in two minutes",
+      "items": [
+        {
+          "label": "The call",
+          "detail": "What you'd buy or sell, and over what time"
+        },
+        {
+          "label": "What's priced in",
+          "detail": "What the market already believes"
+        },
+        {
+          "label": "Why it's wrong",
+          "detail": "Where your view differs, and why"
+        },
+        {
+          "label": "The catalyst",
+          "detail": "The event, ideally with a date, that makes everyone else see it"
+        },
+        {
+          "label": "Risk against reward",
+          "detail": "Upside, downside, and what would change your mind"
+        }
+      ]
+    },
+    {
+      "at": "Northgate's shares trade at twenty euros",
+      "type": "table",
+      "title": "Northgate (round numbers)",
+      "columns": [
+        "",
+        "Figure"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Share price today",
+          "€20"
+        ],
+        [
+          "Earnings growth the market expects",
+          "5% a year"
+        ],
+        [
+          "Your view, if it wins the contract",
+          "10% a year"
+        ],
+        [
+          "Your target",
+          "€26"
+        ]
+      ],
+      "note": "Hypothetical company, used to practise the pitch."
+    },
+    {
+      "at": "Now you have both sides",
+      "type": "bars",
+      "title": "Both sides of the pitch",
+      "unit": "€",
+      "items": [
+        {
+          "label": "Upside: target of €26",
+          "value": 6
+        },
+        {
+          "label": "Downside: shares fall to €16",
+          "value": 4
+        }
+      ],
+      "note": "From €20 a share. Six up against four down: a risk-reward of 1.5 to 1."
+    },
+    {
+      "at": "On average you make one euro a share",
+      "type": "formula",
+      "title": "If it's a coin toss",
+      "formula": "½ × €6 − ½ × €4 = €1 a share, or 5% of €20",
+      "note": "Small, but positive. Risk-reward = upside ÷ downside = 6 ÷ 4 = 1.5 to 1."
+    },
+    {
+      "at": "On Thursday the twenty-ninth of October, Mobico",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Recommended cash takeover",
+      "name": "Autobuses de León / Mobico",
+      "sub": "British transport group that owns National Express coaches and Alsa",
+      "lines": [
+        "46p a share in cash, from a company owned by CMC Group (the Cosmen family office) and a fund run by Asterion Industrial Partners"
+      ],
+      "date": "Announced 29 October 2026"
+    },
+    {
+      "at": "Debt and the other claims that rank ahead of the shares",
+      "type": "waterfall",
+      "title": "Mobico: from equity value to enterprise value",
+      "unit": "£m",
+      "steps": [
+        {
+          "label": "Equity value at 46p",
+          "value": 308,
+          "kind": "total"
+        },
+        {
+          "label": "Debt and other claims",
+          "value": 2015,
+          "kind": "add"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 2323,
+          "kind": "total"
+        }
+      ],
+      "note": "Both totals are approximate, as announced. The middle step is the gap between them, about £2bn. The equity is less than a seventh of the enterprise value."
+    },
+    {
+      "at": "net debt alone was one point one three billion pounds",
+      "type": "keynumbers",
+      "title": "Mobico's debt",
+      "items": [
+        {
+          "value": "£1.13bn",
+          "label": "net debt at 31 March 2026"
+        },
+        {
+          "value": "2.9x",
+          "label": "the company's leverage measure"
+        },
+        {
+          "value": "1.5–2.0x",
+          "label": "its target range"
+        },
+        {
+          "value": "£230m",
+          "label": "notes falling due in 2027",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "Fifty-five percent over twenty-nine point seven pence",
+      "type": "bars",
+      "title": "Mobico's share price against the offer",
+      "unit": "p",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "3 August, before the first proposal",
+          "value": 23.8
+        },
+        {
+          "label": "20 October, before the approach was public",
+          "value": 29.7
+        },
+        {
+          "label": "Offer",
+          "value": 46
+        }
+      ],
+      "note": "Premiums of 93% and 55%. The offer is 11.7 times adjusted operating profit of £198m for 2025."
+    },
+    {
+      "at": "the shares rose thirty-four percent",
+      "type": "keynumbers",
+      "title": "The gap is the trade",
+      "items": [
+        {
+          "value": "+34%",
+          "label": "Mobico's shares on 21 October, to just under 40p, not 46p"
+        }
+      ],
+      "note": "The board had said it was minded to recommend 46p. The gap to the offer is the market's doubt."
+    },
+    {
+      "at": "Ten over sixteen",
+      "type": "formula",
+      "title": "The odds in the price (round numbers)",
+      "formula": "Break-even chance = 10p ÷ (6p + 10p) ≈ 62%",
+      "note": "Buy at 40p: 46p if the deal closes, six up; back towards 30p if it breaks, ten down."
+    },
+    {
+      "at": "It's a scheme of arrangement",
+      "type": "steps",
+      "title": "What moves the odds from here",
+      "items": [
+        {
+          "label": "Court meeting",
+          "detail": "75% by value of the shares voted; the Cosmen family's 26% doesn't vote there"
+        },
+        {
+          "label": "Regulators",
+          "detail": "Regulatory and competition approvals"
+        },
+        {
+          "label": "Completion",
+          "detail": "Expected in the first half of 2027, with financing committed by Santander, CaixaBank and MUFG"
+        }
+      ]
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "A stock trades at €20. Your target is €26 and your downside case is €16. What's the risk-reward?",
+        "options": [
+          {
+            "id": "a",
+            "text": "1.3 to 1"
+          },
+          {
+            "id": "b",
+            "text": "0.7 to 1"
+          },
+          {
+            "id": "c",
+            "text": "1.5 to 1"
+          },
+          {
+            "id": "d",
+            "text": "2 to 1"
+          }
+        ],
+        "correct": "c",
+        "explain": "Six euros up against four down: 6 ÷ 4 = 1.5 to 1. The 30% upside on its own is only half a pitch.",
+        "explain_at": "That's a risk-reward of one and a half to one"
+      },
+      {
+        "id": "q2",
+        "q": "You pitch a stock because it's a wonderful company. What's missing?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A higher price target for the shares"
+          },
+          {
+            "id": "b",
+            "text": "Why the market has it wrong"
+          },
+          {
+            "id": "c",
+            "text": "More on the brand and the margins"
+          },
+          {
+            "id": "d",
+            "text": "A longer time to hold the stock"
+          }
+        ],
+        "correct": "b",
+        "explain": "A wonderful company is usually priced as one. A pitch says what's priced in and where your view differs.",
+        "explain_at": "A good company and a good stock aren't the same thing"
+      },
+      {
+        "id": "q3",
+        "q": "What is a catalyst in a markets pitch?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A strong brand that keeps customers"
+          },
+          {
+            "id": "b",
+            "text": "The price at which you'd sell out"
+          },
+          {
+            "id": "c",
+            "text": "A fall that makes the shares cheap"
+          },
+          {
+            "id": "d",
+            "text": "An event that makes the market see it"
+          }
+        ],
+        "correct": "d",
+        "explain": "An event, ideally with a date, such as a contract award or a vote. Without one, you're waiting for the market to notice eventually.",
+        "explain_at": "The award, with a date"
+      },
+      {
+        "id": "q4",
+        "q": "Mobico's shares are at 40p against a 46p offer, and would fall to 30p if the deal broke. Roughly what chance of completion does that price imply?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 62%"
+          },
+          {
+            "id": "b",
+            "text": "About 13%"
+          },
+          {
+            "id": "c",
+            "text": "About 87%"
+          },
+          {
+            "id": "d",
+            "text": "About 38%"
+          }
+        ],
+        "correct": "a",
+        "explain": "What you can lose over the whole range: 10 ÷ (6 + 10) ≈ 62%. Six over forty-six is the gain as a share of the offer, not a probability.",
+        "explain_at": "Ten over sixteen"
+      },
+      {
+        "id": "q5",
+        "q": "Mobico's equity is worth about £308m at the offer price, and its enterprise value about £2.3bn. What does that mean for shareholders?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They receive the full £2.3bn"
+          },
+          {
+            "id": "b",
+            "text": "Debt comes first, so the shares swing more"
+          },
+          {
+            "id": "c",
+            "text": "The buyer is overpaying by about £2bn"
+          },
+          {
+            "id": "d",
+            "text": "Their equity is the safest claim"
+          }
+        ],
+        "correct": "b",
+        "explain": "Debt and other claims rank ahead, so the equity is less than a seventh of the business, and small changes in its value move the shares a lot.",
+        "explain_at": "the equity is less than a seventh of the business"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Recommended cash acquisition for Mobico Group plc (Rule 2.7 announcement, Investegate, 29 October 2026)",
+      "url": "https://www.investegate.co.uk/announcement/rns/mobico-group--mcg/recommended-cash-acquisition-for-mobico-group-plc/9849217"
+    },
+    {
+      "label": "Mobico directors minded to back possible 46 pence per share takeover (AJ Bell, 21 October 2026)",
+      "url": "https://www.ajbell.co.uk/news/articles/mobico-directors-minded-back-possible-46-pence-share-takeover"
+    },
+    {
+      "label": "The Cosmen family and Asterion launch a 338 million takeover bid for Alsa's parent (Demócrata, 30 October 2026)",
+      "url": "https://www.democrata.es/en/economy/the-cosmen-family-and-asterion-launch-a-338-million-takeover-bid-to-delist-alsa-s-parent-company-from-the-stock-market/"
+    },
+    {
+      "label": "Black Wednesday (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Black_Wednesday"
+    },
+    {
+      "label": "George Soros and the 1992 bet against sterling (The Motley Fool, 25 June 2016)",
+      "url": "https://www.fool.com/investing/2016/06/25/brexit-proves-yet-again-that-george-soros-is-a-bri.aspx"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So what does a markets pitch sound like?"
+  }
+}

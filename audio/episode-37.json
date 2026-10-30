@@ -1,0 +1,452 @@
+{
+  "id": "episode-37",
+  "title": "The Deal Desk, episode 37: The markets pitch, or how George Soros bet against the pound",
+  "hook": "In nineteen ninety-two George Soros bet that Britain couldn't hold up the pound, and Britain left Europe's currency system in a single day. Then Mobico, the owner of National Express, agrees a forty-six pence takeover, and its share price tells you how sure the market is.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-30T23:46:32",
+  "duration": 708.835,
+  "audio": "episode-37.mp3",
+  "chunks": [
+    {
+      "words": 528,
+      "seconds": 190.1,
+      "expected": 211.2,
+      "attempts": 1,
+      "coverage": 0.979,
+      "transcribed_words": 527,
+      "script_words": 530,
+      "method": "whisper",
+      "lines_matched": 15,
+      "problems": []
+    },
+    {
+      "words": 486,
+      "seconds": 183.7,
+      "expected": 194.4,
+      "attempts": 1,
+      "coverage": 0.974,
+      "transcribed_words": 484,
+      "script_words": 491,
+      "method": "whisper",
+      "lines_matched": 17,
+      "problems": []
+    },
+    {
+      "words": 454,
+      "seconds": 166.2,
+      "expected": 181.6,
+      "attempts": 1,
+      "coverage": 0.926,
+      "transcribed_words": 453,
+      "script_words": 473,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    },
+    {
+      "words": 441,
+      "seconds": 166.8,
+      "expected": 176.4,
+      "attempts": 1,
+      "coverage": 0.973,
+      "transcribed_words": 448,
+      "script_words": 450,
+      "method": "whisper",
+      "lines_matched": 9,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode thirty-seven. Yesterday you pitched a deal. But some of you will sit in front of a trading desk, or a banker who likes markets, and get a different question: pitch me a stock, or where do you think the pound goes next. Today, the markets pitch. And we start with the most famous one ever made.",
+      "start": 0.46,
+      "end": 22.33
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Soros.",
+      "start": 22.38,
+      "end": 23.41
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Soros. In October nineteen ninety, Britain joined the Exchange Rate Mechanism, the E-R-M, the system that tied European currencies to each other before the euro. The pound went in at two point nine five German marks, and Britain had to keep it above a floor of about two point seven seven.",
+      "start": 23.46,
+      "end": 42.14
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "And the pound was too high.",
+      "start": 42.19,
+      "end": 43.64
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "That was the view. Britain was in recession, and to hold the pound up it had to keep interest rates at ten percent, while Germany kept its own rates high after reunification. George Soros, the hedge fund manager, thought Britain couldn't take that pain for long. So he sold the pound short: borrow pounds, sell them, and buy them back cheaper later.",
+      "start": 43.69,
+      "end": 66.81
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "And then Black Wednesday.",
+      "start": 66.86,
+      "end": 68.51
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "The sixteenth of September nineteen ninety-two. In the morning the government raised rates from ten percent to twelve. Later that day it promised fifteen. Dealers didn't believe it, and kept selling. That evening the Chancellor, Norman Lamont, announced that Britain was leaving the E-R-M. Rates stayed at twelve, and the next day they were back to ten.",
+      "start": 68.56,
+      "end": 89.41
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "And Soros made a billion.",
+      "start": 89.46,
+      "end": 91.16
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "About a billion dollars, by most accounts. In two thousand and five the Treasury put the cost of the whole episode at three point three billion pounds.",
+      "start": 91.21,
+      "end": 100.53
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "So the lesson is to be brave, and bet big.",
+      "start": 100.58,
+      "end": 104.47
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "That's the story people tell. The lesson is the shape of the bet. The pound was pressed against its floor. If Soros was wrong, it stayed in its band and he lost a little. If he was right, it fell a long way. A small downside, a large upside, and pressure that had to break at some point. That's a markets pitch: a view, why the market is wrong, a trigger, and the risk against the reward.",
+      "start": 104.52,
+      "end": 130.68
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "So what does a markets pitch sound like?",
+      "start": 130.73,
+      "end": 133.9
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "The same two minutes as yesterday, with five different parts. The call: what you'd buy or sell, and over what time. What's priced in: what the market already believes. Why it's wrong. The catalyst: the event that makes everyone else see it. And the risk against the reward, with what would change your mind. Try one. Pitch me a stock.",
+      "start": 133.95,
+      "end": 157.47
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "Ferrari. It's a wonderful company, everybody wants the cars, the brand is worth a fortune and the margins are enormous.",
+      "start": 157.52,
+      "end": 165.12
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "First trap. Every word of that is already in the share price. Everybody knows Ferrari is a wonderful company, so investors already pay a lot for it. A good company and a good stock aren't the same thing, just as a good company isn't automatically a good deal. A share price rises when the news turns out better than what's priced in. So the question isn't whether it's good. It's what the market believes, and why it's wrong.",
+      "start": 165.17,
+      "end": 190.419
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "And how do I know what the market believes?",
+      "start": 190.939,
+      "end": 193.699
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "The price tells you, if you read it. The multiple against peers, the analysts' forecasts, what the company has promised. Round numbers. Northgate's shares trade at twenty euros. Analysts expect its earnings to grow five percent a year. You think a big contract it's bidding for will make that ten, and your target is twenty-six euros.",
+      "start": 193.749,
+      "end": 214.919
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "Thirty percent upside. Buy.",
+      "start": 214.969,
+      "end": 217.609
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Second trap. That's half a pitch. What if you're wrong?",
+      "start": 217.659,
+      "end": 222.009
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "Then it doesn't go up.",
+      "start": 222.059,
+      "end": 223.799
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "It goes down. Say the contract goes to a rival and the shares fall to sixteen. Now you have both sides: six euros up, four euros down. That's a risk-reward of one and a half to one. And if you think it's a coin toss, half the time you make six and half the time you lose four. On average you make one euro a share, five percent. Small, but positive. A desk thinks in that ratio, not the upside alone.",
+      "start": 223.849,
+      "end": 251.219
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "And the catalyst is the contract.",
+      "start": 251.269,
+      "end": 253.789
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "The award, with a date. Without one, you're saying the market will notice eventually, and eventually can be a long time. Soros had one: a country that couldn't keep rates that high for long.",
+      "start": 253.839,
+      "end": 265.529
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "And if they ask me about a market, not a stock? Say, rates will fall, so buy government bonds. When rates fall, bond prices rise.",
+      "start": 265.579,
+      "end": 273.629
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "Third trap. Right mechanics, no trade. Bond prices rise if rates fall by more than the market expects. If traders already price two cuts next year and you expect two, the cuts are in the price already. You need three, and a reason. Whatever the asset, the question is the same: what's priced in, and where you differ.",
+      "start": 273.679,
+      "end": 297.269
+    },
+    {
+      "i": 25,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: pitch me a stock.",
+      "start": 297.319,
+      "end": 301.359
+    },
+    {
+      "i": 26,
+      "speaker": "SOFIA",
+      "text": "I'd buy Northgate. Target twenty-six, thirty percent upside, downside sixteen, because of the contract.",
+      "start": 301.409,
+      "end": 308.809
+    },
+    {
+      "i": 27,
+      "speaker": "MARCO",
+      "text": "Numbers, but no story. Strong answer: the call and the horizon in one sentence. I'd buy Northgate over the next twelve months. Then what's priced in: the market expects five percent growth. Why it's wrong: the contract would double that. The catalyst: the award, due in the spring. Risk and reward: twenty-six if it wins, sixteen if it loses, six up against four down. And what would change my mind: news that a rival is ahead. And pick a company you can defend through the follow-ups.",
+      "start": 308.859,
+      "end": 340.499
+    },
+    {
+      "i": 28,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 340.549,
+      "end": 341.489
+    },
+    {
+      "i": 29,
+      "speaker": "MARCO",
+      "text": "Where will the pound be against the euro in a year?",
+      "start": 341.539,
+      "end": 344.179
+    },
+    {
+      "i": 30,
+      "speaker": "SOFIA",
+      "text": "Higher. I'd say about ten percent higher.",
+      "start": 344.229,
+      "end": 348.069
+    },
+    {
+      "i": 31,
+      "speaker": "MARCO",
+      "text": "Nobody knows, and the interviewer knows that. A number with no reason is a guess. Strong answer: a direction, a reason, and what the market already prices. Something like: I'd lean weaker, because I think the Bank of England will cut rates further than the market expects, and lower rates make a currency less attractive to hold. If inflation stayed high and the cuts didn't come, I'd change my mind.",
+      "start": 348.119,
+      "end": 374.545
+    },
+    {
+      "i": 32,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 375.065,
+      "end": 376.375
+    },
+    {
+      "i": 33,
+      "speaker": "MARCO",
+      "text": "A deal you can pitch as a trade. On Thursday the twenty-ninth of October, Mobico, the British transport group that owns National Express coaches and Alsa, the Spanish bus company, agreed to a takeover by Autobuses de León. That's a company owned just over half by CMC Group, the Cosmen family office, and just under half by a fund run by Asterion Industrial Partners. The Cosmen family already owns about twenty-six percent of Mobico.",
+      "start": 376.425,
+      "end": 404.315
+    },
+    {
+      "i": 34,
+      "speaker": "SOFIA",
+      "text": "The price?",
+      "start": 404.365,
+      "end": 405.455
+    },
+    {
+      "i": 35,
+      "speaker": "MARCO",
+      "text": "Forty-six pence a share in cash. About three hundred and eight million pounds for the equity, and an enterprise value of about two point three billion.",
+      "start": 405.505,
+      "end": 413.215
+    },
+    {
+      "i": 36,
+      "speaker": "SOFIA",
+      "text": "Three hundred million of equity, and two point three billion of enterprise value? That's two billion of difference.",
+      "start": 413.265,
+      "end": 421.715
+    },
+    {
+      "i": 37,
+      "speaker": "MARCO",
+      "text": "Debt and the other claims that rank ahead of the shares. At the end of March, net debt alone was one point one three billion pounds, and the company's own leverage measure was two point nine times, above its target of one and a half to two. About two hundred and thirty million pounds of notes fall due in twenty twenty-seven. For a markets person that's the first thing to see: the equity is less than a seventh of the business. Move the value of the business a little, and the share price moves a lot.",
+      "start": 421.765,
+      "end": 451.295
+    },
+    {
+      "i": 38,
+      "speaker": "SOFIA",
+      "text": "And the premium?",
+      "start": 451.345,
+      "end": 452.605
+    },
+    {
+      "i": 39,
+      "speaker": "MARCO",
+      "text": "Fifty-five percent over twenty-nine point seven pence, the close on the twentieth of October, the last day before the approach was made public. Ninety-three percent over twenty-three point eight pence, the close on the third of August, before the first proposal. And the buyers pay eleven point seven times adjusted operating profit of one hundred and ninety-eight million pounds, for twenty twenty-five.",
+      "start": 452.655,
+      "end": 476.445
+    },
+    {
+      "i": 40,
+      "speaker": "SOFIA",
+      "text": "So the shares jump to forty-six.",
+      "start": 476.495,
+      "end": 478.865
+    },
+    {
+      "i": 41,
+      "speaker": "MARCO",
+      "text": "Fourth trap. They don't, and the gap is the trade. On the twenty-first of October, when Mobico said its board was minded to recommend forty-six pence, the shares rose thirty-four percent, to just under forty pence. Not forty-six. Why not?",
+      "start": 478.915,
+      "end": 496.635
+    },
+    {
+      "i": 42,
+      "speaker": "SOFIA",
+      "text": "Because the deal wasn't certain.",
+      "start": 496.685,
+      "end": 498.645
+    },
+    {
+      "i": 43,
+      "speaker": "MARCO",
+      "text": "Right, and the price tells you how uncertain. Round it. You buy at forty. If the deal closes, you get forty-six: six pence up. If it breaks, the shares probably fall back towards thirty: ten pence down. Six against ten. What chance of the deal closing do you need to break even?",
+      "start": 498.695,
+      "end": 517.815
+    },
+    {
+      "i": 44,
+      "speaker": "SOFIA",
+      "text": "Six over forty-six?",
+      "start": 517.865,
+      "end": 519.705
+    },
+    {
+      "i": 45,
+      "speaker": "MARCO",
+      "text": "Ten over sixteen. What you can lose, over the whole range. You need the deal to close about five times in eight, sixty-two percent, just to break even. So at forty pence the market was saying: probably, but far from sure. That's merger arbitrage, a markets pitch on a deal. You buy if you think the odds are better than the price says.",
+      "start": 519.755,
+      "end": 541.132
+    },
+    {
+      "i": 46,
+      "speaker": "SOFIA",
+      "text": "And since Thursday?",
+      "start": 542.062,
+      "end": 543.682
+    },
+    {
+      "i": 47,
+      "speaker": "MARCO",
+      "text": "A firm offer should narrow the gap, but I haven't seen a reliable price since, so I won't quote one. What moves the odds now is the vote. It's a scheme of arrangement, so it needs seventy-five percent by value of the shares voted at a court meeting, and the Cosmen family's stake doesn't vote at that meeting. Then the regulators. Financing is committed by Santander, CaixaBank and M-U-F-G, and completion is expected in the first half of twenty twenty-seven.",
+      "start": 543.732,
+      "end": 572.012
+    },
+    {
+      "i": 48,
+      "speaker": "SOFIA",
+      "text": "So, as a pitch, in two minutes?",
+      "start": 572.062,
+      "end": 575.672
+    },
+    {
+      "i": 49,
+      "speaker": "MARCO",
+      "text": "Listen for the shape. Mobico agreed on Thursday to a forty-six pence cash takeover by the Cosmen family and Asterion. Priced in, before the firm offer: roughly a five in eight chance it happens. My view: the odds are better than that, because the board recommends it, the financing is committed, and the alternative for shareholders is refinancing a lot of debt on their own. The catalyst: the court meeting. The risk: the independent shareholders vote it down, and the shares head back towards thirty.",
+      "start": 575.722,
+      "end": 607.962
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: a stock trades at twenty euros, your target is twenty-six and your downside case is sixteen. What's the risk-reward? Question two: you pitch a stock because it's a wonderful company. What's missing? Question three: what is a catalyst in a markets pitch? Question four: Mobico's shares are at forty pence against a forty-six pence offer, and would fall to thirty if the deal broke. Roughly what chance of completion does that price imply? Question five: Mobico's equity is worth about three hundred and eight million pounds, and its enterprise value about two point three billion. What does that mean for the shareholders?",
+      "start": 608.012,
+      "end": 653.642
+    },
+    {
+      "i": 51,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 653.692,
+      "end": 655.842
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Answers. One: one and a half to one, six euros up against four down. Thirty percent is the upside alone. Two: why the market is wrong. A wonderful company is usually priced as one, so say what's priced in and where you differ. Three: an event, ideally with a date, that makes the market see what you see, like a contract award or a vote. Four: about sixty-two percent, ten over sixteen, not six over forty-six. Five: the debt and other claims come first, so the equity is a thin slice, and small changes in the value of the business move the shares a lot.",
+      "start": 655.892,
+      "end": 693.282
+    },
+    {
+      "i": 53,
+      "speaker": "SOFIA",
+      "text": "So, what's priced in, where I differ, and what I lose if I'm wrong.",
+      "start": 693.332,
+      "end": 698.342
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "And Mobico showed you a company carrying more debt than it would like. Tomorrow, episode thirty-eight: restructuring. What happens when a company can't pay its debts, and who gets what.",
+      "start": 698.392,
+      "end": 708.375
+    }
+  ]
+}
