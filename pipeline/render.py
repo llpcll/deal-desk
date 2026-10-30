@@ -332,7 +332,7 @@ class Gemini:
                      "annotations": [{"type": "speech_metadata", "speaker": s, "style": GEMINI[s][1]}]}
                     for s, t in items]}],
                 "response_format": {"type": "audio"},
-                "generation_config": {"speech_config": {"mode": "conversational", "speakers": [
+                "generation_config": {"speech_config": {"speakers": [
                     {"speaker": "MARCO", "voice": GEMINI["MARCO"][0]},
                     {"speaker": "SOFIA", "voice": GEMINI["SOFIA"][0]}]}}}
         n_words = sum(words(t) for _, t in items)
