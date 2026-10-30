@@ -1,0 +1,527 @@
+{
+  "visuals": [
+    {
+      "at": "On the seventeenth of March twenty oh five",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Leveraged buyout",
+      "name": "Bain Capital, KKR and Vornado / Toys R Us",
+      "sub": "The American toy retailer, taken private by two buyout firms and a property investor",
+      "lines": [
+        "A $6.6bn leveraged buyout, about $1.3bn of it equity"
+      ],
+      "date": "Announced 17 March 2005"
+    },
+    {
+      "at": "it filed for Chapter Eleven, with about five billion dollars",
+      "type": "keynumbers",
+      "title": "Toys R Us, from buyout to bankruptcy",
+      "items": [
+        {
+          "value": "$6.6bn",
+          "label": "leveraged buyout, 2005"
+        },
+        {
+          "value": "$1.3bn",
+          "label": "equity from the firms and their co-investors",
+          "approx": true
+        },
+        {
+          "value": "$400m",
+          "label": "a year to service the debt",
+          "approx": true
+        },
+        {
+          "value": "$5bn",
+          "label": "long-term debt at the Chapter 11 filing, 18 September 2017",
+          "approx": true
+        },
+        {
+          "value": "64,000",
+          "label": "employees at the filing",
+          "approx": true
+        }
+      ],
+      "note": "Plans to go public again were announced in 2010 and dropped in 2013. Liquidation was approved in March 2018; every US store had closed by the end of June."
+    },
+    {
+      "at": "Their equity was wiped out",
+      "type": "bars",
+      "title": "What the three firms put in, and took out",
+      "unit": "$bn",
+      "decimals": 2,
+      "items": [
+        {
+          "label": "Equity put in, 2005",
+          "value": 1.3,
+          "approx": true
+        },
+        {
+          "label": "Fees and interest collected over the years",
+          "value": 0.47,
+          "approx": true
+        }
+      ],
+      "note": "The equity was wiped out in the bankruptcy. Fees and interest were more than $470m, which softened the loss but didn't cover it."
+    },
+    {
+      "at": "First trap. Leverage works in both directions",
+      "type": "bars",
+      "title": "EBITDA falls 30%; the equity falls much further",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Fall in EBITDA: 100 to 70",
+          "value": 30
+        },
+        {
+          "label": "Fall in equity, exit at 10x: 400 to 100",
+          "value": 75
+        },
+        {
+          "label": "Fall in equity, exit at 8x: 400 to 0",
+          "value": 100
+        }
+      ],
+      "note": "Debt still 600. At 10x, 700 − 600 = 100 of equity; at 8x, 560 is less than the debt. Sofia assumed the equity would fall 30%, to 280."
+    },
+    {
+      "at": "Say eight times: seventy is worth five hundred and sixty",
+      "type": "table",
+      "title": "Harbour sold for 560: who gets what",
+      "columns": [
+        "£m",
+        "Owed or invested",
+        "Gets"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Senior loans",
+          "400",
+          "400"
+        ],
+        [
+          "Bonds",
+          "200",
+          "160"
+        ],
+        [
+          "Equity",
+          "400",
+          "0"
+        ]
+      ],
+      "highlight": 1,
+      "highlightLabel": "the fulcrum",
+      "note": "8 × 70 = 560. Losses are taken from the bottom up, as in episode 31."
+    },
+    {
+      "at": "So look at the cash. Seventy of EBITDA",
+      "type": "waterfall",
+      "title": "Harbour's cash in a bad year",
+      "unit": "£m",
+      "steps": [
+        {
+          "label": "EBITDA",
+          "value": 70,
+          "kind": "total"
+        },
+        {
+          "label": "Interest: 8% of 600",
+          "value": -48,
+          "kind": "subtract"
+        },
+        {
+          "label": "Capital spending",
+          "value": -10,
+          "kind": "subtract"
+        },
+        {
+          "label": "Tax: on 70 − 10 − 48 = 12",
+          "value": -3,
+          "kind": "subtract"
+        },
+        {
+          "label": "Free cash flow",
+          "value": 9,
+          "kind": "total"
+        }
+      ],
+      "note": "In episode 32 Harbour had about 45 a year to repay debt (225 over five years)."
+    },
+    {
+      "at": "Bankers watch the two ratios from episode thirty-one",
+      "type": "table",
+      "title": "Harbour before and after",
+      "columns": [
+        "£m",
+        "At entry",
+        "Two years in"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "EBITDA",
+          "100",
+          "70"
+        ],
+        [
+          "Debt",
+          "600",
+          "600"
+        ],
+        [
+          "Leverage: debt ÷ EBITDA",
+          "6.0x",
+          "about 8.6x"
+        ],
+        [
+          "Interest cover: EBITDA ÷ 48",
+          "about 2x",
+          "about 1.5x"
+        ],
+        [
+          "Free cash flow a year",
+          "about 45",
+          "9"
+        ]
+      ],
+      "highlight": 2,
+      "highlightLabel": "above a 7x covenant",
+      "note": "Illustrative round numbers. No debt repaid yet, to keep it simple."
+    },
+    {
+      "at": "Say the senior loans carry a maintenance covenant",
+      "type": "formula",
+      "title": "The covenant test",
+      "formula": "Leverage = 600 ÷ 70 ≈ 8.6x, against a limit of 7.0x: breach",
+      "note": "A breach is a default even if every interest payment has been made. Covenant-lite loans have no quarterly test, but the maturity still comes."
+    },
+    {
+      "at": "Strong answer: usually three things at once",
+      "type": "steps",
+      "title": "How a buyout goes wrong",
+      "items": [
+        {
+          "label": "Cash flow falls",
+          "detail": "Competition, a downturn or a change in how customers buy"
+        },
+        {
+          "label": "The debt doesn't",
+          "detail": "Sized for the old cash flow, so leverage jumps and interest cover collapses"
+        },
+        {
+          "label": "A deadline",
+          "detail": "A covenant test, or a maturity nobody will refinance"
+        },
+        {
+          "label": "The buyout breaks",
+          "detail": "Take away any one of the three and a deal usually survives"
+        }
+      ]
+    },
+    {
+      "at": "Then the options, from mildest to hardest",
+      "type": "steps",
+      "title": "Facing a covenant breach: the sponsor's options",
+      "items": [
+        {
+          "label": "Waiver or amendment",
+          "detail": "Lenders reset the test, for a fee and usually a higher interest rate"
+        },
+        {
+          "label": "Equity cure",
+          "detail": "The sponsor puts in new equity, which repays debt or counts towards EBITDA"
+        },
+        {
+          "label": "Asset sales",
+          "detail": "Sell parts of the business to repay debt"
+        },
+        {
+          "label": "Amend and extend",
+          "detail": "Push the maturities back"
+        },
+        {
+          "label": "Restructuring",
+          "detail": "The fulcrum creditors swap debt for equity; the sponsor usually loses the company"
+        }
+      ]
+    },
+    {
+      "at": "On Thursday the twenty-ninth of October, Mobico Group",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Recommended cash acquisition",
+      "name": "Autobuses de León / Mobico Group",
+      "sub": "The British bus and coach group formerly called National Express",
+      "lines": [
+        "Bidder owned 50.1% by the Cosmen family's CMC Group and 49.9% by an Asterion infrastructure fund"
+      ],
+      "date": "Announced 29 October 2026"
+    },
+    {
+      "at": "Forty-six pence a share in cash",
+      "type": "keynumbers",
+      "title": "Mobico in six numbers",
+      "items": [
+        {
+          "value": "46p",
+          "label": "offer per share, in cash (first proposal in August: 38p)"
+        },
+        {
+          "value": "55%",
+          "label": "premium to the close on 20 October, before the offer period",
+          "approx": true
+        },
+        {
+          "value": "93%",
+          "label": "premium to the close on 3 August, before the first proposal",
+          "approx": true
+        },
+        {
+          "value": "£308m",
+          "label": "equity value",
+          "approx": true
+        },
+        {
+          "value": "£2.3bn",
+          "label": "enterprise value",
+          "approx": true
+        },
+        {
+          "value": "11.7x",
+          "label": "adjusted EBIT of £198m for 2025",
+          "approx": true
+        }
+      ],
+      "note": "The Cosmen family already owns about 26% of Mobico. Completion is expected in the first half of 2027."
+    },
+    {
+      "at": "That's only the equity",
+      "type": "waterfall",
+      "title": "From Mobico's equity value to its enterprise value",
+      "unit": "£m",
+      "steps": [
+        {
+          "label": "Equity value: 46p a share",
+          "value": 308,
+          "kind": "total"
+        },
+        {
+          "label": "Net debt",
+          "value": 1134,
+          "kind": "add"
+        },
+        {
+          "label": "Hybrid bond",
+          "value": 500,
+          "kind": "add"
+        },
+        {
+          "label": "Provisions",
+          "value": 285,
+          "kind": "add"
+        },
+        {
+          "label": "Other items, incl. pensions",
+          "value": 97,
+          "kind": "add"
+        },
+        {
+          "label": "Enterprise value",
+          "value": 2323,
+          "kind": "total"
+        }
+      ],
+      "note": "Figures from the offer announcement; the bridge totals about £2bn, and the parts don't add exactly because of rounding. The shareholders own about an eighth of the enterprise value."
+    },
+    {
+      "at": "Covenant gearing, the debt ratio its lenders test",
+      "type": "keynumbers",
+      "title": "Why Mobico's board said yes",
+      "items": [
+        {
+          "value": "2.9x",
+          "label": "covenant gearing, against a medium-term target of 1.5x to 2.0x"
+        },
+        {
+          "value": "£230m",
+          "label": "US private placement notes due May and June 2027",
+          "approx": true
+        }
+      ],
+      "note": "The board says Mobico's standalone value is held back by debt, legacy liabilities and refinancing risk."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Harbour has £600m of debt and its EBITDA falls from £100m to £70m. What's its leverage now?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 6.0x"
+          },
+          {
+            "id": "b",
+            "text": "About 8.6x"
+          },
+          {
+            "id": "c",
+            "text": "About 7.0x"
+          },
+          {
+            "id": "d",
+            "text": "About 5.7x"
+          }
+        ],
+        "correct": "b",
+        "explain": "Leverage is debt over EBITDA: 600 ÷ 70 ≈ 8.6x, up from 6x at entry. The debt doesn't shrink when EBITDA does.",
+        "explain_at": "six hundred over seventy, about eight point six times"
+      },
+      {
+        "id": "q2",
+        "q": "Harbour's EBITDA falls to £70m and buyers still pay 10x. With £600m of debt, what is the fund's £400m of equity now worth?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About £280m"
+          },
+          {
+            "id": "b",
+            "text": "About £700m"
+          },
+          {
+            "id": "c",
+            "text": "About £160m"
+          },
+          {
+            "id": "d",
+            "text": "About £100m"
+          }
+        ],
+        "correct": "d",
+        "explain": "10 × 70 = 700, minus 600 of debt = 100: EBITDA fell 30%, the equity 75%. Sofia's 280 assumes the equity falls in line with EBITDA.",
+        "explain_at": "Take off six hundred of debt and the equity is one hundred"
+      },
+      {
+        "id": "q3",
+        "q": "What did Toys R Us aim to do when it filed for Chapter 11 in September 2017?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Reorganise and keep trading"
+          },
+          {
+            "id": "b",
+            "text": "Close its stores and sell the stock"
+          },
+          {
+            "id": "c",
+            "text": "Float the company on the market again"
+          },
+          {
+            "id": "d",
+            "text": "Hand the company to its suppliers"
+          }
+        ],
+        "correct": "a",
+        "explain": "Chapter 11 is a court process for reorganising a company. Toys R Us planned to borrow $2bn to pay suppliers for Christmas; liquidation came six months later.",
+        "explain_at": "Chapter Eleven is the American court process for reorganising a company"
+      },
+      {
+        "id": "q4",
+        "q": "A sponsor puts new equity into a portfolio company to bring it back inside its covenant. What's that called?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A covenant waiver"
+          },
+          {
+            "id": "b",
+            "text": "An amend and extend"
+          },
+          {
+            "id": "c",
+            "text": "An equity cure"
+          },
+          {
+            "id": "d",
+            "text": "A debt-for-equity swap"
+          }
+        ],
+        "correct": "c",
+        "explain": "In an equity cure the sponsor's new money repays debt or counts towards EBITDA for the test. A waiver comes from the lenders; a debt-for-equity swap is a restructuring.",
+        "explain_at": "An equity cure: the sponsor puts in new equity"
+      },
+      {
+        "id": "q5",
+        "q": "Mobico's shares are valued at about £308m and its enterprise value at about £2.3bn. What fills the gap?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The premium over the share price"
+          },
+          {
+            "id": "b",
+            "text": "Debt, the hybrid and other claims"
+          },
+          {
+            "id": "c",
+            "text": "The Cosmen family's existing stake"
+          },
+          {
+            "id": "d",
+            "text": "Synergies the bidder expects"
+          }
+        ],
+        "correct": "b",
+        "explain": "The bridge of about £2bn is net debt of £1,134m, the £500m hybrid, £285m of provisions and £97m of other items such as pensions. The equity is a thin slice on top.",
+        "explain_at": "That's only the equity"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Recommended cash acquisition for Mobico Group plc (RNS announcement, Investegate, 29 October 2026)",
+      "url": "https://www.investegate.co.uk/announcement/rns/mobico-group--mcg/recommended-cash-acquisition-for-mobico-group-plc/9849217"
+    },
+    {
+      "label": "La asturiana Alsa lanza una oferta de 338 millones por Mobico (Moncloa.com, 21 October 2026)",
+      "url": "https://www.moncloa.com/2026/10/21/alsa-mobico-oferta-asturias-cosmen-3452900/"
+    },
+    {
+      "label": "Bain, KKR, Vornado suffer wipeout in Toys 'R' Us bankruptcy (Bloomberg Law, 19 September 2017)",
+      "url": "https://news.bloomberglaw.com/bankruptcy-law/bain-kkr-vornado-suffer-wipeout-in-toys-r-us-bankruptcy"
+    },
+    {
+      "label": "Toys 'R' Us bankruptcy: how $5B debt caught up to toy retailer (Fox Business, September 2017)",
+      "url": "https://www.foxbusiness.com/markets/toys-r-us-bankruptcy-how-5b-debt-caught-up-to-toy-retailer"
+    },
+    {
+      "label": "Toys \"R\" Us (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Toys_%22R%22_Us"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Back to Harbour, in millions of pounds"
+  }
+}

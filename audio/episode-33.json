@@ -1,0 +1,431 @@
+{
+  "id": "episode-33",
+  "title": "The Deal Desk, episode 33: L-B-Os gone wrong, or how debt emptied the shelves at Toys R Us",
+  "hook": "In twenty oh five three firms bought Toys R Us with mostly borrowed money, and thirteen years later its American stores were gone. Then the family that sold Alsa to National Express agrees to buy the whole group, for two point three billion pounds, most of it debt.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-30T22:50:50",
+  "duration": 727.199,
+  "audio": "episode-33.mp3",
+  "chunks": [
+    {
+      "words": 555,
+      "seconds": 216.1,
+      "expected": 222.0,
+      "attempts": 1,
+      "coverage": 0.957,
+      "transcribed_words": 557,
+      "script_words": 564,
+      "method": "whisper",
+      "lines_matched": 17,
+      "problems": []
+    },
+    {
+      "words": 541,
+      "seconds": 210.2,
+      "expected": 216.4,
+      "attempts": 1,
+      "coverage": 0.973,
+      "transcribed_words": 542,
+      "script_words": 550,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    },
+    {
+      "words": 338,
+      "seconds": 126.9,
+      "expected": 135.2,
+      "attempts": 1,
+      "coverage": 0.918,
+      "transcribed_words": 340,
+      "script_words": 353,
+      "method": "whisper",
+      "lines_matched": 11,
+      "problems": []
+    },
+    {
+      "words": 402,
+      "seconds": 172.1,
+      "expected": 160.8,
+      "attempts": 1,
+      "coverage": 0.963,
+      "transcribed_words": 402,
+      "script_words": 409,
+      "method": "whisper",
+      "lines_matched": 10,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode thirty-three. Four episodes on how buyouts make money. Today, how they lose it: L-B-Os gone wrong, and what happens to a buyout when the cash stops coming. And we start in a toy shop.",
+      "start": 0.46,
+      "end": 16.68
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Toys R Us. The one with the giraffe.",
+      "start": 16.73,
+      "end": 19.04
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "That one. On the seventeenth of March twenty oh five, Bain Capital, K-K-R and Vornado Realty Trust, a property investor, announced a six point six billion dollar leveraged buyout of Toys R Us. The firms and their co-investors put in about one point three billion dollars of equity. Most of the rest was debt, and the debt went onto Toys R Us.",
+      "start": 19.09,
+      "end": 43.53
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "So about a fifth equity. Like Harbour, only thinner.",
+      "start": 43.58,
+      "end": 47.5
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "Half Harbour's cushion. And the business was already under pressure, from Walmart and Target, and then from Amazon. For years Toys R Us paid about four hundred million dollars a year to service its debt. That left too little to invest to keep up with Amazon and Walmart.",
+      "start": 47.55,
+      "end": 64.72
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "Couldn't the owners sell it, or float it again?",
+      "start": 64.77,
+      "end": 67.46
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "They tried. In twenty ten Toys R Us announced plans to go public again. In twenty thirteen it called the listing off, citing market conditions. Then, on the eighteenth of September twenty seventeen, it filed for Chapter Eleven, with about five billion dollars of long-term debt and about sixty-four thousand employees.",
+      "start": 67.51,
+      "end": 88.21
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "So that was the end.",
+      "start": 88.26,
+      "end": 89.9
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "Not yet. Chapter Eleven is the American court process for reorganising a company, not for closing it. Toys R Us planned to borrow two billion dollars to pay its suppliers for the Christmas season and carry on trading. It didn't work. In March twenty eighteen the court approved the liquidation of the stores, and by the end of June every American store had closed.",
+      "start": 89.95,
+      "end": 113.04
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "And the three firms?",
+      "start": 113.09,
+      "end": 114.36
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "Their equity was wiped out. Along the way they had collected more than four hundred and seventy million dollars in fees and interest, which softened the loss but came nowhere near the one point three billion. So today: how a buyout fails, in round numbers, and what you say about it.",
+      "start": 114.41,
+      "end": 131.68
+    },
+    {
+      "i": 11,
+      "speaker": "MARCO",
+      "text": "Back to Harbour, in millions of pounds. Bought for one thousand, ten times EBITDA of one hundred. Six hundred of debt at eight percent, so forty-eight a year of interest: four hundred of senior loans and two hundred of bonds. Four hundred of equity. Now a strong competitor arrives. Two years in, EBITDA falls by thirty percent, to seventy. To keep it simple, Harbour hasn't repaid anything yet, so the debt is still six hundred.",
+      "start": 131.73,
+      "end": 161.49
+    },
+    {
+      "i": 12,
+      "speaker": "SOFIA",
+      "text": "EBITDA down thirty percent, so the fund's equity is down thirty percent too. Four hundred becomes two hundred and eighty.",
+      "start": 161.54,
+      "end": 171.39
+    },
+    {
+      "i": 13,
+      "speaker": "MARCO",
+      "text": "First trap. Leverage works in both directions. Say buyers still pay ten times: seventy is worth seven hundred. Take off six hundred of debt and the equity is one hundred. EBITDA fell thirty percent; the equity fell seventy-five.",
+      "start": 171.44,
+      "end": 187.57
+    },
+    {
+      "i": 14,
+      "speaker": "SOFIA",
+      "text": "Seventy-five. And if buyers pay less than ten times?",
+      "start": 187.62,
+      "end": 191.75
+    },
+    {
+      "i": 15,
+      "speaker": "MARCO",
+      "text": "They usually do. A shrinking business rarely gets the multiple of a growing one. Say eight times: seventy is worth five hundred and sixty, less than the six hundred of debt. The equity is worth zero. Who's the fulcrum?",
+      "start": 191.8,
+      "end": 207.85
+    },
+    {
+      "i": 16,
+      "speaker": "SOFIA",
+      "text": "Episode thirty-one. The senior lenders get their four hundred, the bonds get one hundred and sixty of their two hundred. So the bonds.",
+      "start": 207.9,
+      "end": 216.429
+    },
+    {
+      "i": 17,
+      "speaker": "MARCO",
+      "text": "Exactly. But companies don't fail because their value falls. They fail when they run out of cash, or out of time. So look at the cash. Seventy of EBITDA, minus forty-eight of interest, minus ten of capital spending. Then tax, on profit after ten of depreciation and the interest: twelve of profit, three of tax. Free cash flow: nine.",
+      "start": 216.949,
+      "end": 241.089
+    },
+    {
+      "i": 18,
+      "speaker": "SOFIA",
+      "text": "Nine. In episode thirty-two it was about forty-five a year.",
+      "start": 241.139,
+      "end": 245.879
+    },
+    {
+      "i": 19,
+      "speaker": "MARCO",
+      "text": "Two hundred and twenty-five over five years, so yes. Now nine, with nothing spare for a bad quarter. Bankers watch the two ratios from episode thirty-one. Leverage: six hundred over seventy, about eight point six times, up from six. Interest cover: seventy over forty-eight, about one and a half times, down from about two.",
+      "start": 245.929,
+      "end": 267.969
+    },
+    {
+      "i": 20,
+      "speaker": "SOFIA",
+      "text": "But nine is still positive. Harbour makes a profit and pays its interest, so it's fine for now.",
+      "start": 268.019,
+      "end": 274.309
+    },
+    {
+      "i": 21,
+      "speaker": "MARCO",
+      "text": "Second trap. Paying the interest isn't enough. Say the senior loans carry a maintenance covenant: leverage tested every quarter, no higher than seven times. At eight point six, Harbour is in breach. That's a default, even though it hasn't missed a single payment, and the lenders can demand their money back. Then there's a second clock: maturities. The loans come due in a few years, and few lenders will refinance six hundred against seventy of shrinking EBITDA.",
+      "start": 274.359,
+      "end": 302.229
+    },
+    {
+      "i": 22,
+      "speaker": "SOFIA",
+      "text": "Boots' loans were covenant-lite. No quarterly test.",
+      "start": 302.279,
+      "end": 305.779
+    },
+    {
+      "i": 23,
+      "speaker": "MARCO",
+      "text": "Then there's no breach, and more time. But time doesn't fix a shrinking business, and the maturity still comes.",
+      "start": 305.829,
+      "end": 312.559
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: why do L-B-Os fail?",
+      "start": 312.609,
+      "end": 316.959
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "Too much debt.",
+      "start": 317.009,
+      "end": 318.599
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "True, and too short. Strong answer: usually three things at once. A business whose cash flow falls, from competition, a downturn or a change in how customers buy. Debt sized for the old cash flow, so leverage jumps and interest cover collapses. And a deadline: a covenant test, or a maturity nobody will refinance. Then give a case: Toys R Us had the first two for years, and filed when it needed two billion dollars of new borrowing to pay its suppliers for Christmas. Take away any one of the three and a deal usually survives. Hilton, from episode thirty, was hit hard in the financial crisis, but its debt was restructured, Blackstone put in eight hundred million dollars of new equity, and the fund still made three times its money.",
+      "start": 318.649,
+      "end": 366.759
+    },
+    {
+      "i": 27,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 366.809,
+      "end": 368.109
+    },
+    {
+      "i": 28,
+      "speaker": "MARCO",
+      "text": "Your portfolio company will breach its leverage covenant next quarter. What can the sponsor do?",
+      "start": 368.159,
+      "end": 374.769
+    },
+    {
+      "i": 29,
+      "speaker": "SOFIA",
+      "text": "Sell the company quickly, before the breach.",
+      "start": 374.819,
+      "end": 377.539
+    },
+    {
+      "i": 30,
+      "speaker": "MARCO",
+      "text": "Third trap. A seller in a hurry gets a bad price, and every buyer can read the covenant too. Strong answer: go to the lenders early, before the test date. Then the options, from mildest to hardest. A waiver or an amendment: the lenders reset the test, for a fee and usually a higher interest rate. An equity cure: the sponsor puts in new equity, which repays debt or counts towards EBITDA for the test. Asset sales, to repay debt. An amend and extend, which pushes the maturities back. And if none of that works, a restructuring, where the fulcrum creditors swap their debt for the equity and the sponsor usually loses the company. Then give the trade-off: an equity cure is good money after bad unless the business can recover.",
+      "start": 377.589,
+      "end": 427.001
+    },
+    {
+      "i": 31,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 427.521,
+      "end": 428.861
+    },
+    {
+      "i": 32,
+      "speaker": "MARCO",
+      "text": "Not a buyout gone wrong, but a listed company with today's problem. On Thursday the twenty-ninth of October, Mobico Group, the British bus and coach company formerly called National Express, agreed to be bought by Autobuses de León. That's a Spanish company owned fifty point one percent by the Cosmen family's office and forty-nine point nine percent by a fund of Asterion, an infrastructure investor. The Cosmen family already owns about twenty-six percent of Mobico.",
+      "start": 428.911,
+      "end": 458.351
+    },
+    {
+      "i": 33,
+      "speaker": "SOFIA",
+      "text": "Cosmen. Why do I know that name?",
+      "start": 458.401,
+      "end": 460.841
+    },
+    {
+      "i": 34,
+      "speaker": "MARCO",
+      "text": "Alsa, the Spanish bus company. The family sold it to National Express in twenty oh five, the year of the Toys R Us buyout. Twenty-one years later, it's buying the whole group.",
+      "start": 460.891,
+      "end": 471.321
+    },
+    {
+      "i": 35,
+      "speaker": "SOFIA",
+      "text": "How much?",
+      "start": 471.371,
+      "end": 472.771
+    },
+    {
+      "i": 36,
+      "speaker": "MARCO",
+      "text": "Forty-six pence a share in cash. In August they proposed thirty-eight pence, then raised it. Forty-six pence is a premium of about fifty-five percent to the price on the twentieth of October, the day before the offer period began, and about ninety-three percent to the price on the third of August, before the first proposal. It values the shares at about three hundred and eight million pounds.",
+      "start": 472.821,
+      "end": 496.041
+    },
+    {
+      "i": 37,
+      "speaker": "SOFIA",
+      "text": "Three hundred million pounds for National Express. That's cheap.",
+      "start": 496.091,
+      "end": 500.951
+    },
+    {
+      "i": 38,
+      "speaker": "MARCO",
+      "text": "Fourth trap. That's only the equity. The enterprise value is about two point three billion pounds, and the announcement lists the bridge of about two billion between them. One billion, one hundred and thirty-four million of net debt. A hybrid bond of five hundred million, debt that ranks below the rest. Two hundred and eighty-five million of provisions. And ninety-seven million of other items, including pensions. The shareholders own about an eighth of the enterprise value.",
+      "start": 501.001,
+      "end": 531.041
+    },
+    {
+      "i": 39,
+      "speaker": "SOFIA",
+      "text": "Like Harbour at seven hundred. One hundred of equity on top of six hundred of debt.",
+      "start": 531.091,
+      "end": 535.751
+    },
+    {
+      "i": 40,
+      "speaker": "MARCO",
+      "text": "The same shape: when the equity is a thin slice, a small change in the business moves the share price a lot. The price is about eleven point seven times adjusted E-B-I-T, operating profit, of one hundred and ninety-eight million pounds for twenty twenty-five.",
+      "start": 535.801,
+      "end": 552.191
+    },
+    {
+      "i": 41,
+      "speaker": "SOFIA",
+      "text": "Why did the board say yes?",
+      "start": 552.241,
+      "end": 554.277
+    },
+    {
+      "i": 42,
+      "speaker": "MARCO",
+      "text": "Read its reasons and you hear today's episode. It says Mobico's value on its own is held back by debt, legacy liabilities and refinancing risk. Covenant gearing, the debt ratio its lenders test, was two point nine times, above Mobico's medium-term target of one and a half to two. And about two hundred and thirty million pounds of American private placement notes fall due in May and June twenty twenty-seven. The board says the offer gives certain value, in cash, today.",
+      "start": 554.797,
+      "end": 587.377
+    },
+    {
+      "i": 43,
+      "speaker": "SOFIA",
+      "text": "So the board sold before the maturity could force its hand.",
+      "start": 587.427,
+      "end": 590.607
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "That's the reading. A maturity you might not refinance is a deadline, and selling before it at a premium beats restructuring after it. The bidder pays from its own cash and new bank debt from Santander, CaixaBank and M-U-F-G.",
+      "start": 590.657,
+      "end": 606.687
+    },
+    {
+      "i": 45,
+      "speaker": "SOFIA",
+      "text": "When does it close?",
+      "start": 606.737,
+      "end": 608.117
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "It needs seventy-five percent by value of the votes at a court meeting, where the Cosmen shares don't vote, then regulatory approvals. The independent directors recommend it unanimously. Completion is expected in the first half of twenty twenty-seven.",
+      "start": 608.167,
+      "end": 624.897
+    },
+    {
+      "i": 47,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: Harbour has six hundred of debt and its EBITDA falls from one hundred to seventy. What's its leverage now? Question two: buyers still pay ten times that seventy. What is the fund's four hundred of equity now worth? Question three: what did Toys R Us aim to do when it filed for Chapter Eleven in twenty seventeen? Question four: a sponsor puts new equity into a company to bring it back inside its covenant. What's that called? Question five: Mobico's shares are worth about three hundred and eight million pounds and its enterprise value is about two point three billion. What fills the gap?",
+      "start": 624.947,
+      "end": 668.517
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 668.567,
+      "end": 671.657
+    },
+    {
+      "i": 49,
+      "speaker": "MARCO",
+      "text": "Answers. One: about eight point six times, six hundred over seventy, up from six. Two: about one hundred. Seven hundred minus six hundred of debt, so EBITDA fell thirty percent and the equity seventy-five. Three: to reorganise and keep trading. The liquidation came six months later. Four: an equity cure. Five: debt and debt-like claims. Net debt, the hybrid bond, provisions and other items such as pensions.",
+      "start": 671.707,
+      "end": 709.277
+    },
+    {
+      "i": 50,
+      "speaker": "SOFIA",
+      "text": "So leverage works both ways, and it's cash and deadlines, not profit, that decide when a buyout breaks.",
+      "start": 709.327,
+      "end": 715.017
+    },
+    {
+      "i": 51,
+      "speaker": "MARCO",
+      "text": "Tomorrow, everything from the last month on one real deal. Episode thirty-four: an Italian and European deal, taken apart with everything we've learned so far.",
+      "start": 715.067,
+      "end": 726.739
+    }
+  ]
+}
