@@ -1,0 +1,520 @@
+{
+  "visuals": [
+    {
+      "at": "Gibson Greetings, an American greeting card company",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Leveraged buyout",
+      "name": "Wesray / Gibson Greetings",
+      "sub": "An American greeting card company, bought by the firm of William Simon and Ray Chambers",
+      "lines": [
+        "About $80m, almost all of it borrowed"
+      ],
+      "date": "January 1982"
+    },
+    {
+      "at": "But look at how it was paid for",
+      "type": "keynumbers",
+      "title": "Gibson Greetings on the back of an envelope",
+      "items": [
+        {
+          "value": "$80m",
+          "label": "price",
+          "approx": true
+        },
+        {
+          "value": "$79m",
+          "label": "borrowed, by most accounts",
+          "approx": true
+        },
+        {
+          "value": "$1m",
+          "label": "equity from the investors",
+          "approx": true
+        },
+        {
+          "value": "$330,000",
+          "label": "William Simon's own share"
+        },
+        {
+          "value": "$290m",
+          "label": "value when Gibson went public again, about 16 months later",
+          "approx": true
+        },
+        {
+          "value": "$66m",
+          "label": "what Simon's stake was then worth, about 200 times his money",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "This time the interviewer gives you the inputs",
+      "type": "table",
+      "title": "The paper LBO: the inputs",
+      "columns": [
+        "£m",
+        "Input"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "EBITDA today",
+          "100"
+        ],
+        [
+          "Growth",
+          "+6 a year, to 130 in year 5"
+        ],
+        [
+          "Entry price",
+          "10x = 1,000"
+        ],
+        [
+          "Debt",
+          "600 at 8%"
+        ],
+        [
+          "Equity",
+          "400"
+        ],
+        [
+          "Depreciation and capital spending",
+          "10 a year each"
+        ],
+        [
+          "Tax rate",
+          "25%"
+        ],
+        [
+          "Exit",
+          "year 5, at 10x"
+        ]
+      ],
+      "note": "Illustrative round numbers. Fees ignored; in a real deal they come out of the equity."
+    },
+    {
+      "at": "Five steps. Step one, the entry",
+      "type": "steps",
+      "title": "A paper LBO in five steps",
+      "items": [
+        {
+          "label": "Entry",
+          "detail": "Sources and uses: 1,000 paid with 600 of debt and 400 of equity"
+        },
+        {
+          "label": "EBITDA",
+          "detail": "Work with the five-year total: 106 + 112 + 118 + 124 + 130 = 590"
+        },
+        {
+          "label": "Cash that repays debt",
+          "detail": "590 − 240 interest − 75 tax − 50 capital spending = 225"
+        },
+        {
+          "label": "Debt at exit",
+          "detail": "600 − 225 = 375"
+        },
+        {
+          "label": "Exit and returns",
+          "detail": "10 × 130 − 375 = 925 for the fund: about 2.3x, about 18%"
+        }
+      ]
+    },
+    {
+      "at": "First trap. Tax is charged on profit, not on EBITDA",
+      "type": "formula",
+      "title": "Tax comes off profit, not EBITDA",
+      "formula": "Tax = 25% × (590 − 50 depreciation − 240 interest) = 25% × 300 = 75",
+      "note": "Sofia's 25% of 590, about 150, taxes EBITDA and forgets that depreciation and interest are deductible."
+    },
+    {
+      "at": "Episode twenty-nine was generous",
+      "type": "waterfall",
+      "title": "Five years of cash, from EBITDA to debt repaid",
+      "unit": "£m",
+      "steps": [
+        {
+          "label": "EBITDA, five years",
+          "value": 590,
+          "kind": "total"
+        },
+        {
+          "label": "Interest: 48 a year",
+          "value": -240,
+          "kind": "subtract"
+        },
+        {
+          "label": "Tax",
+          "value": -75,
+          "kind": "subtract"
+        },
+        {
+          "label": "Capital spending",
+          "value": -50,
+          "kind": "subtract"
+        },
+        {
+          "label": "Free cash flow to repay debt",
+          "value": 225,
+          "kind": "total"
+        }
+      ],
+      "note": "Interest on the opening debt of 600 slightly overstates it, since debt falls as it's repaid: a safe shortcut on paper. Episode 29 assumed 300."
+    },
+    {
+      "at": "Second trap. That cash is already gone",
+      "type": "waterfall",
+      "title": "From exit value to the fund's equity",
+      "unit": "£m",
+      "steps": [
+        {
+          "label": "Exit value: 10 × 130",
+          "value": 1300,
+          "kind": "total"
+        },
+        {
+          "label": "Debt still owed: 600 − 225",
+          "value": -375,
+          "kind": "subtract"
+        },
+        {
+          "label": "Equity for the fund",
+          "value": 925,
+          "kind": "total"
+        }
+      ],
+      "note": "The 225 of cash already repaid debt. Adding it again, as Sofia did, counts it twice."
+    },
+    {
+      "at": "About two point three times. Now the I-R-R",
+      "type": "keynumbers",
+      "title": "Harbour's returns, on paper",
+      "items": [
+        {
+          "value": "2.3x",
+          "label": "money multiple: 925 ÷ 400",
+          "approx": true
+        },
+        {
+          "value": "18%",
+          "label": "IRR, between doubling (about 15%) and 2.5x (about 20%) in five years",
+          "approx": true
+        }
+      ],
+      "note": "Below the fund's 20% target."
+    },
+    {
+      "at": "Exactly, and nothing from the multiple",
+      "type": "bars",
+      "title": "Where the 525 of profit came from",
+      "unit": "£m",
+      "items": [
+        {
+          "label": "EBITDA growth: 30 × 10",
+          "value": 300
+        },
+        {
+          "label": "Debt paydown",
+          "value": 225
+        },
+        {
+          "label": "Change in the multiple",
+          "value": 0
+        }
+      ],
+      "note": "925 − 400 = 525. Bought and sold at 10x, so the multiple adds nothing."
+    },
+    {
+      "at": "Strong answer: start from the exit",
+      "type": "table",
+      "title": "Working backwards to a 20% IRR",
+      "columns": [
+        "£m",
+        "Value"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Equity at exit",
+          "925"
+        ],
+        [
+          "20% a year for five years",
+          "about 2.5x"
+        ],
+        [
+          "Equity today",
+          "about 370"
+        ],
+        [
+          "Plus debt",
+          "600"
+        ],
+        [
+          "Most the fund can pay",
+          "about 970"
+        ],
+        [
+          "As a multiple of EBITDA of 100",
+          "about 9.7x"
+        ]
+      ],
+      "highlight": 4,
+      "highlightLabel": "below the 1,000 asked",
+      "note": "Sofia halved 925 to about 460, treating 20% for five years as simple interest. Compounded, it's about 2.5x."
+    },
+    {
+      "at": "Third trap. It works on paper",
+      "type": "bars",
+      "title": "One turn of exit multiple",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Exit at 10x: 925 for the fund",
+          "value": 18,
+          "approx": true
+        },
+        {
+          "label": "Exit at 11x: 1,055 for the fund",
+          "value": 21,
+          "approx": true
+        }
+      ],
+      "note": "11 × 130 = 1,430, minus 375 of debt = 1,055, about 2.6x. Show the higher multiple as an upside case, not the plan."
+    },
+    {
+      "at": "This morning, Friday the thirtieth of October",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Corporate acquisition",
+      "name": "Ahold Delhaize / Tesco Czechia and Slovakia",
+      "sub": "More than 360 supermarkets, hypermarkets and convenience stores, plus over 100 franchise stores",
+      "lines": [
+        "Enterprise value about €1.2bn, or about €1.7bn lease-adjusted"
+      ],
+      "date": "Announced 30 October 2026"
+    },
+    {
+      "at": "Ahold Delhaize gives two numbers",
+      "type": "keynumbers",
+      "title": "Tesco Czechia and Slovakia in six numbers",
+      "items": [
+        {
+          "value": "€1.2bn",
+          "label": "enterprise value",
+          "approx": true
+        },
+        {
+          "value": "€1.7bn",
+          "label": "lease-adjusted enterprise value (IFRS 16)",
+          "approx": true
+        },
+        {
+          "value": "7.2x",
+          "label": "lease-adjusted LTM EBITDA",
+          "approx": true
+        },
+        {
+          "value": "€3.5bn",
+          "label": "sales",
+          "approx": true
+        },
+        {
+          "value": "14,000+",
+          "label": "employees"
+        },
+        {
+          "value": "Q4 2027",
+          "label": "expected closing, after regulatory approvals"
+        }
+      ],
+      "note": "Hungary, almost 200 stores, stays with Tesco. Tesco expects about £1bn of cash and plans to return most of it in a buyback."
+    },
+    {
+      "at": "Five point zero times including synergies",
+      "type": "bars",
+      "title": "Same price, with and without synergies",
+      "unit": "x",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "EV / LTM EBITDA, lease-adjusted",
+          "value": 7.2
+        },
+        {
+          "label": "Including synergies",
+          "value": 5.0
+        }
+      ],
+      "note": "Our arithmetic: €1.7bn ÷ 7.2 ≈ €235m of EBITDA; €1.7bn ÷ 5.0 = €340m, implying roughly €100m a year of synergies. The release doesn't quantify them."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Harbour sells for £1,300m with £375m of debt left, after repaying £225m from its own cash. What does the fund get?",
+        "options": [
+          {
+            "id": "a",
+            "text": "£1,150m"
+          },
+          {
+            "id": "b",
+            "text": "£700m"
+          },
+          {
+            "id": "c",
+            "text": "£925m"
+          },
+          {
+            "id": "d",
+            "text": "£1,300m"
+          }
+        ],
+        "correct": "c",
+        "explain": "Exit value minus the debt still owed: 1,300 − 375 = 925. The 225 of cash already went into repaying debt, so adding it again, as Sofia did, counts it twice.",
+        "explain_at": "Count it once, in the debt"
+      },
+      {
+        "id": "q2",
+        "q": "Over five years Harbour has £590m of EBITDA, £50m of depreciation and £240m of interest, taxed at 25%. How much tax does it pay?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About £75m"
+          },
+          {
+            "id": "b",
+            "text": "About £150m"
+          },
+          {
+            "id": "c",
+            "text": "About £135m"
+          },
+          {
+            "id": "d",
+            "text": "About £56m"
+          }
+        ],
+        "correct": "a",
+        "explain": "Tax is on profit after depreciation and interest: 25% × (590 − 50 − 240) = 75. Taxing the whole EBITDA, Sofia's slip, gives about 150.",
+        "explain_at": "Tax is charged on profit, not on EBITDA"
+      },
+      {
+        "id": "q3",
+        "q": "A fund turns £400m into £925m in five years. Roughly what is the IRR?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 26%"
+          },
+          {
+            "id": "b",
+            "text": "About 18%"
+          },
+          {
+            "id": "c",
+            "text": "About 15%"
+          },
+          {
+            "id": "d",
+            "text": "About 23%"
+          }
+        ],
+        "correct": "b",
+        "explain": "2.3x sits between doubling in five years (about 15%) and 2.5x (about 20%). Dividing the 131% gain by five gives 26%, which forgets compounding.",
+        "explain_at": "Two point three sits in between, nearer the top"
+      },
+      {
+        "id": "q4",
+        "q": "A fund needs a 20% IRR and expects £925m of equity at exit in five years. Roughly how much equity can it put in today?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About £460m"
+          },
+          {
+            "id": "b",
+            "text": "About £400m"
+          },
+          {
+            "id": "c",
+            "text": "About £310m"
+          },
+          {
+            "id": "d",
+            "text": "About £370m"
+          }
+        ],
+        "correct": "d",
+        "explain": "20% a year compounds to about 2.5x over five years, so 925 ÷ 2.5 ≈ 370. Halving it, as Sofia did, treats the return as simple interest.",
+        "explain_at": "Twenty percent a year for five years is about two and a half times"
+      },
+      {
+        "id": "q5",
+        "q": "Ahold Delhaize quotes about 7.2x EBITDA for Tesco's Czech and Slovak businesses, and 5.0x. What's the difference?",
+        "options": [
+          {
+            "id": "a",
+            "text": "7.2x includes leases, 5.0x excludes them"
+          },
+          {
+            "id": "b",
+            "text": "5.0x includes the expected synergies"
+          },
+          {
+            "id": "c",
+            "text": "5.0x is on next year's EBITDA"
+          },
+          {
+            "id": "d",
+            "text": "7.2x is Tesco's figure, 5.0x Ahold's"
+          }
+        ],
+        "correct": "b",
+        "explain": "Both are on the lease-adjusted basis; 5.0x adds the synergies Ahold Delhaize expects from combining Tesco with its Albert chain to the EBITDA.",
+        "explain_at": "Five point zero times including synergies"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Ahold Delhaize announces the acquisition of Tesco Czechia and Slovakia (Ahold Delhaize press release, 30 October 2026)",
+      "url": "https://newsroom.aholddelhaize.com/ahold-delhaize-announces-the-acquisition-of-tesco-czechia-and-slovakia-strengthening-its-position-in-europe/"
+    },
+    {
+      "label": "Tesco flogs Czech and Slovak operation to Ahold Delhaize for £1bn (The Grocer, 30 October 2026)",
+      "url": "https://www.thegrocer.co.uk/news/tesco-flogs-czech-and-slovak-operation-to-ahold-delhaize-for-1bn/725370.article"
+    },
+    {
+      "label": "Private equity in the 1980s: Gibson Greetings (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Private_equity_in_the_1980s"
+    },
+    {
+      "label": "Wesray Capital Corporation (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Wesray_Capital_Corporation"
+    },
+    {
+      "label": "200x return on a greeting card company (A Simple Model)",
+      "url": "https://www.asimplemodel.com/?p=5314"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Back to Harbour, in millions of pounds"
+  }
+}

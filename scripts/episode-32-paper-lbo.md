@@ -1,0 +1,110 @@
+# The Deal Desk, episode 32: The paper L-B-O, or how one million dollars bought Gibson Greetings
+In nineteen eighty-two a greeting card company was bought with about one million dollars of equity and seventy-nine million of debt. Then Ahold Delhaize buys Tesco's Czech and Slovak stores at seven point two times EBITDA, or five with synergies.
+
+---
+
+MARCO: This is The Deal Desk, episode thirty-two. Three episodes of buyouts, and today we put them together on one sheet of paper. The paper L-B-O: the exercise private equity interviewers set with a pen, a blank page and no spreadsheet. And we start with a buyout whose arithmetic fits on the back of an envelope.
+
+SOFIA: Which one?
+
+MARCO: Gibson Greetings, an American greeting card company. In January nineteen eighty-two it was bought by Wesray, a small firm co-founded by William Simon, a former United States Treasury Secretary, and Ray Chambers. The price was about eighty million dollars.
+
+SOFIA: Eighty million. Small next to R-J-R.
+
+MARCO: Tiny. But look at how it was paid for. By most accounts, about seventy-nine million of it was borrowed. The investors put in about one million dollars of equity, and Simon's own share was three hundred and thirty thousand.
+
+SOFIA: One million out of eighty. That's not leverage, that's almost all debt.
+
+MARCO: Almost all. About sixteen months later, in the middle of nineteen eighty-three, Gibson went public again, valued at about two hundred and ninety million dollars. Simon's three hundred and thirty thousand was worth about sixty-six million.
+
+SOFIA: That's two hundred times his money.
+
+MARCO: About two hundred times, in under a year and a half. Deals like Gibson set off the buyout boom of the nineteen eighties. And they carry today's lesson: with that much debt, a modest change in the value of the business makes an enormous change in the equity. Today you learn to work that out in ten minutes, with round numbers.
+
+MARCO: Back to Harbour, in millions of pounds. This time the interviewer gives you the inputs and you do the rest. EBITDA of one hundred today, growing by six a year for five years, to one hundred and thirty. Bought at ten times, so one thousand. Six hundred of debt at eight percent, four hundred of equity. Depreciation of ten a year, and capital spending of ten a year. Tax at twenty-five percent. Exit after five years, at ten times again. What's the I-R-R?
+
+SOFIA: You told me in episode twenty-nine. Two and a half times, about twenty percent.
+
+MARCO: I gave you sixty a year of spare cash and asked you to trust me. Today you earn it. Five steps. Step one, the entry: sources and uses. Uses: one thousand for the business. Sources: six hundred of debt and four hundred of equity. In a real deal you'd add fees, a few percent of the price, and they come out of the equity.
+
+MARCO: Step two, EBITDA. One hundred and six, one hundred and twelve, one hundred and eighteen, one hundred and twenty-four, one hundred and thirty. On paper, work with five-year totals. Add them up: five hundred and ninety over the hold.
+
+MARCO: Step three, the cash that repays debt. From the five hundred and ninety, take off interest, tax and capital spending. Interest: eight percent of six hundred is forty-eight a year, two hundred and forty over five years. The debt falls as you repay it, so that overstates the interest a little, a safe shortcut. Now tax.
+
+SOFIA: Twenty-five percent of five hundred and ninety. About one hundred and fifty.
+
+MARCO: First trap. Tax is charged on profit, not on EBITDA. Depreciation and interest both come off first. Five hundred and ninety, minus fifty of depreciation, minus two hundred and forty of interest: three hundred of taxable profit. A quarter of that is seventy-five. Then free cash flow: five hundred and ninety, minus two hundred and forty of interest, minus seventy-five of tax, minus fifty of capital spending. Two hundred and twenty-five.
+
+SOFIA: Not three hundred.
+
+MARCO: Not three hundred. Episode twenty-nine was generous. Step four, the debt at exit. All the spare cash repays debt, so six hundred minus two hundred and twenty-five leaves three hundred and seventy-five.
+
+MARCO: Step five, the exit. Ten times one hundred and thirty is one thousand three hundred. What does the fund get?
+
+SOFIA: One thousand three hundred minus three hundred and seventy-five of debt, so nine hundred and twenty-five. Plus the two hundred and twenty-five of cash the business made.
+
+MARCO: Second trap. That cash is already gone. It repaid debt, which is why only three hundred and seventy-five is left. Count it once, in the debt. Nine hundred and twenty-five for the fund.
+
+SOFIA: So nine hundred and twenty-five over four hundred.
+
+MARCO: About two point three times. Now the I-R-R, without a calculator. The shortcuts from episode thirty: double your money in five years is about fifteen percent, two and a half times is about twenty. Two point three sits in between, nearer the top: about eighteen percent.
+
+SOFIA: Under the twenty percent the fund wanted.
+
+MARCO: And that's a paper L-B-O. Entry, EBITDA, cash, debt, exit, then the multiple and the I-R-R. Say each step out loud as you go. One last check: where did the five hundred and twenty-five of profit come from?
+
+SOFIA: Thirty more EBITDA at ten times, so three hundred from growth. And two hundred and twenty-five from paying down debt.
+
+MARCO: Exactly, and nothing from the multiple, because we sold at ten times, the price we paid. Interviewers like that check: the sources of return have to add up to the gain.
+
+MARCO: What they'll ask you. First: same Harbour, but the fund needs twenty percent. What's the most it can pay?
+
+SOFIA: Twenty percent a year for five years doubles the money. So the equity can be half of nine hundred and twenty-five, about four hundred and sixty.
+
+MARCO: The compounding trap from episode thirty, in reverse. Strong answer: start from the exit. The exit equity is still nine hundred and twenty-five, because the debt and the cash flows haven't changed. Twenty percent a year for five years is about two and a half times, so the equity today can be about three hundred and seventy. Add the six hundred of debt: a price of about nine hundred and seventy, nine point seven times EBITDA. Then say what it means: at ten times, this deal doesn't quite work.
+
+SOFIA: Second?
+
+MARCO: Your I-R-R is eighteen percent and the investment committee wants twenty. What do you change?
+
+SOFIA: Assume a higher exit multiple. Sell at eleven times instead of ten.
+
+MARCO: Third trap. It works on paper. At eleven times the fund gets one thousand and fifty-five, about two point six times, roughly twenty-one percent. That's why interviewers distrust it: one turn of a multiple you don't control moves the answer more than a year of hard work. Strong answer: start with what you do control. Pay less. Borrow a little more, if the cash flow can carry it. Grow EBITDA faster or cut costs. Repay debt sooner. And exit at the entry multiple or below, then show the higher multiple as an upside case, not the plan.
+
+SOFIA: Deal of the day?
+
+MARCO: A corporate buyer, and a seller heading home. This morning, Friday the thirtieth of October, Ahold Delhaize, the Dutch and Belgian supermarket group, agreed to buy all of Tesco's businesses in the Czech Republic and Slovakia. More than three hundred and sixty supermarkets, hypermarkets and convenience stores, over one hundred franchise stores, more than fourteen thousand employees and about three and a half billion euros of sales.
+
+SOFIA: And Hungary?
+
+MARCO: Stays with Tesco, almost two hundred stores, under review. Since twenty fourteen Tesco has sold out of South Korea, Thailand, Malaysia, Turkey and Poland.
+
+SOFIA: How much?
+
+MARCO: Ahold Delhaize gives two numbers. An enterprise value of about one point two billion euros, and about one point seven billion on a lease-adjusted basis. That's about seven point two times EBITDA for the last twelve months, the L-T-M.
+
+SOFIA: One point two billion at seven point two times. So EBITDA of about one hundred and seventy million.
+
+MARCO: Fourth trap: two bases mixed. The seven point two times is on the lease-adjusted figure. Under the accounting rule I-F-R-S sixteen, store leases count like debt, and rent no longer comes out of EBITDA. So the one point seven billion includes the leases, the gap of about half a billion, and the EBITDA is the bigger, before-rent number. One point seven billion over seven point two: EBITDA of about two hundred and thirty-five million euros, my arithmetic.
+
+SOFIA: Then where does the five times come from?
+
+MARCO: Five point zero times including synergies. Ahold Delhaize already owns Albert, a Czech chain, and expects the combination to be the leading grocery brand in the Czech Republic by market share. The release doesn't put a number on the synergies. But five times on one point seven billion implies about three hundred and forty million of EBITDA, so roughly one hundred million a year of synergies, my arithmetic.
+
+SOFIA: Could a private equity fund have bought it instead?
+
+MARCO: Do the paper L-B-O. A fund brings no synergies, so it pays the full seven point two times. Groceries grow slowly and margins are thin: about two hundred and thirty-five million of EBITDA on three and a half billion of sales, under seven percent. Twenty percent would be hard to reach. Ahold Delhaize pays an effective five times, so it can afford more. That's why a buyer with synergies can often outbid a fund.
+
+SOFIA: How is Ahold Delhaize paying?
+
+MARCO: With committed financing and existing resources, and it says its capital return policies won't change. It expects the deal to leave earnings per share unchanged in the first year after closing. Tesco expects about one billion pounds of cash and plans to return most of it to shareholders through a buyback. Closing is expected in the fourth quarter of twenty twenty-seven, after regulatory approvals. Tesco's shares rose about one percent at the open.
+
+MARCO: Quiz. For you listening. Question one: Harbour sells for one thousand three hundred with three hundred and seventy-five of debt left. What does the fund get? Question two: over five years Harbour has five hundred and ninety of EBITDA, fifty of depreciation and two hundred and forty of interest, taxed at twenty-five percent. How much tax does it pay? Question three: a fund turns four hundred into nine hundred and twenty-five in five years. Roughly what is the I-R-R? Question four: the fund needs twenty percent a year and expects nine hundred and twenty-five at exit in five years. Roughly how much equity can it put in today? Question five: Ahold Delhaize quotes seven point two times EBITDA, and five times. What's the difference?
+
+MARCO: Pause here if you want to think it through.
+
+MARCO: Answers. One: nine hundred and twenty-five. The cash already went into repaying debt, so don't add it again. Two: seventy-five. Tax is on profit after depreciation and interest, not on EBITDA. Three: about eighteen percent, between doubling at fifteen and two and a half times at twenty. Four: about three hundred and seventy. Twenty percent for five years is about two and a half times, not double. Five: the five times includes the synergies Ahold Delhaize expects. Both are on the lease-adjusted basis.
+
+SOFIA: So entry, EBITDA, cash, debt, exit, and every pound of cash counted once.
+
+MARCO: And next, what happens when the cash doesn't come. Tomorrow, episode thirty-three: L-B-Os gone wrong. Toys R Us, and a buyout that ended in liquidation.
