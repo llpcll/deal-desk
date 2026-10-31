@@ -1,0 +1,452 @@
+{
+  "id": "episode-39",
+  "title": "The Deal Desk, episode 39: Fit questions, or why Daimler's merger of equals didn't survive the follow-up",
+  "hook": "In nineteen ninety-eight Daimler-Benz and Chrysler called their deal a merger of equals, and the story fell apart under questioning. Then Tesco sells its Czech and Slovak shops to Ahold Delhaize, and both sides explain why.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-10-31T06:43:53",
+  "duration": 740.868,
+  "audio": "episode-39.mp3",
+  "chunks": [
+    {
+      "words": 469,
+      "seconds": 181.7,
+      "expected": 187.6,
+      "attempts": 1,
+      "coverage": 0.962,
+      "transcribed_words": 467,
+      "script_words": 476,
+      "method": "whisper",
+      "lines_matched": 14,
+      "problems": []
+    },
+    {
+      "words": 462,
+      "seconds": 160.1,
+      "expected": 184.8,
+      "attempts": 1,
+      "coverage": 0.987,
+      "transcribed_words": 462,
+      "script_words": 465,
+      "method": "whisper",
+      "lines_matched": 12,
+      "problems": []
+    },
+    {
+      "words": 547,
+      "seconds": 198.6,
+      "expected": 218.8,
+      "attempts": 1,
+      "coverage": 0.962,
+      "transcribed_words": 539,
+      "script_words": 547,
+      "method": "whisper",
+      "lines_matched": 18,
+      "problems": []
+    },
+    {
+      "words": 532,
+      "seconds": 198.4,
+      "expected": 212.8,
+      "attempts": 1,
+      "coverage": 0.979,
+      "transcribed_words": 531,
+      "script_words": 536,
+      "method": "whisper",
+      "lines_matched": 11,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode thirty-nine. For three episodes we've practised talking: pitching a deal, pitching a trade, arguing over a restructuring. Today, the questions about you. Why banking, why this bank, and the stories behind your C-V. Bankers call them fit questions, and we start with a deal where the fit was the problem.",
+      "start": 0.46,
+      "end": 25.88
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Which one?",
+      "start": 25.93,
+      "end": 27.1
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Daimler-Benz, the German maker of Mercedes, and Chrysler, the American carmaker. In May nineteen ninety-eight, at a press conference in London, the two chairmen, Jürgen Schrempp and Robert Eaton, announced a deal worth more than thirty-six billion dollars. They called it a merger of equals.",
+      "start": 27.15,
+      "end": 46.99
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "Two companies of the same weight, sharing power.",
+      "start": 47.04,
+      "end": 50.45
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "That was the story. In October two thousand, Schrempp gave an interview to the Financial Times that was read as saying the merger of equals label had been used for psychological reasons. Kirk Kerkorian, the investor, who had owned nearly fourteen percent of Chrysler, sued for fraud and sought more than a billion dollars.",
+      "start": 50.5,
+      "end": 71.23
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "Why would a label matter that much?",
+      "start": 71.28,
+      "end": 73.82
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "Because in a takeover the target's shareholders expect a control premium, the extra a buyer pays to take charge. In a merger of equals nobody takes charge, so there's no premium to pay. Kerkorian's case was that a takeover had been sold as a merger. Schrempp denied it in court. Meanwhile the two companies never really became one, and by the end of two thousand and three the shares had fallen by more than half since the deal closed.",
+      "start": 73.87,
+      "end": 102.22
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "And then?",
+      "start": 102.27,
+      "end": 103.2
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "In two thousand and seven, Daimler sold eighty point one percent of Chrysler to the private equity firm Cerberus for seven point four billion dollars. Most of that money stayed inside Chrysler. Daimler received about one point four billion, and by Time magazine's count, once everything was settled, it paid out nearly two billion dollars to be rid of it.",
+      "start": 103.25,
+      "end": 125.42
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "More than thirty-six billion in, and paying to get out.",
+      "start": 125.47,
+      "end": 130.1
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "You'll hear plenty of reasons: the products, the costs, the car market. But the lesson for today is simpler. The story was a merger of equals, and the follow-up questions showed it wasn't. That's what a fit interview tests. Not whether your story sounds good, but whether it's true, and whether it survives the second question.",
+      "start": 130.15,
+      "end": 150.47
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "So what counts as a fit question?",
+      "start": 150.52,
+      "end": 153.01
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "Everything that isn't technical. Tell me about yourself. Why banking. Why us. Tell me about a time you worked in a team, or failed. Every fit question is one of three underneath. Can you do the job? Do you really want this job? And would we want you next to us at two in the morning, with a deadline at eight?",
+      "start": 153.06,
+      "end": 174.92
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "Then why banking is easy. Because I love finance, I like a fast pace, and I want to learn a lot quickly.",
+      "start": 174.97,
+      "end": 182.038
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "First trap. That's true of every candidate in the building, so it tells me nothing about you. And what does love finance mean? The strong version has a moment and the evidence behind it. Something like: in my first term I followed a bank takeover in the Italian press, I wanted to know why the buyer would pay that premium, and I spent a month building the numbers myself. Now I've learned something about you, and I have a follow-up I want to ask.",
+      "start": 182.628,
+      "end": 210.718
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "And the money? Everyone's thinking it.",
+      "start": 210.768,
+      "end": 213.248
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "Everyone, and nobody says it. Not because it's shameful, but because it doesn't separate banking from law or consulting. Same with the pace. Say what's particular to the job: you work on one decision, a company changing hands, from the first model to the signing.",
+      "start": 213.298,
+      "end": 230.578
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "Then tell me about yourself. I start at school and go through my C-V.",
+      "start": 230.628,
+      "end": 234.858
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Second trap. They've read your C-V. Reading it aloud wastes the one question where you choose the subject. Give it a shape, in round numbers. Two minutes, at about one hundred and fifty words a minute, is three hundred words. Thirty seconds on the past: where you're from, and what pulled you towards finance. Sixty on the present: what you're doing now, and the one or two things that prove it. Thirty on the future: why this role, and why now. Past, present, future, and it ends on the question they'll ask next.",
+      "start": 234.908,
+      "end": 265.628
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "And the stories? Tell me about a time you led a team.",
+      "start": 265.678,
+      "end": 269.588
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Use the Star method: situation, task, action, result. Try one.",
+      "start": 269.638,
+      "end": 275.388
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "Okay. At the university's investment society we were organising a conference, and the sponsors kept pulling out, and the date was fixed, and the faculty wanted a budget, and there were three of us, and we had one month, and in the end we did really well.",
+      "start": 275.438,
+      "end": 289.418
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Third trap, twice. You spent almost all the time on the situation, and you said we. They're hiring you, not the society. Budget a ninety-second story the same way as before. Twenty seconds for situation and task. Fifty for the action, in the first person: what you did, and why you chose it. Twenty for the result, with a number.",
+      "start": 289.468,
+      "end": 311.718
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "Then: I rewrote the sponsor pitch around what each firm wanted to hire for, called twelve firms myself, and raised sponsorship from two thousand five hundred euros to four thousand.",
+      "start": 311.768,
+      "end": 322.608
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "Sixty percent more, and now it's a story. One decision, one number, and it's yours. And keep it true. If you say four thousand, expect the follow-ups: who signed, what did you offer them, what would you do differently. That's the Daimler test.",
+      "start": 322.658,
+      "end": 338.238
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "Why this bank, then? Because you're top of the league tables and you work on the biggest deals.",
+      "start": 338.288,
+      "end": 342.557
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "Fourth trap. That's what the bank's own website says, and they wrote it. From outside, the big banks look alike, and they know it. The strong answer has evidence only you could have: a person you spoke to and what they told you, a deal they advised on that you followed, how the division is organised, the size of the intake. Then link it back to you. Why this bank really means: why does this place fit what I've just told you about myself.",
+      "start": 343.077,
+      "end": 372.857
+    },
+    {
+      "i": 27,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: what's your biggest weakness?",
+      "start": 372.907,
+      "end": 376.287
+    },
+    {
+      "i": 28,
+      "speaker": "SOFIA",
+      "text": "I'm a perfectionist. I care too much about getting things right.",
+      "start": 376.337,
+      "end": 380.717
+    },
+    {
+      "i": 29,
+      "speaker": "MARCO",
+      "text": "Every interviewer has heard it, and it sounds like a dodge. Strong answer: a real weakness that won't sink you in the job, what it cost you once, and what you do about it now. For example: I used to say yes to everything, and in my first term a group project went in late because of it. Now I write down what I've committed to each week before I take on more. It's honest, it's specific, and it shows you change.",
+      "start": 380.767,
+      "end": 404.927
+    },
+    {
+      "i": 30,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 404.977,
+      "end": 405.877
+    },
+    {
+      "i": 31,
+      "speaker": "MARCO",
+      "text": "Tell me about a time you failed.",
+      "start": 405.927,
+      "end": 408.397
+    },
+    {
+      "i": 32,
+      "speaker": "SOFIA",
+      "text": "I find it hard to think of one. Things have mostly gone well for me.",
+      "start": 408.447,
+      "end": 411.877
+    },
+    {
+      "i": 33,
+      "speaker": "MARCO",
+      "text": "That's the answer that fails. Either you haven't tried anything hard, or you can't see your own mistakes, and neither helps on a deal team. Strong answer: a Star story where the result is bad. What you tried, where it went wrong, which part of that was yours, and what you'd do differently. Keep the failure real, and spend at least a third of the answer on what you changed afterwards.",
+      "start": 411.927,
+      "end": 436.837
+    },
+    {
+      "i": 34,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 436.887,
+      "end": 438.597
+    },
+    {
+      "i": 35,
+      "speaker": "MARCO",
+      "text": "A deal where both sides had to answer the why question. On Friday the thirtieth of October, Ahold Delhaize, the Dutch and Belgian group behind Albert Heijn and Delhaize, agreed to buy Tesco's businesses in the Czech Republic and Slovakia. All the stores and offices in both countries, and three distribution centres.",
+      "start": 438.647,
+      "end": 461.297
+    },
+    {
+      "i": 36,
+      "speaker": "SOFIA",
+      "text": "The British Tesco?",
+      "start": 461.347,
+      "end": 463.197
+    },
+    {
+      "i": 37,
+      "speaker": "MARCO",
+      "text": "The same. More than three hundred and sixty stores it runs itself, more than one hundred franchise stores, more than fourteen thousand employees, and sales of about three and a half billion euros. Tesco keeps its business in Hungary, and says it will keep reviewing its options there.",
+      "start": 463.247,
+      "end": 480.067
+    },
+    {
+      "i": 38,
+      "speaker": "SOFIA",
+      "text": "And the price?",
+      "start": 480.117,
+      "end": 481.447
+    },
+    {
+      "i": 39,
+      "speaker": "MARCO",
+      "text": "An enterprise value of one point seven billion euros, about one point five billion pounds. Tesco expects net cash of about one point two billion euros, before tax and costs.",
+      "start": 481.497,
+      "end": 493.527
+    },
+    {
+      "i": 40,
+      "speaker": "SOFIA",
+      "text": "So half a billion goes on tax.",
+      "start": 493.577,
+      "end": 496.027
+    },
+    {
+      "i": 41,
+      "speaker": "MARCO",
+      "text": "Fifth trap. That cash figure is before tax. The one point seven counts the stores' leases as debt, as the accounting rules have done since I-F-R-S sixteen. Leave the leases out and the enterprise value is one point two billion. So the gap, about half a billion, is mostly the rent obligations Ahold takes on. Same rule as any enterprise value bridge: decide whether leases are in, and keep it the same on both sides of the multiple.",
+      "start": 496.077,
+      "end": 525.837
+    },
+    {
+      "i": 42,
+      "speaker": "SOFIA",
+      "text": "And the multiple?",
+      "start": 525.887,
+      "end": 527.327
+    },
+    {
+      "i": 43,
+      "speaker": "MARCO",
+      "text": "Ahold puts it at about seven point two times last year's EBITDA, with leases in. Including the synergies it expects, five times. Analysts at Bernstein said the price looked quite expensive, and better news for Tesco than for Ahold.",
+      "start": 527.377,
+      "end": 541.58
+    },
+    {
+      "i": 44,
+      "speaker": "SOFIA",
+      "text": "Then why buy?",
+      "start": 542.61,
+      "end": 544.53
+    },
+    {
+      "i": 45,
+      "speaker": "MARCO",
+      "text": "That's the fit question for a company. Ahold's answer is specific. It already owns Albert, a Czech chain, and it says the two together should become the leading grocery brand in the Czech Republic, with a leading brand position in Slovakia too. Its chief executive, Frans Muller, called it an important step in strengthening its position in Central and Southeastern Europe. It expects the deal to be neutral to earnings per share in the first year, and closing in the fourth quarter of twenty twenty-seven, once the competition authorities have cleared it.",
+      "start": 544.58,
+      "end": 577.75
+    },
+    {
+      "i": 46,
+      "speaker": "SOFIA",
+      "text": "And Tesco's why?",
+      "start": 577.8,
+      "end": 580.43
+    },
+    {
+      "i": 47,
+      "speaker": "MARCO",
+      "text": "Focus. Since twenty fifteen Tesco has sold almost everything it owned abroad, in South Korea, Thailand and Malaysia among others. Its Central European business made one hundred and fifteen million pounds of adjusted operating profit over the past year, most of it from these two countries. Its chief executive, Ken Murphy, said the deal would further simplify the group and increase its focus on Britain and Ireland. Most of the cash goes back to shareholders through a share buyback, so earnings per share should be broadly unchanged.",
+      "start": 580.48,
+      "end": 612.26
+    },
+    {
+      "i": 48,
+      "speaker": "SOFIA",
+      "text": "Same deal, two different stories.",
+      "start": 612.31,
+      "end": 615.16
+    },
+    {
+      "i": 49,
+      "speaker": "MARCO",
+      "text": "And both have to be true for the deal to make sense. Notice what makes them convincing: each is specific to that company, and each comes with a number you can check. That's what you want from your own why this bank. And if you bring this deal up in an interview, the follow-up will be the multiple. Seven point two times, or five with synergies. The price works for Ahold if the synergies arrive.",
+      "start": 615.21,
+      "end": 638.68
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: in a ninety-second Star story, where should most of the time go? Question two: what's missing from \"I love finance and I like a fast pace\" as an answer to why banking? Question three: what makes a strong answer to why this bank? Question four: why did it matter whether Daimler and Chrysler was a merger or a takeover? Question five: Tesco's Czech and Slovak businesses have an enterprise value of one point seven billion euros, but Tesco expects about one point two billion of net cash. What explains most of the gap?",
+      "start": 638.73,
+      "end": 677.95
+    },
+    {
+      "i": 51,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 678.0,
+      "end": 680.31
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Answers. One: the action, about fifty seconds of ninety, told in the first person. Not the situation. Two: anything about you. Every candidate could say it, so give a moment and the evidence behind it. Three: evidence only you could have, a person you spoke to or a deal they worked on, linked back to your own story. Not the league tables. Four: in a takeover the target's shareholders expect a control premium, and Kerkorian argued a takeover had been sold as a merger of equals. Five: leases. The one point seven billion counts them as debt; leave them out and it's one point two. It isn't tax, because the cash figure is before tax.",
+      "start": 680.36,
+      "end": 723.95
+    },
+    {
+      "i": 53,
+      "speaker": "SOFIA",
+      "text": "So, a moment, the evidence, and a story that survives the second question.",
+      "start": 724.0,
+      "end": 729.32
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "And when they ask a follow-up with numbers in it, you'll need to do them in your head. Tomorrow, episode forty: mental maths. Percentages, multiples and quick division, without a calculator.",
+      "start": 729.37,
+      "end": 740.408
+    }
+  ]
+}

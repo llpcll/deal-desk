@@ -1,0 +1,461 @@
+{
+  "visuals": [
+    {
+      "at": "Daimler-Benz, the German maker of Mercedes",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Billed as a merger of equals",
+      "name": "Daimler-Benz / Chrysler",
+      "sub": "Germany's maker of Mercedes and the American carmaker, announced at a press conference in London",
+      "lines": [
+        "Worth more than $36bn",
+        "Announced by Jürgen Schrempp and Robert Eaton"
+      ],
+      "date": "May 1998"
+    },
+    {
+      "at": "In October two thousand, Schrempp gave an interview",
+      "type": "table",
+      "title": "Why the label mattered",
+      "columns": [
+        "",
+        "Merger of equals",
+        "Takeover"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Who takes charge",
+          "Nobody",
+          "The buyer"
+        ],
+        [
+          "Control premium for the target",
+          "None",
+          "Expected"
+        ]
+      ],
+      "note": "Kirk Kerkorian, who had owned nearly 14% of Chrysler, sued for fraud and sought more than $1bn, arguing a takeover had been sold as a merger. Schrempp denied it in court."
+    },
+    {
+      "at": "Daimler sold eighty point one percent of Chrysler",
+      "type": "keynumbers",
+      "title": "From 1998 to 2007",
+      "items": [
+        {
+          "value": "$36bn+",
+          "label": "the 1998 deal"
+        },
+        {
+          "value": "$7.4bn",
+          "label": "Cerberus pays for 80.1% of Chrysler, 2007"
+        },
+        {
+          "value": "$1.4bn",
+          "label": "what Daimler received",
+          "approx": true
+        },
+        {
+          "value": "~$2bn",
+          "label": "what Daimler paid out to be rid of it, by Time's count",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "Every fit question is one of three underneath",
+      "type": "steps",
+      "title": "What every fit question is really asking",
+      "items": [
+        {
+          "label": "Can you do the job?",
+          "detail": "Evidence from what you've already done"
+        },
+        {
+          "label": "Do you really want this job?",
+          "detail": "A real reason, specific to banking and to this bank"
+        },
+        {
+          "label": "Would we want you on the team?",
+          "detail": "At two in the morning, with a deadline at eight"
+        }
+      ]
+    },
+    {
+      "at": "That's true of every candidate in the building",
+      "type": "table",
+      "title": "Why banking: weak and strong",
+      "columns": [
+        "Weak",
+        "Strong"
+      ],
+      "align": [
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "I love finance",
+          "A moment: a bank takeover followed in the press"
+        ],
+        [
+          "I like a fast pace",
+          "Evidence: a month spent building the numbers"
+        ],
+        [
+          "I want to learn quickly",
+          "What's particular to the job: one decision, from first model to signing"
+        ]
+      ],
+      "note": "The weak answers are true of every candidate. The strong one invites a follow-up you're ready for."
+    },
+    {
+      "at": "Give it a shape, in round numbers",
+      "type": "bars",
+      "title": "Tell me about yourself: a two-minute budget",
+      "unit": " s",
+      "items": [
+        {
+          "label": "Past: where you're from, what pulled you to finance",
+          "value": 30
+        },
+        {
+          "label": "Present: what you're doing now, and the proof",
+          "value": 60
+        },
+        {
+          "label": "Future: why this role, why now",
+          "value": 30
+        }
+      ],
+      "note": "Two minutes at about 150 words a minute is about 300 words."
+    },
+    {
+      "at": "Use the Star method: situation, task, action, result",
+      "type": "formula",
+      "title": "The Star method",
+      "formula": "Situation + Task → Action → Result",
+      "note": "Action in the first person: what you did, and why. Result with a number."
+    },
+    {
+      "at": "Budget a ninety-second story the same way as before",
+      "type": "bars",
+      "title": "A 90-second Star story",
+      "unit": " s",
+      "items": [
+        {
+          "label": "Situation and task",
+          "value": 20
+        },
+        {
+          "label": "Action, in the first person",
+          "value": 50
+        },
+        {
+          "label": "Result, with a number",
+          "value": 20
+        }
+      ],
+      "note": "Sofia's first try spent almost all the time on the situation, and said \"we\"."
+    },
+    {
+      "at": "raised sponsorship from two thousand five hundred euros",
+      "type": "keynumbers",
+      "title": "Sofia's result",
+      "items": [
+        {
+          "value": "€2,500 → €4,000",
+          "label": "sponsorship raised, after calling twelve firms herself"
+        },
+        {
+          "value": "+60%",
+          "label": "one decision, one number"
+        }
+      ],
+      "note": "Hypothetical story. Expect the follow-ups: who signed, what you offered, what you'd do differently."
+    },
+    {
+      "at": "On Friday the thirtieth of October, Ahold Delhaize",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "Ahold Delhaize / Tesco Czech Republic and Slovakia",
+      "sub": "All of Tesco's stores and offices in both countries, plus three distribution centres",
+      "lines": [
+        "Enterprise value €1.7bn (about £1.5bn), leases included",
+        "Hungary not included"
+      ],
+      "date": "Announced 30 October 2026"
+    },
+    {
+      "at": "More than three hundred and sixty stores it runs itself",
+      "type": "keynumbers",
+      "title": "What Ahold Delhaize is buying",
+      "items": [
+        {
+          "value": "360+",
+          "label": "self-operated stores"
+        },
+        {
+          "value": "100+",
+          "label": "franchise stores"
+        },
+        {
+          "value": "14,000+",
+          "label": "employees"
+        },
+        {
+          "value": "€3.5bn",
+          "label": "sales",
+          "approx": true
+        }
+      ]
+    },
+    {
+      "at": "The one point seven counts the stores' leases as debt",
+      "type": "waterfall",
+      "title": "Enterprise value, with and without leases",
+      "unit": "€bn",
+      "decimals": 1,
+      "steps": [
+        {
+          "label": "Enterprise value, leases in (IFRS 16)",
+          "value": 1.7,
+          "kind": "total"
+        },
+        {
+          "label": "Lease liabilities",
+          "value": 0.5,
+          "kind": "sub"
+        },
+        {
+          "label": "Enterprise value, leases out",
+          "value": 1.2,
+          "kind": "total"
+        }
+      ],
+      "note": "The middle step is the gap between the two announced figures, both approximate. Tesco's expected net cash, about €1.2bn, is before tax and costs."
+    },
+    {
+      "at": "Ahold puts it at about seven point two times",
+      "type": "bars",
+      "title": "What Ahold Delhaize pays, EV / last year's EBITDA",
+      "unit": "x",
+      "decimals": 1,
+      "items": [
+        {
+          "label": "Leases in",
+          "value": 7.2
+        },
+        {
+          "label": "Leases in, including expected synergies",
+          "value": 5.0
+        }
+      ],
+      "note": "Ahold Delhaize's own figures. Bernstein analysts said the price looked quite expensive."
+    },
+    {
+      "at": "That's the fit question for a company",
+      "type": "table",
+      "title": "One deal, two stories",
+      "columns": [
+        "",
+        "Ahold Delhaize (buyer)",
+        "Tesco (seller)"
+      ],
+      "align": [
+        "left",
+        "left",
+        "left"
+      ],
+      "rows": [
+        [
+          "Why",
+          "Albert plus Tesco: the leading grocery brand in the Czech Republic",
+          "Focus on Britain and Ireland"
+        ],
+        [
+          "The number",
+          "5.0x with synergies",
+          "£115m Central European adjusted operating profit, mostly these two countries"
+        ],
+        [
+          "Earnings per share",
+          "Neutral in the first year",
+          "Broadly unchanged, after a buyback"
+        ],
+        [
+          "Closing",
+          "Fourth quarter of 2027",
+          "Subject to competition approvals"
+        ]
+      ]
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "In a 90-second Star story, where should most of the time go?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The situation, so they see the context"
+          },
+          {
+            "id": "b",
+            "text": "The result, so they remember it"
+          },
+          {
+            "id": "c",
+            "text": "The action, in the first person"
+          },
+          {
+            "id": "d",
+            "text": "The team, and what we achieved"
+          }
+        ],
+        "correct": "c",
+        "explain": "About 50 of the 90 seconds go on what you did and why, in the first person. Sofia's first try spent almost all of it on the situation and said \"we\".",
+        "explain_at": "Fifty for the action, in the first person"
+      },
+      {
+        "id": "q2",
+        "q": "What's missing from \"I love finance and I like a fast pace\" as an answer to why banking?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Anything specific to you"
+          },
+          {
+            "id": "b",
+            "text": "An honest mention of the pay"
+          },
+          {
+            "id": "c",
+            "text": "A list of the bank's big deals"
+          },
+          {
+            "id": "d",
+            "text": "More enthusiasm for the pace"
+          }
+        ],
+        "correct": "a",
+        "explain": "Every candidate could say it. Give a moment that drew you in and the evidence behind it, so the interviewer learns something about you.",
+        "explain_at": "That's true of every candidate in the building"
+      },
+      {
+        "id": "q3",
+        "q": "What makes a strong answer to \"why this bank?\"",
+        "options": [
+          {
+            "id": "a",
+            "text": "Its place at the top of the league tables"
+          },
+          {
+            "id": "b",
+            "text": "The size of the deals it works on"
+          },
+          {
+            "id": "c",
+            "text": "Praise for its brand and reputation"
+          },
+          {
+            "id": "d",
+            "text": "Evidence you gathered, linked to your story"
+          }
+        ],
+        "correct": "d",
+        "explain": "A person you spoke to, or a deal they advised on that you followed, tied back to what you've said about yourself. League tables are what the bank's own website says.",
+        "explain_at": "The strong answer has evidence only you could have"
+      },
+      {
+        "id": "q4",
+        "q": "Why did it matter whether Daimler-Benz and Chrysler was called a merger or a takeover?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A merger needed no shareholder vote"
+          },
+          {
+            "id": "b",
+            "text": "Takeover targets expect a control premium"
+          },
+          {
+            "id": "c",
+            "text": "A takeover would have been blocked"
+          },
+          {
+            "id": "d",
+            "text": "Mergers pay the target in cash"
+          }
+        ],
+        "correct": "b",
+        "explain": "In a takeover the buyer pays extra to take charge; in a merger of equals nobody does. Kerkorian argued a takeover had been sold as a merger.",
+        "explain_at": "in a takeover the target's shareholders expect a control premium"
+      },
+      {
+        "id": "q5",
+        "q": "Tesco's Czech and Slovak businesses have an enterprise value of €1.7bn, but Tesco expects about €1.2bn of net cash. What explains most of the gap?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tax on the gain from the sale"
+          },
+          {
+            "id": "b",
+            "text": "The Hungarian business it keeps"
+          },
+          {
+            "id": "c",
+            "text": "Lease liabilities counted as debt"
+          },
+          {
+            "id": "d",
+            "text": "Synergies Ahold expects to earn"
+          }
+        ],
+        "correct": "c",
+        "explain": "The €1.7bn counts the stores' leases as debt, under IFRS 16; leave them out and it's €1.2bn. The cash figure is before tax.",
+        "explain_at": "The one point seven counts the stores' leases as debt"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Ahold Delhaize announces the acquisition of Tesco Czechia and Slovakia (Ahold Delhaize, 30 October 2026)",
+      "url": "https://newsroom.aholddelhaize.com/ahold-delhaize-announces-the-acquisition-of-tesco-czechia-and-slovakia-strengthening-its-position-in-europe/"
+    },
+    {
+      "label": "Tesco to sell Czech Republic & Slovakia businesses (Tesco RNS, Investegate, 30 October 2026)",
+      "url": "https://www.investegate.co.uk/announcement/rns/tesco--tsco/tesco-to-sell-czech-republic-slovakia-businesses/9850019"
+    },
+    {
+      "label": "Tesco extends overseas retreat with Czech and Slovak sale (RTÉ, 30 October 2026)",
+      "url": "https://www.rte.ie/news/business/2026/1030/1597319-tesco-to-sell-czech-slovak-businesses/"
+    },
+    {
+      "label": "DaimlerChrysler CEO defends deal (Reuters via NBC News, 10 December 2003)",
+      "url": "https://www.nbcnews.com/id/wbna3677102"
+    },
+    {
+      "label": "Top 10 worst business deals: DaimlerChrysler pays to unload Chrysler (Time, December 2007)",
+      "url": "https://content.time.com/time/specials/2007/article/0,28804,1686204_1686305_1692093,00.html"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So what counts as a fit question?"
+  }
+}
