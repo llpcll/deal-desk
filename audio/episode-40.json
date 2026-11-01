@@ -1,0 +1,480 @@
+{
+  "id": "episode-40",
+  "title": "The Deal Desk, episode 40: Mental maths, or how one typo cost Mizuho twenty-seven billion yen",
+  "hook": "In two thousand and five a Mizuho trader sold forty times more shares than the company had, at one yen each. Then G-E Vernova pays nine billion dollars for Berlin's Trench Group, and we check the price in our heads.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-11-01T05:43:15",
+  "duration": 735.59,
+  "audio": "episode-40.mp3",
+  "chunks": [
+    {
+      "words": 516,
+      "seconds": 203.9,
+      "expected": 206.4,
+      "attempts": 1,
+      "coverage": 0.955,
+      "transcribed_words": 517,
+      "script_words": 532,
+      "method": "whisper",
+      "lines_matched": 17,
+      "problems": []
+    },
+    {
+      "words": 513,
+      "seconds": 202.5,
+      "expected": 205.2,
+      "attempts": 1,
+      "coverage": 0.952,
+      "transcribed_words": 500,
+      "script_words": 521,
+      "method": "whisper",
+      "lines_matched": 16,
+      "problems": []
+    },
+    {
+      "words": 395,
+      "seconds": 163.7,
+      "expected": 158.0,
+      "attempts": 1,
+      "coverage": 0.939,
+      "transcribed_words": 398,
+      "script_words": 411,
+      "method": "whisper",
+      "lines_matched": 15,
+      "problems": []
+    },
+    {
+      "words": 377,
+      "seconds": 163.4,
+      "expected": 150.8,
+      "attempts": 1,
+      "coverage": 0.954,
+      "transcribed_words": 387,
+      "script_words": 393,
+      "method": "whisper",
+      "lines_matched": 10,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode forty. Yesterday, the questions about you. Today, the numbers you do in your head, when an interviewer asks a follow-up and there's no calculator on the table. Mental maths. We start with a trade where nobody did the sum.",
+      "start": 0.54,
+      "end": 17.49
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Which one?",
+      "start": 17.54,
+      "end": 18.58
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "The eighth of December two thousand and five, in Tokyo. J-Com, a Japanese recruitment company, was making its debut on the stock exchange. A trader at Mizuho Securities meant to sell one share at six hundred and ten thousand yen. He typed it the other way round: six hundred and ten thousand shares, at one yen each.",
+      "start": 18.63,
+      "end": 39.21
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "Surely the system stopped him.",
+      "start": 39.26,
+      "end": 41.41
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "It didn't. And here's the part that matters for today. The order was more than forty times the number of J-Com shares in existence. Mizuho tried to cancel it three times, and the exchange doesn't cancel trades that have already gone through. By the end of the day Mizuho estimated the cost at twenty-seven billion yen or more, about two hundred and twenty-five million dollars, and said it could pass thirty billion once it had bought the shares back.",
+      "start": 41.46,
+      "end": 68.1
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "From one typo.",
+      "start": 68.15,
+      "end": 69.97
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "From one typo, and from a check nobody made. You don't need a calculator to ask: does this company even have six hundred and ten thousand shares? Two seconds of rough arithmetic. That's what mental maths is in banking. Not being a human calculator. Knowing roughly what the answer should be, so you notice when it isn't.",
+      "start": 70.02,
+      "end": 90.38
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "So what do they actually test?",
+      "start": 90.43,
+      "end": 92.77
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "Three things, again and again: percentages, multiples and growth. And one habit underneath all three: round first, then adjust. Start with percentages. What's eighteen percent of four hundred and twenty?",
+      "start": 92.82,
+      "end": 107.4
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "Eighteen times four hundred and twenty. Give me a moment. Seven thousand five hundred and something, so seventy-five point something.",
+      "start": 107.45,
+      "end": 117.7
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "First trap. You went for the exact answer, digit by digit, and you went quiet while you did it. Interviewers would rather hear the route. Ten percent of four hundred and twenty is forty-two. Twenty percent is eighty-four. Eighteen is twenty minus two, and two percent is about eight. So about seventy-six. Say it as you go, and say about.",
+      "start": 117.75,
+      "end": 139.13
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "So build everything from ten percent.",
+      "start": 139.18,
+      "end": 142.01
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "From ten, from one, and from a few fractions you should know by heart. One eighth is twelve and a half percent. One sixth is about sixteen point seven. One third, thirty-three. And one swap that saves you every time: x percent of y is the same as y percent of x. Eight percent of twenty-five? Turn it round: twenty-five percent of eight. Two.",
+      "start": 142.06,
+      "end": 167.08
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "Nice. And margins? A company's margin goes from twenty percent to twenty-five. That's a five percent increase.",
+      "start": 167.13,
+      "end": 175.56
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "Second trap. It's five percentage points. As a percentage, it's five on twenty: a quarter, so the margin is twenty-five percent higher. Same with a share that falls fifty percent and then rises fifty percent.",
+      "start": 175.61,
+      "end": 189.74
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "Back where it started.",
+      "start": 189.79,
+      "end": 191.66
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "A hundred falls to fifty, and fifty percent of fifty is twenty-five. It ends at seventy-five. The base changed. So ask every time: percent of what?",
+      "start": 191.71,
+      "end": 204.237
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "Then multiples.",
+      "start": 204.757,
+      "end": 206.587
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Multiples are division, and division is where people freeze. Round numbers. A buyer pays one point two billion euros for a company with eighty million of EBITDA. What multiple?",
+      "start": 206.637,
+      "end": 219.287
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "One point two billion over eighty million. That's one point five.",
+      "start": 219.337,
+      "end": 223.547
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Third trap: the zeros. One point five what? Do a size check first. Eighty million times ten is eight hundred million, so the answer is more than ten. Now cancel zeros to make it small: one thousand two hundred over eighty is one hundred and twenty over eight. Fifteen times. Before any division, say the size out loud: more than ten, less than twenty. That's the J-Com check.",
+      "start": 223.597,
+      "end": 249.137
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "And if it doesn't divide neatly?",
+      "start": 249.187,
+      "end": 251.397
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Use the fractions. Dividing by eight is halving three times. Dividing by twelve and a half is multiplying by eight and dropping two zeros. Dividing by twenty-five is multiplying by four and dropping two zeros.",
+      "start": 251.447,
+      "end": 265.117
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "And growth?",
+      "start": 265.167,
+      "end": 266.687
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "Growth compounds, and there's a shortcut: the rule of seventy-two. Divide seventy-two by the annual growth rate, and you get roughly the number of years it takes to double. Nine percent a year, about eight years. Twelve percent, about six. It works backwards too. If something doubles in three years, it grew about twenty-four percent a year.",
+      "start": 266.737,
+      "end": 286.607
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "So a private equity fund that doubles its money in five years makes twenty percent a year. One hundred percent over five.",
+      "start": 286.657,
+      "end": 295.237
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "Fourth trap. That's simple interest, and returns compound. Seventy-two over five is about fourteen and a half. Doubling in five years is an I-R-R of about fifteen percent, not twenty. Tripling in five years is about twenty-five. Memorise those two, because you'll hear them in every private equity interview.",
+      "start": 295.287,
+      "end": 317.237
+    },
+    {
+      "i": 27,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: a company has revenue of six hundred million and an EBITDA margin of fifteen percent. It's valued at nine times EBITDA. What's its enterprise value?",
+      "start": 317.287,
+      "end": 330.847
+    },
+    {
+      "i": 28,
+      "speaker": "SOFIA",
+      "text": "Fifteen percent of six hundred is ninety. Nine times ninety is eight hundred and ten. So eight hundred and ten.",
+      "start": 330.897,
+      "end": 338.077
+    },
+    {
+      "i": 29,
+      "speaker": "MARCO",
+      "text": "Right number, but no unit, no route and no check. Strong answer: ten percent of six hundred is sixty, five percent is thirty, so EBITDA is ninety million. Nine times ninety is ten times ninety minus ninety: eight hundred and ten million. Then one sentence of sense: that's about one point three five times revenue, which is plausible for a business with a fifteen percent margin. Units, route, sense check.",
+      "start": 338.127,
+      "end": 366.087
+    },
+    {
+      "i": 30,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 366.137,
+      "end": 367.267
+    },
+    {
+      "i": 31,
+      "speaker": "MARCO",
+      "text": "You buy a company for five hundred million and sell it five years later for one point five billion. Roughly what return did you make?",
+      "start": 367.317,
+      "end": 374.967
+    },
+    {
+      "i": 32,
+      "speaker": "SOFIA",
+      "text": "Three times the money. So two hundred percent, forty percent a year.",
+      "start": 375.017,
+      "end": 379.287
+    },
+    {
+      "i": 33,
+      "speaker": "MARCO",
+      "text": "The multiple's right; the rest is simple interest again. Strong answer: three times in five years. Fifteen percent a year only doubles it, so tripling needs more: about twenty-five percent a year. Then ask the question the interviewer is hoping for: was there debt? If the buyer borrowed part of the price, the return on its own money is higher than the return on the company. Hold that thought, because it's in today's deal.",
+      "start": 379.337,
+      "end": 407.172
+    },
+    {
+      "i": 34,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 407.692,
+      "end": 409.032
+    },
+    {
+      "i": 35,
+      "speaker": "MARCO",
+      "text": "A Berlin company, a private equity seller, and plenty of arithmetic. On Wednesday the twenty-eighth of October, G-E Vernova, the American maker of power equipment, agreed to buy Trench Group from the investment firm Triton. Trench makes high-voltage parts for electricity grids: bushings, instrument transformers and coils. It has more than three thousand employees and eleven factories in eight countries.",
+      "start": 409.082,
+      "end": 436.982
+    },
+    {
+      "i": 36,
+      "speaker": "SOFIA",
+      "text": "And the price?",
+      "start": 437.032,
+      "end": 439.182
+    },
+    {
+      "i": 37,
+      "speaker": "MARCO",
+      "text": "Nine billion dollars, at an exchange rate of one point one two dollars to the euro. First sum: what's that in euros?",
+      "start": 439.232,
+      "end": 446.912
+    },
+    {
+      "i": 38,
+      "speaker": "SOFIA",
+      "text": "Nine divided by one point one two. About eight billion euros.",
+      "start": 446.962,
+      "end": 452.262
+    },
+    {
+      "i": 39,
+      "speaker": "MARCO",
+      "text": "Check it the other way: one point one two times eight is eight point nine six. So about eight billion euros. G-E Vernova expects to pay half in cash and half with debt, and to close in late twenty twenty-seven, once the regulators have approved it.",
+      "start": 452.312,
+      "end": 470.722
+    },
+    {
+      "i": 40,
+      "speaker": "SOFIA",
+      "text": "Cheap or expensive?",
+      "start": 470.772,
+      "end": 472.602
+    },
+    {
+      "i": 41,
+      "speaker": "MARCO",
+      "text": "G-E Vernova says it's paying thirteen times Trench's adjusted EBITDA for twenty twenty-eight, before synergies.",
+      "start": 472.652,
+      "end": 481.132
+    },
+    {
+      "i": 42,
+      "speaker": "SOFIA",
+      "text": "Thirteen times. Cheaper than the fifteen in our example.",
+      "start": 481.182,
+      "end": 485.102
+    },
+    {
+      "i": 43,
+      "speaker": "MARCO",
+      "text": "Fifth trap. That's EBITDA two years from now, and for a growing company a forward multiple looks lower. Financial sources quoted by the German paper Börsen-Zeitung put the price at about twenty-one times EBITDA. Same price, two very different multiples. The difference is the year, so ask: times which EBITDA?",
+      "start": 485.152,
+      "end": 507.152
+    },
+    {
+      "i": 44,
+      "speaker": "SOFIA",
+      "text": "Can we check the thirteen?",
+      "start": 507.202,
+      "end": 508.862
+    },
+    {
+      "i": 45,
+      "speaker": "MARCO",
+      "text": "Let's. G-E Vernova expects Trench to make revenue of one point nine billion dollars in twenty twenty-eight, with an EBITDA margin of about thirty-six percent. Round one point nine to two: thirty-six percent of two billion is seven hundred and twenty million. Take a little off for the rounding, and it's just under seven hundred million. Now the other way: nine billion over thirteen. Thirteen times seven hundred is nine thousand one hundred, so again a little under seven hundred million. The two sums agree.",
+      "start": 508.912,
+      "end": 538.602
+    },
+    {
+      "i": 46,
+      "speaker": "SOFIA",
+      "text": "And Triton? How long did it own Trench?",
+      "start": 538.652,
+      "end": 541.882
+    },
+    {
+      "i": 47,
+      "speaker": "MARCO",
+      "text": "Not long. Siemens Energy agreed to sell Trench to Triton in October twenty twenty-three, and Trench became independent in April twenty twenty-four. The price wasn't disclosed, but Börsen-Zeitung reports Triton paid about five hundred million euros. Since then, Triton says, annual revenue has doubled to more than one billion euros, helped by three acquisitions.",
+      "start": 541.932,
+      "end": 565.512
+    },
+    {
+      "i": 48,
+      "speaker": "SOFIA",
+      "text": "Doubled in about two and a half years. Seventy-two over two and a half is about twenty-nine percent a year.",
+      "start": 565.562,
+      "end": 571.299
+    },
+    {
+      "i": 49,
+      "speaker": "MARCO",
+      "text": "Nicely done. Now the exit. About eight billion euros for a business bought for about five hundred million. Eight thousand over five hundred is eighty over five. Sixteen times.",
+      "start": 571.819,
+      "end": 584.919
+    },
+    {
+      "i": 50,
+      "speaker": "SOFIA",
+      "text": "So Triton made sixteen times its money.",
+      "start": 584.969,
+      "end": 587.659
+    },
+    {
+      "i": 51,
+      "speaker": "MARCO",
+      "text": "Careful, that's the second interview question. Sixteen times is the value of the company. Triton's return is on its equity, and Börsen-Zeitung reports that Triton's equity grew about twentyfold, counting two dividends worth about one billion euros together. When equity grows faster than the company, the usual reason is debt: you put in less of your own money, so every euro of gain counts for more. That's episode twenty-nine in one sum.",
+      "start": 587.709,
+      "end": 615.409
+    },
+    {
+      "i": 52,
+      "speaker": "SOFIA",
+      "text": "And why does G-E Vernova pay that much?",
+      "start": 615.459,
+      "end": 618.469
+    },
+    {
+      "i": 53,
+      "speaker": "MARCO",
+      "text": "Its chief executive, Scott Strazik, pointed to a margin-accretive business with about five billion dollars of backlog and framework agreements. Thirteen times forward is the price of that bet. It works if the twenty twenty-eight numbers arrive.",
+      "start": 618.519,
+      "end": 634.349
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: roughly, what's eighteen percent of four hundred and twenty? Question two: a margin rises from twenty percent to twenty-five. By how much has it risen? Question three: an investor doubles its money in five years. Roughly what annual return is that? Question four: G-E Vernova pays nine billion dollars at thirteen times Trench's adjusted EBITDA for twenty twenty-eight. Roughly what EBITDA does that imply? Question five: G-E Vernova says thirteen times, and Börsen-Zeitung's sources say about twenty-one. What explains most of the gap?",
+      "start": 634.399,
+      "end": 672.809
+    },
+    {
+      "i": 55,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 672.859,
+      "end": 677.689
+    },
+    {
+      "i": 56,
+      "speaker": "MARCO",
+      "text": "Answers. One: about seventy-six. Twenty percent is eighty-four, minus two percent, about eight. Two: five percentage points, which makes the margin twenty-five percent higher. Not a five percent increase. Three: about fifteen percent. Seventy-two over five is about fourteen and a half; twenty is simple interest. Four: about seven hundred million dollars. Thirteen times seven hundred is nine thousand one hundred. Five: the thirteen is on Trench's EBITDA for twenty twenty-eight, two years out. A growing company's future EBITDA is bigger, so the multiple looks smaller.",
+      "start": 677.739,
+      "end": 718.189
+    },
+    {
+      "i": 57,
+      "speaker": "SOFIA",
+      "text": "So, round first, say the route, and check the size before you give the answer.",
+      "start": 718.239,
+      "end": 723.829
+    },
+    {
+      "i": 58,
+      "speaker": "MARCO",
+      "text": "And tomorrow you'll do it against a clock. Episode forty-one: numerical tests. How the online numerical reasoning tests work, and how to prepare for them.",
+      "start": 723.879,
+      "end": 735.13
+    }
+  ]
+}

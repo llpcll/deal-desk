@@ -1,0 +1,463 @@
+{
+  "visuals": [
+    {
+      "at": "The eighth of December two thousand and five",
+      "type": "tombstone",
+      "title": "The trade",
+      "kicker": "An order typed the wrong way round",
+      "name": "Mizuho Securities / J-Com",
+      "sub": "J-Com's debut on the Tokyo stock exchange",
+      "lines": [
+        "Cost estimated at ¥27bn or more (about $225m)",
+        "Could pass ¥30bn once the shares were bought back"
+      ],
+      "date": "8 December 2005"
+    },
+    {
+      "at": "He typed it the other way round",
+      "type": "table",
+      "title": "What the trader meant, and what he typed",
+      "columns": [
+        "",
+        "Shares",
+        "Price per share"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Meant",
+          "1",
+          "¥610,000"
+        ],
+        [
+          "Typed",
+          "610,000",
+          "¥1"
+        ]
+      ],
+      "highlight": 1,
+      "highlightLabel": "the order sent",
+      "note": "The order was more than 40 times the number of J-Com shares in existence. Mizuho tried to cancel it three times."
+    },
+    {
+      "at": "Ten percent of four hundred and twenty is forty-two",
+      "type": "steps",
+      "title": "18% of 420, built from 10%",
+      "items": [
+        {
+          "label": "10%",
+          "detail": "42"
+        },
+        {
+          "label": "20%",
+          "detail": "84"
+        },
+        {
+          "label": "minus 2%",
+          "detail": "about 8"
+        },
+        {
+          "label": "18%",
+          "detail": "about 76"
+        }
+      ]
+    },
+    {
+      "at": "One eighth is twelve and a half percent",
+      "type": "table",
+      "title": "Fractions to know by heart",
+      "columns": [
+        "Fraction",
+        "Percentage"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "1/8",
+          "12.5%"
+        ],
+        [
+          "1/6",
+          "16.7%"
+        ],
+        [
+          "1/3",
+          "33%"
+        ]
+      ],
+      "note": "And the swap: x% of y = y% of x. So 8% of 25 = 25% of 8 = 2."
+    },
+    {
+      "at": "Second trap. It's five percentage points",
+      "type": "table",
+      "title": "A margin from 20% to 25%",
+      "columns": [
+        "Measure",
+        "Change"
+      ],
+      "align": [
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "In percentage points",
+          "+5 points"
+        ],
+        [
+          "As a percentage",
+          "+25%"
+        ]
+      ],
+      "note": "5 on a base of 20 is a quarter. Sofia called it a 5% increase."
+    },
+    {
+      "at": "A hundred falls to fifty",
+      "type": "waterfall",
+      "title": "Down 50%, then up 50%",
+      "unit": "",
+      "decimals": 0,
+      "steps": [
+        {
+          "label": "Start",
+          "value": 100,
+          "kind": "total"
+        },
+        {
+          "label": "Falls 50%",
+          "value": 50,
+          "kind": "sub"
+        },
+        {
+          "label": "Rises 50% of 50",
+          "value": 25,
+          "kind": "add"
+        },
+        {
+          "label": "End",
+          "value": 75,
+          "kind": "total"
+        }
+      ],
+      "note": "The base changed. Ask every time: percent of what?"
+    },
+    {
+      "at": "cancel zeros to make it small",
+      "type": "formula",
+      "title": "Size first, then cancel zeros",
+      "formula": "€1,200m ÷ €80m = 120 ÷ 8 = 15x",
+      "note": "Size check first: 80 × 10 = 800, so the answer is more than 10x and less than 20x. Sofia's 1.5 lost a zero."
+    },
+    {
+      "at": "the rule of seventy-two",
+      "type": "formula",
+      "title": "The rule of 72",
+      "formula": "Years to double ≈ 72 ÷ annual growth rate (%)",
+      "note": "9% a year: about 8 years. 12%: about 6. Backwards: doubling in 3 years is about 24% a year."
+    },
+    {
+      "at": "Doubling in five years is an I-R-R",
+      "type": "bars",
+      "title": "Annual return over five years",
+      "unit": "%",
+      "items": [
+        {
+          "label": "2x, as simple interest (Sofia)",
+          "value": 20
+        },
+        {
+          "label": "2x, compounded",
+          "value": 15,
+          "approx": true
+        },
+        {
+          "label": "3x, compounded",
+          "value": 25,
+          "approx": true
+        }
+      ],
+      "note": "72 ÷ 5 is about 14.5, so doubling in five years is an IRR of about 15%, not 20%."
+    },
+    {
+      "at": "G-E Vernova, the American maker of power equipment",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition from private equity",
+      "name": "GE Vernova / Trench Group",
+      "sub": "Berlin maker of high-voltage grid parts: bushings, instrument transformers and coils",
+      "lines": [
+        "Bought from Triton for $9bn",
+        "More than 3,000 employees, 11 factories in 8 countries"
+      ],
+      "date": "Announced 28 October 2026"
+    },
+    {
+      "at": "Nine billion dollars, at an exchange rate",
+      "type": "keynumbers",
+      "title": "GE Vernova and Trench in four numbers",
+      "items": [
+        {
+          "value": "$9bn",
+          "label": "price, at $1.12 to the euro"
+        },
+        {
+          "value": "€8bn",
+          "label": "the same price in euros",
+          "approx": true
+        },
+        {
+          "value": "50 / 50",
+          "label": "expected split of cash and debt"
+        },
+        {
+          "value": "Late 2027",
+          "label": "expected closing, after regulatory approval"
+        }
+      ],
+      "note": "€8bn is the episode's own sum: $9bn ÷ 1.12. Check: 1.12 × 8 = 8.96."
+    },
+    {
+      "at": "put the price at about twenty-one times EBITDA",
+      "type": "bars",
+      "title": "One price, two multiples",
+      "unit": "x",
+      "decimals": 0,
+      "items": [
+        {
+          "label": "GE Vernova: adjusted EBITDA for 2028, before synergies",
+          "value": 13
+        },
+        {
+          "label": "Börsen-Zeitung's financial sources",
+          "value": 21,
+          "approx": true
+        }
+      ],
+      "note": "A forward multiple looks lower for a growing company. Ask: times which EBITDA?"
+    },
+    {
+      "at": "Round one point nine to two",
+      "type": "table",
+      "title": "Checking the 13x two ways",
+      "columns": [
+        "Route",
+        "Sum",
+        "2028 EBITDA"
+      ],
+      "align": [
+        "left",
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "From the margin",
+          "36% of about $2bn = $720m, less a little",
+          "just under $700m"
+        ],
+        [
+          "From the multiple",
+          "$9bn ÷ 13 (13 × 700 = 9,100)",
+          "just under $700m"
+        ]
+      ],
+      "note": "GE Vernova expects 2028 revenue of $1.9bn at an adjusted EBITDA margin of about 36%."
+    },
+    {
+      "at": "Eight thousand over five hundred",
+      "type": "keynumbers",
+      "title": "Triton's two and a half years",
+      "items": [
+        {
+          "value": "€500m",
+          "label": "reported price paid to Siemens Energy, agreed October 2023",
+          "approx": true
+        },
+        {
+          "value": "€1bn+",
+          "label": "annual revenue now, doubled since April 2024"
+        },
+        {
+          "value": "16x",
+          "label": "growth in the company's value, about €8bn ÷ €500m",
+          "approx": true
+        },
+        {
+          "value": "20x",
+          "label": "growth in Triton's equity, counting two dividends of about €1bn together",
+          "approx": true
+        }
+      ],
+      "note": "The 2023 price wasn't disclosed; €500m and the 20x are Börsen-Zeitung's reports. Doubling in about 2.5 years is roughly 29% a year by the rule of 72."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Roughly, what's 18% of 420?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 84"
+          },
+          {
+            "id": "b",
+            "text": "About 76"
+          },
+          {
+            "id": "c",
+            "text": "About 68"
+          },
+          {
+            "id": "d",
+            "text": "About 7.6"
+          }
+        ],
+        "correct": "b",
+        "explain": "10% is 42, so 20% is 84. Take off 2%, about 8, and you get about 76.",
+        "explain_at": "Ten percent of four hundred and twenty is forty-two"
+      },
+      {
+        "id": "q2",
+        "q": "A company's margin rises from 20% to 25%. By how much has it risen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A 5% increase in the margin"
+          },
+          {
+            "id": "b",
+            "text": "25 points, or 5% higher"
+          },
+          {
+            "id": "c",
+            "text": "5 points, or 25% higher"
+          },
+          {
+            "id": "d",
+            "text": "5 points, or 5% higher"
+          }
+        ],
+        "correct": "c",
+        "explain": "It's five percentage points; as a percentage, 5 on a base of 20 is a quarter, so the margin is 25% higher.",
+        "explain_at": "It's five percentage points"
+      },
+      {
+        "id": "q3",
+        "q": "An investor doubles its money in five years. Roughly what annual return is that?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About 15% a year"
+          },
+          {
+            "id": "b",
+            "text": "About 20% a year"
+          },
+          {
+            "id": "c",
+            "text": "About 10% a year"
+          },
+          {
+            "id": "d",
+            "text": "About 40% a year"
+          }
+        ],
+        "correct": "a",
+        "explain": "By the rule of 72, 72 ÷ 5 is about 14.5. Twenty percent is 100% spread over five years as simple interest, but returns compound.",
+        "explain_at": "Doubling in five years is an I-R-R of about fifteen percent"
+      },
+      {
+        "id": "q4",
+        "q": "GE Vernova pays $9bn at 13x Trench's adjusted EBITDA for 2028. Roughly what EBITDA does that imply?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About $1.2bn"
+          },
+          {
+            "id": "b",
+            "text": "About $70m"
+          },
+          {
+            "id": "c",
+            "text": "About $1.9bn"
+          },
+          {
+            "id": "d",
+            "text": "About $700m"
+          }
+        ],
+        "correct": "d",
+        "explain": "13 × 700 = 9,100, so $9bn ÷ 13 is a little under $700m. It matches 36% of about $1.9bn of revenue.",
+        "explain_at": "Thirteen times seven hundred is nine thousand one hundred"
+      },
+      {
+        "id": "q5",
+        "q": "GE Vernova says it's paying 13x EBITDA; Börsen-Zeitung's sources say about 21x. What explains most of the gap?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The 21x includes Trench's debt"
+          },
+          {
+            "id": "b",
+            "text": "The 13x is on future EBITDA"
+          },
+          {
+            "id": "c",
+            "text": "The 13x is in euros, not dollars"
+          },
+          {
+            "id": "d",
+            "text": "The 21x adds expected synergies"
+          }
+        ],
+        "correct": "b",
+        "explain": "The 13x uses Trench's EBITDA for 2028, two years out. A growing company's future EBITDA is bigger, so the multiple looks smaller.",
+        "explain_at": "That's EBITDA two years from now"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "GE Vernova to acquire Trench Group (GE Vernova, 28 October 2026)",
+      "url": "https://gevernova.com/news/press-releases/ge-vernova-acquire-trench-group"
+    },
+    {
+      "label": "Triton Partners to sell Trench Group to GE Vernova (Triton, EQS via Webdisclosure, 28 October 2026)",
+      "url": "https://www.webdisclosure.com/press-release/triton-partners-to-sell-trench-group-to-ge-vernova-DlNW8OP8sOo"
+    },
+    {
+      "label": "Triton to acquire Siemens Energy's Trench business (Triton, 12 October 2023)",
+      "url": "https://www.triton-partners.com/news/triton-to-acquire-siemens-energy-trench-business"
+    },
+    {
+      "label": "Triton gibt Berliner Energietechnikfirma Trench Group für 9 Mrd. Dollar ab (Börsen-Zeitung, 28 October 2026)",
+      "url": "https://www.boersen-zeitung.de/unternehmen-branchen/triton-gibt-berliner-energietechnikfirma-trench-group-fuer-9-mrd-dollar-ab"
+    },
+    {
+      "label": "Stock trade typo costs firm $225m (CBS News, December 2005)",
+      "url": "https://www.cbsnews.com/news/stock-trade-typo-costs-firm-225m"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So what do they actually test?"
+  }
+}
