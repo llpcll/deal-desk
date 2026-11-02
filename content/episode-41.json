@@ -1,0 +1,466 @@
+{
+  "visuals": [
+    {
+      "at": "The Royal Bank of Scotland, R-B-S, led a group",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Contested takeover",
+      "name": "ABN Amro",
+      "sub": "The Dutch bank, bought by a group led by RBS with Santander and Fortis",
+      "lines": [
+        "€71bn"
+      ],
+      "date": "2007"
+    },
+    {
+      "at": "For seventy-one billion euros?",
+      "type": "keynumbers",
+      "title": "What RBS had to read",
+      "items": [
+        {
+          "value": "2 folders, 1 CD",
+          "label": "the information ABN Amro made available in April 2007, for a €71bn bid"
+        }
+      ],
+      "note": "Wording from the FSA's report on the failure of RBS."
+    },
+    {
+      "at": "In February two thousand and nine",
+      "type": "keynumbers",
+      "title": "RBS in 2008",
+      "items": [
+        {
+          "value": "£24.1bn",
+          "label": "loss for the year"
+        },
+        {
+          "value": "£16.2bn",
+          "label": "write-downs, mainly from the ABN Amro deal"
+        }
+      ]
+    },
+    {
+      "at": "Its interactive numerical reasoning test is listed",
+      "type": "keynumbers",
+      "title": "The clock",
+      "items": [
+        {
+          "value": "18 minutes",
+          "label": "SHL interactive numerical reasoning"
+        },
+        {
+          "value": "10 at most",
+          "label": "questions"
+        },
+        {
+          "value": "108 seconds",
+          "label": "budget per question"
+        }
+      ],
+      "note": "Your invitation sets the real format, time and rules."
+    },
+    {
+      "at": "A group has three divisions",
+      "type": "table",
+      "title": "Revenue by division (€m)",
+      "columns": [
+        "Division",
+        "2024",
+        "2025"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Rail",
+          "400",
+          "500"
+        ],
+        [
+          "Coach",
+          "300",
+          "360"
+        ],
+        [
+          "Bus",
+          "100",
+          "140"
+        ]
+      ],
+      "note": "Hypothetical company. Which division grew fastest?"
+    },
+    {
+      "at": "You answered how much, and the question asked how fast",
+      "type": "bars",
+      "title": "Growth, 2024 to 2025",
+      "unit": "%",
+      "items": [
+        {
+          "label": "Rail",
+          "value": 25
+        },
+        {
+          "label": "Coach",
+          "value": 20
+        },
+        {
+          "label": "Bus",
+          "value": 40
+        }
+      ],
+      "note": "Rail added the most euros. Bus grew fastest."
+    },
+    {
+      "at": "Add up the columns, because the table often won't do it for you",
+      "type": "table",
+      "title": "Rail's share of group revenue",
+      "columns": [
+        "",
+        "2024",
+        "2025"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Rail (€m)",
+          "400",
+          "500"
+        ],
+        [
+          "Group (€m)",
+          "800",
+          "1,000"
+        ],
+        [
+          "Rail's share",
+          "A half",
+          "A half"
+        ]
+      ],
+      "highlight": 2,
+      "highlightLabel": "unchanged",
+      "note": "Rail's revenue grew 25%, the same pace as the group, so its share didn't move."
+    },
+    {
+      "at": "One euro buys more than a dollar, so you must end up with fewer euros",
+      "type": "formula",
+      "title": "Dollars to euros, at 1.25 dollars to the euro",
+      "formula": "$500m ÷ 1.25 = €400m",
+      "note": "One euro buys more than a dollar, so you must end up with fewer euros than dollars."
+    },
+    {
+      "at": "A hundred and eight seconds is a budget",
+      "type": "steps",
+      "title": "One question, in order",
+      "items": [
+        {
+          "label": "Read the question",
+          "detail": "Before you study the table"
+        },
+        {
+          "label": "Find two cells",
+          "detail": "Check the base and the units"
+        },
+        {
+          "label": "Check the direction",
+          "detail": "Should the answer be bigger or smaller?"
+        },
+        {
+          "label": "Answer and move on",
+          "detail": "Your best estimate when the time budget runs out"
+        }
+      ]
+    },
+    {
+      "at": "profit was twenty on eighty",
+      "type": "table",
+      "title": "Margin, before and after",
+      "columns": [
+        "",
+        "Before",
+        "After"
+      ],
+      "align": [
+        "left",
+        "right",
+        "right"
+      ],
+      "rows": [
+        [
+          "Revenue",
+          "80",
+          "100"
+        ],
+        [
+          "Costs",
+          "60",
+          "70"
+        ],
+        [
+          "Profit",
+          "20",
+          "30"
+        ],
+        [
+          "Margin",
+          "25%",
+          "30%"
+        ]
+      ],
+      "highlight": 3,
+      "highlightLabel": "up 5 points",
+      "note": "Hypothetical company. Margin rises five percentage points, not eight percent."
+    },
+    {
+      "at": "One you can read like a test question",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition",
+      "name": "Les Grands Prés",
+      "sub": "Shopping centre in Mons, Belgium, bought by Eurocommercial Properties from Union Investment",
+      "lines": [
+        "€265m, including repayment of a shareholder loan"
+      ],
+      "date": "Announced 29 October 2026"
+    },
+    {
+      "at": "The other one hundred and thirty-seven million or so",
+      "type": "waterfall",
+      "title": "Paying for Les Grands Prés",
+      "unit": "€m",
+      "decimals": 0,
+      "steps": [
+        {
+          "label": "New shares",
+          "value": 128,
+          "kind": "total"
+        },
+        {
+          "label": "Existing resources and credit lines",
+          "value": 137,
+          "kind": "add"
+        },
+        {
+          "label": "Price",
+          "value": 265,
+          "kind": "total"
+        }
+      ],
+      "note": "5.2m new shares at €24.70. The middle step is the gap between the price and the proceeds, both approximate, before costs."
+    },
+    {
+      "at": "Zero point six of a percentage point",
+      "type": "keynumbers",
+      "title": "Net loan to value",
+      "items": [
+        {
+          "value": "41.5%",
+          "label": "before the deal"
+        },
+        {
+          "value": "42.1%",
+          "label": "after the deal, approximate",
+          "approx": true
+        }
+      ],
+      "note": "Up 0.6 of a percentage point, not 0.6%."
+    },
+    {
+      "at": "Now check it from another table",
+      "type": "table",
+      "title": "Two routes to the same size",
+      "columns": [
+        "Route",
+        "Sum",
+        "Result"
+      ],
+      "align": [
+        "left",
+        "left",
+        "right"
+      ],
+      "rows": [
+        [
+          "Initial yield",
+          "7.5% × €265m",
+          "c. €20m"
+        ],
+        [
+          "Occupancy cost",
+          "10.5% × €216m of sales",
+          "c. €23m"
+        ]
+      ],
+      "note": "Marco's rough sums, not the company's. Sales of €216m apply €8,000 a square metre to all 27,000 square metres, and occupancy cost usually covers service charges as well as rent."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Rail's revenue rises from 400 to 500, and Bus's from 100 to 140. Which grew faster?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Rail, up by 100"
+          },
+          {
+            "id": "b",
+            "text": "Bus, up by 40%"
+          },
+          {
+            "id": "c",
+            "text": "Rail, up by 25%"
+          },
+          {
+            "id": "d",
+            "text": "They grew equally"
+          }
+        ],
+        "correct": "b",
+        "explain": "Fast means a percentage: Bus grew 40 on 100, or 40%, and Rail grew 100 on 400, or 25%. Rail's jump is bigger in euros, but slower.",
+        "explain_at": "You answered how much, and the question asked how fast"
+      },
+      {
+        "id": "q2",
+        "q": "Rail was 400 of a group's 800, and it's now 500 of 1,000. What happened to its share of revenue?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It rose by 25%, with its revenue"
+          },
+          {
+            "id": "b",
+            "text": "It rose from 50% to 62.5%"
+          },
+          {
+            "id": "c",
+            "text": "It fell as the group grew"
+          },
+          {
+            "id": "d",
+            "text": "It stayed at 50%"
+          }
+        ],
+        "correct": "d",
+        "explain": "400 of 800 and 500 of 1,000 are both a half. Rail grew at the same pace as the group, so its share didn't move.",
+        "explain_at": "Its revenue grew at the same pace as the group"
+      },
+      {
+        "id": "q3",
+        "q": "What's $500m in euros, at 1.25 dollars to the euro?",
+        "options": [
+          {
+            "id": "a",
+            "text": "€400m"
+          },
+          {
+            "id": "b",
+            "text": "€625m"
+          },
+          {
+            "id": "c",
+            "text": "€500m"
+          },
+          {
+            "id": "d",
+            "text": "€375m"
+          }
+        ],
+        "correct": "a",
+        "explain": "One euro buys more than a dollar, so you end up with fewer euros than dollars: divide 500 by 1.25. Multiplying gives €625m, the wrong direction.",
+        "explain_at": "One euro buys more than a dollar, so you must end up with fewer euros"
+      },
+      {
+        "id": "q4",
+        "q": "You've used up your time on a test question and you're still stuck. What should you do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Stay on it until you've solved it"
+          },
+          {
+            "id": "b",
+            "text": "Go back and recheck earlier answers"
+          },
+          {
+            "id": "c",
+            "text": "Pick your best estimate and move on"
+          },
+          {
+            "id": "d",
+            "text": "Work it out exactly before answering"
+          }
+        ],
+        "correct": "c",
+        "explain": "Your time per question is a budget. Minutes spent stuck on one question come out of the ones that follow.",
+        "explain_at": "A hundred and eight seconds is a budget"
+      },
+      {
+        "id": "q5",
+        "q": "Eurocommercial sold 5.2m new shares at €24.70, a discount to the €26 close. Roughly how much did that raise?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About €135m"
+          },
+          {
+            "id": "b",
+            "text": "About €128m"
+          },
+          {
+            "id": "c",
+            "text": "About €265m"
+          },
+          {
+            "id": "d",
+            "text": "About €13m"
+          }
+        ],
+        "correct": "b",
+        "explain": "The new investors paid €24.70, not the €26 close: 5.2m times €24.70 is about €128m. Using the close gives €135m.",
+        "explain_at": "Twenty-six is the close, and the new investors paid twenty-four seventy"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Eurocommercial acquires Les Grands Prés and launches capital raise (company release, 29 October 2026)",
+      "url": "https://via.ritzau.dk/pressemeddelelse/15258401/eurocommercial-properties-nv?publisherId=90446"
+    },
+    {
+      "label": "Eurocommercial announces the acquisition of Les Grands Prés in Mons for €265m (Idéal Investisseur)",
+      "url": "https://www.ideal-investisseur.fr/en/stock-news/eurocommercial-announces-the-acquisition-of-les-grands-pres-in-mons-for-eur265-million-and-launches-a-capital-increase/28244.html"
+    },
+    {
+      "label": "Eurocommercial Properties: placing at €24.70 a share (Bourse Direct)",
+      "url": "https://www.boursedirect.fr/fr/actualites/categorie/divers/eurocommercial-properties-placement-de-pres-de-130-me-a-24-70-e-boursier-d381df85284d772213cc56bae075950bff6c1b05"
+    },
+    {
+      "label": "FSA vows no repeat of ABN Amro fiasco (City AM)",
+      "url": "https://www.cityam.com/fsa-vows-no-repeat-abn-amro-fiasco/"
+    },
+    {
+      "label": "SHL numerical reasoning test: format and worked examples (PracHub)",
+      "url": "https://prachub.com/resources/shl-numerical-reasoning-test-interactive-charts-ratios-and-worked-examples"
+    }
+  ],
+  "chapters": {
+    "concept_at": "So what will I actually sit?"
+  }
+}
