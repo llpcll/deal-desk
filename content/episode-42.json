@@ -1,0 +1,335 @@
+{
+  "visuals": [
+    {
+      "at": "On the fourteenth of September twenty sixteen",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Agreed takeover, all cash",
+      "name": "Bayer / Monsanto",
+      "sub": "$128 a share, a 44% premium to the price before talks became public",
+      "lines": [
+        "About $66bn including debt at signing",
+        "About $63bn including debt at closing, 7 June 2018"
+      ],
+      "date": "Announced 14 September 2016"
+    },
+    {
+      "at": "fifty-five point five percent of the votes",
+      "type": "keynumbers",
+      "title": "What Bayer bought with the shares",
+      "items": [
+        { "value": "$289m", "label": "California jury award, 10 August 2018" },
+        { "value": "$20.5m", "label": "the same award, after appeal" },
+        { "value": "55.5%", "label": "of votes against the management board, April 2019" },
+        { "value": "$7.25bn", "label": "settlement proposed in February 2026, not yet approved at the end of October" }
+      ],
+      "note": "The April 2019 vote wasn't binding."
+    },
+    {
+      "at": "Good for whom, at this price, because of what",
+      "type": "formula",
+      "title": "A view on a deal",
+      "formula": "Good for whom + at this price + because of what",
+      "note": "A premium isn't an overpayment on its own: compare it with what the buyer gets."
+    },
+    {
+      "at": "Depreciation goes up by ten, tax at twenty-five percent",
+      "type": "table",
+      "title": "Depreciation up by 10, tax at 25%",
+      "columns": ["Statement", "Line", "Change"],
+      "align": ["left", "left", "right"],
+      "rows": [
+        ["Income statement", "Operating profit", "−10"],
+        ["Income statement", "Tax", "−2.5"],
+        ["Income statement", "Net income", "−7.5"],
+        ["Cash flow", "Cash", "+2.5"],
+        ["Balance sheet", "Total assets", "−7.5"],
+        ["Balance sheet", "Retained earnings", "−7.5"]
+      ],
+      "note": "Assets and retained earnings both fall by 7.5, so the balance sheet balances."
+    },
+    {
+      "at": "Twenty euros a share, fifty million shares",
+      "type": "waterfall",
+      "title": "Harbour: from equity value to enterprise value (€m)",
+      "unit": "",
+      "decimals": 0,
+      "steps": [
+        { "label": "Equity value", "value": 1000, "kind": "total" },
+        { "label": "Net debt", "value": 500, "kind": "add" },
+        { "label": "Enterprise value", "value": 1500, "kind": "total" }
+      ],
+      "note": "€20 × 50m shares = €1bn of equity. €1.5bn over €150m of EBITDA is 10x."
+    },
+    {
+      "at": "Enterprise value doesn't move",
+      "type": "table",
+      "title": "Harbour pays a €100m cash dividend (€m)",
+      "columns": ["", "Before", "After"],
+      "align": ["left", "right", "right"],
+      "rows": [
+        ["Equity value", "1,000", "900"],
+        ["Net debt", "500", "600"],
+        ["Enterprise value", "1,500", "1,500"]
+      ],
+      "highlight": 2,
+      "highlightLabel": "unchanged"
+    },
+    {
+      "at": "Cash flow over the discount rate minus growth",
+      "type": "formula",
+      "title": "A growing cash flow, valued today",
+      "formula": "100 ÷ (10% − 2%) = 1,250",
+      "note": "Dividing by the 10% alone gives 1,000 and leaves out the growth."
+    },
+    {
+      "at": "One hundred and fifty over one hundred and thirty",
+      "type": "table",
+      "title": "Northgate's all-share deal",
+      "columns": ["", "Before", "After"],
+      "align": ["left", "right", "right"],
+      "rows": [
+        ["Earnings (€m)", "100", "150"],
+        ["Shares (m)", "100", "130"],
+        ["Earnings per share", "€1.00", "c. €1.15"]
+      ],
+      "highlight": 2,
+      "highlightLabel": "accretive",
+      "note": "€600m at €20 a share is 30m new shares. Northgate trades at 20x and pays 12x."
+    },
+    {
+      "at": "And the six hundred of gain",
+      "type": "waterfall",
+      "title": "The fund's equity: where the gain came from",
+      "unit": "",
+      "decimals": 0,
+      "steps": [
+        { "label": "Equity in", "value": 300, "kind": "total" },
+        { "label": "EBITDA growth: +50 at 8x", "value": 400, "kind": "add" },
+        { "label": "Debt paydown: 500 to 300", "value": 200, "kind": "add" },
+        { "label": "Equity out", "value": 900, "kind": "total" }
+      ],
+      "note": "Three times the money in five years is an IRR of about 25%. The multiple stayed at 8x."
+    },
+    {
+      "at": "the business is worth four hundred",
+      "type": "table",
+      "title": "Worth 400: who gets what",
+      "columns": ["Layer", "Owed", "Gets", "Cents on the euro"],
+      "align": ["left", "right", "right", "right"],
+      "rows": [
+        ["Senior loans", "300", "300", "100"],
+        ["Bonds", "200", "100", "50"],
+        ["Equity", "", "0", ""]
+      ],
+      "highlight": 1,
+      "highlightLabel": "the fulcrum"
+    },
+    {
+      "at": "signed a binding agreement to buy sixty percent",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Binding agreement for a 60% stake",
+      "name": "Mare Group / Ass.El.",
+      "sub": "Circuit boards and equipment repair for aerospace and defence, Aprilia",
+      "lines": [
+        "€2.4m for 60%",
+        "Closing expected by 31 December 2026"
+      ],
+      "date": "Signed 31 October 2026"
+    },
+    {
+      "at": "Four minus one and a half: two and a half",
+      "type": "waterfall",
+      "title": "Ass.El.: from equity value to enterprise value (€m)",
+      "unit": "",
+      "decimals": 1,
+      "steps": [
+        { "label": "Equity value, 100%", "value": 4, "kind": "total" },
+        { "label": "Net cash, end of September", "value": 1.5, "kind": "sub" },
+        { "label": "Enterprise value", "value": 2.5, "kind": "total" }
+      ],
+      "note": "60% of €4m is the €2.4m price."
+    },
+    {
+      "at": "Times which EBITDA?",
+      "type": "bars",
+      "title": "One price, two multiples",
+      "unit": "x",
+      "decimals": 1,
+      "items": [
+        { "label": "Ass.El. on 2026 forecast EBITDA", "value": 4.2, "approx": true },
+        { "label": "Mare Group's own multiple, per Alantra", "value": 7.4 },
+        { "label": "Ass.El. on 2025 EBITDA", "value": 12.5 }
+      ],
+      "note": "€2.5m of enterprise value over c. €600k (2026 forecast) and c. €200k (2025). The 12.5x is the episode's sum."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Ten questions across the season: Marco reads five, and five more are on the cards. Answer along, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Harbour has an enterprise value of €1.5bn and pays a €100m cash dividend. What happens to its enterprise value?",
+        "options": [
+          { "id": "a", "text": "It doesn't change" },
+          { "id": "b", "text": "It falls by €100m" },
+          { "id": "c", "text": "It rises by €100m" },
+          { "id": "d", "text": "It falls by €50m" }
+        ],
+        "correct": "a",
+        "explain": "Equity value falls by €100m and net debt rises by €100m. The business hasn't changed, so enterprise value stays the same.",
+        "explain_at": "Enterprise value doesn't move"
+      },
+      {
+        "id": "q2",
+        "q": "Free cash flow is 100 next year, growing at 2% forever, with a 10% discount rate. What's it worth today?",
+        "options": [
+          { "id": "a", "text": "1,000" },
+          { "id": "b", "text": "833" },
+          { "id": "c", "text": "1,250" },
+          { "id": "d", "text": "1,020" }
+        ],
+        "correct": "c",
+        "explain": "Cash flow over the discount rate minus growth: 100 ÷ 8% = 1,250. Dividing by 10% gives 1,000 and leaves out the growth.",
+        "explain_at": "Cash flow over the discount rate minus growth"
+      },
+      {
+        "id": "q3",
+        "q": "A fund turns 300 of equity into 900 in five years. Roughly what is the IRR?",
+        "options": [
+          { "id": "a", "text": "60%" },
+          { "id": "b", "text": "25%" },
+          { "id": "c", "text": "15%" },
+          { "id": "d", "text": "40%" }
+        ],
+        "correct": "b",
+        "explain": "Tripling in five years compounds at about 25% a year. 60% is simple interest, and 15% only doubles the money.",
+        "explain_at": "Tripling in five years is about twenty-five percent a year"
+      },
+      {
+        "id": "q4",
+        "q": "Why is Ass.El.'s €2.5m enterprise value below its €4m equity value?",
+        "options": [
+          { "id": "a", "text": "It has more debt than cash" },
+          { "id": "b", "text": "The stake being bought is 60%" },
+          { "id": "c", "text": "The figures are the wrong way round" },
+          { "id": "d", "text": "It holds net cash" }
+        ],
+        "correct": "d",
+        "explain": "Ass.El. had €1.5m of net cash at the end of September. Enterprise value is equity value minus net cash: 4 − 1.5 = 2.5.",
+        "explain_at": "Assel has net cash"
+      },
+      {
+        "id": "q5",
+        "q": "Ass.El.'s enterprise value is €2.5m. What's the multiple on its 2025 EBITDA of about €200k?",
+        "options": [
+          { "id": "a", "text": "About 4x" },
+          { "id": "b", "text": "12.5x" },
+          { "id": "c", "text": "7.4x" },
+          { "id": "d", "text": "2.5x" }
+        ],
+        "correct": "b",
+        "explain": "€2.5m ÷ €200k = 12.5x. The 4.2x is on the €600k forecast for 2026, so always ask which EBITDA the multiple uses.",
+        "explain_at": "Times which EBITDA?"
+      },
+      {
+        "id": "q6",
+        "q": "Northgate has earnings of €100m and 100m shares at €20. It issues €600m of new shares to buy a company earning €50m. What happens to earnings per share?",
+        "options": [
+          { "id": "a", "text": "Up to about €1.15" },
+          { "id": "b", "text": "Down to about €0.85" },
+          { "id": "c", "text": "Down to about €0.77" },
+          { "id": "d", "text": "Unchanged at €1.00" }
+        ],
+        "correct": "a",
+        "explain": "30m new shares, but €50m of earnings arrives with them: 150 ÷ 130 is about €1.15. Northgate trades at 20x and buys at 12x.",
+        "explain_at": "One hundred and fifty over one hundred and thirty"
+      },
+      {
+        "id": "q7",
+        "q": "A business is worth 400, with 300 of senior loans and 200 of bonds. What do the bonds get, and who is the fulcrum?",
+        "options": [
+          { "id": "a", "text": "160; the bonds" },
+          { "id": "b", "text": "100; the senior lenders" },
+          { "id": "c", "text": "100; the shareholders" },
+          { "id": "d", "text": "100; the bonds" }
+        ],
+        "correct": "d",
+        "explain": "The seniors take their 300 first, leaving 100 for the bonds. Debt is a queue, and the fulcrum is where the value runs out.",
+        "explain_at": "the bonds are where the value runs out"
+      },
+      {
+        "id": "q8",
+        "q": "An interviewer asks whether Bayer's purchase of Monsanto was a good deal. What should a strong view answer?",
+        "options": [
+          { "id": "a", "text": "Whether Monsanto was a good company" },
+          { "id": "b", "text": "Whether Bayer paid any premium at all" },
+          { "id": "c", "text": "Good for whom, at this price, and why" },
+          { "id": "d", "text": "Whether the seed market was growing" }
+        ],
+        "correct": "c",
+        "explain": "A deal can be excellent for the sellers and hard for the buyer. A premium doesn't settle it: compare it with what the buyer gets.",
+        "explain_at": "Good for whom, at this price, because of what"
+      },
+      {
+        "id": "q9",
+        "q": "You'd buy Bayer's shares because the Supreme Court ruled for Monsanto. What's missing from that pitch?",
+        "options": [
+          { "id": "a", "text": "The exact split of the court's vote" },
+          { "id": "b", "text": "What the share price already assumes" },
+          { "id": "c", "text": "An analyst's published price target" },
+          { "id": "d", "text": "A view on Bayer's drugs business" }
+        ],
+        "correct": "b",
+        "explain": "The ruling is public, so it's in the share price already. A pitch needs what's priced in, where you differ, a catalyst, and the risk against the reward.",
+        "explain_at": "That ruling is in the share price already"
+      },
+      {
+        "id": "q10",
+        "q": "At the end of the interview you're asked, \"Do you have any questions for me?\" What's the best approach?",
+        "options": [
+          { "id": "a", "text": "Ask what you couldn't find online" },
+          { "id": "b", "text": "Say they've covered everything" },
+          { "id": "c", "text": "Ask how your answers went today" },
+          { "id": "d", "text": "Ask what the bonus usually is" }
+        ],
+        "correct": "a",
+        "explain": "Saying no sounds as if you've stopped being curious. Ask something the website can't answer, about a deal they worked on or someone you spoke to.",
+        "explain_at": "Ask something you couldn't find on the website"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Bayer completes acquisition of Monsanto (Bayer press release, SEC Form 8-K exhibit, 7 June 2018)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001110783/000119312518186836/d602943dex991.htm"
+    },
+    {
+      "label": "Mare Group: rileva il 60% di Ass.El., elettronica per aerospazio e difesa (Radiocor, Borsa Italiana, 2 November 2026)",
+      "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/finanza/dettaglio/mare-group-rileva-il-60-di-assel-elettronica-per-aerospazio-e-difesa-nRC_02112026_0920_158102092.html"
+    },
+    {
+      "label": "Mare Group, shopping nell'aerospazio e difesa: rileva il 60% di Ass.El per 2,4 milioni (Milano Finanza, 2 November 2026)",
+      "url": "https://www.milanofinanza.it/news/mare-group-shopping-nell-aerospazio-e-difesa-rileva-il-60-di-ass-el-per-2-4-milioni-202611021004074583"
+    },
+    {
+      "label": "Bayer's annual meeting and the vote against its management (Fortune, 30 April 2019)",
+      "url": "https://www.fortune.com/2019/04/30/bayer-werner-baumann-shareholder-meeting"
+    },
+    {
+      "label": "Supreme Court sides with Monsanto on Roundup cancer warning (CBS News, June 2026)",
+      "url": "https://www.cbsnews.com/news/supreme-court-monsanto-lawsuits-roundup-cancer-warning/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "Interview one, the accounts and value"
+  }
+}
