@@ -1,0 +1,424 @@
+{
+  "id": "episode-43",
+  "title": "The Deal Desk, episode 43: Who really works for whom, or what Goldman Sachs owned when it advised El Paso",
+  "hook": "In twenty eleven Goldman Sachs advised El Paso while its affiliates owned nineteen percent of the buyer. We go round again with the question after who does what. Then Cinven buys Theramex, at a price nobody has announced.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-11-06T05:00:23",
+  "duration": 745.342,
+  "audio": "episode-43.mp3",
+  "chunks": [
+    {
+      "words": 596,
+      "seconds": 221.3,
+      "expected": 238.4,
+      "attempts": 1,
+      "coverage": 0.945,
+      "transcribed_words": 583,
+      "script_words": 603,
+      "method": "whisper",
+      "lines_matched": 12,
+      "problems": []
+    },
+    {
+      "words": 578,
+      "seconds": 212.9,
+      "expected": 231.2,
+      "attempts": 1,
+      "coverage": 0.964,
+      "transcribed_words": 571,
+      "script_words": 582,
+      "method": "whisper",
+      "lines_matched": 19,
+      "problems": []
+    },
+    {
+      "words": 400,
+      "seconds": 152.6,
+      "expected": 160.0,
+      "attempts": 1,
+      "coverage": 0.96,
+      "transcribed_words": 395,
+      "script_words": 403,
+      "method": "whisper",
+      "lines_matched": 11,
+      "problems": []
+    },
+    {
+      "words": 424,
+      "seconds": 156.6,
+      "expected": 169.6,
+      "attempts": 1,
+      "coverage": 0.977,
+      "transcribed_words": 422,
+      "script_words": 426,
+      "method": "whisper",
+      "lines_matched": 8,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode forty-three, and the start of our second time round. In episode one I drew you a map of a bank: coverage, product, the wall between the private side and the public side. You can recite it now. Today's question comes after the map. When a bank advises on a deal, who is it really working for? We start with a bank that had a client on one side, and a very large investment on the other.",
+      "start": 0.46,
+      "end": 28.26
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Which bank?",
+      "start": 28.31,
+      "end": 30.26
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Goldman Sachs. In October twenty eleven, Kinder Morgan agreed to buy El Paso, an American energy group, for twenty-one point one billion dollars. Goldman had advised El Paso for years. Goldman's affiliates also owned nineteen percent of Kinder Morgan, worth about four billion dollars, and held two seats on its board.",
+      "start": 30.31,
+      "end": 51.86
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "So the seller's adviser owned a fifth of the buyer. Surely it couldn't act.",
+      "start": 51.91,
+      "end": 57.51
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "Nearly a fifth, and El Paso's board knew. So it took two precautions. Goldman put up an internal wall and was kept off the Kinder Morgan deal. Its role was limited to the alternative, a spin-off of the exploration and production business. And for the merger, El Paso hired a second bank, Morgan Stanley.",
+      "start": 57.56,
+      "end": 79.07
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "Then that's solved. A wall, and an independent adviser.",
+      "start": 79.12,
+      "end": 83.04
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "First trap, and the court didn't think so. A wall stops information. It does nothing about incentive. Look at what each was paid. Morgan Stanley's fee was thirty-five million dollars if the merger happened, and nothing if the company chose the spin-off. So the independent adviser was paid for one answer. Goldman's fees were about the same either way, but it was still valuing the alternative to a deal in which its own investment had a stake. And there was something the board didn't know. Goldman's lead banker on El Paso personally owned about three hundred and forty thousand dollars of Kinder Morgan stock.",
+      "start": 83.09,
+      "end": 123.14
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "What happened?",
+      "start": 123.19,
+      "end": 124.28
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "On the twenty-ninth of February twenty twelve, Delaware's Chancellor, Leo Strine, found that shareholders had a reasonable chance of proving the sale was tainted. He wrote of the disturbing nature of some of the behaviour, and called Goldman's valuation of the spin-off suspicious. El Paso's chief executive, who negotiated alone, hadn't told his board that he was considering a bid for part of the business with other managers. But the judge didn't block the deal. He said shareholders should decide for themselves. That September, Kinder Morgan announced a settlement of one hundred and ten million dollars, and Goldman went without a twenty million dollar fee. None of the defendants admitted wrongdoing.",
+      "start": 124.33,
+      "end": 162.75
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "So what's the advanced version of who does what?",
+      "start": 162.8,
+      "end": 165.41
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "Three questions, for any adviser on any deal. Who's the client? How is it paid? And what else does it own or earn from this deal? Let's price the second and third, in round numbers. Our old friend Harbour is for sale. Its bank earns one percent of the price, paid on completion. What's the fee at one billion euros?",
+      "start": 165.46,
+      "end": 189.23
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "Ten million. And if the bank pushes the price to one point one billion, eleven million. So the bank wants the highest price, the same as the client.",
+      "start": 189.28,
+      "end": 197.6
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "Second trap. Same direction, different size. That last hundred million is worth one hundred million to the client, and one million to the bank. Getting the deal done at all is worth ten million to the bank, because no deal means no fee. So completing the sale pays ten times what the extra price pays. I'm not saying every banker acts on that. I'm saying you should know the number.",
+      "start": 197.65,
+      "end": 221.646
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "Can a client fix it?",
+      "start": 222.396,
+      "end": 224.436
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "Partly. It's called a ratchet. One percent up to one billion, and five percent on anything above. Now the last hundred million earns the bank five million instead of one, so the fee at one point one billion is fifteen million. The client pays more, and it's happy to, because it keeps the other ninety-five. Now the third question. What else does the bank earn? Say Harbour's buyers will be private equity firms, who need to borrow. Harbour's bank offers every bidder a ready-made debt package, stapled to the sale documents. That's why it's called staple financing. Six hundred million of debt, at a two percent arranging fee. Those are round figures, not a market quote.",
+      "start": 224.486,
+      "end": 267.666
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "That's twelve million. More than the advisory fee. But a bank can't be paid by both sides. That must be illegal.",
+      "start": 267.716,
+      "end": 275.686
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "Third trap. It's legal, it's usually disclosed, and it can help the seller, because bidders know the money is there. So add it up: ten million for advice and twelve for the debt makes twenty-two. Here's where it bites. Bidder A offers one point zero five billion, with its own lenders. Bidder B offers one billion, with the bank's debt. Which is better for the client?",
+      "start": 275.736,
+      "end": 301.196
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "A, by fifty million.",
+      "start": 301.246,
+      "end": 303.656
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "And for the bank?",
+      "start": 303.706,
+      "end": 305.366
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "A pays ten and a half million. B pays twenty-two. Oh.",
+      "start": 305.416,
+      "end": 310.266
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Oh. The bank makes eleven and a half million more on the bid that costs its client fifty million. That's why the financing team sits apart from the advisory team, why the client is told, and why the seller decides. It's also why a board might hire a second adviser. But you've seen what happens if that second adviser is paid on completion.",
+      "start": 310.316,
+      "end": 333.086
+    },
+    {
+      "i": 21,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: you're advising a seller, and your bank's financing team wants to lend to one of the bidders. What do you do?",
+      "start": 333.136,
+      "end": 342.816
+    },
+    {
+      "i": 22,
+      "speaker": "SOFIA",
+      "text": "Put up a wall between the two teams and carry on. Then there's no conflict.",
+      "start": 342.866,
+      "end": 347.406
+    },
+    {
+      "i": 23,
+      "speaker": "MARCO",
+      "text": "The wall is the start, and there's still a conflict. Strong answer: tell the client before anything else, keep separate teams, and let the client decide whether to allow it. Then say why: a wall controls what people know, and disclosure lets the client judge what they want. The firm still gains if that bidder wins, and the client should weigh your advice knowing that.",
+      "start": 347.456,
+      "end": 369.276
+    },
+    {
+      "i": 24,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 369.326,
+      "end": 370.386
+    },
+    {
+      "i": 25,
+      "speaker": "MARCO",
+      "text": "Why are advisers mostly paid on success, when that creates this problem?",
+      "start": 370.436,
+      "end": 375.306
+    },
+    {
+      "i": 26,
+      "speaker": "SOFIA",
+      "text": "Because banks insist on it. They'd be better off billing by the hour, like lawyers.",
+      "start": 375.356,
+      "end": 379.686
+    },
+    {
+      "i": 27,
+      "speaker": "MARCO",
+      "text": "Clients often want it too. Strong answer: a success fee means the seller pays little if the deal fails, and it pays the bank to get the deal done. The weakness is the one we've just priced: it rewards completion more than price. So you adjust it, with a retainer for the work and a ratchet for the price. Then, for a second opinion, you use someone whose fee doesn't depend on the outcome.",
+      "start": 379.736,
+      "end": 405.696
+    },
+    {
+      "i": 28,
+      "speaker": "SOFIA",
+      "text": "Third?",
+      "start": 405.746,
+      "end": 406.706
+    },
+    {
+      "i": 29,
+      "speaker": "MARCO",
+      "text": "What does a fairness opinion tell a board?",
+      "start": 406.756,
+      "end": 410.286
+    },
+    {
+      "i": 30,
+      "speaker": "SOFIA",
+      "text": "That it's the best price available.",
+      "start": 410.336,
+      "end": 412.746
+    },
+    {
+      "i": 31,
+      "speaker": "MARCO",
+      "text": "That's what people hope it says. A fairness opinion says the price is fair from a financial point of view, within a range, on the information available at that date. It doesn't say a higher bid wasn't possible, and it doesn't tell shareholders how to vote. Strong answer: give that definition, then ask who wrote it and whether the fee depended on the deal closing.",
+      "start": 412.796,
+      "end": 434.936
+    },
+    {
+      "i": 32,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 435.456,
+      "end": 436.946
+    },
+    {
+      "i": 33,
+      "speaker": "MARCO",
+      "text": "One you can run through all three questions. On Tuesday the third of November, Cinven, the private equity firm, agreed to buy Theramex, a London-based women's health drugs company, from Carlyle and PAI Partners. Menopause, osteoporosis, contraception and fertility, with more than five hundred employees and sales in more than eighty countries. PAI expects closing in the first half of twenty twenty-seven, subject to regulators. What's the price?",
+      "start": 436.996,
+      "end": 466.616
+    },
+    {
+      "i": 34,
+      "speaker": "SOFIA",
+      "text": "Two point six billion euros. It's in all the headlines.",
+      "start": 466.666,
+      "end": 470.236
+    },
+    {
+      "i": 35,
+      "speaker": "MARCO",
+      "text": "Fourth trap. Here's Cinven's statement: Financial details of the transaction are not disclosed. PAI's statement says the same. The two point six billion is the Financial Times, citing people familiar with the matter. So in an interview, you say reported at about two point six billion euros, and you say who reported it.",
+      "start": 470.286,
+      "end": 492.056
+    },
+    {
+      "i": 36,
+      "speaker": "SOFIA",
+      "text": "And Carlyle and PAI paid one point two billion in twenty twenty-two. So they've more than doubled their money.",
+      "start": 492.106,
+      "end": 499.306
+    },
+    {
+      "i": 37,
+      "speaker": "MARCO",
+      "text": "Fifth trap, and it has two parts. The one point two billion euros is also a reported figure, from the same F-T story. And it values the company, while their return depends on their equity. Debt gets paid first. Say, as a pure illustration, they'd bought with six hundred million of debt and six hundred of equity, and the debt hadn't changed. Two point six billion minus six hundred is two billion, more than three times their money. We don't know their debt or their dividends, so we don't know the return.",
+      "start": 499.356,
+      "end": 528.476
+    },
+    {
+      "i": 38,
+      "speaker": "SOFIA",
+      "text": "Can we at least get the multiple? The sellers say EBITDA has more than doubled.",
+      "start": 528.526,
+      "end": 533.326
+    },
+    {
+      "i": 39,
+      "speaker": "MARCO",
+      "text": "They do, and they don't publish the number, so there's no multiple, and we won't invent one. You can say this much: the reported value is up about two point two times, and EBITDA is up more than two times. So on those numbers, most of the gain looks like growth, and not a higher multiple.",
+      "start": 533.376,
+      "end": 552.536
+    },
+    {
+      "i": 40,
+      "speaker": "SOFIA",
+      "text": "Then who's on this deal?",
+      "start": 552.586,
+      "end": 554.126
+    },
+    {
+      "i": 41,
+      "speaker": "MARCO",
+      "text": "Morgan Stanley and Goldman Sachs advised the sellers and Theramex, with Latham and Watkins and Linklaters as lawyers. Jefferies acted for Cinven, with Freshfields as its lawyers. And there's one you may not expect. Jamieson, a corporate finance firm, advised Theramex's management team, on the sale and on reinvesting in the business. That's question one again: the managers want advice of their own, because they're selling to the next owner, and then working for it.",
+      "start": 554.176,
+      "end": 587.286
+    },
+    {
+      "i": 42,
+      "speaker": "SOFIA",
+      "text": "And the money?",
+      "start": 587.336,
+      "end": 587.899
+    },
+    {
+      "i": 43,
+      "speaker": "MARCO",
+      "text": "Bloomberg reports that Cinven is lining up about one point five billion euros of debt, in leveraged loans and a revolving credit facility, and that Goldman Sachs, Morgan Stanley and Jefferies are expected to lead it. One point five on two point six is a bit under sixty percent. That's my sum, on two reported numbers.",
+      "start": 588.419,
+      "end": 609.879
+    },
+    {
+      "i": 44,
+      "speaker": "SOFIA",
+      "text": "So the sellers' advisers are arranging the buyer's debt. That's El Paso all over again.",
+      "start": 609.929,
+      "end": 615.829
+    },
+    {
+      "i": 45,
+      "speaker": "MARCO",
+      "text": "Sixth trap, and it's a serious one to say in an interview. It isn't. At El Paso, a bank's affiliates owned nineteen percent of the buyer, and a banker held shares the board didn't know about. Here there's a reported financing role, which the parties haven't confirmed, and that kind of role is common. Nothing suggests anything improper, and we don't know if this is a staple or what anyone is being paid. You ask the three questions. You don't deliver the verdict.",
+      "start": 615.879,
+      "end": 642.759
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: what does an internal wall at a bank stop? Question two: a seller's bank earns one percent of the price, and the price rises by one hundred million euros. How much more does the bank earn? Question three: a bank earns one percent for advising on a one billion euro sale, and two percent for arranging six hundred million of debt for the winning bidder. What's its total fee? Question four: what does a fairness opinion say about the price? Question five: Theramex's reported value went from about one point two billion euros to about two point six billion. What can you conclude about the sellers' return?",
+      "start": 642.809,
+      "end": 686.229
+    },
+    {
+      "i": 47,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 686.279,
+      "end": 688.479
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "Answers. One: the flow of information. It does nothing about incentive, which is what the court saw at El Paso. Two: one million euros, against ten million for getting the deal done at all. Three: twenty-two million euros, ten for the advice and twelve for the debt. Four: that it's fair from a financial point of view, within a range. It doesn't say it's the best price available. Five: nothing yet. Their return depends on their equity, and we don't know the debt.",
+      "start": 688.529,
+      "end": 723.999
+    },
+    {
+      "i": 49,
+      "speaker": "SOFIA",
+      "text": "So, who's the client, how is it paid, and what else does it earn. And I shouldn't call anyone a villain until I've got all three.",
+      "start": 724.049,
+      "end": 731.259
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "That's the advanced version. Tomorrow, episode forty-four, we go back to the income statement, and the question after that one: when a company adjusts its own profit, who checks the adjustments, and what do you do with the number?",
+      "start": 731.309,
+      "end": 744.882
+    }
+  ]
+}
