@@ -1,0 +1,410 @@
+{
+  "id": "episode-44",
+  "title": "The Deal Desk, episode 44: Who checks the adjustments, or what Hewlett-Packard thought it was buying with Autonomy",
+  "hook": "In twenty eleven Hewlett-Packard bought Autonomy on audited accounts, and a year later wrote down eight point eight billion dollars. We go round again with the income statement: who checks adjusted profit, and what it's worth. Then Adani Ports buys Evos at eleven point seven times an EBITDA nobody has defined.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-11-07T18:05:59",
+  "duration": 704.124,
+  "audio": "episode-44.mp3",
+  "chunks": [
+    {
+      "words": 557,
+      "seconds": 216.6,
+      "expected": 222.8,
+      "attempts": 1,
+      "coverage": 0.984,
+      "transcribed_words": 557,
+      "script_words": 563,
+      "method": "whisper",
+      "lines_matched": 15,
+      "problems": []
+    },
+    {
+      "words": 533,
+      "seconds": 209.3,
+      "expected": 213.2,
+      "attempts": 1,
+      "coverage": 0.981,
+      "transcribed_words": 533,
+      "script_words": 535,
+      "method": "whisper",
+      "lines_matched": 16,
+      "problems": []
+    },
+    {
+      "words": 373,
+      "seconds": 144.2,
+      "expected": 149.2,
+      "attempts": 1,
+      "coverage": 0.918,
+      "transcribed_words": 362,
+      "script_words": 378,
+      "method": "whisper",
+      "lines_matched": 9,
+      "problems": []
+    },
+    {
+      "words": 348,
+      "seconds": 132.1,
+      "expected": 139.2,
+      "attempts": 1,
+      "coverage": 0.971,
+      "transcribed_words": 343,
+      "script_words": 350,
+      "method": "whisper",
+      "lines_matched": 7,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode forty-four. In episode two you learnt the income statement, and what WeWork did to its own EBITDA. Today, the question after that one. When a company adjusts its own profit, who checks the adjustments, and what do you do with the number? We start with a buyer that thought the checking had been done.",
+      "start": 0.46,
+      "end": 22.36
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Which buyer?",
+      "start": 22.41,
+      "end": 23.47
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Hewlett-Packard. In August twenty eleven, H-P agreed to buy Autonomy, a software company from Cambridge, for about eleven point one billion dollars. Autonomy's accounts were audited by Deloitte. H-P hired K-P-M-G for its due diligence. Two of the largest accounting firms in the world had looked at the numbers.",
+      "start": 23.52,
+      "end": 42.97
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "Then the numbers were right.",
+      "start": 43.02,
+      "end": 44.66
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "In November twenty twelve, H-P wrote down eight point eight billion dollars. It said more than five billion of that came from, in its words, serious accounting improprieties, disclosure failures and outright misrepresentations at Autonomy before the deal. Its chief executive, Meg Whitman, said: you have to rely on audited financials, as we did. Autonomy's founder, Mike Lynch, denied it throughout.",
+      "start": 44.71,
+      "end": 70.96
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "Who was right?",
+      "start": 71.01,
+      "end": 72.5
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "In twenty twenty-two, Britain's High Court found that H-P had largely succeeded: Autonomy hadn't presented its finances accurately during the sale. But the judge said H-P would still have bought it, at a lower price. In July twenty twenty-five he put H-P's loss at about six hundred and ninety-eight million pounds. H-P had claimed around five billion dollars, a figure the judge called substantially exaggerated.",
+      "start": 72.55,
+      "end": 96.95
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "So the wrongdoing was real, but most of the write-down wasn't the wrongdoing.",
+      "start": 97.0,
+      "end": 103.12
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "That's the careful version. Two things to keep. The accounts had been checked twice, and still misled a buyer. And everyone, from the seller to the judge, ended up arguing about what the business really earned. In most deals, the number that starts that argument isn't audited at all. It's adjusted.",
+      "start": 103.17,
+      "end": 123.79
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "Then adjusted numbers are a trick. I'll ignore them and use the reported profit.",
+      "start": 123.84,
+      "end": 128.74
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "First trap. The reported figure has noise in it too. Say a company pays a fine once in its history. Leave it in, and you value the company as if it pays that fine every year. Adjustments exist for a good reason: to find the profit the business will make again next year. The argument is about who decides what happens again and what happens once.",
+      "start": 128.79,
+      "end": 151.64
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "The auditors decide. They sign the accounts.",
+      "start": 151.69,
+      "end": 155.08
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "Second trap. The auditor's opinion covers the financial statements, prepared under the accounting rules, I-F-R-S in Europe. Adjusted figures usually sit outside them, in the front of the annual report or in the results presentation. The auditor reads that part for anything inconsistent, but gives no opinion on it. Since twenty sixteen, the European markets regulator, E-S-M-A, has asked companies to define the measure, reconcile it to the nearest audited figure, and keep it consistent. It doesn't tell you which adjustments are right.",
+      "start": 155.13,
+      "end": 187.34
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "So nobody checks.",
+      "start": 187.39,
+      "end": 189.06
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "Three people check, and each builds its own number. For a listed company, analysts and investors read the reconciliation. In a sale, the buyer pays accountants for financial due diligence, and the heart of their report is the quality of earnings: EBITDA rebuilt line by line from the ledgers. And the lenders check, because the loan agreement has its own definition of EBITDA, which sets how much the company may borrow. Three readers, three EBITDAs.",
+      "start": 189.11,
+      "end": 216.922
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "Show me one.",
+      "start": 217.442,
+      "end": 218.662
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "Harbour again, and it's for sale. Reported EBITDA, one hundred million euros. The sellers' information pack shows adjusted EBITDA of one hundred and forty. Four adjustments. Ten for restructuring. Ten for pay in shares. Fifteen for cost savings that management has planned and not yet made. And five for a legal settlement with a former distributor. Restructuring first.",
+      "start": 218.712,
+      "end": 245.162
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "That's a one-off. Add it back.",
+      "start": 245.212,
+      "end": 247.042
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Third trap. Look at the last four years. Harbour has booked a restructuring charge in every one of them. A cost that comes every year is a cost of running the business, whatever it's called. Diligence reverses it. Pay in shares goes too, for the reason you learnt in episode two: paying staff in shares is still paying staff.",
+      "start": 247.092,
+      "end": 267.182
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "The cost savings stay, though. The board has approved the plan.",
+      "start": 267.232,
+      "end": 271.092
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Fourth trap. Approved isn't achieved. Those fifteen million are the seller asking to be paid now for work the buyer will have to do, and pay for, later. If they're real, the buyer gets them and decides how much to share in the price. They don't go into today's EBITDA. That leaves the legal settlement. Five, once, and the dispute is closed. That one stays.",
+      "start": 271.142,
+      "end": 295.222
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "So one hundred and five.",
+      "start": 295.272,
+      "end": 297.512
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Not yet. Diligence also looks for the adjustments the seller didn't make. Harbour's other income includes a five million insurance payout after a warehouse flood. Also once, and this time it flattered profit. Out it goes. One hundred, plus five, minus five: diligence EBITDA of one hundred.",
+      "start": 297.562,
+      "end": 317.982
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "Now price it.",
+      "start": 318.032,
+      "end": 319.672
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "Harbour's sector trades at ten times EBITDA. At one hundred and forty, Harbour is worth one point four billion euros. At one hundred, one billion. Forty million of adjustments is four hundred million of price. Every euro added back is worth ten euros at the multiple. That's why sellers spend weeks on that bridge, and why buyers pay accountants to take it apart.",
+      "start": 319.722,
+      "end": 345.132
+    },
+    {
+      "i": 25,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: a company shows EBITDA of one hundred and adjusted EBITDA of one hundred and forty. Which do you use to value it?",
+      "start": 345.182,
+      "end": 355.712
+    },
+    {
+      "i": 26,
+      "speaker": "SOFIA",
+      "text": "Adjusted. It's management's view of the normal business, and they know it best.",
+      "start": 355.762,
+      "end": 360.202
+    },
+    {
+      "i": 27,
+      "speaker": "MARCO",
+      "text": "They know it best, and they're selling it. Strong answer: neither, until you've read the bridge. For each adjustment ask two questions. Will it happen again? And is it a real cost, even if no cash leaves this year? Keep what's truly once, reverse what recurs, and check that your comparable companies are measured the same way. A multiple taken on one EBITDA and applied to another gives you the wrong price.",
+      "start": 360.252,
+      "end": 388.992
+    },
+    {
+      "i": 28,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 389.042,
+      "end": 389.912
+    },
+    {
+      "i": 29,
+      "speaker": "MARCO",
+      "text": "What is a quality of earnings report, and who pays for it?",
+      "start": 389.962,
+      "end": 394.162
+    },
+    {
+      "i": 30,
+      "speaker": "SOFIA",
+      "text": "It's the audit, done again by a different firm, to confirm the accounts.",
+      "start": 394.212,
+      "end": 398.622
+    },
+    {
+      "i": 31,
+      "speaker": "MARCO",
+      "text": "Close, and it misses the point. Strong answer: it isn't an audit and gives no audit opinion. It's due diligence, usually paid for by the buyer, sometimes by the seller before the sale. It asks what the business earns year after year, strips out one-offs in both directions, tests each of management's adjustments, and ends with a diligence EBITDA the buyer can put a multiple on. Then add Autonomy's lesson: it tests what it's shown.",
+      "start": 398.672,
+      "end": 426.624
+    },
+    {
+      "i": 32,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 427.144,
+      "end": 428.054
+    },
+    {
+      "i": 33,
+      "speaker": "MARCO",
+      "text": "A European target, with an EBITDA multiple in the announcement. On Thursday the fifth of November, Adani Ports and Special Economic Zone, the Indian port operator, agreed to buy all of Evos, a Dutch company that stores fuels and chemicals in tanks at ports. The seller is Igneo Infrastructure Partners. Evos has eight terminals in the Netherlands, Belgium, Germany, Spain and Malta, with six point three million cubic metres of storage, and average commercial occupancy of ninety-nine percent. All in cash.",
+      "start": 428.104,
+      "end": 462.224
+    },
+    {
+      "i": 34,
+      "speaker": "SOFIA",
+      "text": "The price?",
+      "start": 462.274,
+      "end": 463.364
+    },
+    {
+      "i": 35,
+      "speaker": "MARCO",
+      "text": "An enterprise value of two point five six billion euros, and an equity value of one point one eight billion. In twenty twenty-five Evos had revenue of three hundred and ninety-two million euros, and EBITDA of two hundred and nineteen million.",
+      "start": 463.414,
+      "end": 476.744
+    },
+    {
+      "i": 36,
+      "speaker": "SOFIA",
+      "text": "One point one eight billion over two hundred and nineteen million. About five point four times. That's cheap.",
+      "start": 476.794,
+      "end": 484.344
+    },
+    {
+      "i": 37,
+      "speaker": "MARCO",
+      "text": "Fifth trap, from season one. EBITDA is earned before interest, so it belongs to lenders and shareholders together, and you divide enterprise value by it. Two point five six billion over two hundred and nineteen million: eleven point seven times, which is the multiple in Adani's statement. The gap between the two values, about one point three eight billion euros, is the debt and similar claims. That's my subtraction, not a figure in the announcement.",
+      "start": 484.394,
+      "end": 511.704
+    },
+    {
+      "i": 38,
+      "speaker": "SOFIA",
+      "text": "Fine, eleven point seven. And a margin of fifty-six percent. Adani says its own international ports made about forty-five percent in the last six months. So Evos is better run.",
+      "start": 511.754,
+      "end": 524.424
+    },
+    {
+      "i": 39,
+      "speaker": "MARCO",
+      "text": "Sixth trap. Different businesses: storage is paid for space under long contracts, a port for handling ships. And the announcement leaves today's question open. Which EBITDA is it? It doesn't say whether it's adjusted, or how leases are treated.",
+      "start": 524.474,
+      "end": 540.644
+    },
+    {
+      "i": 40,
+      "speaker": "SOFIA",
+      "text": "Why do leases matter?",
+      "start": 540.694,
+      "end": 542.344
+    },
+    {
+      "i": 41,
+      "speaker": "MARCO",
+      "text": "Under I-F-R-S sixteen, a company that leases land doesn't book the rent as an operating cost. It books depreciation and interest instead, both below EBITDA, so EBITDA is higher. Port terminals often sit on land leased from port authorities. If that rent is outside Evos's EBITDA, the lease liabilities belong in the enterprise value too, or the multiple looks lower than it is. I'm not saying that's the case here. It's the first question a buyer's accountants would ask.",
+      "start": 542.394,
+      "end": 571.191
+    },
+    {
+      "i": 42,
+      "speaker": "SOFIA",
+      "text": "And the money?",
+      "start": 571.711,
+      "end": 573.411
+    },
+    {
+      "i": 43,
+      "speaker": "MARCO",
+      "text": "Debt. M-U-F-G, the Japanese bank, is sole underwriter, with commitments of up to two point eight billion euros. Adani says its net debt, combined with Evos, is two point seven six times EBITDA, and expects about two and a half times by the end of its financial year in March twenty twenty-seven. That's the third reader's EBITDA, the one in the leverage ratio. The deal still needs regulatory approvals and consultation with works councils, and no closing date has been given.",
+      "start": 573.461,
+      "end": 603.691
+    },
+    {
+      "i": 44,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: Harbour's adjusted EBITDA is one hundred and forty million euros, its reported EBITDA is one hundred, and the sector trades at ten times. How much price do the adjustments add? Question two: who usually gives an audit opinion on adjusted EBITDA? Question three: a company has booked restructuring costs in each of the last four years. How do you treat them? Question four: Evos has an enterprise value of two point five six billion euros and EBITDA of two hundred and nineteen million. What's the multiple? Question five: the board has approved fifteen million of cost savings that haven't been made yet. What do you do with them?",
+      "start": 603.741,
+      "end": 648.641
+    },
+    {
+      "i": 45,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 648.691,
+      "end": 650.551
+    },
+    {
+      "i": 46,
+      "speaker": "MARCO",
+      "text": "Answers. One: four hundred million euros, forty million of adjustments at ten times. Two: usually no one. The audit opinion covers the financial statements, and adjusted figures sit outside them. Three: as a recurring cost of running the business, so you don't add them back. Four: about eleven point seven times. Equity value over EBITDA gives five point four, which mixes two different claims. Five: leave them out of today's EBITDA. Approved isn't achieved, and the buyer decides how much of them to pay for.",
+      "start": 650.601,
+      "end": 685.111
+    },
+    {
+      "i": 47,
+      "speaker": "SOFIA",
+      "text": "So an adjusted number is a claim, and before I put a multiple on it I check every line, and ask whose EBITDA it is.",
+      "start": 685.161,
+      "end": 692.771
+    },
+    {
+      "i": 48,
+      "speaker": "MARCO",
+      "text": "That's the advanced version. Tomorrow, episode forty-five, the balance sheet again, and the question after that one: what sits off it, and how do you find it before the buyer does?",
+      "start": 692.821,
+      "end": 703.664
+    }
+  ]
+}

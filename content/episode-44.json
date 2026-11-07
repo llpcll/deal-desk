@@ -1,0 +1,263 @@
+{
+  "visuals": [
+    {
+      "at": "H-P agreed to buy Autonomy",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Agreed takeover",
+      "name": "Autonomy",
+      "sub": "Software company from Cambridge",
+      "lines": [
+        "Acquired by Hewlett-Packard for about $11.1bn"
+      ],
+      "date": "August 2011"
+    },
+    {
+      "at": "H-P wrote down eight point eight billion dollars",
+      "type": "keynumbers",
+      "title": "Autonomy: the write-down and the ruling",
+      "items": [
+        { "value": "$8.8bn", "label": "H-P's write-down, November 2012" },
+        { "value": "Over $5bn", "label": "of it blamed by H-P on accounting at Autonomy" },
+        { "value": "$5bn", "label": "H-P's claim in court", "approx": true },
+        { "value": "£698m", "label": "H-P's loss as found by the High Court, July 2025", "approx": true }
+      ],
+      "note": "The judge found H-P would still have bought Autonomy, at a lower price. Mike Lynch denied wrongdoing throughout."
+    },
+    {
+      "at": "Three people check, and each builds its own number",
+      "type": "table",
+      "title": "Who checks which profit",
+      "columns": ["Number", "Checked by", "How"],
+      "align": ["left", "left", "left"],
+      "rows": [
+        ["Reported, in the financial statements", "The auditor", "Audit opinion"],
+        ["Adjusted, in the results", "Analysts and investors", "Definition and reconciliation (E-S-M-A rules)"],
+        ["Diligence EBITDA", "The buyer's accountants", "Quality of earnings report"],
+        ["Loan EBITDA", "The lenders", "Definition in the loan agreement"]
+      ],
+      "note": "The auditor reads adjusted figures for inconsistencies but gives no opinion on them."
+    },
+    {
+      "at": "The sellers' information pack shows adjusted EBITDA",
+      "type": "waterfall",
+      "title": "Harbour: the sellers' bridge",
+      "unit": "€m",
+      "steps": [
+        { "label": "Reported EBITDA", "value": 100, "kind": "total" },
+        { "label": "Restructuring", "value": 10, "kind": "add" },
+        { "label": "Pay in shares", "value": 10, "kind": "add" },
+        { "label": "Planned cost savings", "value": 15, "kind": "add" },
+        { "label": "Legal settlement", "value": 5, "kind": "add" },
+        { "label": "Adjusted EBITDA", "value": 140, "kind": "total" }
+      ],
+      "note": "Hypothetical company, round numbers."
+    },
+    {
+      "at": "Harbour has booked a restructuring charge in every one of them",
+      "type": "table",
+      "title": "Line by line: sellers versus diligence",
+      "columns": ["Item", "Sellers", "Diligence", "Why"],
+      "align": ["left", "right", "right", "left"],
+      "rows": [
+        ["Restructuring", "+10", "0", "Booked every year for four years"],
+        ["Pay in shares", "+10", "0", "Paying staff in shares is still paying staff"],
+        ["Planned cost savings", "+15", "0", "Approved isn't achieved"],
+        ["Legal settlement", "+5", "+5", "Once, and the dispute is closed"],
+        ["Insurance payout", "0", "−5", "Once, and it flattered profit"]
+      ],
+      "note": "Hypothetical, €m. Diligence also looks for the adjustments the seller didn't make."
+    },
+    {
+      "at": "One hundred, plus five, minus five",
+      "type": "waterfall",
+      "title": "Harbour: the diligence bridge",
+      "unit": "€m",
+      "steps": [
+        { "label": "Reported EBITDA", "value": 100, "kind": "total" },
+        { "label": "Legal settlement", "value": 5, "kind": "add" },
+        { "label": "Insurance payout", "value": 5, "kind": "subtract" },
+        { "label": "Diligence EBITDA", "value": 100, "kind": "total" }
+      ]
+    },
+    {
+      "at": "At one hundred and forty, Harbour is worth",
+      "type": "bars",
+      "title": "Harbour at ten times EBITDA",
+      "unit": "€m",
+      "items": [
+        { "label": "On adjusted EBITDA of 140", "value": 1400 },
+        { "label": "On diligence EBITDA of 100", "value": 1000 }
+      ],
+      "note": "Hypothetical. €40m of adjustments is €400m of price: each euro added back is worth ten at the multiple."
+    },
+    {
+      "at": "For each adjustment ask two questions",
+      "type": "steps",
+      "title": "Reading an EBITDA bridge",
+      "items": [
+        { "label": "Every adjustment", "detail": "Start from the reported figure and take each line in turn" },
+        { "label": "Will it happen again?", "detail": "Reverse what recurs, whatever it's called" },
+        { "label": "Is it a real cost?", "detail": "Even if no cash leaves this year" },
+        { "label": "Same basis as the comps?", "detail": "A multiple on one EBITDA can't be applied to another" },
+        { "label": "An EBITDA you can price", "detail": "Then put the multiple on it" }
+      ]
+    },
+    {
+      "at": "On Thursday the fifth of November",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition, all cash",
+      "name": "Evos",
+      "sub": "Dutch liquid storage operator: eight terminals in five countries, 6.3 million cubic metres",
+      "lines": [
+        "Acquired by Adani Ports and Special Economic Zone from Igneo Infrastructure Partners"
+      ],
+      "date": "Announced 5 November 2026"
+    },
+    {
+      "at": "An enterprise value of two point five six billion euros",
+      "type": "keynumbers",
+      "title": "Evos in five numbers",
+      "items": [
+        { "value": "€2.56bn", "label": "enterprise value" },
+        { "value": "€1.18bn", "label": "equity value" },
+        { "value": "€392m", "label": "revenue, 2025" },
+        { "value": "€219m", "label": "EBITDA, 2025 (definition not given)" },
+        { "value": "56%", "label": "EBITDA margin" }
+      ]
+    },
+    {
+      "at": "Two point five six billion over two hundred and nineteen million",
+      "type": "bars",
+      "title": "Evos: the right and wrong multiple",
+      "unit": "x",
+      "decimals": 1,
+      "items": [
+        { "label": "Enterprise value / EBITDA", "value": 11.7 },
+        { "label": "Equity value / EBITDA (mixes two claims)", "value": 5.4 }
+      ],
+      "note": "11.7x is the multiple in Adani's statement. The gap between the two values, about €1.38bn, is our subtraction: debt and similar claims."
+    },
+    {
+      "at": "So Evos is better run",
+      "type": "bars",
+      "title": "Two margins, two businesses",
+      "unit": "%",
+      "items": [
+        { "label": "Evos, 2025", "value": 56 },
+        { "label": "Adani's international ports, last six months", "value": 45, "approx": true }
+      ],
+      "note": "Storage is paid for space under long contracts; ports for handling ships. And the EBITDA definitions may differ, including the treatment of leases."
+    },
+    {
+      "at": "is sole underwriter",
+      "type": "keynumbers",
+      "title": "The financing",
+      "items": [
+        { "value": "Up to €2.8bn", "label": "debt commitments from MUFG, sole underwriter" },
+        { "value": "2.76x", "label": "combined net debt to EBITDA" },
+        { "value": "2.5x", "label": "expected by March 2027", "approx": true }
+      ],
+      "note": "The leverage ratio is a third reader's EBITDA. Still subject to regulatory approvals and works council consultation."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Harbour's adjusted EBITDA is €140m, its reported EBITDA is €100m, and the sector trades at 10x. How much price do the adjustments add?",
+        "options": [
+          { "id": "a", "text": "€40m" },
+          { "id": "b", "text": "€140m" },
+          { "id": "c", "text": "€400m" },
+          { "id": "d", "text": "€1.4bn" }
+        ],
+        "correct": "c",
+        "explain": "€40m of adjustments at ten times is €400m of price. €1.4bn is the whole value on adjusted EBITDA, not what the adjustments add.",
+        "explain_at": "Forty million of adjustments is four hundred million of price"
+      },
+      {
+        "id": "q2",
+        "q": "Who usually gives an audit opinion on a company's adjusted EBITDA?",
+        "options": [
+          { "id": "a", "text": "The company's auditor" },
+          { "id": "b", "text": "Usually no one" },
+          { "id": "c", "text": "The markets regulator" },
+          { "id": "d", "text": "The quality of earnings firm" }
+        ],
+        "correct": "b",
+        "explain": "The audit opinion covers the financial statements, and adjusted figures usually sit outside them. Regulators ask for a definition and a reconciliation, and a quality of earnings report isn't an audit.",
+        "explain_at": "The auditor's opinion covers the financial statements"
+      },
+      {
+        "id": "q3",
+        "q": "A company has booked restructuring costs in each of the last four years. How do you treat them?",
+        "options": [
+          { "id": "a", "text": "Add them back as a one-off" },
+          { "id": "b", "text": "Add back half of them" },
+          { "id": "c", "text": "Add back the largest year" },
+          { "id": "d", "text": "Keep them as a recurring cost" }
+        ],
+        "correct": "d",
+        "explain": "A cost that comes every year is a cost of running the business, whatever it's called, so diligence reverses the add-back.",
+        "explain_at": "A cost that comes every year is a cost of running the business"
+      },
+      {
+        "id": "q4",
+        "q": "Evos has an enterprise value of €2.56bn, an equity value of €1.18bn, revenue of €392m and EBITDA of €219m. What's the EBITDA multiple?",
+        "options": [
+          { "id": "a", "text": "11.7x" },
+          { "id": "b", "text": "5.4x" },
+          { "id": "c", "text": "6.5x" },
+          { "id": "d", "text": "3.0x" }
+        ],
+        "correct": "a",
+        "explain": "EBITDA belongs to lenders and shareholders together, so divide enterprise value by it: €2.56bn ÷ €219m ≈ 11.7x. Equity value over EBITDA gives 5.4x and mixes two claims.",
+        "explain_at": "which is the multiple in Adani's statement"
+      },
+      {
+        "id": "q5",
+        "q": "The board has approved €15m of cost savings that haven't been made yet. What do you do with them?",
+        "options": [
+          { "id": "a", "text": "Add them back, as the board approved them" },
+          { "id": "b", "text": "Add back half of them now" },
+          { "id": "c", "text": "Leave them out of today's EBITDA" },
+          { "id": "d", "text": "Add them back once they're announced" }
+        ],
+        "correct": "c",
+        "explain": "Approved isn't achieved. If the savings are real the buyer gets them, does the work, and decides how much of them to pay for.",
+        "explain_at": "Approved isn't achieved. Those fifteen million"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "APSEZ agrees to acquire 100% of Evos B.V. (Adani Ports press release)",
+      "url": "https://www.adaniports.com/newsroom/media-releases/apsez-agrees-to-acquire-100-percent-of-evos-bv"
+    },
+    {
+      "label": "Adani Ports agrees $2.86b acquisition of liquid storage operator Evos (Baird Maritime)",
+      "url": "https://www.bairdmaritime.com/shipping/ports/adani-ports-agrees-evos-acquisition"
+    },
+    {
+      "label": "HP alleges Autonomy fraud, takes $8.8bn writedown (The Register)",
+      "url": "https://www.theregister.com/2012/11/20/hp_alleges_autonomy_fraud/"
+    },
+    {
+      "label": "Hewlett-Packard lost hundreds of millions in Autonomy acquisition, judge rules (Irish News, PA)",
+      "url": "https://www.irishnews.com/news/uk/hewlett-packard-lost-hundreds-of-millions-in-autonomy-acquisition-judge-rules-HGT4EMOBV5KC7B3KOQ4JE6RCDA/"
+    }
+  ],
+  "chapters": {
+    "concept_at": "First trap. The reported figure has noise in it too"
+  }
+}
