@@ -1,0 +1,259 @@
+{
+  "visuals": [
+    {
+      "at": "it agreed to buy Countrywide Financial",
+      "type": "tombstone",
+      "title": "The deal",
+      "kicker": "Agreed acquisition, all stock",
+      "name": "Countrywide Financial",
+      "sub": "Mortgage lender: $408bn of mortgages made in 2007",
+      "lines": [
+        "Acquired by Bank of America for about $4bn in shares"
+      ],
+      "date": "Announced 11 January 2008, closed 1 July 2008"
+    },
+    {
+      "at": "Bank of America agreed to pay eight point five billion dollars",
+      "type": "keynumbers",
+      "title": "Countrywide: the price and the promises",
+      "items": [
+        { "value": "$4bn", "label": "price, all in shares, January 2008", "approx": true },
+        { "value": "$424bn", "label": "of loans in 530 Countrywide trusts at the start" },
+        { "value": "$8.5bn", "label": "settlement with those trusts' investors, June 2011" },
+        { "value": "$5.5bn", "label": "further charge for other bond investors, 2011" },
+        { "value": "$16.65bn", "label": "Justice Department settlement, August 2014 (also covered Bank of America and Merrill Lynch)" }
+      ],
+      "note": "The sold loans had left Countrywide's balance sheet. The promise to buy back faulty ones hadn't."
+    },
+    {
+      "at": "What stays off today falls into three groups",
+      "type": "table",
+      "title": "What stays off the balance sheet",
+      "columns": ["Group", "Examples", "Where to look"],
+      "align": ["left", "left", "left"],
+      "rows": [
+        ["Promises", "Guarantees of others' debt, buy-back promises, joint venture debt", "Notes on guarantees and commitments"],
+        ["Possibilities", "Lawsuits, tax disputes, investigations", "Note on contingent liabilities"],
+        ["Dressed-up financing", "Supply chain finance inside trade payables", "Note on supplier finance (IFRS, since 2024)"]
+      ],
+      "note": "Since IFRS 16 in 2019, most leases sit on the balance sheet as a lease liability."
+    },
+    {
+      "at": "The rule under I-F-R-S is I-A-S thirty-seven",
+      "type": "table",
+      "title": "IAS 37: when a claim becomes a liability",
+      "columns": ["Chance of losing", "What the accounts show"],
+      "align": ["left", "left"],
+      "rows": [
+        ["Probable (more likely than not), cost can be estimated", "A provision: a liability on the balance sheet"],
+        ["Possible, but not probable", "A description in the notes only"],
+        ["Remote", "Nothing"]
+      ],
+      "highlight": 1,
+      "highlightLabel": "off the balance sheet"
+    },
+    {
+      "at": "Now the buyer reads the notes",
+      "type": "waterfall",
+      "title": "Harbour: from enterprise value to equity value",
+      "unit": "€m",
+      "steps": [
+        { "label": "Enterprise value (10x EBITDA of 100)", "value": 1000, "kind": "total" },
+        { "label": "Net debt", "value": 300, "kind": "subtract" },
+        { "label": "Supply chain finance", "value": 50, "kind": "subtract" },
+        { "label": "Pension deficit", "value": 40, "kind": "subtract" },
+        { "label": "Equity value", "value": 610, "kind": "total" }
+      ],
+      "note": "Hypothetical company. The sellers' figure, after net debt only, was €700m. The €100m lawsuit isn't included; see the next figures."
+    },
+    {
+      "at": "You owe fifty once, so it comes off once",
+      "type": "bars",
+      "title": "€50m found: what it does to the price",
+      "unit": "€m",
+      "items": [
+        { "label": "Sofia: €50m × 10x, as if it were EBITDA", "value": 500 },
+        { "label": "A debt-like item: off once", "value": 50 }
+      ],
+      "note": "An EBITDA adjustment moves the price by the multiple, because profit recurs. A debt is owed once."
+    },
+    {
+      "at": "Say the lawyers put the chance of losing at thirty percent",
+      "type": "keynumbers",
+      "title": "The lawsuit",
+      "items": [
+        { "value": "€30m", "label": "expected cost: a 30% chance of losing a €100m claim" }
+      ],
+      "note": "Taking it off gives €580m. But the real outcome is €0 or €100m, so buyers often ask for protection instead."
+    },
+    {
+      "at": "The notes on contingent liabilities",
+      "type": "steps",
+      "title": "How a buyer finds what's off the balance sheet",
+      "items": [
+        { "label": "The balance sheet", "detail": "Net debt, pensions, provisions, lease liabilities" },
+        { "label": "The notes", "detail": "Contingent liabilities, guarantees, commitments, related parties" },
+        { "label": "Legal diligence", "detail": "Claims, contracts, investigations" },
+        { "label": "Questions to management", "detail": "The ones nobody wants to answer" },
+        { "label": "Price or protection", "detail": "Take it off the price, or cover it with an indemnity and escrow" }
+      ]
+    },
+    {
+      "at": "Strong answer: debt-like items",
+      "type": "formula",
+      "title": "The bridge, in full",
+      "formula": "Equity value = enterprise value − net debt − debt-like items",
+      "note": "Debt-like items: pension deficits, provisions for claims, money owed for past acquisitions, supply chain finance, minority stakes in subsidiaries, and lease liabilities if EBITDA excludes the rent."
+    },
+    {
+      "at": "For a risk that's all or nothing",
+      "type": "table",
+      "title": "Which protection for which risk",
+      "columns": ["Risk", "Protection"],
+      "align": ["left", "left"],
+      "rows": [
+        ["A cost you can measure", "Cut the price"],
+        ["A known risk, all or nothing", "Specific indemnity, backed by an escrow or holdback"],
+        ["Risks nobody knows about", "Warranties, and warranty and indemnity insurance"]
+      ],
+      "highlight": 1,
+      "highlightLabel": "known problems",
+      "note": "Warranty and indemnity insurance generally excludes problems already disclosed."
+    },
+    {
+      "at": "agreed to buy NAVTOR",
+      "type": "tombstone",
+      "title": "Deal of the day",
+      "kicker": "Agreed acquisition, all cash",
+      "name": "NAVTOR",
+      "sub": "Norwegian maritime software: voyage planning, vessel performance, onboard paperwork",
+      "lines": [
+        "Acquired by Alfa Laval for $700m"
+      ],
+      "date": "Announced 6 November 2026"
+    },
+    {
+      "at": "The price is seven hundred million dollars",
+      "type": "keynumbers",
+      "title": "NAVTOR: the headline numbers",
+      "items": [
+        { "value": "$700m", "label": "price, all cash" },
+        { "value": "SEK 6.85bn", "label": "the same price in Swedish kronor", "approx": true },
+        { "value": "$194m", "label": "estimated revenue, 2026", "approx": true },
+        { "value": "400", "label": "employees", "approx": true }
+      ],
+      "note": "Closing expected in the first quarter of 2027, after regulatory approvals."
+    },
+    {
+      "at": "so three point six is a multiple of sales",
+      "type": "keynumbers",
+      "title": "The only multiple you can work out",
+      "items": [
+        { "value": "3.6x", "label": "price over estimated 2026 revenue", "approx": true }
+      ],
+      "note": "Our sum: $700m ÷ $194m. The release gives no EBITDA, and doesn't say whether $700m is enterprise value or the price of the shares."
+    },
+    {
+      "at": "Quiz. For you listening",
+      "type": "quizcall",
+      "title": "Quiz",
+      "text": "Five questions. Answer along on the cards below the transcript, then hear Marco's answers."
+    }
+  ],
+  "quiz": {
+    "pause_at": "Pause here if you want to think it through",
+    "answers_at": "Answers.",
+    "questions": [
+      {
+        "id": "q1",
+        "q": "Harbour has an enterprise value of €1bn, net debt of €300m, €50m of supply chain finance and a €40m pension deficit. What's the equity value?",
+        "options": [
+          { "id": "a", "text": "€700m" },
+          { "id": "b", "text": "€660m" },
+          { "id": "c", "text": "€610m" },
+          { "id": "d", "text": "€200m" }
+        ],
+        "correct": "c",
+        "explain": "€1bn minus €300m of net debt, €50m of supply chain finance and €40m of pension deficit. €700m stops at net debt; €200m treats the €50m as if it were EBITDA.",
+        "explain_at": "Equity value, six hundred and ten million"
+      },
+      {
+        "id": "q2",
+        "q": "Under IAS 37, where does a lawsuit appear if the company could possibly lose it, but probably won't?",
+        "options": [
+          { "id": "a", "text": "In the notes, with no provision" },
+          { "id": "b", "text": "As a provision for the full claim" },
+          { "id": "c", "text": "As a provision for the expected cost" },
+          { "id": "d", "text": "Nowhere until it's settled" }
+        ],
+        "correct": "a",
+        "explain": "A provision is booked when losing is probable and the cost can be estimated. Possible but not probable means a description in the notes; remote means nothing.",
+        "explain_at": "If it's possible but not probable, you only describe it in the notes"
+      },
+      {
+        "id": "q3",
+        "q": "A buyer finds €50m of supply chain finance, and the company trades at 10x EBITDA. How much does that take off the equity value?",
+        "options": [
+          { "id": "a", "text": "€500m" },
+          { "id": "b", "text": "€5m" },
+          { "id": "c", "text": "€0, it's in trade payables" },
+          { "id": "d", "text": "€50m" }
+        ],
+        "correct": "d",
+        "explain": "It's a debt, owed once, so it comes off once. The multiple applies to profit that recurs, not to a balance owed.",
+        "explain_at": "You owe fifty once, so it comes off once"
+      },
+      {
+        "id": "q4",
+        "q": "The target has a known compliance problem nobody can put a number on. What protects the buyer best?",
+        "options": [
+          { "id": "a", "text": "Warranty and indemnity insurance" },
+          { "id": "b", "text": "A specific indemnity and escrow" },
+          { "id": "c", "text": "A lower EBITDA multiple" },
+          { "id": "d", "text": "The sellers' general warranties" }
+        ],
+        "correct": "b",
+        "explain": "For an all-or-nothing risk, the sellers pay if it happens, with money held back to back the promise. Insurance generally excludes problems already disclosed.",
+        "explain_at": "warranty and indemnity insurance usually covers what nobody knew about"
+      },
+      {
+        "id": "q5",
+        "q": "Alfa Laval pays $700m for NAVTOR, which has estimated 2026 revenue of about $194m. What multiple can you work out?",
+        "options": [
+          { "id": "a", "text": "About 3.6x revenue" },
+          { "id": "b", "text": "About 3.6x EBITDA" },
+          { "id": "c", "text": "About 0.3x revenue" },
+          { "id": "d", "text": "About 3.6x net profit" }
+        ],
+        "correct": "a",
+        "explain": "$700m ÷ $194m ≈ 3.6, and $194m is revenue, so it's a multiple of sales. The release gives no EBITDA, so there's no EBITDA multiple.",
+        "explain_at": "so three point six is a multiple of sales"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "label": "Alfa Laval to acquire NAVTOR AS to strengthen the digital offering for the maritime sector (Alfa Laval press release, Cision)",
+      "url": "https://news.cision.com/alfa-laval/r/alfa-laval-to-acquire-navtor-as-to-strengthen-the-digital-offering-for-the-maritime-sector,c4420970"
+    },
+    {
+      "label": "Bank of America agrees to purchase Countrywide Financial Corp. (Form 8-K, 11 January 2008, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000070858/000090342308000050/boa8k-ex991_0111.htm"
+    },
+    {
+      "label": "Bank of America completes Countrywide purchase (Form 8-K, 1 July 2008, SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000070858/000095014408005220/g14113kexv99w1.htm"
+    },
+    {
+      "label": "Bank of America announces massive $8.5 billion mortgage-backed securities settlement (The D&O Diary)",
+      "url": "https://www.dandodiary.com/2011/06/articles/subprime-litigation/bank-of-america-announces-massive-8-5-billion-mortgage-backed-securities-settlement/"
+    },
+    {
+      "label": "Bank of America reaches record settlement over mortgage meltdown (NPR, via KVPR)",
+      "url": "https://www.kvpr.org/2014-08-21/bank-of-america-reaches-record-settlement-over-mortgage-meltdown"
+    }
+  ],
+  "chapters": {
+    "concept_at": "First trap, and it's out of date"
+  }
+}

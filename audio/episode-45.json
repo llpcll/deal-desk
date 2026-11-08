@@ -1,0 +1,452 @@
+{
+  "id": "episode-45",
+  "title": "The Deal Desk, episode 45: What sits off the balance sheet, or what else Bank of America bought with Countrywide",
+  "hook": "In two thousand and eight Bank of America bought Countrywide for about four billion dollars, along with promises on mortgages Countrywide had already sold. This time round, the balance sheet: what sits off it, and how a buyer finds it. Then Alfa Laval buys NAVTOR, with compliance matters in the small print.",
+  "engine": "gemini",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "MARCO": "Sadaltager",
+    "SOFIA": "Autonoe"
+  },
+  "voice_version": "gemini-3.8-flash-tts|Sadaltager|a senior London mergers and acquisitions banker in his late thirties, presenting a finance podcast; slightly lower, deeper register than usual; measured, informative and authoritative, like an FT or Bloomberg presenter explaining to a smart listener; clear and composed, warm but never sarcastic, smug or casual|Autonoe|a curious young university student; bright and engaged, conversational|chunks-v2",
+  "rendered": "2026-11-08T05:14:59",
+  "duration": 719.846,
+  "audio": "episode-45.mp3",
+  "chunks": [
+    {
+      "words": 478,
+      "seconds": 175.0,
+      "expected": 191.2,
+      "attempts": 1,
+      "coverage": 0.956,
+      "transcribed_words": 469,
+      "script_words": 481,
+      "method": "whisper",
+      "lines_matched": 13,
+      "problems": []
+    },
+    {
+      "words": 472,
+      "seconds": 180.9,
+      "expected": 188.8,
+      "attempts": 1,
+      "coverage": 0.994,
+      "transcribed_words": 475,
+      "script_words": 475,
+      "method": "whisper",
+      "lines_matched": 16,
+      "problems": []
+    },
+    {
+      "words": 461,
+      "seconds": 190.2,
+      "expected": 184.4,
+      "attempts": 1,
+      "coverage": 0.961,
+      "transcribed_words": 465,
+      "script_words": 467,
+      "method": "whisper",
+      "lines_matched": 15,
+      "problems": []
+    },
+    {
+      "words": 442,
+      "seconds": 171.7,
+      "expected": 176.8,
+      "attempts": 1,
+      "coverage": 0.987,
+      "transcribed_words": 446,
+      "script_words": 446,
+      "method": "whisper",
+      "lines_matched": 11,
+      "problems": []
+    }
+  ],
+  "lines": [
+    {
+      "i": 0,
+      "speaker": "MARCO",
+      "text": "This is The Deal Desk, episode forty-five. In episode three you learnt the balance sheet: what a company owns, what it owes, and what's left for shareholders. Today, the question after that one. What does a company owe that isn't on the balance sheet, and how do you find it before you've paid for it? We start with a buyer that found out afterwards.",
+      "start": 0.46,
+      "end": 22.53
+    },
+    {
+      "i": 1,
+      "speaker": "SOFIA",
+      "text": "Who?",
+      "start": 22.58,
+      "end": 23.35
+    },
+    {
+      "i": 2,
+      "speaker": "MARCO",
+      "text": "Bank of America. On the eleventh of January two thousand and eight, it agreed to buy Countrywide Financial, in an all-stock deal worth about four billion dollars. Countrywide had made four hundred and eight billion dollars of mortgages in two thousand and seven alone, and the deal would make Bank of America the largest mortgage lender in the country. The deal closed on the first of July.",
+      "start": 23.4,
+      "end": 44.3
+    },
+    {
+      "i": 3,
+      "speaker": "SOFIA",
+      "text": "Four billion for a lender that size sounds cheap.",
+      "start": 44.35,
+      "end": 47.15
+    },
+    {
+      "i": 4,
+      "speaker": "MARCO",
+      "text": "It looked cheap. Countrywide lent to home buyers, then sold most of the loans to trusts, which turned them into bonds for investors. Once a loan was sold, it left Countrywide's balance sheet. But Countrywide had promised the investors that each loan met certain standards, and that it would buy back any loan that didn't.",
+      "start": 47.2,
+      "end": 67.55
+    },
+    {
+      "i": 5,
+      "speaker": "SOFIA",
+      "text": "A promise isn't a debt, though.",
+      "start": 67.6,
+      "end": 69.95
+    },
+    {
+      "i": 6,
+      "speaker": "MARCO",
+      "text": "Until the loans go bad. In June twenty eleven, Bank of America agreed to pay eight point five billion dollars to settle claims from investors in five hundred and thirty Countrywide trusts, which had started with four hundred and twenty-four billion dollars of loans. It took a further charge of five point five billion for other bond investors. Its new chief executive, Brian Moynihan, said the bank was cleaning up the mortgage issues largely stemming from our purchase of Countrywide.",
+      "start": 70.0,
+      "end": 99.47
+    },
+    {
+      "i": 7,
+      "speaker": "SOFIA",
+      "text": "So the first settlement alone was more than twice the price.",
+      "start": 99.52,
+      "end": 104.16
+    },
+    {
+      "i": 8,
+      "speaker": "MARCO",
+      "text": "And it wasn't the last. In August twenty fourteen came a settlement with the Justice Department of sixteen point six five billion dollars, covering Bank of America, Merrill Lynch and Countrywide, with most of the alleged wrongdoing at Countrywide. Bank of America paid for Countrywide's balance sheet. It also took on promises about loans that weren't on it at all.",
+      "start": 104.21,
+      "end": 127.04
+    },
+    {
+      "i": 9,
+      "speaker": "SOFIA",
+      "text": "Then I know what off balance sheet means. Leases. Companies rent their shops and planes so the debt doesn't show.",
+      "start": 127.09,
+      "end": 133.81
+    },
+    {
+      "i": 10,
+      "speaker": "MARCO",
+      "text": "First trap, and it's out of date. That was true until twenty nineteen. Since then, under I-F-R-S sixteen, most leases sit on the balance sheet: an asset for the right to use the shop, and a lease liability. What stays off today falls into three groups. Promises, possibilities, and financing dressed as something else.",
+      "start": 133.86,
+      "end": 157.14
+    },
+    {
+      "i": 11,
+      "speaker": "SOFIA",
+      "text": "Promises first.",
+      "start": 157.19,
+      "end": 158.55
+    },
+    {
+      "i": 12,
+      "speaker": "MARCO",
+      "text": "Guarantees. A company guarantees the debt of a joint venture, or promises to buy back what it sold, like Countrywide. Nothing is owed today, so nothing is booked. And own half of a joint venture, and you usually show your share of its profit, and none of its debt.",
+      "start": 158.6,
+      "end": 175.334
+    },
+    {
+      "i": 13,
+      "speaker": "SOFIA",
+      "text": "Possibilities?",
+      "start": 175.855,
+      "end": 177.644
+    },
+    {
+      "i": 14,
+      "speaker": "MARCO",
+      "text": "Lawsuits, tax disputes, regulatory investigations. The rule under I-F-R-S is I-A-S thirty-seven. If losing is probable, meaning more likely than not, and you can estimate the cost, you book a provision, which is a liability. If it's possible but not probable, you only describe it in the notes. If it's remote, you say nothing.",
+      "start": 177.695,
+      "end": 200.264
+    },
+    {
+      "i": 15,
+      "speaker": "SOFIA",
+      "text": "And the dressed-up financing?",
+      "start": 200.315,
+      "end": 202.945
+    },
+    {
+      "i": 16,
+      "speaker": "MARCO",
+      "text": "Supply chain finance. A bank pays a company's suppliers early, and the company pays the bank later. The amount still sits in trade payables, which looks like normal trading. But the company now owes a bank, on terms the bank can withdraw. Since twenty twenty-four, companies under I-F-R-S have had to describe these arrangements in the notes. It still isn't counted as debt.",
+      "start": 202.994,
+      "end": 224.905
+    },
+    {
+      "i": 17,
+      "speaker": "SOFIA",
+      "text": "Show me in numbers.",
+      "start": 224.954,
+      "end": 227.424
+    },
+    {
+      "i": 18,
+      "speaker": "MARCO",
+      "text": "Harbour, last episode's company. Diligence EBITDA of one hundred million euros, at ten times, gives an enterprise value of one billion. The balance sheet shows net debt of three hundred million. So the sellers say the shares are worth seven hundred million.",
+      "start": 227.475,
+      "end": 241.865
+    },
+    {
+      "i": 19,
+      "speaker": "SOFIA",
+      "text": "One billion minus three hundred. Done.",
+      "start": 241.915,
+      "end": 244.635
+    },
+    {
+      "i": 20,
+      "speaker": "MARCO",
+      "text": "Now the buyer reads the notes. First, fifty million of supply chain finance inside trade payables. Second, a pension deficit of forty million. It's on the balance sheet, but nobody put it in net debt. Third, a customer is suing Harbour for one hundred million, and the notes call a loss possible, not probable. So there's no provision.",
+      "start": 244.685,
+      "end": 264.425
+    },
+    {
+      "i": 21,
+      "speaker": "SOFIA",
+      "text": "The supply chain finance is fifty, and Harbour trades at ten times, so that's five hundred off the price.",
+      "start": 264.475,
+      "end": 271.685
+    },
+    {
+      "i": 22,
+      "speaker": "MARCO",
+      "text": "Second trap. Last episode, a euro of EBITDA was worth ten euros, because the multiple applies to profit that comes every year. This is a debt. You owe fifty once, so it comes off once. Fifty for the supply chain finance, forty for the pension. Equity value, six hundred and ten million.",
+      "start": 271.735,
+      "end": 292.704
+    },
+    {
+      "i": 23,
+      "speaker": "SOFIA",
+      "text": "And the lawsuit is only possible, so it's zero. The accountants didn't book it.",
+      "start": 292.755,
+      "end": 297.575
+    },
+    {
+      "i": 24,
+      "speaker": "MARCO",
+      "text": "Third trap. The accounts tell you what's likely. The buyer cares what it costs. Say the lawyers put the chance of losing at thirty percent. The expected cost is thirty million, so a buyer might take thirty off and reach five hundred and eighty. But the real outcome is zero or one hundred, not thirty. So buyers often leave the price alone and ask for protection instead.",
+      "start": 297.625,
+      "end": 321.865
+    },
+    {
+      "i": 25,
+      "speaker": "SOFIA",
+      "text": "What kind of protection?",
+      "start": 321.914,
+      "end": 323.495
+    },
+    {
+      "i": 26,
+      "speaker": "MARCO",
+      "text": "A specific indemnity: the sellers pay if the claim succeeds. Ideally backed by an escrow, part of the price held by a third party until the claim is settled. Where do you find all this? The notes on contingent liabilities, guarantees, commitments and related parties, then legal diligence, then the questions nobody wants to answer.",
+      "start": 323.544,
+      "end": 345.505
+    },
+    {
+      "i": 27,
+      "speaker": "MARCO",
+      "text": "What they'll ask you. First: what is off balance sheet financing? Give me examples.",
+      "start": 345.554,
+      "end": 352.575
+    },
+    {
+      "i": 28,
+      "speaker": "SOFIA",
+      "text": "It's when a company leases assets instead of buying them, so the debt doesn't show.",
+      "start": 352.625,
+      "end": 356.653
+    },
+    {
+      "i": 29,
+      "speaker": "MARCO",
+      "text": "That was the answer before twenty nineteen. Strong answer: obligations that work like debt but aren't shown as debt. Then three examples. Supply chain finance sitting in trade payables. Guarantees of other companies' debt, including joint ventures you don't consolidate. And receivables sold to a bank where the company still carries the risk if customers don't pay.",
+      "start": 357.173,
+      "end": 381.713
+    },
+    {
+      "i": 30,
+      "speaker": "SOFIA",
+      "text": "Second?",
+      "start": 381.763,
+      "end": 382.813
+    },
+    {
+      "i": 31,
+      "speaker": "MARCO",
+      "text": "Going from enterprise value to equity value, what do you take off apart from net debt?",
+      "start": 382.863,
+      "end": 388.623
+    },
+    {
+      "i": 32,
+      "speaker": "SOFIA",
+      "text": "Nothing else. Debt minus cash is the bridge.",
+      "start": 388.673,
+      "end": 391.463
+    },
+    {
+      "i": 33,
+      "speaker": "MARCO",
+      "text": "That's the first-year version. Strong answer: debt-like items. Pension deficits, provisions for claims you'll have to pay, money still owed for past acquisitions, supply chain finance, and minority shareholders' stakes in subsidiaries. Lease liabilities too, if the EBITDA you used excludes the rent. Then the point that shows judgement: each euro of these comes off the price once, while an EBITDA adjustment moves it by the multiple.",
+      "start": 391.513,
+      "end": 420.993
+    },
+    {
+      "i": 34,
+      "speaker": "SOFIA",
+      "text": "Third?",
+      "start": 421.043,
+      "end": 422.383
+    },
+    {
+      "i": 35,
+      "speaker": "MARCO",
+      "text": "The target has a known problem nobody can put a number on. How do you protect the buyer?",
+      "start": 422.433,
+      "end": 428.333
+    },
+    {
+      "i": 36,
+      "speaker": "SOFIA",
+      "text": "Cut the price, and buy warranty and indemnity insurance for the rest.",
+      "start": 428.383,
+      "end": 432.693
+    },
+    {
+      "i": 37,
+      "speaker": "MARCO",
+      "text": "Half right. Strong answer: a price cut suits a cost you can measure. For a risk that's all or nothing, use a specific indemnity from the sellers, backed by an escrow or by holding back part of the price. Then the detail interviewers like: warranty and indemnity insurance usually covers what nobody knew about. A problem already disclosed is generally excluded.",
+      "start": 432.743,
+      "end": 456.963
+    },
+    {
+      "i": 38,
+      "speaker": "SOFIA",
+      "text": "Deal of the day?",
+      "start": 457.013,
+      "end": 458.083
+    },
+    {
+      "i": 39,
+      "speaker": "MARCO",
+      "text": "A Nordic one, with a known problem in the announcement. On Friday the sixth of November, Alfa Laval, the Swedish engineering group, agreed to buy NAVTOR, a Norwegian maritime software company with about four hundred employees. Its software handles voyage planning, vessel performance and the paperwork on board. The price is seven hundred million dollars, about six point eight five billion Swedish kronor, all in cash.",
+      "start": 458.133,
+      "end": 482.873
+    },
+    {
+      "i": 40,
+      "speaker": "SOFIA",
+      "text": "And NAVTOR's estimated revenue for twenty twenty-six is about one hundred and ninety-four million dollars. So about three point six times. That's the EBITDA multiple.",
+      "start": 482.923,
+      "end": 495.373
+    },
+    {
+      "i": 41,
+      "speaker": "MARCO",
+      "text": "Fourth trap, twice over. One hundred and ninety-four million is revenue, so three point six is a multiple of sales. The release gives no EBITDA, so there's no EBITDA multiple, and we won't invent one. And today's lesson: the release says Alfa Laval will acquire NAVTOR for seven hundred million. It doesn't say whether that's the enterprise value or the price of the shares, or what debt or cash comes with it.",
+      "start": 495.423,
+      "end": 522.583
+    },
+    {
+      "i": 42,
+      "speaker": "SOFIA",
+      "text": "Where's the off balance sheet part?",
+      "start": 522.633,
+      "end": 524.863
+    },
+    {
+      "i": 43,
+      "speaker": "MARCO",
+      "text": "In one paragraph. Alfa Laval says that following a recent internal review, NAVTOR identified and reported certain compliance matters, which led to an enhanced internal control and compliance programme. Then: as part of the transaction, cover to protect Alfa Laval for these pre-acquisition liabilities has been deferred.",
+      "start": 524.913,
+      "end": 547.281
+    },
+    {
+      "i": 44,
+      "speaker": "SOFIA",
+      "text": "Compliance matters before a sale. So it's Autonomy again.",
+      "start": 547.801,
+      "end": 552.741
+    },
+    {
+      "i": 45,
+      "speaker": "MARCO",
+      "text": "Fifth trap, and don't say that in an interview. Autonomy was about accounts a buyer said were misstated. Here the company found the issues itself, reported them, and the buyer disclosed them on day one. We aren't told what the matters are, or what they might cost. Alfa Laval's chief executive, Tom Erixon, says he has confidence the issues will be resolved.",
+      "start": 552.791,
+      "end": 577.761
+    },
+    {
+      "i": 46,
+      "speaker": "SOFIA",
+      "text": "And deferred cover means the protection comes later?",
+      "start": 577.811,
+      "end": 580.871
+    },
+    {
+      "i": 47,
+      "speaker": "MARCO",
+      "text": "The release doesn't settle it. One reading: part of the money is held back from the sellers to pay for any liabilities from before the deal, like the escrow we discussed. The other: the protection will be arranged later. There's no mechanism and no amount. What you can say: a liability that may not be on NAVTOR's balance sheet has been found, and the buyer is protecting itself.",
+      "start": 580.921,
+      "end": 604.381
+    },
+    {
+      "i": 48,
+      "speaker": "SOFIA",
+      "text": "And the money?",
+      "start": 604.431,
+      "end": 605.671
+    },
+    {
+      "i": 49,
+      "speaker": "MARCO",
+      "text": "Alfa Laval will pay from its own cash and its existing funding programmes, and says the deal will be neutral to the group's margin in the short term. Closing is expected in the first quarter of twenty twenty-seven, after regulatory approvals.",
+      "start": 605.721,
+      "end": 618.821
+    },
+    {
+      "i": 50,
+      "speaker": "MARCO",
+      "text": "Quiz. For you listening. Question one: enterprise value one billion euros, net debt three hundred million, supply chain finance fifty, pension deficit forty. What's the equity value? Question two: under I-A-S thirty-seven, where does a lawsuit appear if the company could possibly lose it, but probably won't? Question three: a buyer finds fifty million euros of supply chain finance, and the company trades at ten times EBITDA. How much does that take off the equity value? Question four: the target has a known compliance problem nobody can put a number on. What protects the buyer best? Question five: seven hundred million dollars for NAVTOR, on estimated revenue of about one hundred and ninety-four million. What multiple can you work out?",
+      "start": 618.871,
+      "end": 670.001
+    },
+    {
+      "i": 51,
+      "speaker": "MARCO",
+      "text": "Pause here if you want to think it through.",
+      "start": 670.051,
+      "end": 672.051
+    },
+    {
+      "i": 52,
+      "speaker": "MARCO",
+      "text": "Answers. One: six hundred and ten million euros. One billion minus three hundred, fifty and forty. Two: in the notes only, with no provision. Three: fifty million. A debt comes off once, and the multiple applies to profit. Four: a specific indemnity from the sellers, backed by an escrow. Warranty and indemnity insurance usually excludes problems already disclosed. Five: about three point six times revenue. The release gives no EBITDA.",
+      "start": 672.101,
+      "end": 703.191
+    },
+    {
+      "i": 53,
+      "speaker": "SOFIA",
+      "text": "So the balance sheet is where I start, and the notes are where I find out what the company really owes.",
+      "start": 703.241,
+      "end": 709.131
+    },
+    {
+      "i": 54,
+      "speaker": "MARCO",
+      "text": "That's the advanced version. Tomorrow, episode forty-six, the cash flow statement again, and the question after that one: when cash looks better than profit, how do you tell whether it's real?",
+      "start": 709.181,
+      "end": 719.386
+    }
+  ]
+}
